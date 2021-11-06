@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1830-0e8f-8c44-e0b3" name="V Reich" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1830-0e8f-8c44-e0b3" name="V Reich" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="17" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e549-1dc4-7320-8282" name="Soldat" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -80,13 +80,6 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="59ad-364b-0ae3-96d0" type="max"/>
               </constraints>
-              <entryLinks>
-                <entryLink id="c066-699c-ef8d-8121" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
             </entryLink>
             <entryLink id="8fb7-06df-b115-7d07" name="Cuchillos arrojadizos" hidden="false" collective="false" import="true" targetId="fbb9-71e9-2b8c-6c33" type="selectionEntry">
               <costs>
@@ -97,13 +90,6 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2944-04f0-3de5-8cb0" type="max"/>
               </constraints>
-              <entryLinks>
-                <entryLink id="03f8-914e-6221-1257" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
               </costs>
@@ -112,13 +98,6 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0e19-1224-c437-7b74" type="max"/>
               </constraints>
-              <entryLinks>
-                <entryLink id="78a6-1335-46ad-b4c8" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
               </costs>
@@ -217,13 +196,6 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e580-dd07-5889-6967" type="max"/>
               </constraints>
-              <entryLinks>
-                <entryLink id="5962-f97d-3cee-ff1f" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
@@ -240,13 +212,6 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="37d2-c44b-9bc1-ceb5" type="max"/>
               </constraints>
-              <entryLinks>
-                <entryLink id="a73f-4a87-3198-1698" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
               </costs>
@@ -263,13 +228,6 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cbe3-97bb-4358-fffb" type="max"/>
               </constraints>
-              <entryLinks>
-                <entryLink id="1d43-984c-1641-1b23" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
               </costs>
@@ -391,25 +349,11 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ad16-3cb2-3070-c4c5" type="max"/>
               </constraints>
-              <entryLinks>
-                <entryLink id="49b7-5d4f-a47b-535f" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
             </entryLink>
             <entryLink id="3629-725d-8c10-e59d" name="Escopeta" hidden="false" collective="false" import="true" targetId="e428-2fd2-6b4d-1344" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3369-4d9d-0b52-8a79" type="max"/>
               </constraints>
-              <entryLinks>
-                <entryLink id="bc42-ddd7-43d5-9141" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
               </costs>
@@ -527,13 +471,6 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f783-d71b-41f2-80de" type="max"/>
               </constraints>
-              <entryLinks>
-                <entryLink id="a293-f895-691d-f2b3" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
@@ -550,13 +487,6 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8efd-2704-ec90-6413" type="max"/>
               </constraints>
-              <entryLinks>
-                <entryLink id="3806-3929-41c1-f295" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
               </costs>
@@ -573,13 +503,6 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="81c3-b377-f659-a9bc" type="max"/>
               </constraints>
-              <entryLinks>
-                <entryLink id="9e71-149d-e41b-23de" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
               </costs>
@@ -688,19 +611,28 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b73d-6649-bc4c-e062" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b565-04b1-cc18-2c02" type="max"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="f82d-e17a-8bc7-f755" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-              <costs>
-                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
         </entryLink>
         <entryLink id="e714-385f-5909-8e21" name="Ropa resistente" hidden="false" collective="false" import="true" targetId="86ad-a9ee-d23d-f726" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="442d-b1e0-ae24-a307" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2999-870f-95d8-e192" type="max"/>
           </constraints>
+        </entryLink>
+        <entryLink id="1fa8-cc03-8e62-39f1" name="Protección contra contaminación" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="eacc-bef2-2ec4-bf4b" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="b847-22f1-29ce-589b" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4a44-c24e-2e2b-562e" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+          </costs>
         </entryLink>
       </entryLinks>
       <costs>
@@ -746,13 +678,6 @@ por +15 puntos, obteniendo un bonificador de +1 al Combate y la Agilidad.</descr
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ef6-37c9-6fae-7d39" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a8d-11c3-fb31-1619" type="min"/>
           </constraints>
-          <entryLinks>
-            <entryLink id="8fd2-362e-3097-b50f" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-              <costs>
-                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
         </entryLink>
         <entryLink id="65d2-dbad-b603-be19" name="Armadura metálica" hidden="false" collective="false" import="true" targetId="89eb-394a-209d-a7e8" type="selectionEntry">
           <constraints>
@@ -765,6 +690,22 @@ por +15 puntos, obteniendo un bonificador de +1 al Combate y la Agilidad.</descr
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f2e-cc5d-65ba-56e3" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da46-f38c-cb6c-1a58" type="min"/>
           </constraints>
+        </entryLink>
+        <entryLink id="8bfc-7ce8-66c4-f3e7" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bf98-79bb-80dd-a868" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="6e46-4d6e-a7fe-5b2a" name="Protección contra contaminación" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ed26-ad7b-4391-c477" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+          </costs>
         </entryLink>
       </entryLinks>
       <costs>

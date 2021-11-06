@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="64e8-f331-6b0f-d5bf" name="Irradiados" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="64e8-f331-6b0f-d5bf" name="Irradiados" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="19" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="0161-3e99-ac82-1ffe" name="Cardenal nuclear" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -89,18 +89,22 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e9a0-2729-a0b6-6e97" type="max"/>
                   </constraints>
-                  <entryLinks>
-                    <entryLink id="9d1b-6da1-ca8a-a3e3" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                      <costs>
-                        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink id="26df-358a-37ef-d092" name="Balas especiales" hidden="false" collective="false" import="true" targetId="50ab-58a4-ddda-0305" type="selectionEntry">
-                      <costs>
-                        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                      </costs>
-                    </entryLink>
-                  </entryLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="3dce-d95a-3b71-4139" name="Balas especiales" hidden="false" collective="false" import="true">
+                      <entryLinks>
+                        <entryLink id="f260-4154-a734-f593" name="Munición Irradiada" hidden="false" collective="false" import="true" targetId="5269-55ad-712a-765c" type="selectionEntry">
+                          <costs>
+                            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink id="a2e0-e811-0052-1767" name="Munición contaminada" hidden="false" collective="false" import="true" targetId="ca1b-298a-6282-8471" type="selectionEntry">
+                          <costs>
+                            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                   <costs>
                     <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
                   </costs>
@@ -109,18 +113,22 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9f21-f3d9-2ceb-a802" type="max"/>
                   </constraints>
-                  <entryLinks>
-                    <entryLink id="be76-d46b-61c2-9d6a" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                      <costs>
-                        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink id="2eac-4673-8cb2-5f33" name="Balas especiales" hidden="false" collective="false" import="true" targetId="50ab-58a4-ddda-0305" type="selectionEntry">
-                      <costs>
-                        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                      </costs>
-                    </entryLink>
-                  </entryLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="304e-c821-c2d8-8fa4" name="Balas especiales" hidden="false" collective="false" import="true">
+                      <entryLinks>
+                        <entryLink id="3667-dfcd-0967-6944" name="Munición Irradiada" hidden="false" collective="false" import="true" targetId="5269-55ad-712a-765c" type="selectionEntry">
+                          <costs>
+                            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink id="45e8-a17f-acd6-2ad3" name="Munición contaminada" hidden="false" collective="false" import="true" targetId="ca1b-298a-6282-8471" type="selectionEntry">
+                          <costs>
+                            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                 </entryLink>
                 <entryLink id="7fa4-9a14-e22a-cf44" name="Filo pequeño" hidden="false" collective="false" import="true" targetId="d661-b37c-29d0-a025" type="selectionEntry">
                   <constraints>
@@ -142,18 +150,22 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8e51-1b6c-6ee0-64ca" type="max"/>
                   </constraints>
-                  <entryLinks>
-                    <entryLink id="bf24-c68c-5830-ba84" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                      <costs>
-                        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink id="77e3-d038-7cf7-7f51" name="Balas especiales" hidden="false" collective="false" import="true" targetId="50ab-58a4-ddda-0305" type="selectionEntry">
-                      <costs>
-                        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                      </costs>
-                    </entryLink>
-                  </entryLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="b8f2-0709-3df7-223a" name="Balas especiales" hidden="false" collective="false" import="true">
+                      <entryLinks>
+                        <entryLink id="e357-e910-c0a4-0780" name="Munición Irradiada" hidden="false" collective="false" import="true" targetId="5269-55ad-712a-765c" type="selectionEntry">
+                          <costs>
+                            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink id="ad21-5272-7fcd-20db" name="Munición contaminada" hidden="false" collective="false" import="true" targetId="ca1b-298a-6282-8471" type="selectionEntry">
+                          <costs>
+                            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                   <costs>
                     <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
                   </costs>
@@ -162,18 +174,22 @@
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7448-5b4a-af6c-839c" type="max"/>
                   </constraints>
-                  <entryLinks>
-                    <entryLink id="849f-041e-adae-ed24" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                      <costs>
-                        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink id="d04a-e8cb-7532-5369" name="Balas especiales" hidden="false" collective="false" import="true" targetId="50ab-58a4-ddda-0305" type="selectionEntry">
-                      <costs>
-                        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                      </costs>
-                    </entryLink>
-                  </entryLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="f5f7-ef23-060c-ef84" name="Balas especiales" hidden="false" collective="false" import="true">
+                      <entryLinks>
+                        <entryLink id="2a90-58da-5791-7580" name="Munición Irradiada" hidden="false" collective="false" import="true" targetId="5269-55ad-712a-765c" type="selectionEntry">
+                          <costs>
+                            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
+                          </costs>
+                        </entryLink>
+                        <entryLink id="ee0e-6016-a4f2-b968" name="Munición contaminada" hidden="false" collective="false" import="true" targetId="ca1b-298a-6282-8471" type="selectionEntry">
+                          <costs>
+                            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
+                          </costs>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
                   <costs>
                     <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
                   </costs>
@@ -432,18 +448,22 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="af04-cade-49b4-8faf" type="max"/>
               </constraints>
-              <entryLinks>
-                <entryLink id="1192-5483-7051-ebdb" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="5f99-6291-33f5-7884" name="Balas especiales" hidden="false" collective="false" import="true" targetId="50ab-58a4-ddda-0305" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="d492-612c-8512-feab" name="Balas especiales" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="f9ee-a3f0-f337-3155" name="Munición Irradiada" hidden="false" collective="false" import="true" targetId="5269-55ad-712a-765c" type="selectionEntry">
+                      <costs>
+                        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="3682-10dc-c4b0-8438" name="Munición contaminada" hidden="false" collective="false" import="true" targetId="ca1b-298a-6282-8471" type="selectionEntry">
+                      <costs>
+                        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
@@ -460,18 +480,22 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="62aa-d603-cb56-7907" type="max"/>
               </constraints>
-              <entryLinks>
-                <entryLink id="e923-bd76-8332-f56b" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="cfb9-7514-4806-8667" name="Balas especiales" hidden="false" collective="false" import="true" targetId="50ab-58a4-ddda-0305" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="7df1-062e-8565-7b86" name="Balas especiales" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="c276-0fec-1c01-8351" name="Munición Irradiada" hidden="false" collective="false" import="true" targetId="5269-55ad-712a-765c" type="selectionEntry">
+                      <costs>
+                        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink id="6e70-f9b9-4466-c6d8" name="Munición contaminada" hidden="false" collective="false" import="true" targetId="ca1b-298a-6282-8471" type="selectionEntry">
+                      <costs>
+                        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
               </costs>

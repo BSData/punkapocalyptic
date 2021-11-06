@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fab7-8d9f-25c5-73bc" name="Punkapocalyptic (by SergioTemp)" revision="16" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fab7-8d9f-25c5-73bc" name="Punkapocalyptic (by SergioTemp)" revision="19" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="6ba6-290e-2003-241d" name="Puntos" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -586,6 +586,16 @@ o tirar una bomba) o gaste 1 Acción en vaciar la presión del arma. Además, si
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="9acd-443a-6f10-6944" name="Protección contra contaminación" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9bf8-56b9-fb1d-71a8" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
       </costs>
@@ -1100,7 +1110,7 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="67ab-d59f-3ac8-b789" name="Piel dura (X)" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="67ab-d59f-3ac8-b789" name="Piel dura (1)" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4913-48cf-e437-54d2" type="max"/>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6cf0-a281-eac1-11db" type="max"/>
@@ -1112,40 +1122,6 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
           </characteristics>
         </profile>
       </profiles>
-      <selectionEntries>
-        <selectionEntry id="eede-1f73-3eb7-f9bc" name="Piel dura 2" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ad6-13c0-4af7-07bd" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="ddbc-7079-47d8-1653" name="Piel dura 2" hidden="false" typeId="f576-acaf-cd61-0105" typeName="Mutaciones">
-              <characteristics>
-                <characteristic name="Reglas" typeId="261f-7dda-29bf-7c00"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <selectionEntries>
-            <selectionEntry id="3d7a-4af8-4e4c-06b9" name="Piel dura 3" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="09ed-f79c-b05d-d7c5" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="3fa7-13fd-ba43-92ca" name="Piel dura 3" hidden="false" typeId="f576-acaf-cd61-0105" typeName="Mutaciones">
-                  <characteristics>
-                    <characteristic name="Reglas" typeId="261f-7dda-29bf-7c00"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <costs>
-                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <costs>
-            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <costs>
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
       </costs>
@@ -1346,6 +1322,22 @@ De esta manera, un cabezón podrá usar potenciación sobre un mutardo con Reson
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f14-7fc1-2f3b-4686" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="ebc8-6298-172f-5a03" name="Protección contra contaminación" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="73a0-23e3-0605-dc11" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="364c-e003-a606-3b5b" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6114-a60c-939e-2c24" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="100.0"/>
@@ -1476,7 +1468,7 @@ Titiritero, pero además tiene estos dos nuevos poderes psíquicos:</description
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="125.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="99.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bd3e-2900-c778-8569" name="Capitán Hammerica" hidden="false" collective="false" import="true" type="unit">
@@ -2056,58 +2048,6 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="50ab-58a4-ddda-0305" name="Balas especiales" hidden="false" collective="false" import="true" type="upgrade">
-      <rules>
-        <rule id="2a1d-0e00-462d-6084" name="Balas especiales" hidden="false">
-          <description>Los Irradiados poseen varios tipos de municiones adicionales además de la habitual por el mismo coste en puntos, pudiendo elegir la que prefieran para cada miniatura. Una miniatura sólo puede llevar un tipo de munición.</description>
-        </rule>
-      </rules>
-      <selectionEntries>
-        <selectionEntry id="1bca-be19-7627-3fc3" name="Munición Irradiada" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="d136-2bca-c6b2-cb55" name="Munición Irradiada" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Armas cuerpo a cuerpo">
-              <characteristics>
-                <characteristic name="Combate" typeId="3bcb-590f-e624-084f"/>
-                <characteristic name="Fuerza" typeId="959a-27b3-5665-eaae"/>
-                <characteristic name="Penetración" typeId="af0e-e291-c826-bf01"/>
-                <characteristic name="Reglas especiales" typeId="55ae-0d53-f265-651a"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="fc67-8dde-5f76-edb4" name="Munición Irradiada" hidden="false">
-              <description>Toda miniatura sufrirá un penalizador de -1 en las tiradas de la regla Radiación por cada vez que haya sido impactada por un arma usando esta munición, pero el arma sufrirá un penalizador de -1 a su Fuerza y Penetración.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="142b-f5da-d39f-b576" name="Munición contaminada" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="0b55-a9c9-0262-abdc" name="Munición contaminada" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Armas cuerpo a cuerpo">
-              <characteristics>
-                <characteristic name="Combate" typeId="3bcb-590f-e624-084f"/>
-                <characteristic name="Fuerza" typeId="959a-27b3-5665-eaae"/>
-                <characteristic name="Penetración" typeId="af0e-e291-c826-bf01"/>
-                <characteristic name="Reglas especiales" typeId="55ae-0d53-f265-651a"/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules>
-            <rule id="06dc-197b-a64b-4b4f" name="Munición contaminada" hidden="false">
-              <description>La munición tiene la regla especial Contaminante, pero al disparar este arma se sufrirá un penalizador de -1 a la Precisión.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="d9fd-c7e0-6beb-0596" name="Irina (beta)" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="63fd-6592-8e77-d854" name="Irina" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
@@ -2176,6 +2116,78 @@ Asaltar: 5</characteristic>
       </entryLinks>
       <costs>
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="80.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c2d8-acf5-4753-b4bc" name="Piel dura (2)" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4203-f8e7-1953-4b0b" type="max"/>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="459e-6d4a-b224-37d8" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1b72-0d36-6b42-6e8c" name="Piel dura (X)" hidden="false" typeId="f576-acaf-cd61-0105" typeName="Mutaciones">
+          <characteristics>
+            <characteristic name="Reglas" typeId="261f-7dda-29bf-7c00">El mutardo tiene una piel correosa que le proporciona Blindaje 1, 3 o 5. Cada factor de Blindaje cuenta como una mutación distinta sólo a efectos del límite de mutaciones de la banda.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3fe8-f4ee-76c1-3dbd" name="Piel dura (3)" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ef47-48f8-a576-53c4" type="max"/>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1068-218c-edf3-c2e6" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a715-7dc6-d12f-93e3" name="Piel dura (X)" hidden="false" typeId="f576-acaf-cd61-0105" typeName="Mutaciones">
+          <characteristics>
+            <characteristic name="Reglas" typeId="261f-7dda-29bf-7c00">El mutardo tiene una piel correosa que le proporciona Blindaje 1, 3 o 5. Cada factor de Blindaje cuenta como una mutación distinta sólo a efectos del límite de mutaciones de la banda.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ca1b-298a-6282-8471" name="Munición contaminada" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c0a2-aedb-dea8-a5d2" name="Munición contaminada" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Armas cuerpo a cuerpo">
+          <characteristics>
+            <characteristic name="Combate" typeId="3bcb-590f-e624-084f"/>
+            <characteristic name="Fuerza" typeId="959a-27b3-5665-eaae"/>
+            <characteristic name="Penetración" typeId="af0e-e291-c826-bf01"/>
+            <characteristic name="Reglas especiales" typeId="55ae-0d53-f265-651a"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="297f-e468-c22e-d654" name="Munición contaminada" hidden="false">
+          <description>La munición tiene la regla especial Contaminante, pero al disparar este arma se sufrirá un penalizador de -1 a la Precisión.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5269-55ad-712a-765c" name="Munición Irradiada" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="6402-f6cf-bd89-e7f1" name="Munición Irradiada" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Armas cuerpo a cuerpo">
+          <characteristics>
+            <characteristic name="Combate" typeId="3bcb-590f-e624-084f"/>
+            <characteristic name="Fuerza" typeId="959a-27b3-5665-eaae"/>
+            <characteristic name="Penetración" typeId="af0e-e291-c826-bf01"/>
+            <characteristic name="Reglas especiales" typeId="55ae-0d53-f265-651a"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e792-ee85-471b-cbec" name="Munición Irradiada" hidden="false">
+          <description>Toda miniatura sufrirá un penalizador de -1 en las tiradas de la regla Radiación por cada vez que haya sido impactada por un arma usando esta munición, pero el arma sufrirá un penalizador de -1 a su Fuerza y Penetración.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
