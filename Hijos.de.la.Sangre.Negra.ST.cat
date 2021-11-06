@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0b4d-07e4-2e55-ecf7" name="Hijos de la Sangre Negra" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0b4d-07e4-2e55-ecf7" name="Hijos de la Sangre Negra" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8be9-4540-8142-22ab" name="Ceniza" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -78,13 +78,6 @@
               </costs>
             </entryLink>
             <entryLink id="5932-8dd1-6994-d90f" name="Pistola" hidden="false" collective="false" import="true" targetId="eb59-93d0-ab75-4c88" type="selectionEntry">
-              <entryLinks>
-                <entryLink id="2c03-004e-6075-e28e" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
@@ -275,13 +268,6 @@
               </costs>
             </entryLink>
             <entryLink id="248b-47db-cd41-1e44" name="Pistola" hidden="false" collective="false" import="true" targetId="eb59-93d0-ab75-4c88" type="selectionEntry">
-              <entryLinks>
-                <entryLink id="c627-4879-dfc2-591c" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
@@ -292,13 +278,6 @@
               </costs>
             </entryLink>
             <entryLink id="833a-1635-c46d-dbe9" name="Escopeta" hidden="false" collective="false" import="true" targetId="e428-2fd2-6b4d-1344" type="selectionEntry">
-              <entryLinks>
-                <entryLink id="8dc8-2c9f-fdfd-8d3d" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
               </costs>
@@ -429,13 +408,6 @@
               </costs>
             </entryLink>
             <entryLink id="77dd-78f2-dd14-3da6" name="Pistola" hidden="false" collective="false" import="true" targetId="eb59-93d0-ab75-4c88" type="selectionEntry">
-              <entryLinks>
-                <entryLink id="93d3-49e9-0bd1-a491" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
@@ -584,6 +556,9 @@
               <infoLinks>
                 <infoLink id="992f-9e5d-dea7-3105" name="Pistola" hidden="false" targetId="c71d-a64a-b59d-44b9" type="profile"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="f6c8-379b-6c32-f0cf" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry"/>
+              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
               </costs>

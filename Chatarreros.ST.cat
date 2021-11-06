@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c703-ae2f-fd22-36ec" name="Chatarreros" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="16" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c703-ae2f-fd22-36ec" name="Chatarreros" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="4b39-0f8a-b45f-abae" name="Sonda" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -40,11 +40,6 @@
             </entryLink>
             <entryLink id="d68d-204c-9f87-0c8f" name="Pistola" hidden="false" collective="false" import="true" targetId="eb59-93d0-ab75-4c88" type="selectionEntry">
               <entryLinks>
-                <entryLink id="f714-8df7-f4c6-3827" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
                 <entryLink id="72af-a024-2d6e-1fc7" name="Balas apañadas" hidden="false" collective="false" import="true" targetId="6fa6-feaf-375d-957b" type="selectionEntry">
                   <costs>
                     <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
@@ -179,11 +174,6 @@
             </entryLink>
             <entryLink id="bc8b-c76a-f65b-33c9" name="Pistola" hidden="false" collective="false" import="true" targetId="eb59-93d0-ab75-4c88" type="selectionEntry">
               <entryLinks>
-                <entryLink id="4b6f-d7b6-c31b-94d3" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
                 <entryLink id="0285-0b95-f056-4b0a" name="Balas apañadas" hidden="false" collective="false" import="true" targetId="6fa6-feaf-375d-957b" type="selectionEntry">
                   <costs>
                     <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
@@ -201,11 +191,6 @@
             </entryLink>
             <entryLink id="3788-6958-a2c0-0828" name="Escopeta" hidden="false" collective="false" import="true" targetId="e428-2fd2-6b4d-1344" type="selectionEntry">
               <entryLinks>
-                <entryLink id="0135-dc88-6cb9-1311" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
                 <entryLink id="d7b6-59ae-e3c8-d96b" name="Balas apañadas" hidden="false" collective="false" import="true" targetId="6fa6-feaf-375d-957b" type="selectionEntry">
                   <costs>
                     <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
@@ -307,11 +292,6 @@
             </entryLink>
             <entryLink id="fe4e-153f-69f4-f4b0" name="Pistola" hidden="false" collective="false" import="true" targetId="eb59-93d0-ab75-4c88" type="selectionEntry">
               <entryLinks>
-                <entryLink id="3036-ba29-e8ba-6e85" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
                 <entryLink id="453a-286b-5d58-2177" name="Balas apañadas" hidden="false" collective="false" import="true" targetId="6fa6-feaf-375d-957b" type="selectionEntry">
                   <costs>
                     <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
@@ -329,11 +309,6 @@
             </entryLink>
             <entryLink id="f850-681c-67c6-f420" name="Rifle" hidden="false" collective="false" import="true" targetId="9726-34fd-1e5a-f35f" type="selectionEntry">
               <entryLinks>
-                <entryLink id="43ce-e00e-946d-abf5" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-                  <costs>
-                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-                  </costs>
-                </entryLink>
                 <entryLink id="dd72-e4af-efe9-9eab" name="Balas apañadas" hidden="false" collective="false" import="true" targetId="6fa6-feaf-375d-957b" type="selectionEntry">
                   <costs>
                     <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
