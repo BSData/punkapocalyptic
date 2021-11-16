@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fab7-8d9f-25c5-73bc" name="Punkapocalyptic (by SergioTemp)" revision="20" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fab7-8d9f-25c5-73bc" name="Punkapocalyptic (by SergioTemp)" revision="24" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="6ba6-290e-2003-241d" name="Puntos" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -414,6 +414,11 @@
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6713-dfd4-9a2a-a6ae" type="max"/>
       </constraints>
+      <rules>
+        <rule id="8b55-5a8b-3df0-ee16" name="Gato amargado" hidden="false">
+          <description>Una vez por partida puedes repetir una de tus tiradas de d10 u obligar al rival a repetir una de las suyas. Para ello tendrás que disponer de la miniatura exclusiva de la campaña de Kickstarter </description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="dea9-26ac-f0c7-9298" name="Gato amargado" hidden="false" targetId="2e5f-13cf-45df-8d25" type="profile"/>
       </infoLinks>
@@ -2188,6 +2193,471 @@ Asaltar: 5</characteristic>
       </rules>
       <costs>
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3be1-82ad-3078-cbf3" name="1 Bomba de Gas" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5eb4-0397-de16-6c30" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="2bd9-56b2-fac1-0e71" name="Bomba de Gas" hidden="false">
+          <description>Las bombas de gas tratan de incapacitar al enemigo mediante una serie de gases tóxicos. Además de las Reglas especiales comunes a todos los tipos de bombas, las de gas tienen la regla Gas.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="603c-1913-d34a-9a2d" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="483a-f4aa-4e7c-e321" name="Bomba de Gas" hidden="false" targetId="0d3c-1bd6-9a77-9648" type="profile"/>
+        <infoLink id="370b-28b7-4732-9c29" name="Gas" hidden="false" targetId="cbbf-9db9-e05d-6ad8" type="rule"/>
+        <infoLink id="2858-3a31-7868-69e8" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+        <infoLink id="813d-68f5-bb04-60c9" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
+        <infoLink id="9bcc-09c9-7219-6643" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d976-2a85-8378-4738" name="3 Bombas de Gas" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3793-f14d-dba1-844c" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="841a-13d6-7dfe-b43e" name="Bomba de Gas" hidden="false">
+          <description>Las bombas de gas tratan de incapacitar al enemigo mediante una serie de gases tóxicos. Además de las Reglas especiales comunes a todos los tipos de bombas, las de gas tienen la regla Gas.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3161-fcd7-88ee-3ae4" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="a53b-bdb0-68ab-f4be" name="Bomba de Gas" hidden="false" targetId="0d3c-1bd6-9a77-9648" type="profile"/>
+        <infoLink id="9b98-95d0-0105-5264" name="Gas" hidden="false" targetId="cbbf-9db9-e05d-6ad8" type="rule"/>
+        <infoLink id="95a7-9253-ac42-5f8e" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+        <infoLink id="3e88-cb21-2199-f64c" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
+        <infoLink id="7be6-e1ae-3fe5-3bd5" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7dcf-44c8-35a7-bfbe" name="2 Bombas de Gas" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="642b-1689-ee3b-ac4f" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="f303-7241-320e-55de" name="Bomba de Gas" hidden="false">
+          <description>Las bombas de gas tratan de incapacitar al enemigo mediante una serie de gases tóxicos. Además de las Reglas especiales comunes a todos los tipos de bombas, las de gas tienen la regla Gas.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b071-d9bf-ac22-c327" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="a902-3882-7752-1846" name="Bomba de Gas" hidden="false" targetId="0d3c-1bd6-9a77-9648" type="profile"/>
+        <infoLink id="e049-b9da-e13f-ed59" name="Gas" hidden="false" targetId="cbbf-9db9-e05d-6ad8" type="rule"/>
+        <infoLink id="2d95-8185-6bfc-c72d" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+        <infoLink id="5e20-9eb9-7b00-17af" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
+        <infoLink id="0139-9495-7f4c-440d" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="473b-0be3-a82c-54ba" name="4 Bombas de Gas" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="57ed-a6b3-78d4-ff75" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="fa85-9107-4097-ca4f" name="Bomba de Gas" hidden="false">
+          <description>Las bombas de gas tratan de incapacitar al enemigo mediante una serie de gases tóxicos. Además de las Reglas especiales comunes a todos los tipos de bombas, las de gas tienen la regla Gas.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4ec2-92a5-83d3-1520" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="55c0-4788-31e9-8c6e" name="Bomba de Gas" hidden="false" targetId="0d3c-1bd6-9a77-9648" type="profile"/>
+        <infoLink id="21aa-1f75-a0f5-2d39" name="Gas" hidden="false" targetId="cbbf-9db9-e05d-6ad8" type="rule"/>
+        <infoLink id="8faa-f180-c2c1-d09d" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+        <infoLink id="6dea-bfd2-9c14-2233" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
+        <infoLink id="86c0-67f7-fb71-34ca" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a3bb-f8cd-4354-7a16" name="5 Bombas de Gas" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="79ac-f596-822c-8b48" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="b801-b75c-3828-fcbd" name="Bomba de Gas" hidden="false">
+          <description>Las bombas de gas tratan de incapacitar al enemigo mediante una serie de gases tóxicos. Además de las Reglas especiales comunes a todos los tipos de bombas, las de gas tienen la regla Gas.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7404-7fbc-045c-e5c3" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="8a77-5bac-f850-0a16" name="Bomba de Gas" hidden="false" targetId="0d3c-1bd6-9a77-9648" type="profile"/>
+        <infoLink id="a948-2f29-bee1-d3fc" name="Gas" hidden="false" targetId="cbbf-9db9-e05d-6ad8" type="rule"/>
+        <infoLink id="b669-c522-d9a6-e7c2" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+        <infoLink id="9249-76b4-7b17-da59" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
+        <infoLink id="8233-6b1b-7bd8-00bf" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4344-ebd6-62e9-db8b" name="1 Bomba de Humo" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="280e-37d4-c349-fd11" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="1b6a-61ea-6256-8fdd" name="Bomba de Humo" hidden="false">
+          <description>Estas bombas tienen el cometido de crear cortinas de humo que dificulten la visión del enemigo a través de ellas. Además de las Reglas especiales comunes a todos los tipos de bombas, las de humo tienen la regla Humo.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c0e6-6c03-c8c8-aa89" name="Bomba de Humo" hidden="false" targetId="9e7a-e378-357f-b933" type="profile"/>
+        <infoLink id="a0ad-1e7c-6921-2bef" name="Humo" hidden="false" targetId="360a-2d15-a3ee-e55f" type="rule"/>
+        <infoLink id="b044-4b09-49d4-eb17" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="14ed-ca04-c395-07ee" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
+        <infoLink id="8e7e-b0ce-0d90-4057" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+        <infoLink id="13f9-f5d8-ed9d-6f86" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="526a-ffc4-9c38-39b1" name="2 Bombas de Humo" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5963-2bf9-19d0-efbb" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="df2a-8a39-618e-17d9" name="Bomba de Humo" hidden="false">
+          <description>Estas bombas tienen el cometido de crear cortinas de humo que dificulten la visión del enemigo a través de ellas. Además de las Reglas especiales comunes a todos los tipos de bombas, las de humo tienen la regla Humo.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0b75-d3ba-d534-7e2b" name="Bomba de Humo" hidden="false" targetId="9e7a-e378-357f-b933" type="profile"/>
+        <infoLink id="1d18-cfe4-7f69-a33b" name="Humo" hidden="false" targetId="360a-2d15-a3ee-e55f" type="rule"/>
+        <infoLink id="0347-5704-431f-7066" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="b7a3-ac5f-5594-1b23" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
+        <infoLink id="687b-451c-132d-3034" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+        <infoLink id="c95b-521f-d587-70c4" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e97c-a0e6-f73e-551e" name="3 Bombas de Humo" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7f72-7a62-c456-0eea" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="d20c-4d7c-249d-385c" name="Bomba de Humo" hidden="false">
+          <description>Estas bombas tienen el cometido de crear cortinas de humo que dificulten la visión del enemigo a través de ellas. Además de las Reglas especiales comunes a todos los tipos de bombas, las de humo tienen la regla Humo.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="a927-6a07-28b9-03af" name="Bomba de Humo" hidden="false" targetId="9e7a-e378-357f-b933" type="profile"/>
+        <infoLink id="61bf-c842-187d-328d" name="Humo" hidden="false" targetId="360a-2d15-a3ee-e55f" type="rule"/>
+        <infoLink id="7992-02d6-a7b8-e925" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="19d7-0454-1121-4e45" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
+        <infoLink id="3416-3067-0f31-0293" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+        <infoLink id="debb-858a-a6c2-fedf" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cda0-6f80-f852-ea9a" name="5 Bombas de Humo" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="686f-19eb-9f46-ee1d" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="62e9-6e81-da48-146f" name="Bomba de Humo" hidden="false">
+          <description>Estas bombas tienen el cometido de crear cortinas de humo que dificulten la visión del enemigo a través de ellas. Además de las Reglas especiales comunes a todos los tipos de bombas, las de humo tienen la regla Humo.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="44ac-491e-e1a1-9cb2" name="Bomba de Humo" hidden="false" targetId="9e7a-e378-357f-b933" type="profile"/>
+        <infoLink id="ccfd-1dcc-87ee-f77e" name="Humo" hidden="false" targetId="360a-2d15-a3ee-e55f" type="rule"/>
+        <infoLink id="0577-781d-e3ab-5f77" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="7b14-97fc-2c59-01db" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
+        <infoLink id="f16b-8c9b-d149-f25a" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+        <infoLink id="d6fe-ab0f-c250-d121" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4d06-10e2-d81f-314e" name="4 Bombas de Humo" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1f97-14d5-b2f9-bcb5" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="1e9e-761b-774a-86cd" name="Bomba de Humo" hidden="false">
+          <description>Estas bombas tienen el cometido de crear cortinas de humo que dificulten la visión del enemigo a través de ellas. Además de las Reglas especiales comunes a todos los tipos de bombas, las de humo tienen la regla Humo.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d320-b63b-c062-6f94" name="Bomba de Humo" hidden="false" targetId="9e7a-e378-357f-b933" type="profile"/>
+        <infoLink id="20ee-1839-6ebe-46ab" name="Humo" hidden="false" targetId="360a-2d15-a3ee-e55f" type="rule"/>
+        <infoLink id="795c-1a5e-a09f-2b16" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+        <infoLink id="724a-140c-ee52-7b4b" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
+        <infoLink id="dbda-af64-b6a0-4f46" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+        <infoLink id="70e5-d528-f098-a283" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="80c3-f88e-2610-f0cf" name="1 Bomba Incendiaria" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1ed0-7ea0-41fb-76b2" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="8b1a-d215-17c4-978d" name="Fuego" hidden="false">
+          <description>El típico cóctel molotov básico, o un frasco con algún tipo de mezcla de componentes químicos más sofisticada que arde al contacto con el oxígeno. Además de las reglas especiales comunes a todos los tipos de bombas, las de fuego tienen la regla Incendiaria.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5a89-f6d5-90dd-27cf" name="Bomba Incendiaria" hidden="false" targetId="6128-28ce-1bdd-3a25" type="profile"/>
+        <infoLink id="f94b-989f-6497-bc48" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="3347-6bc8-0792-578f" name="Incendiaria" hidden="false" targetId="1208-22c9-c2ea-9ffb" type="rule"/>
+        <infoLink id="9963-a77f-04c0-3f29" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+        <infoLink id="a258-9ab0-5d87-c2cc" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
+        <infoLink id="f067-2a06-91f7-dbe3" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fd41-02cc-00e7-c1db" name="2 Bombas Incendiarias" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c08f-ad7e-e2f4-93b9" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="867b-70ac-f68e-b078" name="Fuego" hidden="false">
+          <description>El típico cóctel molotov básico, o un frasco con algún tipo de mezcla de componentes químicos más sofisticada que arde al contacto con el oxígeno. Además de las reglas especiales comunes a todos los tipos de bombas, las de fuego tienen la regla Incendiaria.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d06c-3ac0-4727-20c4" name="Bomba Incendiaria" hidden="false" targetId="6128-28ce-1bdd-3a25" type="profile"/>
+        <infoLink id="9cec-fc6d-5222-dd70" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="1331-ff65-31ac-c927" name="Incendiaria" hidden="false" targetId="1208-22c9-c2ea-9ffb" type="rule"/>
+        <infoLink id="2c83-aa97-b49c-d940" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+        <infoLink id="58ac-b7f2-32d4-541a" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
+        <infoLink id="2c9b-5ca9-139c-da34" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="39a7-1dae-f7dd-75ff" name="3 Bombas Incendiarias" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2b00-a37c-284a-73e3" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="0bb6-93d7-a89b-c3d3" name="Fuego" hidden="false">
+          <description>El típico cóctel molotov básico, o un frasco con algún tipo de mezcla de componentes químicos más sofisticada que arde al contacto con el oxígeno. Además de las reglas especiales comunes a todos los tipos de bombas, las de fuego tienen la regla Incendiaria.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1cb9-5304-48b5-0ef1" name="Bomba Incendiaria" hidden="false" targetId="6128-28ce-1bdd-3a25" type="profile"/>
+        <infoLink id="45c0-3175-632f-21c7" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="f002-6c1e-1ad6-6587" name="Incendiaria" hidden="false" targetId="1208-22c9-c2ea-9ffb" type="rule"/>
+        <infoLink id="e4ad-0e0a-c61a-abc9" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+        <infoLink id="a511-0e6f-84b9-c7e7" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
+        <infoLink id="0e13-68c7-7141-4a42" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="057e-a985-796f-1404" name="4 Bombas Incendiarias" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="64d4-db20-26b2-8060" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="6c8b-91be-c6c4-1a12" name="Fuego" hidden="false">
+          <description>El típico cóctel molotov básico, o un frasco con algún tipo de mezcla de componentes químicos más sofisticada que arde al contacto con el oxígeno. Además de las reglas especiales comunes a todos los tipos de bombas, las de fuego tienen la regla Incendiaria.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="41f6-48ca-bc38-84a6" name="Bomba Incendiaria" hidden="false" targetId="6128-28ce-1bdd-3a25" type="profile"/>
+        <infoLink id="748f-72a1-d3f0-9f64" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="4a34-a897-5f1a-5f9a" name="Incendiaria" hidden="false" targetId="1208-22c9-c2ea-9ffb" type="rule"/>
+        <infoLink id="c840-d5b6-55a3-5020" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+        <infoLink id="a711-12b0-c38d-9fcf" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
+        <infoLink id="c8a8-19ff-5832-b791" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8064-ba19-b9b1-2da0" name="5 Bombas Incendiarias" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="32fb-c5aa-a4c7-c61f" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="31a5-988c-4a27-ec5c" name="Fuego" hidden="false">
+          <description>El típico cóctel molotov básico, o un frasco con algún tipo de mezcla de componentes químicos más sofisticada que arde al contacto con el oxígeno. Además de las reglas especiales comunes a todos los tipos de bombas, las de fuego tienen la regla Incendiaria.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="739f-1094-72d5-833f" name="Bomba Incendiaria" hidden="false" targetId="6128-28ce-1bdd-3a25" type="profile"/>
+        <infoLink id="1c80-9d13-ec95-21b9" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
+        <infoLink id="de17-e3b4-8b30-48dc" name="Incendiaria" hidden="false" targetId="1208-22c9-c2ea-9ffb" type="rule"/>
+        <infoLink id="e868-1eed-a2ad-0fc6" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+        <infoLink id="93a1-4e98-7e92-4d06" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
+        <infoLink id="7537-2f9f-c27c-c8be" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0fc4-dc7d-90c7-7719" name="1 Granada santa" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a84b-04da-5994-5815" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="aebe-e637-42d1-8596" name="Granada santa" hidden="false" typeId="7089-c608-3647-16e3" typeName="Armas a distancia">
+          <characteristics>
+            <characteristic name="Reglas especiales" typeId="8a87-25fd-fe02-13e7"/>
+            <characteristic name="Distancia" typeId="e3cc-c79f-36e8-ca84">Fue lanzador x 5 cm</characteristic>
+            <characteristic name="Fuerza" typeId="c02a-4690-9a12-55e4"/>
+            <characteristic name="Penetración" typeId="9563-bb3e-ec5c-02a1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d762-cc5b-0e99-273d" name="Granada santa" hidden="false">
+          <description>Las granadas santas cubren de elementos radiactivos la zona allí donde impactan.
+Las granadas santas explotan al impactar, dejando un marcador permanente de radiactividad de 5 cm de radio.
+Toda miniatura impactada por una granada santa deberá realizar inmediatamente una tirada de Radiación (siempre que haya una fuente de radiación a 20 cm o menos). Cualquier miniatura que durante el transcurso de una Acción contacte con un marcador de radiactividad deberá realizar una tirada de Radicación. Una miniatura sufrirá estos efectos sólo una vez por Acción, independientemente de que al moverse salga y entre de un marcador o atraviese más de un marcador.
+Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, UNA de estas armas detonará, centrando el área de explosión sobre la peana de la miniatura Abatida, siguiendo las mismas reglas que si el arma hubiera impactado.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0269-aa3a-a0b1-1865" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+        <infoLink id="8330-2e9e-eb85-f9b7" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6dd2-294e-e610-b9ac" name="2 Granadas santas" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9474-78b9-3887-364f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b227-1cde-70b6-c67c" name="Granada santa" hidden="false" typeId="7089-c608-3647-16e3" typeName="Armas a distancia">
+          <characteristics>
+            <characteristic name="Reglas especiales" typeId="8a87-25fd-fe02-13e7"/>
+            <characteristic name="Distancia" typeId="e3cc-c79f-36e8-ca84">Fue lanzador x 5 cm</characteristic>
+            <characteristic name="Fuerza" typeId="c02a-4690-9a12-55e4"/>
+            <characteristic name="Penetración" typeId="9563-bb3e-ec5c-02a1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8295-5ce0-0447-09f2" name="Granada santa" hidden="false">
+          <description>Las granadas santas cubren de elementos radiactivos la zona allí donde impactan.
+Las granadas santas explotan al impactar, dejando un marcador permanente de radiactividad de 5 cm de radio.
+Toda miniatura impactada por una granada santa deberá realizar inmediatamente una tirada de Radiación (siempre que haya una fuente de radiación a 20 cm o menos). Cualquier miniatura que durante el transcurso de una Acción contacte con un marcador de radiactividad deberá realizar una tirada de Radicación. Una miniatura sufrirá estos efectos sólo una vez por Acción, independientemente de que al moverse salga y entre de un marcador o atraviese más de un marcador.
+Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, UNA de estas armas detonará, centrando el área de explosión sobre la peana de la miniatura Abatida, siguiendo las mismas reglas que si el arma hubiera impactado.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9cb5-3b69-5a74-83d8" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+        <infoLink id="b48d-41be-f6b3-2c17" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9a0b-d3db-5ca3-3b96" name="5 Granadas santas" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5484-88fb-11fd-87d9" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9c24-c35e-8052-e258" name="Granada santa" hidden="false" typeId="7089-c608-3647-16e3" typeName="Armas a distancia">
+          <characteristics>
+            <characteristic name="Reglas especiales" typeId="8a87-25fd-fe02-13e7"/>
+            <characteristic name="Distancia" typeId="e3cc-c79f-36e8-ca84">Fue lanzador x 5 cm</characteristic>
+            <characteristic name="Fuerza" typeId="c02a-4690-9a12-55e4"/>
+            <characteristic name="Penetración" typeId="9563-bb3e-ec5c-02a1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="cb45-4474-0d58-4d0f" name="Granada santa" hidden="false">
+          <description>Las granadas santas cubren de elementos radiactivos la zona allí donde impactan.
+Las granadas santas explotan al impactar, dejando un marcador permanente de radiactividad de 5 cm de radio.
+Toda miniatura impactada por una granada santa deberá realizar inmediatamente una tirada de Radiación (siempre que haya una fuente de radiación a 20 cm o menos). Cualquier miniatura que durante el transcurso de una Acción contacte con un marcador de radiactividad deberá realizar una tirada de Radicación. Una miniatura sufrirá estos efectos sólo una vez por Acción, independientemente de que al moverse salga y entre de un marcador o atraviese más de un marcador.
+Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, UNA de estas armas detonará, centrando el área de explosión sobre la peana de la miniatura Abatida, siguiendo las mismas reglas que si el arma hubiera impactado.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="6816-c57c-b665-8054" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+        <infoLink id="06c5-db17-501d-0a70" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5c92-29bd-4f2b-17df" name="4 Granadas santas" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7ff6-6465-979a-cfca" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="090c-cbc4-3728-c372" name="Granada santa" hidden="false" typeId="7089-c608-3647-16e3" typeName="Armas a distancia">
+          <characteristics>
+            <characteristic name="Reglas especiales" typeId="8a87-25fd-fe02-13e7"/>
+            <characteristic name="Distancia" typeId="e3cc-c79f-36e8-ca84">Fue lanzador x 5 cm</characteristic>
+            <characteristic name="Fuerza" typeId="c02a-4690-9a12-55e4"/>
+            <characteristic name="Penetración" typeId="9563-bb3e-ec5c-02a1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ca56-25da-710a-9d47" name="Granada santa" hidden="false">
+          <description>Las granadas santas cubren de elementos radiactivos la zona allí donde impactan.
+Las granadas santas explotan al impactar, dejando un marcador permanente de radiactividad de 5 cm de radio.
+Toda miniatura impactada por una granada santa deberá realizar inmediatamente una tirada de Radiación (siempre que haya una fuente de radiación a 20 cm o menos). Cualquier miniatura que durante el transcurso de una Acción contacte con un marcador de radiactividad deberá realizar una tirada de Radicación. Una miniatura sufrirá estos efectos sólo una vez por Acción, independientemente de que al moverse salga y entre de un marcador o atraviese más de un marcador.
+Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, UNA de estas armas detonará, centrando el área de explosión sobre la peana de la miniatura Abatida, siguiendo las mismas reglas que si el arma hubiera impactado.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5c7c-0931-0048-6d55" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+        <infoLink id="9ae7-1f86-a66f-50ed" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4a24-d6be-c7c4-f334" name="3 Granadas santas" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7f78-1f82-1a4e-77c8" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="81c4-0467-fa57-c02d" name="Granada santa" hidden="false" typeId="7089-c608-3647-16e3" typeName="Armas a distancia">
+          <characteristics>
+            <characteristic name="Reglas especiales" typeId="8a87-25fd-fe02-13e7"/>
+            <characteristic name="Distancia" typeId="e3cc-c79f-36e8-ca84">Fue lanzador x 5 cm</characteristic>
+            <characteristic name="Fuerza" typeId="c02a-4690-9a12-55e4"/>
+            <characteristic name="Penetración" typeId="9563-bb3e-ec5c-02a1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f261-662a-5378-e47d" name="Granada santa" hidden="false">
+          <description>Las granadas santas cubren de elementos radiactivos la zona allí donde impactan.
+Las granadas santas explotan al impactar, dejando un marcador permanente de radiactividad de 5 cm de radio.
+Toda miniatura impactada por una granada santa deberá realizar inmediatamente una tirada de Radiación (siempre que haya una fuente de radiación a 20 cm o menos). Cualquier miniatura que durante el transcurso de una Acción contacte con un marcador de radiactividad deberá realizar una tirada de Radicación. Una miniatura sufrirá estos efectos sólo una vez por Acción, independientemente de que al moverse salga y entre de un marcador o atraviese más de un marcador.
+Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, UNA de estas armas detonará, centrando el área de explosión sobre la peana de la miniatura Abatida, siguiendo las mismas reglas que si el arma hubiera impactado.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="401e-3694-d1a5-e83c" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+        <infoLink id="1228-7f2b-276a-b126" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
