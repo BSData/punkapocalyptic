@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bd07-6ba7-3edf-4ca0" name="Idos" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bd07-6ba7-3edf-4ca0" name="Idos" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="1650-c7a4-f3cf-6e3b" name="Desgarrador" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -479,6 +479,24 @@
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="70.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="d90b-ba63-c522-6aef" name="Gato Amargado" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f16d-4f31-24b8-4d1a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f713-b557-ef53-55f5" name="Gato Amargado" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+          <characteristics>
+            <characteristic name="Reglas" typeId="f042-739d-9839-c439">Una vez por partida puedes repetir una de tus tiradas de d10 u obligar al rival a repetir una de las suyas. Para ello tendrás que disponer de la miniatura exclusiva de una campaña de Kickstarter </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9275-13d0-9d43-c388" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="6b13-0ba6-4d2f-6877" name="Capitán Hammerica" hidden="false" collective="false" import="true" targetId="bd3e-2900-c778-8569" type="selectionEntry"/>
@@ -492,14 +510,6 @@
       <categoryLinks>
         <categoryLink id="aa86-c693-2c3b-b1fa" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
-    </entryLink>
-    <entryLink id="c85f-0be0-a7bb-9a69" name="Gato amargado" hidden="false" collective="false" import="true" targetId="340c-7125-559a-85ae" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="cbe6-0538-a378-db81" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
-      </costs>
     </entryLink>
   </entryLinks>
 </catalogue>

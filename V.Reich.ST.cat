@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1830-0e8f-8c44-e0b3" name="V Reich" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1830-0e8f-8c44-e0b3" name="V Reich" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e549-1dc4-7320-8282" name="Soldat" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -712,6 +712,24 @@ por +15 puntos, obteniendo un bonificador de +1 al Combate y la Agilidad.</descr
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="95.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6d89-a50f-c615-85c5" name="Gato Amargado" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1815-b0cc-9995-22cf" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ef1e-459c-b0f8-2da0" name="Gato Amargado" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+          <characteristics>
+            <characteristic name="Reglas" typeId="f042-739d-9839-c439">Una vez por partida puedes repetir una de tus tiradas de d10 u obligar al rival a repetir una de las suyas. Para ello tendrás que disponer de la miniatura exclusiva de una campaña de Kickstarter </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="13ef-f09f-a28e-a084" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="9c88-f0a3-8268-2c67" name="Viejo Sajarratas" hidden="false" collective="false" import="true" targetId="dc04-86d5-a9a1-2115" type="selectionEntry">
@@ -748,14 +766,6 @@ por +15 puntos, obteniendo un bonificador de +1 al Combate y la Agilidad.</descr
       <categoryLinks>
         <categoryLink id="0ed6-b722-fbf4-32e2" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
-    </entryLink>
-    <entryLink id="1b8e-3cba-da78-659f" name="Gato amargado" hidden="false" collective="false" import="true" targetId="340c-7125-559a-85ae" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="7a8f-490f-aad6-ba9d" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
-      </costs>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>

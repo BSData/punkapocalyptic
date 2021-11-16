@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c703-ae2f-fd22-36ec" name="Chatarreros" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c703-ae2f-fd22-36ec" name="Chatarreros" revision="17" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="4b39-0f8a-b45f-abae" name="Sonda" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -637,6 +637,24 @@
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="88a6-8a54-35d3-eea9" name="Gato Amargado" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="37df-133a-9782-3372" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="3514-6306-027c-3e57" name="Gato Amargado" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+          <characteristics>
+            <characteristic name="Reglas" typeId="f042-739d-9839-c439">Una vez por partida puedes repetir una de tus tiradas de d10 u obligar al rival a repetir una de las suyas. Para ello tendrás que disponer de la miniatura exclusiva de una campaña de Kickstarter </characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ae7e-fe58-edcb-b72c" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="4b0d-2005-cf8e-6446" name="Crazy Mel" hidden="false" collective="false" import="true" targetId="0a14-7ef7-d9b3-4f7e" type="selectionEntry">
@@ -683,15 +701,6 @@
       <categoryLinks>
         <categoryLink id="cb1b-da02-73c0-129e" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
-    </entryLink>
-    <entryLink id="d532-489f-f9da-d6e5" name="Gato amargado" hidden="false" collective="false" import="true" targetId="340c-7125-559a-85ae" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="41f2-9070-bd95-fc85" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
-        <categoryLink id="4ffb-bb19-02f9-4c03" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="false"/>
-      </categoryLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
-      </costs>
     </entryLink>
   </entryLinks>
 </catalogue>
