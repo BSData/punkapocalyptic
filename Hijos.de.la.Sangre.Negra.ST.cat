@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0b4d-07e4-2e55-ecf7" name="Hijos de la Sangre Negra" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0b4d-07e4-2e55-ecf7" name="Hijos de la Sangre Negra" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8be9-4540-8142-22ab" name="Ceniza" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -704,6 +704,14 @@ Pero llevar ese combustible encima es peligroso, así que si una miniatura con u
       <categoryLinks>
         <categoryLink id="308e-9441-4094-b23f" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
+    </entryLink>
+    <entryLink id="da45-4f3a-b65d-bc65" name="Gato amargado" hidden="false" collective="false" import="true" targetId="340c-7125-559a-85ae" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5754-421c-4609-69b7" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+      </costs>
     </entryLink>
   </entryLinks>
 </catalogue>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="141c-25bc-8b87-452e" name="Pandilleros" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="18" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="141c-25bc-8b87-452e" name="Pandilleros" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b2f6-77ef-6334-3f5c" name="Piltrafa" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -93,7 +93,7 @@
         <entryLink id="8269-eabd-a9ad-4968" name="Ropa resistente" hidden="false" collective="false" import="true" targetId="86ad-a9ee-d23d-f726" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d355-4604-140d-8077" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98a8-e4f9-a3dc-e9cc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98a8-e4f9-a3dc-e9cc" type="min"/>
           </constraints>
           <infoLinks>
             <infoLink id="7e75-2607-4950-b557" name="Ropa resistente" hidden="false" targetId="9113-33f5-f5e2-3c31" type="profile"/>
@@ -654,6 +654,14 @@
       <categoryLinks>
         <categoryLink id="41c1-0579-3f4e-2f69" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
+    </entryLink>
+    <entryLink id="771d-aa43-dbdd-b8c3" name="Gato amargado" hidden="false" collective="false" import="true" targetId="340c-7125-559a-85ae" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="77ce-daef-5735-cf2e" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+      </costs>
     </entryLink>
   </entryLinks>
 </catalogue>
