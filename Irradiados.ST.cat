@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="64e8-f331-6b0f-d5bf" name="Irradiados" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="64e8-f331-6b0f-d5bf" name="Irradiados" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="0161-3e99-ac82-1ffe" name="Cardenal nuclear" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -234,7 +234,7 @@
       </profiles>
       <rules>
         <rule id="fad4-c6c6-99ed-4cc9" name="Inspirador" hidden="false">
-          <description>Si un paladín abate a un enemigo en Combate, todo Irradiado que se encuentre 20 cm o menos puede realizar inmediatamente una Acción gratuita.</description>
+          <description>si un paladín abate a un enemigo en Combate, todo Irradiado que se encuentre 20 cm o menos, con línea de visión hacia el Paladín y que no esté trabado en Combate, puede realizar inmediatamente una Acción gratuita.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -529,7 +529,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="18.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="20.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="74b2-1e56-9a8d-6d5d" name="Mártir" hidden="false" collective="false" import="true" type="unit">
@@ -581,7 +581,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="20.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="73a4-5f6d-be54-045d" name="Gato Amargado" hidden="false" collective="false" import="true" type="upgrade">
@@ -600,6 +600,71 @@
       </categoryLinks>
       <costs>
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a763-077c-4f7b-0910" name="El Portador de las Reliquias" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="98f3-2538-f4ae-2c29" name="El Portador de las Reliquias" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+          <characteristics>
+            <characteristic name="Acciones" typeId="35d2-a478-8824-fda4">2</characteristic>
+            <characteristic name="Combate" typeId="a021-1c6d-e7d6-39ea">2(1)</characteristic>
+            <characteristic name="Precisión" typeId="9d88-57a7-635e-3622">2</characteristic>
+            <characteristic name="Agilidad" typeId="e0a4-9656-26d9-6a44">2</characteristic>
+            <characteristic name="Fuerza" typeId="26a4-4364-5085-5f30">3(7)</characteristic>
+            <characteristic name="Dureza" typeId="ee78-dafb-2dc2-a52a">3</characteristic>
+            <characteristic name="Técnica" typeId="8422-cbe6-6791-4a35">3</characteristic>
+            <characteristic name="Reglas especiales" typeId="16f0-630c-2894-4e0b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="af05-ff5a-9e8f-ba06" name="Personalidad de los Irradiados" page="" hidden="false"/>
+      </rules>
+      <infoLinks>
+        <infoLink id="f760-a282-ec62-c8bc" name="Radioinmune" hidden="false" targetId="6836-83c2-378e-3fa7" type="rule"/>
+        <infoLink id="2846-c39e-6887-51df" name="Bersérker" hidden="false" targetId="c9a7-203e-9070-1a69" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f9d9-825e-0c0a-6b7b" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b69d-640f-ce43-ada2" name="Relicario" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0f10-f4ce-a7bf-4733" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d869-a4db-139f-efe8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="af06-a949-cc6e-4435" name="Relicario" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Armas cuerpo a cuerpo">
+              <characteristics>
+                <characteristic name="Combate" typeId="3bcb-590f-e624-084f">-1</characteristic>
+                <characteristic name="Fuerza" typeId="959a-27b3-5665-eaae">+4</characteristic>
+                <characteristic name="Penetración" typeId="af0e-e291-c826-bf01">2</characteristic>
+                <characteristic name="Reglas especiales" typeId="55ae-0d53-f265-651a">A modo de estandarte, el Portador de las Reliquias lleva algunas de las reliquias encontradas por los Irradiados a lo largo de los años. En combate puede ser usado con las estadísticas de una maza pesada. Además, el Portador puede usar Acciones (si es más de una deben ser consecutivas, aunque no obligatoriamente en el mismo Turno de Acción) para alentar a sus compañeros o desmotivar a sus enemigos tal y como se indica en la siguiente tabla.
+
+Acciones: Efecto
+1: Una miniatura amiga hasta a 30 cm obtiene un bonificador de +3 al Combate en su próximo Asalto.
+1: Una miniatura amiga hasta a 30 cm obtiene un bonificador de +2 en su próxima tirada de Precisión.
+1: Una miniatura amiga hasta a 30 cm obtiene un bonificador de +2 a la Dureza para la siguiente ocasión en que sea impactada. Tras esto pasará su Dureza se reducirá en 1 punto de manera permanente.
+1: Una miniatura enemiga hasta a 30 cm sufrirá un penalizador de -2 en su próxima tirada de Radiación.
+2: Una miniatura amiga hasta a 30 cm podrá realizar 1 Acción de manera inmediata.
+2: Una miniatura enemiga hasta a 30 cm sufrirá un penalizador de -2 permanente en sus tiradas de Radiación.
+
+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="a093-3d29-e911-56fe" name="Cuero endurecido" hidden="false" collective="false" import="true" targetId="eeea-45d8-03cc-15ca" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0bbc-c36e-2fdf-5e04" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4b3d-4632-9090-9447" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="40.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

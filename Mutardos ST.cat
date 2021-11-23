@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8d35-5bbf-09f3-40dd" name="Mutardos" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="22" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8d35-5bbf-09f3-40dd" name="Mutardos" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="febe-c0be-be8d-766d" name="Cabezón" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -80,108 +80,187 @@
           </constraints>
           <entryLinks>
             <entryLink id="5631-ec77-13b6-3318" name="Cachas" hidden="false" collective="false" import="true" targetId="df79-b048-3226-d7ac" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af77-e8fb-216a-941c" type="max"/>
+              </constraints>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
               </costs>
             </entryLink>
             <entryLink id="7976-78a4-37c1-bbe6" name="Capacitado" hidden="false" collective="false" import="true" targetId="b3a7-2833-79dd-fbc9" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7c1-0ec8-0527-3a40" type="max"/>
+              </constraints>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="20.0"/>
               </costs>
             </entryLink>
             <entryLink id="3e5b-db7e-8410-2f39" name="Carga brutal" hidden="false" collective="false" import="true" targetId="f9f1-0794-ba77-d0e3" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce9b-019c-ed20-8da7" type="max"/>
+              </constraints>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
               </costs>
             </entryLink>
             <entryLink id="e00f-7bcd-21f4-f5cd" name="Cola afilada" hidden="false" collective="false" import="true" targetId="04a0-eec8-9443-1aa2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d2c-face-7838-39d7" type="max"/>
+              </constraints>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
               </costs>
             </entryLink>
             <entryLink id="b19e-40e9-bb88-65b9" name="Corredor" hidden="false" collective="false" import="true" targetId="d680-a51a-28dc-d6c0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12f4-71db-5b02-1a79" type="max"/>
+              </constraints>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
               </costs>
             </entryLink>
             <entryLink id="42f1-86d6-bb1f-2258" name="Espinas" hidden="false" collective="false" import="true" targetId="5986-d919-269c-d2ea" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbfb-c5c7-22d3-6cb3" type="max"/>
+              </constraints>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
               </costs>
             </entryLink>
             <entryLink id="877e-de41-4ac2-040d" name="Esputo ácido" hidden="false" collective="false" import="true" targetId="c121-ac08-6de9-0597" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ede3-81ac-a1e7-9080" type="max"/>
+              </constraints>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
             </entryLink>
             <entryLink id="64ad-5bf1-fee2-f03c" name="Extremidad prensil" hidden="false" collective="false" import="true" targetId="20fc-ba5d-a4c0-2ca4" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a127-83d2-3629-8c6f" type="max"/>
+              </constraints>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
             </entryLink>
             <entryLink id="3013-3c16-bcf6-d526" name="Garras" hidden="false" collective="false" import="true" targetId="6563-3942-cb55-70d7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6612-36d2-b767-da3c" type="max"/>
+              </constraints>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="2.0"/>
               </costs>
             </entryLink>
             <entryLink id="4f8d-ebfb-124a-2169" name="Garras envenenadas" hidden="false" collective="false" import="true" targetId="8908-4f28-22d6-0cd4" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a112-0841-92bc-b4c8" type="max"/>
+              </constraints>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
               </costs>
             </entryLink>
             <entryLink id="882b-383f-3c03-b605" name="Miembros extra" hidden="false" collective="false" import="true" targetId="74a6-5144-df0a-8b8d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bce4-14a7-170e-e594" type="max"/>
+              </constraints>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
               </costs>
             </entryLink>
             <entryLink id="1250-3b2d-767a-0a8c" name="Mimetismo" hidden="false" collective="false" import="true" targetId="7406-c307-4b04-8f33" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63e0-dd57-147e-c3e9" type="max"/>
+              </constraints>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
             </entryLink>
             <entryLink id="5211-8e0d-5b0b-3747" name="Pegajoso" hidden="false" collective="false" import="true" targetId="f997-bc0e-ed94-76d2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e21c-ce66-fe76-f816" type="max"/>
+              </constraints>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
               </costs>
             </entryLink>
-            <entryLink id="00d7-4e2a-a736-ef4d" name="Piel dura (X)" hidden="false" collective="false" import="true" targetId="67ab-d59f-3ac8-b789" type="selectionEntry">
+            <entryLink id="00d7-4e2a-a736-ef4d" name="Piel dura (1)" hidden="false" collective="false" import="true" targetId="67ab-d59f-3ac8-b789" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80b6-6978-c022-841d" type="max"/>
+              </constraints>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
             </entryLink>
             <entryLink id="a0d7-5a48-7a0e-5ecd" name="Piernas seguras" hidden="false" collective="false" import="true" targetId="885b-322a-1b2c-e05f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52d7-e647-9a1d-40a1" type="max"/>
+              </constraints>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
               </costs>
             </entryLink>
             <entryLink id="8a34-2c54-145c-fe90" name="Proyectil orgánico" hidden="false" collective="false" import="true" targetId="9ce5-e812-1758-0e99" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7c9-bde0-8e40-3085" type="max"/>
+              </constraints>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
               </costs>
             </entryLink>
             <entryLink id="a542-450d-582c-fed7" name="Rana" hidden="false" collective="false" import="true" targetId="6029-0fa4-cab3-ce89" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec5e-7254-caa6-47ca" type="max"/>
+              </constraints>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="14.0"/>
               </costs>
             </entryLink>
             <entryLink id="aae3-f09c-7c84-1839" name="Resistente" hidden="false" collective="false" import="true" targetId="211d-4efe-5d77-0495" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcc3-2ffa-e32c-ccc0" type="max"/>
+              </constraints>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
               </costs>
             </entryLink>
             <entryLink id="54a6-6bd0-b573-a239" name="Resonancia psíquica" hidden="false" collective="false" import="true" targetId="599b-4498-5195-9161" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="400c-ea64-4076-c64f" type="max"/>
+              </constraints>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="20.0"/>
               </costs>
             </entryLink>
             <entryLink id="5f17-1644-6e6d-7433" name="Sentidos aguzados" hidden="false" collective="false" import="true" targetId="9ca0-b7df-4f25-6c5b" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e71d-2e69-e5dd-88c1" type="max"/>
+              </constraints>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
               </costs>
             </entryLink>
             <entryLink id="535b-5e24-586d-9f99" name="Sónar" hidden="false" collective="false" import="true" targetId="c34e-aefe-289c-ad00" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f7f-280e-0a69-3a6c" type="max"/>
+              </constraints>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="aaf6-1ba4-1a93-45ca" name="Piel dura (2)" hidden="false" collective="false" import="true" targetId="c2d8-acf5-4753-b4bc" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d69-6209-5da2-571b" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="61c5-6abe-2563-d30e" name="Piel dura (3)" hidden="false" collective="false" import="true" targetId="3fe8-f4ee-76c1-3dbd" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a133-a93b-7b80-337c" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="20.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -333,18 +412,21 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb3b-3f19-19dc-9dc9" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c7b-954e-1b75-8e46" type="min"/>
+            <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfb2-e684-2583-7ace" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="691f-12fb-2f8f-3cc0" name="Piel dura (3)" hidden="false" collective="false" import="true" targetId="3fe8-f4ee-76c1-3dbd" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6282-1192-8cf2-a843" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c25-58e9-7fa6-add7" type="min"/>
+            <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28fb-3f37-1ad6-e824" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="db5c-fed3-ad47-9fcc" name="Resistente" hidden="false" collective="false" import="true" targetId="211d-4efe-5d77-0495" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3589-e9ba-8d81-dded" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d38-2f01-ace6-0491" type="min"/>
+            <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8a3-8b8b-9e21-1525" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
