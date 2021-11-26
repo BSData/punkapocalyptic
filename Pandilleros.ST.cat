@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="141c-25bc-8b87-452e" name="Pandilleros" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="141c-25bc-8b87-452e" name="Pandilleros" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b2f6-77ef-6334-3f5c" name="Piltrafa" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="c963-1086-1192-b4af" type="max"/>
+      </constraints>
       <profiles>
         <profile id="78a5-0276-7962-b73c" name="Piltrafa" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
           <characteristics>
@@ -43,6 +46,16 @@
               <infoLinks>
                 <infoLink id="119b-b969-731f-9a56" name="Pistola" hidden="false" targetId="c71d-a64a-b59d-44b9" type="profile"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="6ae4-32ae-6503-0cca" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d795-841e-5fd2-3867" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
@@ -141,6 +154,16 @@
               <infoLinks>
                 <infoLink id="99fe-1488-fd2d-ab06" name="Pistola" hidden="false" targetId="c71d-a64a-b59d-44b9" type="profile"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="e5b1-c8bd-ef31-99dd" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c508-10e1-a026-caa4" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
@@ -157,6 +180,16 @@
               <infoLinks>
                 <infoLink id="9106-e15f-d9ff-bfad" name="Escopeta" hidden="false" targetId="0f3b-06e9-46b5-99a8" type="profile"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="62d3-406c-17a4-7940" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e199-a8c4-741e-6224" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
               </costs>
@@ -298,6 +331,16 @@
               <infoLinks>
                 <infoLink id="a911-95ae-2f8a-15e6" name="Escopeta" hidden="false" targetId="0f3b-06e9-46b5-99a8" type="profile"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="e813-a783-d671-6298" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="28b2-5413-9636-9042" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
               </costs>
@@ -306,6 +349,16 @@
               <infoLinks>
                 <infoLink id="6ade-7760-d564-fc6f" name="Rifle" hidden="false" targetId="7a01-c38d-81f4-4ea5" type="profile"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="336b-69ca-282a-3692" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6871-c1af-2a96-116c" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
               </costs>
@@ -314,6 +367,16 @@
               <infoLinks>
                 <infoLink id="78e2-d65d-849f-319e" name="Rifle automático " hidden="false" targetId="33e2-08e6-f9fc-37d8" type="profile"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="0ee2-d0be-86ef-05da" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8375-3600-778e-975c" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
               </costs>
@@ -322,6 +385,16 @@
               <infoLinks>
                 <infoLink id="89e8-b316-3b33-8744" name="Pistola" hidden="false" targetId="c71d-a64a-b59d-44b9" type="profile"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="42ff-6744-22af-ddbc" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0751-3658-e409-8b97" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
@@ -434,6 +507,16 @@
               <infoLinks>
                 <infoLink id="6699-0958-ad3b-2c18" name="Escopeta" hidden="false" targetId="0f3b-06e9-46b5-99a8" type="profile"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="59a0-5154-7faa-913e" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a75c-a94e-6b98-fde2" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
               </costs>
@@ -549,6 +632,16 @@
               <infoLinks>
                 <infoLink id="ade3-ca84-e01c-da15" name="Rifle" hidden="false" targetId="7a01-c38d-81f4-4ea5" type="profile"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="3419-d292-c0dd-aad7" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4765-688a-f446-733a" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
               </costs>
@@ -557,6 +650,16 @@
               <infoLinks>
                 <infoLink id="488a-7a5e-8dab-819c" name="Rifle automático " hidden="false" targetId="33e2-08e6-f9fc-37d8" type="profile"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="5d4e-e2b5-1684-70a3" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5a4c-fbc6-52cb-059b" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
               </costs>
@@ -573,6 +676,16 @@
               <infoLinks>
                 <infoLink id="e40f-0b04-4f93-6ca2" name="Pistola" hidden="false" targetId="c71d-a64a-b59d-44b9" type="profile"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="d0e3-eb7b-b65d-dc01" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="991c-6e0e-a0be-f9a8" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
@@ -581,6 +694,16 @@
               <infoLinks>
                 <infoLink id="3a1e-b92a-81ba-4ad4" name="Escopeta" hidden="false" targetId="0f3b-06e9-46b5-99a8" type="profile"/>
               </infoLinks>
+              <entryLinks>
+                <entryLink id="00b2-b79f-8d71-b673" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5396-5d72-d4bd-2b34" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
               </costs>

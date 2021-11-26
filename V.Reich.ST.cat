@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1830-0e8f-8c44-e0b3" name="V Reich" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1830-0e8f-8c44-e0b3" name="V Reich" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e549-1dc4-7320-8282" name="Soldat" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -282,7 +282,12 @@
               </profiles>
               <rules>
                 <rule id="0780-f1b7-28af-f7e0" name="Botiquin" hidden="false">
-                  <description>Una miniatura equipada con un botiquín puede intentar parchear a una miniatura Abatida aliada, para que siga luchando un poco más. La miniatura con el botiquín tendrá que ponerse en contacto con la miniatura Abatida, gastar una Acción para curarle las heridas más graves y luego superar una prueba de Técnica para ver si todo ha salido bien. En caso afirmativo, la miniatura Abatida podrá volver a entrar en juego a partir de su Turno de acción siguiente, pero aplicando un penalizador -1 a sus atributos físicos (Agilidad, Fuerza y Dureza) por el trauma sufrido y la debilidad causada por sus heridas, golpes o pérdida de sangre. Sólo será posible realizar un intento de reanimar a cada miniatura abatida; si falla, los Sanitarios no sabrán atajar las heridas de la miniatura y preferirán no seguir intentándolo para no empeorar la cosa.</description>
+                  <description>Una miniatura equipada con un botiquín puede intentar parchear a una miniatura Abatida aliada, para que siga luchando un poco más. La miniatura con el botiquín tendrá que ponerse en contacto con la miniatura Abatida, gastar una Acción para curarle las heridas más graves y deberá tirarse un dado en la siguiente tabla:
+
+1: La miniatura está más allá de toda recuperacióny no solo no se recupera sino que no podrá volver a utilizarse un botiquin sobre ella en toda la partida
+2-3: La miniatura no consigue reanimarse, pero podrás volver a intentarlo usando más veces el botiquín.
+4-8: La miniatura abatida podrá volver a entrar en juego a partir de sui Turno siguiente, pero aplicando un penalizador -2 a sus atributos físicos (Agilidad, Fuerza y Dureza) por el trauma sufrido y la debilidad causada por sus heridas, golpes o pérdida de sangre.
+9-10: La miniatura abatida podrá volver a entrar en juego a partirr de su Turno de Acción siguiente con sus atributos intactos. </description>
                 </rule>
               </rules>
               <costs>
@@ -374,6 +379,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0abe-aab7-00a3-2f9c" name="Mariscal" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4b8a-04ec-c18f-f692" type="max"/>
+      </constraints>
       <profiles>
         <profile id="bacc-c2b1-72e1-b10b" name="Mariscal" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
           <characteristics>
@@ -391,6 +399,9 @@
       <rules>
         <rule id="e6c4-6535-9532-4c0a" name="Cadena de mando" hidden="false">
           <description>El Mariscal puede impartir órdenes con su walkie-talkie a cualquier otra miniatura de su banda que esté equipada también con uno de estos artilugios. Al hacerlo, le cederá una de sus Acciones para ese Turno de acción, que deberá realizar de inmediato nada más recibir la orden. La Acción de activar el walkie-talkie es la misma que se cede a la otra miniatura, por lo que el Mariscal podrá utilizar esta Regla especial hasta tres veces en su Turno (en cuyo caso él mismo se quedaría sin hacer nada más que hablar por el walkie). No se pueden dar dos órdenes a la misma miniatura en el mismo Turno de acción (es decir, no se pueden ceder dos Acciones adicionales a la misma miniatura en un solo Turno).</description>
+        </rule>
+        <rule id="78a3-1590-14af-ccaf" name="Ego Chcrut" hidden="false">
+          <description>Solo puede haber un mariscal en cada banda del V reich</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -640,6 +651,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="f53a-3464-4871-6e83" name="Casco Rojo" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="050a-1d23-ef7f-b43d" type="max"/>
+      </constraints>
       <profiles>
         <profile id="9532-c702-a74c-4504" name="Casco Rojo" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
           <characteristics>

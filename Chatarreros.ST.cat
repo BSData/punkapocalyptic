@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c703-ae2f-fd22-36ec" name="Chatarreros" revision="19" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c703-ae2f-fd22-36ec" name="Chatarreros" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="4b39-0f8a-b45f-abae" name="Sonda" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -46,6 +46,14 @@
                 <entryLink id="72af-a024-2d6e-1fc7" name="Balas apañadas" hidden="false" collective="false" import="true" targetId="6fa6-feaf-375d-957b" type="selectionEntry">
                   <costs>
                     <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="59f2-a894-bd2a-0ff4" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="23cc-1165-8e63-7492" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -191,6 +199,14 @@
                     <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
                   </costs>
                 </entryLink>
+                <entryLink id="e839-3d44-0987-714e" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="246b-257b-ee18-13f8" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
@@ -209,6 +225,14 @@
                 <entryLink id="d7b6-59ae-e3c8-d96b" name="Balas apañadas" hidden="false" collective="false" import="true" targetId="6fa6-feaf-375d-957b" type="selectionEntry">
                   <costs>
                     <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="aad0-b324-a6cc-80b7" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5104-119b-9cd9-7e38" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>
@@ -322,6 +346,14 @@
                     <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
                   </costs>
                 </entryLink>
+                <entryLink id="5461-34fd-2386-5a24" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="78f5-6c96-9015-0e67" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
@@ -340,6 +372,14 @@
                 <entryLink id="dd72-e4af-efe9-9eab" name="Balas apañadas" hidden="false" collective="false" import="true" targetId="6fa6-feaf-375d-957b" type="selectionEntry">
                   <costs>
                     <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="df9a-fa3b-9f02-7aac" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e540-847e-e088-c4db" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
                   </costs>
                 </entryLink>
               </entryLinks>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fab7-8d9f-25c5-73bc" name="Punkapocalyptic (by SergioTemp)" revision="27" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fab7-8d9f-25c5-73bc" name="Punkapocalyptic (by SergioTemp)" revision="29" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="6ba6-290e-2003-241d" name="Puntos" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -596,13 +596,10 @@ o tirar una bomba) o gaste 1 Acción en vaciar la presión del arma. Además, si
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9bf8-56b9-fb1d-71a8" type="max"/>
           </constraints>
-          <costs>
-            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
-          </costs>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e215-f416-9c82-4310" name="Bomba Incendiaria" hidden="false" collective="false" import="true" type="upgrade">
@@ -1656,11 +1653,6 @@ Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo qu
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf1d-e787-3a39-687e" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="54be-4ce5-4cef-9c0e" name="Balas" hidden="false" collective="false" import="true" targetId="25da-dbee-5744-9a80" type="selectionEntry">
-              <costs>
-                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-              </costs>
-            </entryLink>
             <entryLink id="0a9d-2d4b-3c9b-edd5" name="Mira telescópica" hidden="false" collective="false" import="true" targetId="2ed0-104f-98ae-e4bf" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="851c-a18a-f011-319f" type="max"/>
@@ -1934,6 +1926,10 @@ Pero llevar ese combustible encima es peligroso, así que si una miniatura con u
       </costs>
     </selectionEntry>
     <selectionEntry id="a0c2-5530-e994-f264" name="Lanzallamas" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="31df-e074-8395-1087" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4681-066e-abe1-3a74" type="max"/>
+      </constraints>
       <profiles>
         <profile id="db19-070c-2af8-1e52" name="Lanzallamas" hidden="false" typeId="7089-c608-3647-16e3" typeName="Armas a distancia">
           <characteristics>
@@ -2724,8 +2720,8 @@ sola tirada enfrentada con un atributo de Combate de 4 (1 de base + 3 por contar
       <description>Un arma con esta regla especial estará oxidada y mellada, por lo que sufrirá un penalizador de -1 a su Penetración.</description>
     </rule>
     <rule id="360a-2d15-a3ee-e55f" name="Humo" hidden="false">
-      <description>cuando un arma esta regla impacte, dejará un marcador de humo de 5 cm de radio, medido desde el punto de impacto.
-Los disparos cuya línea de visión pasen sobre este marcador sufrirán un penalizador de -2 a la tirada de Precisión. Este marcador será retirado en el Turno de Juego siguiente, al finalizar la misma Ronda de Agilidad en la que se lanzó.
+      <description>Cuando un arma esta regla impacte, dejará un marcador de humo de 5 cm de radio, medido desde el punto de impacto.
+Los disparos cuya línea de visión pasen sobre este marcador sufrirán un penalizador de -3 a la tirada de Precisión. Este marcador será permanente. Toda miniatura que atraviese un marcador de humo durante un Asalto perderá todos los bonificadores al Combate. 
 Por ejemplo, un Dinamo lanza una bomba de humo en la ronda de Agilidad 3, por lo que el marcador de la bomba permanecerá sobre la mesa de juego hasta finalizar la Ronda de Agilidad 3 del Turno de juego siguiente.</description>
     </rule>
     <rule id="553e-d8db-0834-40db" name="Ignífugo" hidden="false">

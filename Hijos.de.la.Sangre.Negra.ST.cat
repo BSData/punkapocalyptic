@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0b4d-07e4-2e55-ecf7" name="Hijos de la Sangre Negra" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0b4d-07e4-2e55-ecf7" name="Hijos de la Sangre Negra" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8be9-4540-8142-22ab" name="Ceniza" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -78,6 +78,16 @@
               </costs>
             </entryLink>
             <entryLink id="5932-8dd1-6994-d90f" name="Pistola" hidden="false" collective="false" import="true" targetId="eb59-93d0-ab75-4c88" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="126f-1882-9fc3-a283" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="98ae-59c6-f035-e7a5" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
@@ -152,7 +162,6 @@
         <selectionEntryGroup id="0c02-e4dd-c53e-81f8" name="Armas" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="377f-1c81-06e0-233b" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c35c-7909-7e49-f95b" type="min"/>
           </constraints>
           <entryLinks>
             <entryLink id="9e97-30f3-c6a9-0489" name="Filo pequeño" hidden="false" collective="false" import="true" targetId="d661-b37c-29d0-a025" type="selectionEntry">
@@ -268,6 +277,16 @@
               </costs>
             </entryLink>
             <entryLink id="248b-47db-cd41-1e44" name="Pistola" hidden="false" collective="false" import="true" targetId="eb59-93d0-ab75-4c88" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="90f5-4ade-ad2f-f1f0" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="08f4-d3c0-d380-f515" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
@@ -278,6 +297,16 @@
               </costs>
             </entryLink>
             <entryLink id="833a-1635-c46d-dbe9" name="Escopeta" hidden="false" collective="false" import="true" targetId="e428-2fd2-6b4d-1344" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="350c-1481-e47a-1289" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="df9e-5f83-08ee-98b2" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
               </costs>
@@ -310,10 +339,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="df17-e6b7-de32-94b9" name="Chispa" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="47dc-8794-83f2-2f15" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0ba9-669c-a62f-9e93" type="min"/>
-      </constraints>
       <profiles>
         <profile id="5d2c-6239-3a9b-02be" name="Chispa" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
           <characteristics>
@@ -386,6 +411,10 @@
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="6d1f-9f58-093b-2df7" name="Armas" page="" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8821-2a95-5d9e-2133" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1823-f48a-7053-2763" type="max"/>
+          </constraints>
           <entryLinks>
             <entryLink id="f94d-c032-80c8-ba49" name="Filo pequeño" hidden="false" collective="false" import="true" targetId="d661-b37c-29d0-a025" type="selectionEntry">
               <costs>
@@ -408,6 +437,16 @@
               </costs>
             </entryLink>
             <entryLink id="77dd-78f2-dd14-3da6" name="Pistola" hidden="false" collective="false" import="true" targetId="eb59-93d0-ab75-4c88" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="948e-c8a1-0186-2a83" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1659-c3dd-1e7c-3c53" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
@@ -420,6 +459,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8362-5c4e-b756-74e0" name="Guardián de la llama" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="568a-cb47-fa25-4221" type="max"/>
+      </constraints>
       <profiles>
         <profile id="449f-f372-bb5f-9a4f" name="Guardián de la llama" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
           <characteristics>

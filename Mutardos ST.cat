@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8d35-5bbf-09f3-40dd" name="Mutardos" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8d35-5bbf-09f3-40dd" name="Mutardos" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>Para poder añadir pochos a tu lista primero debes de añadir el cabezón.</comment>
   <selectionEntries>
     <selectionEntry id="febe-c0be-be8d-766d" name="Cabezón" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -31,6 +32,56 @@
       <categoryLinks>
         <categoryLink id="35b3-f970-191c-ba9b" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="33e0-cb9f-2849-71fb" name="Grupo de pochos" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aa48-6291-0f85-3fe2" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="be99-a962-8c27-300a" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="5148-e790-cf52-fad9" name="Pocho" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad48-3f4e-55ba-23da" type="min"/>
+                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea69-5c50-4f08-cfc4" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="75c4-604c-9cfd-fe74" name="Pocho" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+                  <characteristics>
+                    <characteristic name="Acciones" typeId="35d2-a478-8824-fda4">1</characteristic>
+                    <characteristic name="Combate" typeId="a021-1c6d-e7d6-39ea">1</characteristic>
+                    <characteristic name="Precisión" typeId="9d88-57a7-635e-3622">-</characteristic>
+                    <characteristic name="Agilidad" typeId="e0a4-9656-26d9-6a44">1</characteristic>
+                    <characteristic name="Fuerza" typeId="26a4-4364-5085-5f30">2</characteristic>
+                    <characteristic name="Dureza" typeId="ee78-dafb-2dc2-a52a">2</characteristic>
+                    <characteristic name="Técnica" typeId="8422-cbe6-6791-4a35">-</characteristic>
+                    <characteristic name="Reglas especiales" typeId="16f0-630c-2894-4e0b"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="26ca-8d39-4d62-8a1f" name="Grupal" hidden="false" targetId="8c0f-35c4-4745-cfb6" type="rule"/>
+                <infoLink id="a9f0-8c6a-3169-a9ea" name="Monguer" hidden="false" targetId="d8a8-7586-0a64-2537" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="7923-0515-ff69-c99b" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+              </categoryLinks>
+              <entryLinks>
+                <entryLink id="8574-e6f3-88e1-8238" name="Garras y dientes" hidden="false" collective="false" import="true" targetId="60c8-413b-fbde-6088" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c1a-5830-a898-638b" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e7d-f0b5-4951-5584" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="6ea4-cc19-fc85-53e7" name="Armas" hidden="false" collective="false" import="true">
           <entryLinks>
@@ -432,40 +483,6 @@
       </entryLinks>
       <costs>
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="30.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0c11-02bf-4b1b-5b1e" name="Pocho" hidden="false" collective="false" import="true" type="unit">
-      <profiles>
-        <profile id="76bd-2957-af98-ff4b" name="Pocho" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
-          <characteristics>
-            <characteristic name="Acciones" typeId="35d2-a478-8824-fda4">1</characteristic>
-            <characteristic name="Combate" typeId="a021-1c6d-e7d6-39ea">1</characteristic>
-            <characteristic name="Precisión" typeId="9d88-57a7-635e-3622">-</characteristic>
-            <characteristic name="Agilidad" typeId="e0a4-9656-26d9-6a44">1</characteristic>
-            <characteristic name="Fuerza" typeId="26a4-4364-5085-5f30">2</characteristic>
-            <characteristic name="Dureza" typeId="ee78-dafb-2dc2-a52a">2</characteristic>
-            <characteristic name="Técnica" typeId="8422-cbe6-6791-4a35">-</characteristic>
-            <characteristic name="Reglas especiales" typeId="16f0-630c-2894-4e0b"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="a303-533f-bf14-ebe1" name="Grupal" hidden="false" targetId="8c0f-35c4-4745-cfb6" type="rule"/>
-        <infoLink id="7888-e70e-feb2-1c81" name="Monguer" hidden="false" targetId="d8a8-7586-0a64-2537" type="rule"/>
-      </infoLinks>
-      <categoryLinks>
-        <categoryLink id="bef0-aa46-aa36-fc9b" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="2c54-85bd-5fb3-8766" name="Garras y dientes" hidden="false" collective="false" import="true" targetId="60c8-413b-fbde-6088" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b584-952f-1f46-8d30" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8f0-190d-ac17-ba58" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bcf6-6502-5adf-e129" name="Perromorfo" hidden="false" collective="false" import="true" type="unit">
