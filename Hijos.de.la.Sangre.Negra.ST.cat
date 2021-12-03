@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0b4d-07e4-2e55-ecf7" name="Hijos de la Sangre Negra" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0b4d-07e4-2e55-ecf7" name="Hijos de la Sangre Negra" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8be9-4540-8142-22ab" name="Ceniza" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -653,7 +653,7 @@ Pero llevar ese combustible encima es peligroso, así que si una miniatura con u
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="100.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6150-14aa-30f4-3ed6" name="Momma Nutritora" hidden="false" collective="false" import="true" type="unit">
@@ -697,7 +697,7 @@ Pero llevar ese combustible encima es peligroso, así que si una miniatura con u
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="50.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="43b4-8566-b237-622a" name="Gato Amargado" hidden="false" collective="false" import="true" type="upgrade">
@@ -738,11 +738,6 @@ Pero llevar ese combustible encima es peligroso, así que si una miniatura con u
     <entryLink id="41c8-61f3-ce2c-c097" name="Crazy Mel" hidden="false" collective="false" import="true" targetId="0a14-7ef7-d9b3-4f7e" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="91f9-f651-03eb-8d13" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="3d75-1773-d266-4290" name="Crazy Mel" hidden="false" collective="false" import="true" targetId="0a14-7ef7-d9b3-4f7e" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="1e83-2ef6-04aa-bb67" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3361-6135-6343-96f9" name="Imperatrix Rabiosa" hidden="false" collective="false" import="true" targetId="5489-a5be-4e7b-0a5a" type="selectionEntry">

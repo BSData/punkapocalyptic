@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1830-0e8f-8c44-e0b3" name="V Reich" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1830-0e8f-8c44-e0b3" name="V Reich" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e549-1dc4-7320-8282" name="Soldat" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -647,7 +647,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="45.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="40.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f53a-3464-4871-6e83" name="Casco Rojo" hidden="false" collective="false" import="true" type="unit">
@@ -723,7 +723,7 @@ por +15 puntos, obteniendo un bonificador de +1 al Combate y la Agilidad.</descr
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="95.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d89-a50f-c615-85c5" name="Gato Amargado" hidden="false" collective="false" import="true" type="upgrade">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fab7-8d9f-25c5-73bc" name="Punkapocalyptic (by SergioTemp)" revision="29" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fab7-8d9f-25c5-73bc" name="Punkapocalyptic (by SergioTemp)" revision="31" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="6ba6-290e-2003-241d" name="Puntos" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -893,7 +893,7 @@ CaC: 5</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="70.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="df79-b048-3226-d7ac" name="Cachas" hidden="false" collective="false" import="true" type="upgrade">
@@ -1611,7 +1611,7 @@ Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo qu
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="55.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5489-a5be-4e7b-0a5a" name="Imperatrix Rabiosa" hidden="false" collective="false" import="true" type="unit">
