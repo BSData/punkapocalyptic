@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="7383-5848-e504-52dd" name="Mutardos Modo Campaña" revision="3" battleScribeVersion="2.03" authorName="Sergio Temp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="b8c5-29b4-9dc8-3180" name="Cabezón" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b990-f893-a0af-19dc" name="Cabezón" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Miembros de la banda">
+          <characteristics>
+            <characteristic name="Acciones" typeId="f14c-8c62-3924-24b5">3</characteristic>
+            <characteristic name="Combate" typeId="3b03-18c1-aead-aafc">1</characteristic>
+            <characteristic name="Precisión" typeId="b1c3-49d4-4685-2af0">3</characteristic>
+            <characteristic name="Agilidad" typeId="03c7-d7e3-e7a0-5bcd">2</characteristic>
+            <characteristic name="Fuerza" typeId="9a30-2d6d-23f3-09bf">2</characteristic>
+            <characteristic name="Dureza" typeId="8dcb-9d42-33c3-6780">2</characteristic>
+            <characteristic name="Técnica" typeId="2d20-68cf-31bc-f581">4</characteristic>
+            <characteristic name="Reglas especiales" typeId="d7ef-e58d-d8a2-7b55"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="61a0-c867-3ea8-3ca6" name="New CategoryLink" hidden="false" targetId="c992-abb7-5e65-4ae2" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5079-cc43-a950-df31" name="Habilidades" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="f2eb-0b6c-a9df-c880" name="+1 Agilidad" hidden="false" collective="false" import="true" targetId="feff-2839-91dc-2313" type="selectionEntry"/>
+            <entryLink id="8c22-fed5-b3ec-b678" name="+1 Combate" hidden="false" collective="false" import="true" targetId="3b55-becb-7c9e-d250" type="selectionEntry"/>
+            <entryLink id="a4ad-fdd4-0fa8-e4d5" name="+1 Dureza" hidden="false" collective="false" import="true" targetId="8fb6-84e4-c2cd-af13" type="selectionEntry"/>
+            <entryLink id="8dc5-9e45-ee04-2a92" name="+1 Fuerza" hidden="false" collective="false" import="true" targetId="2c12-51ab-91c1-e84f" type="selectionEntry"/>
+            <entryLink id="cab9-e2a8-4a9e-ac8b" name="+1 Precisión" hidden="false" collective="false" import="true" targetId="a30c-a04f-6793-3379" type="selectionEntry"/>
+            <entryLink id="73c6-dfc7-e20f-f18e" name="+1 Técnica" hidden="false" collective="false" import="true" targetId="7cad-6c84-982b-46c7" type="selectionEntry"/>
+            <entryLink id="1846-e71b-03fd-0547" name="Acaparador" hidden="false" collective="false" import="true" targetId="3f80-491d-1bab-2fb5" type="selectionEntry"/>
+            <entryLink id="2995-b2ac-6867-70b6" name="Afortunado" hidden="false" collective="false" import="true" targetId="6fcb-4eaf-15df-2793" type="selectionEntry"/>
+            <entryLink id="a834-b9b2-cea5-d4d0" name="Ágil" hidden="false" collective="false" import="true" targetId="0359-f777-38c8-f928" type="selectionEntry"/>
+            <entryLink id="93c9-7d7a-bda4-046f" name="Atleta" hidden="false" collective="false" import="true" targetId="9d30-0288-4ef4-971c" type="selectionEntry"/>
+            <entryLink id="77db-bed6-cd27-39be" name="Churruscado" hidden="false" collective="false" import="true" targetId="351d-f1e4-5a45-9271" type="selectionEntry"/>
+            <entryLink id="c9f6-031b-90ee-19ba" name="Gallina" hidden="false" collective="false" import="true" targetId="4915-95e3-c5d8-74cc" type="selectionEntry"/>
+            <entryLink id="cd57-1f63-854a-91b9" name="Escurridizo" hidden="false" collective="false" import="true" targetId="68ac-3733-32bb-6fec" type="selectionEntry"/>
+            <entryLink id="6b8a-0f24-428e-a7ec" name="Pagafantas" hidden="false" collective="false" import="true" targetId="daa5-910a-41c8-ab27" type="selectionEntry"/>
+            <entryLink id="3438-b2ee-1ef8-4cb5" name="Irrompible" hidden="false" collective="false" import="true" targetId="e2fc-7cb2-ff00-f915" type="selectionEntry"/>
+            <entryLink id="3f30-22e9-3669-4f38" name="Loco" hidden="false" collective="false" import="true" targetId="f313-69b6-3ac8-5ff0" type="selectionEntry"/>
+            <entryLink id="6eb0-9991-51db-48df" name="Molón" hidden="false" collective="false" import="true" targetId="8c39-ae2f-954a-e877" type="selectionEntry"/>
+            <entryLink id="f38d-136e-3734-a0dc" name="Ojeriza" hidden="false" collective="false" import="true" targetId="5ce7-0ad8-1f68-5006" type="selectionEntry"/>
+            <entryLink id="94c1-336f-b20b-772c" name="Predestinado" hidden="false" collective="false" import="true" targetId="52ed-fedf-86de-41e5" type="selectionEntry"/>
+            <entryLink id="2763-c66e-e87b-1dfb" name="Sádico" hidden="false" collective="false" import="true" targetId="6652-9c59-5563-8401" type="selectionEntry"/>
+            <entryLink id="9dfe-063b-e1a5-d4b9" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
+            <entryLink id="d656-02fa-2ed7-4a88" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
+            <entryLink id="bddf-0b84-6a2e-5972" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="60e2-efb3-71ec-ef25" name="Mutaciones" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="21ab-0635-d031-a88b" name="Cachas" hidden="false" collective="false" import="true" targetId="6067-a371-1224-941b" type="selectionEntry"/>
+            <entryLink id="6668-15c8-3aff-1b16" name="Capacitado" hidden="false" collective="false" import="true" targetId="7404-41bc-3970-3d36" type="selectionEntry"/>
+            <entryLink id="dee1-c363-2461-5627" name="Carga brutal" hidden="false" collective="false" import="true" targetId="b2cb-807b-4aa8-16c8" type="selectionEntry"/>
+            <entryLink id="f24a-03bc-3232-ceb0" name="Cola afilada" hidden="false" collective="false" import="true" targetId="e644-7d79-55eb-80e6" type="selectionEntry"/>
+            <entryLink id="559b-79cf-7511-65fd" name="Corredor" hidden="false" collective="false" import="true" targetId="7c35-01e7-39e9-92a1" type="selectionEntry"/>
+            <entryLink id="33b3-e658-4925-83cf" name="Espinas" hidden="false" collective="false" import="true" targetId="9760-05c1-3e27-6828" type="selectionEntry"/>
+            <entryLink id="52ae-b71d-91f1-304e" name="Esputo ácido" hidden="false" collective="false" import="true" targetId="ec6d-7fdc-b1dc-1b19" type="selectionEntry"/>
+            <entryLink id="d422-7d5b-e30f-b64c" name="Extremidad prensil" hidden="false" collective="false" import="true" targetId="2d85-b303-df29-3946" type="selectionEntry"/>
+            <entryLink id="2169-fa50-41d9-3e7d" name="Garras" hidden="false" collective="false" import="true" targetId="c83e-e2a1-3e99-0007" type="selectionEntry"/>
+            <entryLink id="7c9d-6ddb-9ce3-8ee5" name="Garras envenenadas" hidden="false" collective="false" import="true" targetId="378d-01c2-fd64-cb36" type="selectionEntry"/>
+            <entryLink id="9fd8-dda8-7d3e-62e6" name="Miembros extra" hidden="false" collective="false" import="true" targetId="c0c0-ff9f-ab6f-917f" type="selectionEntry"/>
+            <entryLink id="09ba-71c0-3777-d6d3" name="Mimetismo" hidden="false" collective="false" import="true" targetId="b4b3-ed5e-9512-f646" type="selectionEntry"/>
+            <entryLink id="add0-a5d2-6741-091c" name="Pegajoso" hidden="false" collective="false" import="true" targetId="33c1-4370-55cb-4b67" type="selectionEntry"/>
+            <entryLink id="fbe1-a32a-74ed-324d" name="Piel dura 1" hidden="false" collective="false" import="true" targetId="9159-4fa1-526f-3464" type="selectionEntry"/>
+            <entryLink id="b834-66de-77a7-177c" name="Piel dura 3" hidden="false" collective="false" import="true" targetId="9ba4-12b6-052f-3a9d" type="selectionEntry"/>
+            <entryLink id="3b6f-7fad-eeca-5f8c" name="Piel dura 5" hidden="false" collective="false" import="true" targetId="7a6b-5a7a-81ee-994f" type="selectionEntry"/>
+            <entryLink id="1042-e078-805e-2e30" name="Piernas seguras" hidden="false" collective="false" import="true" targetId="8edc-6ca6-6517-2ffd" type="selectionEntry"/>
+            <entryLink id="da8d-04ac-666a-9f0f" name="Proyectil orgánico" hidden="false" collective="false" import="true" targetId="55a1-ccf6-4e4c-3e5f" type="selectionEntry"/>
+            <entryLink id="34ea-0c55-393f-ab1c" name="Rana" hidden="false" collective="false" import="true" targetId="db5f-c80b-1139-0be6" type="selectionEntry"/>
+            <entryLink id="18f1-733b-d5c9-793d" name="Resistente" hidden="false" collective="false" import="true" targetId="a2d7-8b02-7c1f-a69a" type="selectionEntry"/>
+            <entryLink id="3267-1ae3-c543-9d5b" name="Resonancia psíquica" hidden="false" collective="false" import="true" targetId="7a12-f32c-248a-56da" type="selectionEntry"/>
+            <entryLink id="8fd8-df4e-92cd-cc8f" name="Sentidos agudizados" hidden="false" collective="false" import="true" targetId="473c-53dd-b037-96f2" type="selectionEntry"/>
+            <entryLink id="c2a9-4399-346a-be2e" name="Sónar" hidden="false" collective="false" import="true" targetId="43d1-8ea0-8ec0-6fbe" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2367-6bc2-8453-e105" name="Poderes" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="f7cc-c47c-fd04-23e3" name="Barrera psíquica" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cc71-a4bb-fd31-407d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ba49-7e7f-181e-676f" name="Choque mental" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5d09-0039-f7b1-be68" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ad62-c274-0a69-8b9c" name="Desarme" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4373-140f-9a40-34eb" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d180-fe15-25cc-1ea2" name="Potenciación" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="61c8-8c83-b743-6297" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e7c6-03dc-5bec-a0d8" name="Titiritero" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="97c4-2e56-758f-6ddd" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e6e9-987a-46f3-c9b6" name="PX" hidden="false" collective="false" import="true" targetId="26aa-9c6c-11cf-e0ad" type="selectionEntry">
+          <costs>
+            <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="1.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="60.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4dbc-d48b-a607-58ba" name="Mutardo" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8eb6-ab78-3e20-eee8" name="Mutardo" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Miembros de la banda">
+          <characteristics>
+            <characteristic name="Acciones" typeId="f14c-8c62-3924-24b5">2</characteristic>
+            <characteristic name="Combate" typeId="3b03-18c1-aead-aafc">3</characteristic>
+            <characteristic name="Precisión" typeId="b1c3-49d4-4685-2af0">3</characteristic>
+            <characteristic name="Agilidad" typeId="03c7-d7e3-e7a0-5bcd">3</characteristic>
+            <characteristic name="Fuerza" typeId="9a30-2d6d-23f3-09bf">3</characteristic>
+            <characteristic name="Dureza" typeId="8dcb-9d42-33c3-6780">3</characteristic>
+            <characteristic name="Técnica" typeId="2d20-68cf-31bc-f581">3</characteristic>
+            <characteristic name="Reglas especiales" typeId="d7ef-e58d-d8a2-7b55"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="7aec-ead4-2f68-f4ed" name="New CategoryLink" hidden="false" targetId="c992-abb7-5e65-4ae2" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="92a3-d6d0-bf9e-b30a" name="Habilidades" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="59c6-8667-95c5-82da" name="Megamutante" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="1eac-aad0-2187-ba4a" name="Megamutante" hidden="false">
+                  <description>Esta miniatura debe adquirir 2 mutaciones tirando dos veces en su tabla. Una miniatura puede adquirir más de una vez esta habilidad.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4b64-3906-cbe5-89b5" name="Guapetón" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="bad8-ba6d-220c-48ed" name="Guapetón" hidden="false">
+                  <description>Esta miniatura no tiene sus mutaciones a la vista y puede hacerse pasar por una persona normal. Puede adquirir equipo de la lista de los Pandilleros, pero sólo él podrá equiparse con este.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="07f7-075f-9862-127d" name="+1 Agilidad" hidden="false" collective="false" import="true" targetId="feff-2839-91dc-2313" type="selectionEntry"/>
+            <entryLink id="9089-4042-4686-efe9" name="+1 Combate" hidden="false" collective="false" import="true" targetId="3b55-becb-7c9e-d250" type="selectionEntry"/>
+            <entryLink id="7249-382f-c91c-8552" name="+1 Dureza" hidden="false" collective="false" import="true" targetId="8fb6-84e4-c2cd-af13" type="selectionEntry"/>
+            <entryLink id="8820-ae47-477e-f4af" name="+1 Fuerza" hidden="false" collective="false" import="true" targetId="2c12-51ab-91c1-e84f" type="selectionEntry"/>
+            <entryLink id="fe8a-9a18-a657-663d" name="+1 Precisión" hidden="false" collective="false" import="true" targetId="a30c-a04f-6793-3379" type="selectionEntry"/>
+            <entryLink id="9c74-8713-3647-ac71" name="+1 Técnica" hidden="false" collective="false" import="true" targetId="7cad-6c84-982b-46c7" type="selectionEntry"/>
+            <entryLink id="bccc-9820-2308-2fff" name="Acaparador" hidden="false" collective="false" import="true" targetId="3f80-491d-1bab-2fb5" type="selectionEntry"/>
+            <entryLink id="7cba-11da-a38c-8946" name="Afortunado" hidden="false" collective="false" import="true" targetId="6fcb-4eaf-15df-2793" type="selectionEntry"/>
+            <entryLink id="db83-b0db-324a-b8e2" name="Ágil" hidden="false" collective="false" import="true" targetId="0359-f777-38c8-f928" type="selectionEntry"/>
+            <entryLink id="c7c4-6776-8616-fb21" name="Atleta" hidden="false" collective="false" import="true" targetId="9d30-0288-4ef4-971c" type="selectionEntry"/>
+            <entryLink id="f88d-b19c-704f-5276" name="Churruscado" hidden="false" collective="false" import="true" targetId="351d-f1e4-5a45-9271" type="selectionEntry"/>
+            <entryLink id="4b76-70b6-d2da-f73e" name="Gallina" hidden="false" collective="false" import="true" targetId="4915-95e3-c5d8-74cc" type="selectionEntry"/>
+            <entryLink id="7a91-0a0a-47c6-4044" name="Escurridizo" hidden="false" collective="false" import="true" targetId="68ac-3733-32bb-6fec" type="selectionEntry"/>
+            <entryLink id="d0a8-4b71-e35c-7304" name="Pagafantas" hidden="false" collective="false" import="true" targetId="daa5-910a-41c8-ab27" type="selectionEntry"/>
+            <entryLink id="ffb1-c16b-50d3-6589" name="Irrompible" hidden="false" collective="false" import="true" targetId="e2fc-7cb2-ff00-f915" type="selectionEntry"/>
+            <entryLink id="0721-b1cb-df2a-6193" name="Loco" hidden="false" collective="false" import="true" targetId="f313-69b6-3ac8-5ff0" type="selectionEntry"/>
+            <entryLink id="c5e1-bd23-6fe8-3a5a" name="Molón" hidden="false" collective="false" import="true" targetId="8c39-ae2f-954a-e877" type="selectionEntry"/>
+            <entryLink id="308c-4936-7a60-b773" name="Ojeriza" hidden="false" collective="false" import="true" targetId="5ce7-0ad8-1f68-5006" type="selectionEntry"/>
+            <entryLink id="7069-b621-ec20-10a6" name="Predestinado" hidden="false" collective="false" import="true" targetId="52ed-fedf-86de-41e5" type="selectionEntry"/>
+            <entryLink id="5c9b-1132-e074-3410" name="Sádico" hidden="false" collective="false" import="true" targetId="6652-9c59-5563-8401" type="selectionEntry"/>
+            <entryLink id="b564-7147-4dfb-7207" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
+            <entryLink id="63bb-83d0-8fc2-34f9" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
+            <entryLink id="4d35-8d0f-5889-e762" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8bfb-78a3-c64b-51c4" name="Mutaciones" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="b811-41d5-7ebf-bdf9" name="Cachas" hidden="false" collective="false" import="true" targetId="6067-a371-1224-941b" type="selectionEntry"/>
+            <entryLink id="91ec-1e9c-ac46-339b" name="Capacitado" hidden="false" collective="false" import="true" targetId="7404-41bc-3970-3d36" type="selectionEntry"/>
+            <entryLink id="5316-b3e4-3bd7-621f" name="Carga brutal" hidden="false" collective="false" import="true" targetId="b2cb-807b-4aa8-16c8" type="selectionEntry"/>
+            <entryLink id="2aa2-7645-efed-cdba" name="Cola afilada" hidden="false" collective="false" import="true" targetId="e644-7d79-55eb-80e6" type="selectionEntry"/>
+            <entryLink id="29c6-3811-eae7-3ab6" name="Corredor" hidden="false" collective="false" import="true" targetId="7c35-01e7-39e9-92a1" type="selectionEntry"/>
+            <entryLink id="eef6-86c7-1c1b-ff27" name="Espinas" hidden="false" collective="false" import="true" targetId="9760-05c1-3e27-6828" type="selectionEntry"/>
+            <entryLink id="93ef-c221-bc0c-4c40" name="Esputo ácido" hidden="false" collective="false" import="true" targetId="ec6d-7fdc-b1dc-1b19" type="selectionEntry"/>
+            <entryLink id="c4a4-0485-8ab1-e065" name="Extremidad prensil" hidden="false" collective="false" import="true" targetId="2d85-b303-df29-3946" type="selectionEntry"/>
+            <entryLink id="35bc-a92c-159b-61d7" name="Garras" hidden="false" collective="false" import="true" targetId="c83e-e2a1-3e99-0007" type="selectionEntry"/>
+            <entryLink id="3d97-d92d-6fee-82be" name="Garras envenenadas" hidden="false" collective="false" import="true" targetId="378d-01c2-fd64-cb36" type="selectionEntry"/>
+            <entryLink id="00ba-b0b9-ad45-0049" name="Miembros extra" hidden="false" collective="false" import="true" targetId="c0c0-ff9f-ab6f-917f" type="selectionEntry"/>
+            <entryLink id="1441-6aac-5b00-30a3" name="Mimetismo" hidden="false" collective="false" import="true" targetId="b4b3-ed5e-9512-f646" type="selectionEntry"/>
+            <entryLink id="d3d9-96ed-3283-33d7" name="Pegajoso" hidden="false" collective="false" import="true" targetId="33c1-4370-55cb-4b67" type="selectionEntry"/>
+            <entryLink id="0ac1-6e17-946a-c6b6" name="Piel dura 1" hidden="false" collective="false" import="true" targetId="9159-4fa1-526f-3464" type="selectionEntry"/>
+            <entryLink id="1c0d-62a6-932f-6b74" name="Piel dura 3" hidden="false" collective="false" import="true" targetId="9ba4-12b6-052f-3a9d" type="selectionEntry"/>
+            <entryLink id="8842-11a9-948b-6d11" name="Piel dura 5" hidden="false" collective="false" import="true" targetId="7a6b-5a7a-81ee-994f" type="selectionEntry"/>
+            <entryLink id="a531-7953-69e9-33ac" name="Piernas seguras" hidden="false" collective="false" import="true" targetId="8edc-6ca6-6517-2ffd" type="selectionEntry"/>
+            <entryLink id="b817-89f4-41f7-56f9" name="Proyectil orgánico" hidden="false" collective="false" import="true" targetId="55a1-ccf6-4e4c-3e5f" type="selectionEntry"/>
+            <entryLink id="bc2a-d735-f004-2d8c" name="Rana" hidden="false" collective="false" import="true" targetId="db5f-c80b-1139-0be6" type="selectionEntry"/>
+            <entryLink id="be66-4e6c-8a7e-6e0e" name="Resistente" hidden="false" collective="false" import="true" targetId="a2d7-8b02-7c1f-a69a" type="selectionEntry"/>
+            <entryLink id="c580-9fc0-e3d8-7260" name="Resonancia psíquica" hidden="false" collective="false" import="true" targetId="7a12-f32c-248a-56da" type="selectionEntry"/>
+            <entryLink id="af9b-b2d8-fd9f-a5ba" name="Sentidos agudizados" hidden="false" collective="false" import="true" targetId="473c-53dd-b037-96f2" type="selectionEntry"/>
+            <entryLink id="6247-ad65-0230-bb32" name="Sónar" hidden="false" collective="false" import="true" targetId="43d1-8ea0-8ec0-6fbe" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="510b-5c6f-3f8f-a315" name="PX" hidden="false" collective="false" import="true" targetId="26aa-9c6c-11cf-e0ad" type="selectionEntry">
+          <costs>
+            <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="1.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="15.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f552-7cdf-d867-cba6" name="Bestia del pozo" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6008-3e4e-12bc-1ca8" name="Bestia del pozo" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Miembros de la banda">
+          <characteristics>
+            <characteristic name="Acciones" typeId="f14c-8c62-3924-24b5">2</characteristic>
+            <characteristic name="Combate" typeId="3b03-18c1-aead-aafc">4</characteristic>
+            <characteristic name="Precisión" typeId="b1c3-49d4-4685-2af0">2</characteristic>
+            <characteristic name="Agilidad" typeId="03c7-d7e3-e7a0-5bcd">2</characteristic>
+            <characteristic name="Fuerza" typeId="9a30-2d6d-23f3-09bf">5</characteristic>
+            <characteristic name="Dureza" typeId="8dcb-9d42-33c3-6780">5</characteristic>
+            <characteristic name="Técnica" typeId="2d20-68cf-31bc-f581">1</characteristic>
+            <characteristic name="Reglas especiales" typeId="d7ef-e58d-d8a2-7b55"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1eb5-c87b-17a1-766c" name="Mónguer" hidden="false" targetId="72ec-7c35-9625-8459" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="76db-18e5-5527-e34e" name="New CategoryLink" hidden="false" targetId="c992-abb7-5e65-4ae2" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="68d7-7f69-eaf6-525f" name="Habilidades" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="4368-450d-c6b3-b1df" name="+1 Agilidad" hidden="false" collective="false" import="true" targetId="feff-2839-91dc-2313" type="selectionEntry"/>
+            <entryLink id="d514-e2e9-b3a4-330a" name="+1 Combate" hidden="false" collective="false" import="true" targetId="3b55-becb-7c9e-d250" type="selectionEntry"/>
+            <entryLink id="45e5-0d92-4029-625f" name="+1 Dureza" hidden="false" collective="false" import="true" targetId="8fb6-84e4-c2cd-af13" type="selectionEntry"/>
+            <entryLink id="fdfd-466a-2f65-7f39" name="+1 Fuerza" hidden="false" collective="false" import="true" targetId="2c12-51ab-91c1-e84f" type="selectionEntry"/>
+            <entryLink id="73c7-85f6-9c89-1285" name="+1 Precisión" hidden="false" collective="false" import="true" targetId="a30c-a04f-6793-3379" type="selectionEntry"/>
+            <entryLink id="42ed-17dd-0edc-379b" name="+1 Técnica" hidden="false" collective="false" import="true" targetId="7cad-6c84-982b-46c7" type="selectionEntry"/>
+            <entryLink id="656e-08a0-5664-0978" name="Acaparador" hidden="false" collective="false" import="true" targetId="3f80-491d-1bab-2fb5" type="selectionEntry"/>
+            <entryLink id="87c6-0e7f-9957-b2fc" name="Afortunado" hidden="false" collective="false" import="true" targetId="6fcb-4eaf-15df-2793" type="selectionEntry"/>
+            <entryLink id="c89f-0666-a046-39b3" name="Ágil" hidden="false" collective="false" import="true" targetId="0359-f777-38c8-f928" type="selectionEntry"/>
+            <entryLink id="93db-b185-ab50-c90a" name="Atleta" hidden="false" collective="false" import="true" targetId="9d30-0288-4ef4-971c" type="selectionEntry"/>
+            <entryLink id="3249-ba9e-42b7-d2e8" name="Churruscado" hidden="false" collective="false" import="true" targetId="351d-f1e4-5a45-9271" type="selectionEntry"/>
+            <entryLink id="9377-7196-f28a-1bc7" name="Gallina" hidden="false" collective="false" import="true" targetId="4915-95e3-c5d8-74cc" type="selectionEntry"/>
+            <entryLink id="6fc7-8a09-7082-cecd" name="Escurridizo" hidden="false" collective="false" import="true" targetId="68ac-3733-32bb-6fec" type="selectionEntry"/>
+            <entryLink id="4684-4dcd-9e6f-1b45" name="Pagafantas" hidden="false" collective="false" import="true" targetId="daa5-910a-41c8-ab27" type="selectionEntry"/>
+            <entryLink id="c0c7-8f8f-5777-fb99" name="Irrompible" hidden="false" collective="false" import="true" targetId="e2fc-7cb2-ff00-f915" type="selectionEntry"/>
+            <entryLink id="6e21-934c-3474-7f7b" name="Loco" hidden="false" collective="false" import="true" targetId="f313-69b6-3ac8-5ff0" type="selectionEntry"/>
+            <entryLink id="9e34-93da-0123-eb14" name="Molón" hidden="false" collective="false" import="true" targetId="8c39-ae2f-954a-e877" type="selectionEntry"/>
+            <entryLink id="ba38-649e-99b8-dc42" name="Ojeriza" hidden="false" collective="false" import="true" targetId="5ce7-0ad8-1f68-5006" type="selectionEntry"/>
+            <entryLink id="15df-6f3f-4c43-597c" name="Predestinado" hidden="false" collective="false" import="true" targetId="52ed-fedf-86de-41e5" type="selectionEntry"/>
+            <entryLink id="cf4f-5c6c-ac21-a3d9" name="Sádico" hidden="false" collective="false" import="true" targetId="6652-9c59-5563-8401" type="selectionEntry"/>
+            <entryLink id="4dc3-9f93-64db-13a1" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
+            <entryLink id="fc28-cd49-f6a3-6469" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
+            <entryLink id="7513-adcb-2634-1ff2" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="16ea-ab34-2b8b-6ef4" name="Mutaciones" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="e74a-5f7e-5de0-9890" name="Cachas" hidden="false" collective="false" import="true" targetId="6067-a371-1224-941b" type="selectionEntry"/>
+            <entryLink id="a4df-7584-3e2d-b411" name="Capacitado" hidden="false" collective="false" import="true" targetId="7404-41bc-3970-3d36" type="selectionEntry"/>
+            <entryLink id="4c0a-bdc4-8e45-43d4" name="Carga brutal" hidden="false" collective="false" import="true" targetId="b2cb-807b-4aa8-16c8" type="selectionEntry"/>
+            <entryLink id="290e-cd09-737b-d985" name="Cola afilada" hidden="false" collective="false" import="true" targetId="e644-7d79-55eb-80e6" type="selectionEntry"/>
+            <entryLink id="df28-0394-6e21-78fd" name="Corredor" hidden="false" collective="false" import="true" targetId="7c35-01e7-39e9-92a1" type="selectionEntry"/>
+            <entryLink id="1d43-3363-ef25-b16e" name="Espinas" hidden="false" collective="false" import="true" targetId="9760-05c1-3e27-6828" type="selectionEntry"/>
+            <entryLink id="b306-315e-34c9-55b0" name="Esputo ácido" hidden="false" collective="false" import="true" targetId="ec6d-7fdc-b1dc-1b19" type="selectionEntry"/>
+            <entryLink id="5987-944d-fd57-e2b8" name="Extremidad prensil" hidden="false" collective="false" import="true" targetId="2d85-b303-df29-3946" type="selectionEntry"/>
+            <entryLink id="6ae2-1948-b461-d2f4" name="Garras" hidden="false" collective="false" import="true" targetId="c83e-e2a1-3e99-0007" type="selectionEntry"/>
+            <entryLink id="85ac-5cd2-8133-be02" name="Garras envenenadas" hidden="false" collective="false" import="true" targetId="378d-01c2-fd64-cb36" type="selectionEntry"/>
+            <entryLink id="2aa5-ab9e-0bb4-d124" name="Miembros extra" hidden="false" collective="false" import="true" targetId="c0c0-ff9f-ab6f-917f" type="selectionEntry"/>
+            <entryLink id="5ed0-cad6-ac33-f52d" name="Mimetismo" hidden="false" collective="false" import="true" targetId="b4b3-ed5e-9512-f646" type="selectionEntry"/>
+            <entryLink id="4010-7f55-d30b-9dc2" name="Pegajoso" hidden="false" collective="false" import="true" targetId="33c1-4370-55cb-4b67" type="selectionEntry"/>
+            <entryLink id="e930-e2c8-d29e-7ac7" name="Piel dura 1" hidden="false" collective="false" import="true" targetId="9159-4fa1-526f-3464" type="selectionEntry"/>
+            <entryLink id="81be-e5f8-693c-030a" name="Piel dura 3" hidden="false" collective="false" import="true" targetId="9ba4-12b6-052f-3a9d" type="selectionEntry"/>
+            <entryLink id="90eb-b660-c581-6df8" name="Piel dura 5" hidden="false" collective="false" import="true" targetId="7a6b-5a7a-81ee-994f" type="selectionEntry"/>
+            <entryLink id="aec0-aba8-9e96-4480" name="Piernas seguras" hidden="false" collective="false" import="true" targetId="8edc-6ca6-6517-2ffd" type="selectionEntry"/>
+            <entryLink id="2ea0-4ca7-f6e1-3ea6" name="Proyectil orgánico" hidden="false" collective="false" import="true" targetId="55a1-ccf6-4e4c-3e5f" type="selectionEntry"/>
+            <entryLink id="efe4-5cfa-5b7c-e6d4" name="Rana" hidden="false" collective="false" import="true" targetId="db5f-c80b-1139-0be6" type="selectionEntry"/>
+            <entryLink id="defe-88d4-d11b-24e8" name="Resistente" hidden="false" collective="false" import="true" targetId="a2d7-8b02-7c1f-a69a" type="selectionEntry"/>
+            <entryLink id="f9cf-8dd0-08af-c4cf" name="Resonancia psíquica" hidden="false" collective="false" import="true" targetId="7a12-f32c-248a-56da" type="selectionEntry"/>
+            <entryLink id="9eb4-e29f-1698-9e03" name="Sentidos agudizados" hidden="false" collective="false" import="true" targetId="473c-53dd-b037-96f2" type="selectionEntry"/>
+            <entryLink id="357d-258c-6fb0-be2d" name="Sónar" hidden="false" collective="false" import="true" targetId="43d1-8ea0-8ec0-6fbe" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ddf8-d691-2575-4d75" name="PX" hidden="false" collective="false" import="true" targetId="26aa-9c6c-11cf-e0ad" type="selectionEntry">
+          <costs>
+            <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="1.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="70.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="447d-d989-3f43-f26e" name="Pocho" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5068-dc20-1ba1-e903" name="Pocho" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Miembros de la banda">
+          <characteristics>
+            <characteristic name="Acciones" typeId="f14c-8c62-3924-24b5">1</characteristic>
+            <characteristic name="Combate" typeId="3b03-18c1-aead-aafc">1</characteristic>
+            <characteristic name="Precisión" typeId="b1c3-49d4-4685-2af0">-</characteristic>
+            <characteristic name="Agilidad" typeId="03c7-d7e3-e7a0-5bcd">1</characteristic>
+            <characteristic name="Fuerza" typeId="9a30-2d6d-23f3-09bf">2</characteristic>
+            <characteristic name="Dureza" typeId="8dcb-9d42-33c3-6780">2</characteristic>
+            <characteristic name="Técnica" typeId="2d20-68cf-31bc-f581">-</characteristic>
+            <characteristic name="Reglas especiales" typeId="d7ef-e58d-d8a2-7b55"/>
+          </characteristics>
+        </profile>
+        <profile id="3da8-914e-5d4e-2bc0" name="Garras y dientes" hidden="false" typeId="050a-68de-8234-0b50" typeName="Armas cuerpo a cuerpo">
+          <characteristics>
+            <characteristic name="Combate" typeId="9164-d66a-0674-403b">0</characteristic>
+            <characteristic name="Fuerza" typeId="fc3a-f531-4588-9421">0</characteristic>
+            <characteristic name="Penetración" typeId="790d-0747-0e5f-2cde">1</characteristic>
+            <characteristic name="Reglas especiales" typeId="b696-3ad4-1d86-c8f5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="31fb-51f0-afe8-37c6" name="Grupal" hidden="false" targetId="6c7d-2db1-b667-6410" type="rule"/>
+        <infoLink id="3fa9-5c7c-e0c6-6e0f" name="Mónguer" hidden="false" targetId="72ec-7c35-9625-8459" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="324b-6304-c71c-bfab" name="New CategoryLink" hidden="false" targetId="c992-abb7-5e65-4ae2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="6.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b443-b2ff-56f3-87c1" name="Perromorfo" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="001b-4851-b17f-8b99" name="Perromorfo" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Miembros de la banda">
+          <characteristics>
+            <characteristic name="Acciones" typeId="f14c-8c62-3924-24b5">2</characteristic>
+            <characteristic name="Combate" typeId="3b03-18c1-aead-aafc">3</characteristic>
+            <characteristic name="Precisión" typeId="b1c3-49d4-4685-2af0">-</characteristic>
+            <characteristic name="Agilidad" typeId="03c7-d7e3-e7a0-5bcd">5</characteristic>
+            <characteristic name="Fuerza" typeId="9a30-2d6d-23f3-09bf">3</characteristic>
+            <characteristic name="Dureza" typeId="8dcb-9d42-33c3-6780">3</characteristic>
+            <characteristic name="Técnica" typeId="2d20-68cf-31bc-f581">-</characteristic>
+            <characteristic name="Reglas especiales" typeId="d7ef-e58d-d8a2-7b55"/>
+          </characteristics>
+        </profile>
+        <profile id="d72d-4cbc-352e-1e7d" name="Garras y dientes" hidden="false" typeId="050a-68de-8234-0b50" typeName="Armas cuerpo a cuerpo">
+          <characteristics>
+            <characteristic name="Combate" typeId="9164-d66a-0674-403b">0</characteristic>
+            <characteristic name="Fuerza" typeId="fc3a-f531-4588-9421">0</characteristic>
+            <characteristic name="Penetración" typeId="790d-0747-0e5f-2cde">1</characteristic>
+            <characteristic name="Reglas especiales" typeId="b696-3ad4-1d86-c8f5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="be0c-a2fd-8519-394f" name="Bestia" hidden="false" targetId="0762-d2fb-8c9a-e6db" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7c79-75a0-7bbc-b9a8" name="New CategoryLink" hidden="false" targetId="c992-abb7-5e65-4ae2" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="47dd-d405-e703-dfc9" name="Habilidades" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="0f3f-25be-02d0-bc04" name="+1 Agilidad" hidden="false" collective="false" import="true" targetId="feff-2839-91dc-2313" type="selectionEntry"/>
+            <entryLink id="447f-c85e-771e-f3e0" name="+1 Combate" hidden="false" collective="false" import="true" targetId="3b55-becb-7c9e-d250" type="selectionEntry"/>
+            <entryLink id="460e-2fe3-16a5-e7ff" name="+1 Dureza" hidden="false" collective="false" import="true" targetId="8fb6-84e4-c2cd-af13" type="selectionEntry"/>
+            <entryLink id="cf6f-a9be-8314-c04e" name="+1 Fuerza" hidden="false" collective="false" import="true" targetId="2c12-51ab-91c1-e84f" type="selectionEntry"/>
+            <entryLink id="7a7c-59a2-9d6e-59d4" name="+1 Precisión" hidden="false" collective="false" import="true" targetId="a30c-a04f-6793-3379" type="selectionEntry"/>
+            <entryLink id="8993-24ee-6bdf-086b" name="+1 Técnica" hidden="false" collective="false" import="true" targetId="7cad-6c84-982b-46c7" type="selectionEntry"/>
+            <entryLink id="d20a-d2bf-60f0-48e2" name="Acaparador" hidden="false" collective="false" import="true" targetId="3f80-491d-1bab-2fb5" type="selectionEntry"/>
+            <entryLink id="b02a-6f74-564a-4490" name="Afortunado" hidden="false" collective="false" import="true" targetId="6fcb-4eaf-15df-2793" type="selectionEntry"/>
+            <entryLink id="0560-f0ec-52b0-a41e" name="Ágil" hidden="false" collective="false" import="true" targetId="0359-f777-38c8-f928" type="selectionEntry"/>
+            <entryLink id="85e5-62ee-f033-64b8" name="Atleta" hidden="false" collective="false" import="true" targetId="9d30-0288-4ef4-971c" type="selectionEntry"/>
+            <entryLink id="67a8-e3a6-da59-b4ce" name="Churruscado" hidden="false" collective="false" import="true" targetId="351d-f1e4-5a45-9271" type="selectionEntry"/>
+            <entryLink id="a88b-2cf0-e559-d4be" name="Gallina" hidden="false" collective="false" import="true" targetId="4915-95e3-c5d8-74cc" type="selectionEntry"/>
+            <entryLink id="20ad-b293-049e-6007" name="Escurridizo" hidden="false" collective="false" import="true" targetId="68ac-3733-32bb-6fec" type="selectionEntry"/>
+            <entryLink id="e671-c5ed-50ff-8d98" name="Pagafantas" hidden="false" collective="false" import="true" targetId="daa5-910a-41c8-ab27" type="selectionEntry"/>
+            <entryLink id="d7b7-1f07-1bb0-f563" name="Irrompible" hidden="false" collective="false" import="true" targetId="e2fc-7cb2-ff00-f915" type="selectionEntry"/>
+            <entryLink id="8665-6fea-0b13-5712" name="Loco" hidden="false" collective="false" import="true" targetId="f313-69b6-3ac8-5ff0" type="selectionEntry"/>
+            <entryLink id="204d-b38b-976a-159a" name="Molón" hidden="false" collective="false" import="true" targetId="8c39-ae2f-954a-e877" type="selectionEntry"/>
+            <entryLink id="fbbc-1408-28a4-7de5" name="Ojeriza" hidden="false" collective="false" import="true" targetId="5ce7-0ad8-1f68-5006" type="selectionEntry"/>
+            <entryLink id="3537-068f-20b0-1ff8" name="Predestinado" hidden="false" collective="false" import="true" targetId="52ed-fedf-86de-41e5" type="selectionEntry"/>
+            <entryLink id="af9e-7413-68c3-2a39" name="Sádico" hidden="false" collective="false" import="true" targetId="6652-9c59-5563-8401" type="selectionEntry"/>
+            <entryLink id="f185-f7a4-98cf-c1e4" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
+            <entryLink id="dfd2-cbac-902e-32e4" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
+            <entryLink id="8267-78e0-b2bc-b7d8" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a655-a019-d356-e08c" name="Mutaciones" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="c2ee-2638-81b9-4094" name="Cachas" hidden="false" collective="false" import="true" targetId="6067-a371-1224-941b" type="selectionEntry"/>
+            <entryLink id="9420-8632-65f0-2070" name="Capacitado" hidden="false" collective="false" import="true" targetId="7404-41bc-3970-3d36" type="selectionEntry"/>
+            <entryLink id="1fec-bd72-f42e-0608" name="Carga brutal" hidden="false" collective="false" import="true" targetId="b2cb-807b-4aa8-16c8" type="selectionEntry"/>
+            <entryLink id="8bc5-a27a-6a12-0ae5" name="Cola afilada" hidden="false" collective="false" import="true" targetId="e644-7d79-55eb-80e6" type="selectionEntry"/>
+            <entryLink id="bb47-af43-e988-a799" name="Corredor" hidden="false" collective="false" import="true" targetId="7c35-01e7-39e9-92a1" type="selectionEntry"/>
+            <entryLink id="968a-e5c1-da9d-19a1" name="Espinas" hidden="false" collective="false" import="true" targetId="9760-05c1-3e27-6828" type="selectionEntry"/>
+            <entryLink id="c2f1-5431-ee21-0e1e" name="Esputo ácido" hidden="false" collective="false" import="true" targetId="ec6d-7fdc-b1dc-1b19" type="selectionEntry"/>
+            <entryLink id="b878-c4a5-95d4-3bce" name="Extremidad prensil" hidden="false" collective="false" import="true" targetId="2d85-b303-df29-3946" type="selectionEntry"/>
+            <entryLink id="09ca-752f-685c-5e34" name="Garras" hidden="false" collective="false" import="true" targetId="c83e-e2a1-3e99-0007" type="selectionEntry"/>
+            <entryLink id="6168-f836-8a58-da8e" name="Garras envenenadas" hidden="false" collective="false" import="true" targetId="378d-01c2-fd64-cb36" type="selectionEntry"/>
+            <entryLink id="f820-493f-3c10-b7ed" name="Miembros extra" hidden="false" collective="false" import="true" targetId="c0c0-ff9f-ab6f-917f" type="selectionEntry"/>
+            <entryLink id="1b1a-c639-37e0-6e1a" name="Mimetismo" hidden="false" collective="false" import="true" targetId="b4b3-ed5e-9512-f646" type="selectionEntry"/>
+            <entryLink id="1816-b9d9-c930-05d0" name="Pegajoso" hidden="false" collective="false" import="true" targetId="33c1-4370-55cb-4b67" type="selectionEntry"/>
+            <entryLink id="97b9-edba-dad5-afc4" name="Piel dura 1" hidden="false" collective="false" import="true" targetId="9159-4fa1-526f-3464" type="selectionEntry"/>
+            <entryLink id="f585-dc89-9e23-221c" name="Piel dura 3" hidden="false" collective="false" import="true" targetId="9ba4-12b6-052f-3a9d" type="selectionEntry"/>
+            <entryLink id="8e65-71ea-8e58-f463" name="Piel dura 5" hidden="false" collective="false" import="true" targetId="7a6b-5a7a-81ee-994f" type="selectionEntry"/>
+            <entryLink id="b70e-4143-2e39-cc75" name="Piernas seguras" hidden="false" collective="false" import="true" targetId="8edc-6ca6-6517-2ffd" type="selectionEntry"/>
+            <entryLink id="25af-0286-ec4b-61f7" name="Proyectil orgánico" hidden="false" collective="false" import="true" targetId="55a1-ccf6-4e4c-3e5f" type="selectionEntry"/>
+            <entryLink id="0c65-4e53-9d2d-4561" name="Rana" hidden="false" collective="false" import="true" targetId="db5f-c80b-1139-0be6" type="selectionEntry"/>
+            <entryLink id="061e-ae3a-3764-828e" name="Resistente" hidden="false" collective="false" import="true" targetId="a2d7-8b02-7c1f-a69a" type="selectionEntry"/>
+            <entryLink id="cc10-6405-38b7-e845" name="Resonancia psíquica" hidden="false" collective="false" import="true" targetId="7a12-f32c-248a-56da" type="selectionEntry"/>
+            <entryLink id="9131-e0c3-e775-2db8" name="Sentidos agudizados" hidden="false" collective="false" import="true" targetId="473c-53dd-b037-96f2" type="selectionEntry"/>
+            <entryLink id="e127-eb5e-897c-c7cd" name="Sónar" hidden="false" collective="false" import="true" targetId="43d1-8ea0-8ec0-6fbe" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="929c-aac7-e75e-c1f9" name="PX" hidden="false" collective="false" import="true" targetId="26aa-9c6c-11cf-e0ad" type="selectionEntry">
+          <costs>
+            <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="1.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="12.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="f5b6-5eea-7e6a-8697" name="Colinas" hidden="false" collective="false" import="true" targetId="2309-94a0-411f-5831" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="68ba-f372-3abc-6ac0" name="New CategoryLink" hidden="false" targetId="c8e1-72a6-80c1-b426" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="be96-c4c0-61d7-a3d9" name="Llanura" hidden="false" collective="false" import="true" targetId="165d-c314-2fb7-f615" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="41b0-758f-ef4f-1458" name="New CategoryLink" hidden="false" targetId="c8e1-72a6-80c1-b426" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f904-a279-01b8-8fc5" name="Valle" hidden="false" collective="false" import="true" targetId="90ea-0e5c-c0cf-b381" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d657-8b8e-fae9-7588" name="New CategoryLink" hidden="false" targetId="c8e1-72a6-80c1-b426" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7176-834a-a2f1-4088" name="Pantano" hidden="false" collective="false" import="true" targetId="1cea-7e37-34ed-5ebb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="92ae-f461-efca-33a2" name="New CategoryLink" hidden="false" targetId="c8e1-72a6-80c1-b426" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d385-5d93-0ec9-fbb9" name="Ruinas" hidden="false" collective="false" import="true" targetId="9050-87c9-15da-666b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4b74-c366-43b3-5208" name="New CategoryLink" hidden="false" targetId="c8e1-72a6-80c1-b426" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0ce9-a431-24ff-f6f9" name="Armeria" hidden="false" collective="false" import="true" targetId="347a-4f90-8d3d-cd03" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bf72-a0f7-7121-d781" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e50d-8e1c-f613-96ba" name="Campo de entrenamiento" hidden="false" collective="false" import="true" targetId="a10e-3f31-51d9-8b06" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f456-0f54-d6db-c3c3" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="edbb-ebc2-7316-a304" name="Centro táctico" hidden="false" collective="false" import="true" targetId="a787-8031-2c5c-7c75" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="19c8-e6eb-a644-01a5" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3fa4-b2a1-5894-1d77" name="Charcas radiactivas" hidden="false" collective="false" import="true" targetId="7aac-f286-03a9-aab0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8f89-e221-0d2a-49df" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4bcf-2105-5a5b-dedd" name="Defensas" hidden="false" collective="false" import="true" targetId="7a51-95c0-a60d-ef15" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a5d1-1e2c-ebfd-d947" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="691d-fd09-be4c-c60c" name="Enfermería " hidden="false" collective="false" import="true" targetId="88be-c9d6-e6de-41a3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b14a-ebaf-d59f-74e9" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ab76-fb2c-8472-0cf1" name="Puesto de venta" hidden="false" collective="false" import="true" targetId="6766-ca07-c144-e1f6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="163e-270e-ca47-7573" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="005c-ca15-f2f4-4bf7" name="Cuchillos arrojadizos" hidden="false" collective="false" import="true" targetId="cc6a-3919-94d6-8d2c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="00e5-95bc-1b21-7ad2" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="3.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="82df-9a65-dcc0-cf34" name="Filo medio " hidden="false" collective="false" import="true" targetId="b311-f0a5-457b-46be" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9af7-72f5-289f-f7f7" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="20.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="773d-3ab1-41f7-23ff" name="Filo pequeño" hidden="false" collective="false" import="true" targetId="5acd-32cd-c603-103b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b0df-6bac-39b2-fe1c" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="4.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="64af-08f4-f968-30e5" name="FIlo pesado" hidden="false" collective="false" import="true" targetId="b4f3-52ac-5acc-4467" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e328-c68f-7e58-8e0b" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="24.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="521b-0c22-eab9-bd15" name="Maza" hidden="false" collective="false" import="true" targetId="9edf-8e6e-27a2-5e4a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b31d-5a76-6c2c-3d3a" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="5.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="40bf-81a9-0109-07c6" name="Maza ligera " hidden="false" collective="false" import="true" targetId="2f4b-e101-83a4-5518" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f3a7-42a4-07fc-2bb3" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="3.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="9e01-0c00-6617-f322" name="Maza pesada" hidden="false" collective="false" import="true" targetId="8272-135d-a41a-cbab" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="69db-f59a-5b7d-1f2d" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="18.0"/>
+      </costs>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="b2cb-807b-4aa8-16c8" name="Carga brutal" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2922-aca1-f0b0-9c8d" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="d692-2e30-3866-d245" name="Carga brutal" hidden="false">
+          <description>El mutardo es capaz de embestir de manera salvaje a la hora de asaltar. Obtiene un bonificador de +1 a la Penetración y Fuerza por cada acción de movimiento en el asalto.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="8e78-c507-562f-18cd" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6067-a371-1224-941b" name="Cachas" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="472c-55c3-f7a4-f0ec" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="4a9e-ced1-6e73-96c0" name="Cachas" hidden="false">
+          <description>El mutardo tiene una fortaleza superior a la normal. Obtiene un bonificador de +2 al atributo de Fuerza.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="63ed-299c-d969-fe8d" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7404-41bc-3970-3d36" name="Capacitado" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f0ad-2b6f-294b-bcfe" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="87bf-2908-08c5-f229" name="Capacitado" hidden="false">
+          <description>El mutardo es más capaz que la mayoría. Obtiene un bonificador de +1 al atributo de Acciones.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="f8fe-fd3d-a496-413e" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e644-7d79-55eb-80e6" name="Cola afilada" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6fca-255c-fc7a-04a5" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="c277-dc64-38cf-5e27" name="Cola afilada" hidden="false">
+          <description>El mutardo posee una cola prensil con la que es capaz de fustigar a su enemigo.Si lo desea, el mutardo puede lanzar UN dado adicional por Turno de Acción en una acción de Combate, que será considerado un ataque con las estadísticas de un filo pequeño (sin que esto cuente como un arma para los límites de equipo), con un penalizador de -1 al Atributo de Combate en el ataque realizado con la cola. Deberá elegir el resultado que más le convenga para su tirada enfrentada de Combate.Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, una miniatura que realice un ataque con bonificadores por carga o Potenciación, podrá beneficiarse de estos en su ataque normal y el realizado con la cola.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="eb2c-0458-5fd4-2f7b" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7c35-01e7-39e9-92a1" name="Corredor" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="591a-d74e-8076-607b" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="c68f-20e2-115d-6a02" name="Corredor" hidden="false">
+          <description>El mutardo tiene unas piernas que le permiten alcanzar gran velocidad. Obtiene la regla especial Raudo.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="5b51-6688-7fdd-06bd" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9760-05c1-3e27-6828" name="Espinas" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="67e4-5ff5-81e9-d2f2" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="70f7-5d15-affe-82cb" name="Espinas" hidden="false">
+          <description>El  mutardo  tiene  una  sucesión  de  espinas  sobre  su  cuerpo  que  puede  expulsar  a  gran  velocidad  sobre  los  enemigos. Puede utilizar una acción para lanzar espinas. Éstas tienen una distancia de 10/20/30, Penetración 3/2/1 y Fuerza 2.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="2f37-5106-ca3b-9cf1" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec6d-7fdc-b1dc-1b19" name="Esputo ácido" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ea70-9fad-68b3-3e79" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="c56c-81b8-8523-87e4" name="Esputo ácido" hidden="false">
+          <description>El mutardo es capaz de escupir una saliva altamente corrosiva. Al asaltar o ser asaltada, una miniatura con esta mutación que no se encuentre ya trabada en Combate cuerpo a cuerpo, puede realizar una acción de disparo gratuita con el siguiente perfil: Penetración 3 y Fuerza 1. Este disparo carece de modificadores por distancia y/o por cobertura, excepto si esta se debe a algún tipo de equipo del rival (como los escudos, por ejemplo) y se resolverá antes de efectuar ningún ataque cuerpo a cuerpo.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="b63b-bdb5-0149-7dfc" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2d85-b303-df29-3946" name="Extremidad prensil" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="323e-a2aa-b3ff-308d" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="276a-7698-b077-1999" name="Extremidad prensil" hidden="false">
+          <description>El mutardo posee una extremidad con una fuerza extraordinaria o ventosas de algún tipo. Una única miniatura enemiga trabada en combate con esta miniatura sufrirá un penalizador de -1 a su tirada de Combate. Además, si esa misma miniatura rival intenta Abandonar el combate sufrirá un penalizador de -1 a su tirada de Agilidad.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="2275-849b-193b-2df1" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c83e-e2a1-3e99-0007" name="Garras" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="621f-8cf0-1d1f-b9d4" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="4d0a-db19-7462-19f6" name="Garras" hidden="false">
+          <description>El  mutardo  posee  Garras  y  dientes  con  las  que  poder  combatir.  No  puede  usarse  junto  con  ninguna  otra  arma.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="0a59-832d-1d6f-6169" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="378d-01c2-fd64-cb36" name="Garras envenenadas" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0ba2-2083-a8f8-03d6" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="1471-b9e1-7a99-39b4" name="Garras envenenadas" hidden="false">
+          <description>El mutardo posee un veneno altamente nocivo. Es igual a la mutación Garras, sólo que los ataques que realice con estas tienen además la regla especial Veneno (2)</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="b09b-7b85-39a7-8424" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c0c0-ff9f-ab6f-917f" name="Miembros extra" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2969-9dd7-35ec-a0a9" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="3c90-0abc-eb88-d7a6" name="Miembros extra" hidden="false">
+          <description>El mutardo tiene algún miembro extra que le permite luchar de manera más precisa. Obtiene un bonificador de +2 al atributo de Combate.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1255-babd-7308-5867" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b4b3-ed5e-9512-f646" name="Mimetismo" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f7c0-60e5-3c1c-cf56" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="27b0-e0b1-b7df-6bd1" name="Mimetismo" hidden="false">
+          <description>El mutardo puede camuflarse de manera asombrosa, quizás porque cambie de color como un camaleón, u otro efecto similar. Obtiene la regla especial Camuflaje.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="e0f4-db49-b5ff-24e1" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="33c1-4370-55cb-4b67" name="Pegajoso" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="18e2-cd59-7171-24e0" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="3adb-0a93-b471-b84d" name="Pegajoso" hidden="false">
+          <description>Este  mutardo  segrega  una  sustancia  adhesiva  por  todo  su  cuerpo.  Esta  miniatura  tiene  la  regla  especial  Trepador y todo rival en contacto peana con peana con ella que trate de Abandonar el combate sufrirá un penalizador de -3 a su tirada de Agilidad.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="5378-b00c-1686-6724" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9159-4fa1-526f-3464" name="Piel dura 1" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="278d-6e3b-4e22-4c64" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="5bdb-05e6-16f5-be4e" name="Piel dura 1" hidden="false">
+          <description>El mutardo tiene una piel correosa que le proporciona Blindaje 1. </description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="52b3-4c27-9deb-f791" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="473c-53dd-b037-96f2" name="Sentidos agudizados" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="10ee-f6dc-a48b-1193" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="8e74-2572-92c0-f5e8" name="Sentidos agudizados" hidden="false">
+          <description>El mutardo posee unos sentidos casi sobrenaturales que le permiten moverse de manera más precisa. Obtiene un bonificador de +2 al atributo de Agilidad.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="746b-dfe0-d3e8-5a34" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="43d1-8ea0-8ec0-6fbe" name="Sónar" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8492-c7af-788a-8d83" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="6167-8715-b5db-8f42" name="Sónar" hidden="false">
+          <description>El mutardo posee la capacidad de situar a sus enemigos en el espacio aunque no tenga línea de visión hacia ellos. El mutardo tiene un radio de visión completo de 360ª (en lugar de los 180ª frontales habituales), además, a la hora de realizar una carga, el mutardo contará como que siempre tiene línea de visión hacia su objetivo al comienzo de todas sus acciones.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1dd6-cb40-e04a-9c3d" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a12-f32c-248a-56da" name="Resonancia psíquica" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="62c5-3994-cabb-3845" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="43da-4b12-7f43-67b3" name="Resonancia psíquica" hidden="false">
+          <description>Este poder mental conlleva una menor merma en el físico de estos mutardos, aunque su principal utilidad es la de ser utilizados como repetidores psiónicos por las psiques superiores de los cabezones.
+
+Un  cabezón  podrá  lanzar  cualquiera  de  sus  poderes  psíquicos  (salvo  Barrera  Psíquica)  sobre  un  mutardo  con  Resonancia  psíquica.  El  poder  podrá  ser  redirigido  inmediatamente,  y  sin  ningún  gasto  adicional  de  acciones hacia otro objetivo, siempre que este esté dentro de las limitaciones de alcance y línea de visión del poder desde el mutardo con Resonancia Psíquica. 
+De esta manera, un cabezón podrá usar potenciación sobre un mutardo con Resonancia Psíquica siempre que este esté dentro del alcance de 30cm, inmediatamente, el jugador mutardo podrá redirigir el poder hacia cualquier miniatura propia a 30cm del mutardo con Resonancia Psíquica. De la misma manera, un cabezón podrá lanzar Choque Mental sobre un mutardo con Resonancia Psíquica a 15cm y en su línea de visión, y redirigirlo inmediatamente hacia cualquier miniatura rival a 15cm y en línea de visión respecto al mutardo con Resonancia Psíquica.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="6b31-1119-ecf7-8afb" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a2d7-8b02-7c1f-a69a" name="Resistente" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0e5e-80bc-935a-2e43" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="241c-2010-c00e-f8b6" name="Resistente" hidden="false">
+          <description>El mutardo tiene una resistencia superior a la normal. Obtiene un bonificador de +2 al atributo de Dureza.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="9087-9f50-240d-723c" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="db5f-c80b-1139-0be6" name="Rana" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dc68-b5f6-a954-9201" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="34a4-6a8e-dda2-09c7" name="Rana" hidden="false">
+          <description>El mutardo posee unas piernas especialmente potentes que le permiten dar unos saltos enormes. Obtiene la regla especial Salto.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="184d-7932-ce83-2f3b" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="55a1-ccf6-4e4c-3e5f" name="Proyectil orgánico" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d957-8e3b-2fd2-b4a3" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="b277-0bb1-15b9-8e3d" name="Proyectil orgánico" hidden="false">
+          <description>El mutado es capaz de proyectar algo muy dañino por sus fauces (o cualquier otro orificio) a una distancia considerable. El único problema es que la anatomía del mutardo no suele tener “munición” para combates prolongados.
+
+Se considera que el mutado posee un Arma a distancia sin rango de distancia larga (sólo tiene Corta y Media) con Alcance 10/20/-, Penetración 4 y Fuerza 3, y las Reglas especiales Postas y ¡¡¡CATAPUM!!!</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="7c6d-57ae-9cf0-3055" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8edc-6ca6-6517-2ffd" name="Piernas seguras" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0d62-ef69-ab96-443d" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="7fc7-ded7-935c-2471" name="Piernas seguras" hidden="false">
+          <description>El  mutardo  tiene  alguna  pierna  extra,  o  son  anormalmente  anchas,  o  tienen  garras  para  fijarse  al  suelo...  Obtiene la regla especial Todoterreno.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="868d-83a3-e4cb-98fe" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a6b-5a7a-81ee-994f" name="Piel dura 5" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1dfd-0606-4efe-6622" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="4f9e-190c-6038-e3d8" name="Piel dura 5" hidden="false">
+          <description>El mutardo tiene una piel correosa que le proporciona Blindaje 5.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="ba11-703d-8bdd-2763" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9ba4-12b6-052f-3a9d" name="Piel dura 3" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2c4c-3995-4a6e-db0a" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="8932-36cd-0d4c-542b" name="Piel dura 3" hidden="false">
+          <description>El mutardo tiene una piel correosa que le proporciona Blindaje 3.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="6e39-bb78-6b18-1ce6" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

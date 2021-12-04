@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="3cdc-accb-b22e-cfd6" name="V Reich Modo Campaña" revision="2" battleScribeVersion="2.03" authorName="Sergio Temp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="0057-f04a-7bae-140f" name="Soldat" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ec93-7545-df19-72b9" name="Soldat" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Miembros de la banda">
+          <characteristics>
+            <characteristic name="Acciones" typeId="f14c-8c62-3924-24b5">2</characteristic>
+            <characteristic name="Combate" typeId="3b03-18c1-aead-aafc">3</characteristic>
+            <characteristic name="Precisión" typeId="b1c3-49d4-4685-2af0">4</characteristic>
+            <characteristic name="Agilidad" typeId="03c7-d7e3-e7a0-5bcd">4</characteristic>
+            <characteristic name="Fuerza" typeId="9a30-2d6d-23f3-09bf">4</characteristic>
+            <characteristic name="Dureza" typeId="8dcb-9d42-33c3-6780">3</characteristic>
+            <characteristic name="Técnica" typeId="2d20-68cf-31bc-f581">3</characteristic>
+            <characteristic name="Reglas especiales" typeId="d7ef-e58d-d8a2-7b55"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3b56-a0b4-bebe-5103" name="New CategoryLink" hidden="false" targetId="c992-abb7-5e65-4ae2" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8527-ba59-b5a4-735e" name="Habilidades" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="c6ee-9b4b-4330-a743" name="Cesar Millán" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5e3c-d6c5-c83f-8947" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="64e3-e1e1-3b6d-67aa" name="Cesar Millán" hidden="false">
+                  <description>Esta miniatura obtendrá un mastín de manera gratuita, que además puede combinarse con otro adquirido de manera habitual</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry id="c2f2-618f-98a2-d0ad" name="Matasanos" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1de4-ff8a-8f23-c16f" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="6a6e-a306-fb13-0693" name="Matasanos" hidden="false">
+                  <description>Esta miniatura obtendrá un bonificador +2 a la técnica a la hora de usar botiquín.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="3c0c-2883-93dc-5f4e" name="+1 Acción" hidden="false" collective="false" import="true" targetId="ecdb-309e-5768-eb7a" type="selectionEntry"/>
+            <entryLink id="8aec-4e36-440d-2b26" name="+1 Agilidad" hidden="false" collective="false" import="true" targetId="feff-2839-91dc-2313" type="selectionEntry"/>
+            <entryLink id="fa44-cb5e-3bde-f605" name="+1 Combate" hidden="false" collective="false" import="true" targetId="3b55-becb-7c9e-d250" type="selectionEntry"/>
+            <entryLink id="397d-bbfd-9927-555c" name="+1 Dureza" hidden="false" collective="false" import="true" targetId="8fb6-84e4-c2cd-af13" type="selectionEntry"/>
+            <entryLink id="bb80-d4bf-2c1f-5624" name="+1 Fuerza" hidden="false" collective="false" import="true" targetId="2c12-51ab-91c1-e84f" type="selectionEntry"/>
+            <entryLink id="6eb5-5c86-ab01-0aa9" name="+1 Precisión" hidden="false" collective="false" import="true" targetId="a30c-a04f-6793-3379" type="selectionEntry"/>
+            <entryLink id="4dfc-f631-1c5d-2cc9" name="+1 Técnica" hidden="false" collective="false" import="true" targetId="7cad-6c84-982b-46c7" type="selectionEntry"/>
+            <entryLink id="740e-2dff-dfa5-4bbe" name="Acaparador" hidden="false" collective="false" import="true" targetId="3f80-491d-1bab-2fb5" type="selectionEntry"/>
+            <entryLink id="4075-fd8c-3109-bd7c" name="Afortunado" hidden="false" collective="false" import="true" targetId="6fcb-4eaf-15df-2793" type="selectionEntry"/>
+            <entryLink id="1d4d-665d-8f8a-3a22" name="Ágil" hidden="false" collective="false" import="true" targetId="0359-f777-38c8-f928" type="selectionEntry"/>
+            <entryLink id="60ab-762b-5dfb-95dc" name="Atleta" hidden="false" collective="false" import="true" targetId="9d30-0288-4ef4-971c" type="selectionEntry"/>
+            <entryLink id="40f8-5d9b-b807-5195" name="Churruscado" hidden="false" collective="false" import="true" targetId="351d-f1e4-5a45-9271" type="selectionEntry"/>
+            <entryLink id="9a13-19d0-3f51-aee1" name="Gallina" hidden="false" collective="false" import="true" targetId="4915-95e3-c5d8-74cc" type="selectionEntry"/>
+            <entryLink id="5eef-b033-88e4-f5de" name="Escurridizo" hidden="false" collective="false" import="true" targetId="68ac-3733-32bb-6fec" type="selectionEntry"/>
+            <entryLink id="a9da-495b-7424-aeff" name="Pagafantas" hidden="false" collective="false" import="true" targetId="daa5-910a-41c8-ab27" type="selectionEntry"/>
+            <entryLink id="e1ce-0105-a957-9c8c" name="Irrompible" hidden="false" collective="false" import="true" targetId="e2fc-7cb2-ff00-f915" type="selectionEntry"/>
+            <entryLink id="e692-f5a0-9202-4ad3" name="Loco" hidden="false" collective="false" import="true" targetId="f313-69b6-3ac8-5ff0" type="selectionEntry"/>
+            <entryLink id="8525-b617-8fda-8870" name="Molón" hidden="false" collective="false" import="true" targetId="8c39-ae2f-954a-e877" type="selectionEntry"/>
+            <entryLink id="0b18-58e1-fb49-1447" name="Ojeriza" hidden="false" collective="false" import="true" targetId="5ce7-0ad8-1f68-5006" type="selectionEntry"/>
+            <entryLink id="efac-47e7-6fce-42c9" name="Predestinado" hidden="false" collective="false" import="true" targetId="52ed-fedf-86de-41e5" type="selectionEntry"/>
+            <entryLink id="8d9b-a1d4-3dde-623b" name="Sádico" hidden="false" collective="false" import="true" targetId="6652-9c59-5563-8401" type="selectionEntry"/>
+            <entryLink id="7e00-3f47-0ecd-bc68" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
+            <entryLink id="8cda-3937-22dd-5d24" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
+            <entryLink id="8f96-c9df-4b11-4755" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7488-a7b5-67a2-be74" name="PX" hidden="false" collective="false" import="true" targetId="26aa-9c6c-11cf-e0ad" type="selectionEntry">
+          <costs>
+            <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="1.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0111-1d26-2f86-5a6a" name="Übersoldat" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9df8-b658-c6d3-73ef" name="Übersoldat" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Miembros de la banda">
+          <characteristics>
+            <characteristic name="Acciones" typeId="f14c-8c62-3924-24b5">2</characteristic>
+            <characteristic name="Combate" typeId="3b03-18c1-aead-aafc">4</characteristic>
+            <characteristic name="Precisión" typeId="b1c3-49d4-4685-2af0">4</characteristic>
+            <characteristic name="Agilidad" typeId="03c7-d7e3-e7a0-5bcd">4</characteristic>
+            <characteristic name="Fuerza" typeId="9a30-2d6d-23f3-09bf">5</characteristic>
+            <characteristic name="Dureza" typeId="8dcb-9d42-33c3-6780">4</characteristic>
+            <characteristic name="Técnica" typeId="2d20-68cf-31bc-f581">2</characteristic>
+            <characteristic name="Reglas especiales" typeId="d7ef-e58d-d8a2-7b55"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="0672-fffb-a52d-09f6" name="New CategoryLink" hidden="false" targetId="c992-abb7-5e65-4ae2" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c8c1-841e-7334-73e4" name="Habilidades" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="6799-3c09-47d8-5837" name="Cesar Millán" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="86c9-ad75-3222-f31c" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="7972-23ac-1ae1-6559" name="Cesar Millán" hidden="false">
+                  <description>Esta miniatura obtendrá un mastín de manera gratuita, que además puede combinarse con otro adquirido de manera habitual</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry id="1865-ef63-7594-9a76" name="Matasanos" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="680e-44fd-8627-8a76" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="092d-fc85-4b45-d73f" name="Matasanos" hidden="false">
+                  <description>Esta miniatura obtendrá un bonificador +2 a la técnica a la hora de usar botiquín.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="8c04-ea8e-eced-0f39" name="+1 Acción" hidden="false" collective="false" import="true" targetId="ecdb-309e-5768-eb7a" type="selectionEntry"/>
+            <entryLink id="dc05-72c4-9b6b-1db3" name="+1 Agilidad" hidden="false" collective="false" import="true" targetId="feff-2839-91dc-2313" type="selectionEntry"/>
+            <entryLink id="6c56-6ca0-e6fb-17f4" name="+1 Combate" hidden="false" collective="false" import="true" targetId="3b55-becb-7c9e-d250" type="selectionEntry"/>
+            <entryLink id="b84d-d4ab-8b6f-fa57" name="+1 Dureza" hidden="false" collective="false" import="true" targetId="8fb6-84e4-c2cd-af13" type="selectionEntry"/>
+            <entryLink id="4830-f125-7088-856d" name="+1 Fuerza" hidden="false" collective="false" import="true" targetId="2c12-51ab-91c1-e84f" type="selectionEntry"/>
+            <entryLink id="46cf-2c09-a659-1de1" name="+1 Precisión" hidden="false" collective="false" import="true" targetId="a30c-a04f-6793-3379" type="selectionEntry"/>
+            <entryLink id="f18a-96be-90a0-dda6" name="+1 Técnica" hidden="false" collective="false" import="true" targetId="7cad-6c84-982b-46c7" type="selectionEntry"/>
+            <entryLink id="bf14-c12c-5b45-4f32" name="Acaparador" hidden="false" collective="false" import="true" targetId="3f80-491d-1bab-2fb5" type="selectionEntry"/>
+            <entryLink id="0b1a-b6eb-80e7-1f59" name="Afortunado" hidden="false" collective="false" import="true" targetId="6fcb-4eaf-15df-2793" type="selectionEntry"/>
+            <entryLink id="c331-c616-615f-5d2a" name="Ágil" hidden="false" collective="false" import="true" targetId="0359-f777-38c8-f928" type="selectionEntry"/>
+            <entryLink id="ed20-640a-14e4-33fe" name="Atleta" hidden="false" collective="false" import="true" targetId="9d30-0288-4ef4-971c" type="selectionEntry"/>
+            <entryLink id="ad32-915d-383a-e04a" name="Churruscado" hidden="false" collective="false" import="true" targetId="351d-f1e4-5a45-9271" type="selectionEntry"/>
+            <entryLink id="8df5-87fe-fa41-8e83" name="Gallina" hidden="false" collective="false" import="true" targetId="4915-95e3-c5d8-74cc" type="selectionEntry"/>
+            <entryLink id="5ead-08b3-4a87-da76" name="Escurridizo" hidden="false" collective="false" import="true" targetId="68ac-3733-32bb-6fec" type="selectionEntry"/>
+            <entryLink id="cc6c-1084-6eae-6710" name="Pagafantas" hidden="false" collective="false" import="true" targetId="daa5-910a-41c8-ab27" type="selectionEntry"/>
+            <entryLink id="7823-2744-3072-094c" name="Irrompible" hidden="false" collective="false" import="true" targetId="e2fc-7cb2-ff00-f915" type="selectionEntry"/>
+            <entryLink id="635b-668c-3341-ee8a" name="Loco" hidden="false" collective="false" import="true" targetId="f313-69b6-3ac8-5ff0" type="selectionEntry"/>
+            <entryLink id="1b46-204f-2e3b-0de0" name="Molón" hidden="false" collective="false" import="true" targetId="8c39-ae2f-954a-e877" type="selectionEntry"/>
+            <entryLink id="9efe-062e-d891-c69b" name="Ojeriza" hidden="false" collective="false" import="true" targetId="5ce7-0ad8-1f68-5006" type="selectionEntry"/>
+            <entryLink id="003e-7ac7-52cd-62c9" name="Predestinado" hidden="false" collective="false" import="true" targetId="52ed-fedf-86de-41e5" type="selectionEntry"/>
+            <entryLink id="a5e9-6d05-f9eb-0584" name="Sádico" hidden="false" collective="false" import="true" targetId="6652-9c59-5563-8401" type="selectionEntry"/>
+            <entryLink id="b381-a6ce-8953-77db" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
+            <entryLink id="c8ca-bd02-a148-0efa" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
+            <entryLink id="46e5-fa59-8834-3100" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d537-6213-d8fa-95c3" name="PX" hidden="false" collective="false" import="true" targetId="26aa-9c6c-11cf-e0ad" type="selectionEntry">
+          <costs>
+            <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="1.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d92e-c126-632d-2bf5" name="Subhumano" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="be7c-c173-48d7-134d" name="Subhumano" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Miembros de la banda">
+          <characteristics>
+            <characteristic name="Acciones" typeId="f14c-8c62-3924-24b5">2</characteristic>
+            <characteristic name="Combate" typeId="3b03-18c1-aead-aafc">2</characteristic>
+            <characteristic name="Precisión" typeId="b1c3-49d4-4685-2af0">-</characteristic>
+            <characteristic name="Agilidad" typeId="03c7-d7e3-e7a0-5bcd">2</characteristic>
+            <characteristic name="Fuerza" typeId="9a30-2d6d-23f3-09bf">2</characteristic>
+            <characteristic name="Dureza" typeId="8dcb-9d42-33c3-6780">2</characteristic>
+            <characteristic name="Técnica" typeId="2d20-68cf-31bc-f581">-</characteristic>
+            <characteristic name="Reglas especiales" typeId="d7ef-e58d-d8a2-7b55"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="aeb9-a5fc-74bf-0426" name="Mónguer" hidden="false" targetId="72ec-7c35-9625-8459" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c2c1-b227-8b10-66d6" name="New CategoryLink" hidden="false" targetId="c992-abb7-5e65-4ae2" primary="true"/>
+        <categoryLink id="1e27-7757-aaaf-e1f2" name="New CategoryLink" hidden="false" targetId="c992-abb7-5e65-4ae2" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7347-79c3-b30e-2f4b" name="Garras y Dientes" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d3c2-5152-ea02-d485" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2163-ecb8-f48f-d578" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="4cc1-cbe3-9a95-4b87" name="Garras y Dientes" hidden="false" typeId="050a-68de-8234-0b50" typeName="Armas cuerpo a cuerpo">
+              <characteristics>
+                <characteristic name="Combate" typeId="9164-d66a-0674-403b">0</characteristic>
+                <characteristic name="Fuerza" typeId="fc3a-f531-4588-9421">0</characteristic>
+                <characteristic name="Penetración" typeId="790d-0747-0e5f-2cde">1</characteristic>
+                <characteristic name="Reglas especiales" typeId="b696-3ad4-1d86-c8f5"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5d81-8f2b-ae61-8021" name="Habilidades" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="63c2-f86d-43a3-967d" name="Cesar Millán" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7f11-e2d4-f1fa-8def" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="8b7d-6be1-be12-c4a5" name="Cesar Millán" hidden="false">
+                  <description>Esta miniatura obtendrá un mastín de manera gratuita, que además puede combinarse con otro adquirido de manera habitual</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry id="6aec-9977-986c-69fa" name="Matasanos" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f801-8014-1f74-ce41" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="f313-f0ae-829b-24e4" name="Matasanos" hidden="false">
+                  <description>Esta miniatura obtendrá un bonificador +2 a la técnica a la hora de usar botiquín.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="dbda-8b77-13ae-fc44" name="+1 Acción" hidden="false" collective="false" import="true" targetId="ecdb-309e-5768-eb7a" type="selectionEntry"/>
+            <entryLink id="4550-cc34-3d09-123a" name="+1 Agilidad" hidden="false" collective="false" import="true" targetId="feff-2839-91dc-2313" type="selectionEntry"/>
+            <entryLink id="94ca-bbc8-c91f-b030" name="+1 Combate" hidden="false" collective="false" import="true" targetId="3b55-becb-7c9e-d250" type="selectionEntry"/>
+            <entryLink id="be7e-d46c-41c4-44aa" name="+1 Dureza" hidden="false" collective="false" import="true" targetId="8fb6-84e4-c2cd-af13" type="selectionEntry"/>
+            <entryLink id="f9fb-439e-76b6-8c5a" name="+1 Fuerza" hidden="false" collective="false" import="true" targetId="2c12-51ab-91c1-e84f" type="selectionEntry"/>
+            <entryLink id="75f0-c206-3284-b828" name="+1 Precisión" hidden="false" collective="false" import="true" targetId="a30c-a04f-6793-3379" type="selectionEntry"/>
+            <entryLink id="34af-6ef1-be23-aadc" name="+1 Técnica" hidden="false" collective="false" import="true" targetId="7cad-6c84-982b-46c7" type="selectionEntry"/>
+            <entryLink id="b80c-7672-f5b9-9e13" name="Acaparador" hidden="false" collective="false" import="true" targetId="3f80-491d-1bab-2fb5" type="selectionEntry"/>
+            <entryLink id="5458-475d-77aa-554f" name="Afortunado" hidden="false" collective="false" import="true" targetId="6fcb-4eaf-15df-2793" type="selectionEntry"/>
+            <entryLink id="94b4-051c-70a4-fd87" name="Ágil" hidden="false" collective="false" import="true" targetId="0359-f777-38c8-f928" type="selectionEntry"/>
+            <entryLink id="5016-f93a-f830-11c2" name="Atleta" hidden="false" collective="false" import="true" targetId="9d30-0288-4ef4-971c" type="selectionEntry"/>
+            <entryLink id="fb21-9d94-0fae-2075" name="Churruscado" hidden="false" collective="false" import="true" targetId="351d-f1e4-5a45-9271" type="selectionEntry"/>
+            <entryLink id="9112-7ad4-8d68-437a" name="Gallina" hidden="false" collective="false" import="true" targetId="4915-95e3-c5d8-74cc" type="selectionEntry"/>
+            <entryLink id="9a34-5b1e-6da2-142f" name="Escurridizo" hidden="false" collective="false" import="true" targetId="68ac-3733-32bb-6fec" type="selectionEntry"/>
+            <entryLink id="7237-0f64-bf5e-1072" name="Pagafantas" hidden="false" collective="false" import="true" targetId="daa5-910a-41c8-ab27" type="selectionEntry"/>
+            <entryLink id="e17c-5a60-3178-da78" name="Irrompible" hidden="false" collective="false" import="true" targetId="e2fc-7cb2-ff00-f915" type="selectionEntry"/>
+            <entryLink id="5b37-1f88-e1b2-b6a5" name="Loco" hidden="false" collective="false" import="true" targetId="f313-69b6-3ac8-5ff0" type="selectionEntry"/>
+            <entryLink id="0c57-1a12-a9d6-c650" name="Molón" hidden="false" collective="false" import="true" targetId="8c39-ae2f-954a-e877" type="selectionEntry"/>
+            <entryLink id="3de6-895b-a246-fea2" name="Ojeriza" hidden="false" collective="false" import="true" targetId="5ce7-0ad8-1f68-5006" type="selectionEntry"/>
+            <entryLink id="1605-17ef-c477-e606" name="Predestinado" hidden="false" collective="false" import="true" targetId="52ed-fedf-86de-41e5" type="selectionEntry"/>
+            <entryLink id="4656-fa7c-8e2c-02ea" name="Sádico" hidden="false" collective="false" import="true" targetId="6652-9c59-5563-8401" type="selectionEntry"/>
+            <entryLink id="d288-cf50-bf19-4a4f" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
+            <entryLink id="7f36-1e8f-f91d-161d" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
+            <entryLink id="2da8-bb30-56ad-705e" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="056c-6d0f-4ec9-2bf8" name="PX" hidden="false" collective="false" import="true" targetId="26aa-9c6c-11cf-e0ad" type="selectionEntry">
+          <costs>
+            <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="1.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="9593-0b45-5eb7-db84" name="Ropas resistentes " hidden="false" collective="false" import="true" targetId="e11e-4718-39e0-21d1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="823b-24aa-5372-e61e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5d05-c3b4-bc33-fba3" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="10.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="de3f-437c-858b-cae6" name="Colinas" hidden="false" collective="false" import="true" targetId="2309-94a0-411f-5831" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="135a-6b92-e0c3-d692" name="New CategoryLink" hidden="false" targetId="c8e1-72a6-80c1-b426" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3ba0-fe42-dd6c-eee1" name="Llanura" hidden="false" collective="false" import="true" targetId="165d-c314-2fb7-f615" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3ebb-c3e4-3a1b-d7c1" name="New CategoryLink" hidden="false" targetId="c8e1-72a6-80c1-b426" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a3b6-4de6-2b69-5d13" name="Valle" hidden="false" collective="false" import="true" targetId="90ea-0e5c-c0cf-b381" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f259-160f-5e03-b5c6" name="New CategoryLink" hidden="false" targetId="c8e1-72a6-80c1-b426" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="bc7d-e9ed-642f-c38a" name="Pantano" hidden="false" collective="false" import="true" targetId="1cea-7e37-34ed-5ebb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4ede-c0b0-371a-11dd" name="New CategoryLink" hidden="false" targetId="c8e1-72a6-80c1-b426" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1ef2-cc41-7afb-5cfe" name="Ruinas" hidden="false" collective="false" import="true" targetId="9050-87c9-15da-666b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cb87-100e-2bcb-b207" name="New CategoryLink" hidden="false" targetId="c8e1-72a6-80c1-b426" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="38d1-b94e-ca0e-af4d" name="Armeria" hidden="false" collective="false" import="true" targetId="347a-4f90-8d3d-cd03" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9423-5182-0ba7-3d66" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1081-2500-2e7e-180f" name="Campo de entrenamiento" hidden="false" collective="false" import="true" targetId="a10e-3f31-51d9-8b06" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f905-98a0-f9e6-60fb" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6210-eb74-1ac6-1772" name="Centro táctico" hidden="false" collective="false" import="true" targetId="a787-8031-2c5c-7c75" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bb6b-0810-2516-ed0e" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cd52-9c6a-26cb-6bb0" name="Museo militar" hidden="false" collective="false" import="true" targetId="a028-9c38-b85f-1c82" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="160f-fc53-5347-81c3" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f67c-28ce-0f31-39ca" name="Defensas" hidden="false" collective="false" import="true" targetId="7a51-95c0-a60d-ef15" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ded6-4ace-293b-ef91" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8be1-99e3-a939-b26b" name="Enfermería " hidden="false" collective="false" import="true" targetId="88be-c9d6-e6de-41a3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="03e7-e3f2-9a66-86b8" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1c95-19ef-0b83-dc12" name="Puesto de venta" hidden="false" collective="false" import="true" targetId="6766-ca07-c144-e1f6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f391-8b48-1ec5-2ed9" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8d2e-fe6a-0f6d-6de6" name="Armadura metálica" hidden="false" collective="false" import="true" targetId="fc6e-ddda-8911-bd66" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="33cc-04bf-22d9-4649" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c0df-b413-59ee-f0d0" name="Bayoneta" hidden="false" collective="false" import="true" targetId="b122-e74e-20f8-404c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8b3d-0a83-a54f-f6d6" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="be96-6568-4e1c-aecb" name="Botiquín" hidden="false" collective="false" import="true" targetId="a9c8-3843-9597-73e3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a309-9b37-1d1e-e401" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="32ff-f46c-a6c6-527d" name="Chaleco antibalas " hidden="false" collective="false" import="true" targetId="9e06-2405-21d9-cd66" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f5e3-b460-9227-d4f4" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b16f-68b7-f7ca-7b87" name="Chapa metálica" hidden="false" collective="false" import="true" targetId="33d4-4405-1525-d1a6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3616-5953-499c-42af" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7f29-432e-0314-f625" name="Cuchillos arrojadizos" hidden="false" collective="false" import="true" targetId="cc6a-3919-94d6-8d2c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="1183-db01-86c2-8133" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0586-40f5-a071-b6ff" name="Cuero endurecido" hidden="false" collective="false" import="true" targetId="1fb2-20f3-c4b0-cae4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5fcf-b158-a7cd-90ae" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="40e3-f763-f29a-3661" name="Escopeta" hidden="false" collective="false" import="true" targetId="3dcf-fdea-b5fc-2cd6" type="selectionEntry"/>
+    <entryLink id="5433-db39-55ea-81e4" name="Filo medio " hidden="false" collective="false" import="true" targetId="b311-f0a5-457b-46be" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a36c-5b19-c727-4817" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="41bb-a61e-96b0-bf5c" name="FIlo pesado" hidden="false" collective="false" import="true" targetId="b4f3-52ac-5acc-4467" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ec1d-b481-4a52-17ba" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ddd2-f2f9-4ca0-7b11" name="Filo pequeño" hidden="false" collective="false" import="true" targetId="5acd-32cd-c603-103b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6395-bc4c-aab3-8329" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b26f-89e8-1b5a-f6a9" name="Mastín" hidden="false" collective="false" import="true" targetId="e6e0-2455-de2b-abc3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c997-9ac4-e45e-a76d" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9e50-d2c4-b3ae-5a7b" name="Maza" hidden="false" collective="false" import="true" targetId="9edf-8e6e-27a2-5e4a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ff4b-4d01-ae13-165a" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d6fb-54b3-42c7-55d1" name="Maza ligera " hidden="false" collective="false" import="true" targetId="2f4b-e101-83a4-5518" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="23a6-834f-6e64-d593" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="dd8a-b327-1ef1-d149" name="Maza pesada" hidden="false" collective="false" import="true" targetId="8272-135d-a41a-cbab" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="687e-645d-31fc-f9d7" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3c70-7b14-d3de-9236" name="Pistola" hidden="false" collective="false" import="true" targetId="8b74-4dc7-80bb-46fc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6043-c10b-d771-6bb1" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b1bb-f732-5f54-cc57" name="Protección contra la contaminación" hidden="false" collective="false" import="true" targetId="1d0a-fbe8-0f37-e8ea" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e557-2cd6-084c-24f4" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9e7f-6e96-c6a7-4563" name="Rifle" hidden="false" collective="false" import="true" targetId="ae4f-bb03-e037-3103" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0573-1f51-2238-00a5" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="317d-a4fd-2c80-dc25" name="Rifle automático" hidden="false" collective="false" import="true" targetId="b3f1-807d-a5fd-ad4c" type="selectionEntry"/>
+    <entryLink id="8cb0-bb1d-e66d-092d" name="Walkie-talkie" hidden="false" collective="false" import="true" targetId="2fb4-b058-f8fc-329f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c81f-3097-35b4-fb2f" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e503-1751-a0db-0b00" name="Balas" hidden="false" collective="false" import="true" targetId="2944-a341-9162-db3b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6e64-3d25-db43-bd6c" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>

@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="c6ae-aede-d9ca-db82" name="Hijos de la Sangre Negra Modo Campaña" revision="3" battleScribeVersion="2.03" authorName="Sergio Temp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="5ab5-0a69-5286-3df5" name="Quemado" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8dff-c6ba-8efe-0579" name="Quemado" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Miembros de la banda">
+          <characteristics>
+            <characteristic name="Acciones" typeId="f14c-8c62-3924-24b5">2</characteristic>
+            <characteristic name="Combate" typeId="3b03-18c1-aead-aafc">2</characteristic>
+            <characteristic name="Precisión" typeId="b1c3-49d4-4685-2af0">2</characteristic>
+            <characteristic name="Agilidad" typeId="03c7-d7e3-e7a0-5bcd">4</characteristic>
+            <characteristic name="Fuerza" typeId="9a30-2d6d-23f3-09bf">3</characteristic>
+            <characteristic name="Dureza" typeId="8dcb-9d42-33c3-6780">3</characteristic>
+            <characteristic name="Técnica" typeId="2d20-68cf-31bc-f581">2</characteristic>
+            <characteristic name="Reglas especiales" typeId="d7ef-e58d-d8a2-7b55"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1e72-a5d7-ab58-77d9" name="Quemado" hidden="false">
+          <description>Los quemados no suben de experiencia y pueden equiparse solo con Filo pequeño, Maza ligera y Maza</description>
+        </rule>
+        <rule id="da36-2e51-2bd2-7109" name="Mártir" hidden="false">
+          <description>siempre que estén a 5 cm o menos de una miniatura aliada, un Quemado puede usar su cuerpo para salvarlo cuando haya sido impactado. Se colocará en contacto la miniatura aliada impactada justo antes de que este tuviera que realizar la tirada enfrentada de Fuerza contra Dureza. Será el Quemado quien usé su Dureza para esta tirada, y obviamente, será la miniatura que es retirada como baja si resulta abatida.</description>
+        </rule>
+        <rule id="d0a9-0d1d-1966-64cd" name="Bajo la mirada llameante (Quemado)" hidden="false">
+          <description>Siempre que un Quemado esté en la línea de visión de un Guardián de la Llama, la miniatura contará con la regla especial Todoterreno.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="64d2-78a2-79d8-5480" name="Mónguer" hidden="false" targetId="72ec-7c35-9625-8459" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="677c-06eb-08d5-99d8" name="New CategoryLink" hidden="false" targetId="c992-abb7-5e65-4ae2" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b3d5-f078-15bf-67ef" name="¡Por la Sangre Negra!" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="1d99-10ae-de4c-873a" name="¡Por la Sangre Negra!" hidden="false">
+              <description>Por +15 chapas un Quemado puede equiparse con un bidón gigante de gasofa con el que realizar un ataque a lo bonzo contra sus enemigos. Si un Quemado, por cualquier motivo, queda en contacto peana con peana con un enemigo se prenderá fuego inmediatamente, resultando abatido al inmolarse y causando un impacto de Fuerza 5 y Penetración 5. Si hubiera quedado en contacto con varias figuras, o un combate múltiple, todas las miniaturas implicadas sufrirán ese impacto.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="12.0"/>
+        <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2d34-fd7f-b483-fa58" name="Ascua" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9438-fa99-8052-b2ed" name="Ascua" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Miembros de la banda">
+          <characteristics>
+            <characteristic name="Acciones" typeId="f14c-8c62-3924-24b5">2</characteristic>
+            <characteristic name="Combate" typeId="3b03-18c1-aead-aafc">3</characteristic>
+            <characteristic name="Precisión" typeId="b1c3-49d4-4685-2af0">3</characteristic>
+            <characteristic name="Agilidad" typeId="03c7-d7e3-e7a0-5bcd">3</characteristic>
+            <characteristic name="Fuerza" typeId="9a30-2d6d-23f3-09bf">3</characteristic>
+            <characteristic name="Dureza" typeId="8dcb-9d42-33c3-6780">3</characteristic>
+            <characteristic name="Técnica" typeId="2d20-68cf-31bc-f581"/>
+            <characteristic name="Reglas especiales" typeId="d7ef-e58d-d8a2-7b55"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="66f1-6b1f-2500-476c" name="Bajo la mirada llameante (Ascua)" hidden="false">
+          <description>Siempre que un Ascua esté en la línea de visión de un Guardián de la Llama, la miniatura contará con un bonificador de +1 a la Dureza.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="fed8-e9e3-5419-96a8" name="New CategoryLink" hidden="false" targetId="c992-abb7-5e65-4ae2" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="106b-5577-91de-e7f5" name="Habilidades" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="2865-d991-80df-7503" name="Fanático" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2723-e8e6-c289-5647" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="bfe8-232c-ce99-a36c" name="Fanático" hidden="false">
+                  <description>Esta miniatura no necesita ser observada para lucirse. Obtiene las ventajas de Bajo la miarada llameante aunque no esté en Línea de visión del Guardian de la Llama. En caso de ser el Guardián de la Llama quien consiga la mejora, todas las miniaturas de la banda podrán beneficiarse de Bajo la mirada llameante sin necesitar Línea de visión mientras este no sea Abatido. </description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry id="5e3b-973a-b283-b6c8" name="Gasolinero" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2020-2266-d039-6bd8" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="e0e4-182c-9b7f-803d" name="Gasolinero" hidden="false">
+                  <description>Esta unidad contará con 5 cargas de combustible extras.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="57e0-cc45-9fdc-02a5" name="+1 Acción" hidden="false" collective="false" import="true" targetId="ecdb-309e-5768-eb7a" type="selectionEntry"/>
+            <entryLink id="b4dd-f000-856c-9916" name="+1 Agilidad" hidden="false" collective="false" import="true" targetId="feff-2839-91dc-2313" type="selectionEntry"/>
+            <entryLink id="ee89-87c5-2f51-c55a" name="+1 Combate" hidden="false" collective="false" import="true" targetId="3b55-becb-7c9e-d250" type="selectionEntry"/>
+            <entryLink id="08bc-b663-7617-0859" name="+1 Dureza" hidden="false" collective="false" import="true" targetId="8fb6-84e4-c2cd-af13" type="selectionEntry"/>
+            <entryLink id="dad2-3527-8709-0b41" name="+1 Fuerza" hidden="false" collective="false" import="true" targetId="2c12-51ab-91c1-e84f" type="selectionEntry"/>
+            <entryLink id="c11d-a244-6c15-c3e2" name="+1 Precisión" hidden="false" collective="false" import="true" targetId="a30c-a04f-6793-3379" type="selectionEntry"/>
+            <entryLink id="af23-75c6-e43a-c6c0" name="+1 Técnica" hidden="false" collective="false" import="true" targetId="7cad-6c84-982b-46c7" type="selectionEntry"/>
+            <entryLink id="f3d9-8edd-341c-b689" name="Acaparador" hidden="false" collective="false" import="true" targetId="3f80-491d-1bab-2fb5" type="selectionEntry"/>
+            <entryLink id="65fe-b8ce-8925-a254" name="Afortunado" hidden="false" collective="false" import="true" targetId="6fcb-4eaf-15df-2793" type="selectionEntry"/>
+            <entryLink id="06b7-0513-50c3-e76e" name="Ágil" hidden="false" collective="false" import="true" targetId="0359-f777-38c8-f928" type="selectionEntry"/>
+            <entryLink id="1fb9-3e60-a7aa-9a4d" name="Atleta" hidden="false" collective="false" import="true" targetId="9d30-0288-4ef4-971c" type="selectionEntry"/>
+            <entryLink id="a926-117e-0c51-b0ed" name="Churruscado" hidden="false" collective="false" import="true" targetId="351d-f1e4-5a45-9271" type="selectionEntry"/>
+            <entryLink id="4daf-54f2-7a99-d99c" name="Gallina" hidden="false" collective="false" import="true" targetId="4915-95e3-c5d8-74cc" type="selectionEntry"/>
+            <entryLink id="aa2b-49af-56f8-985c" name="Escurridizo" hidden="false" collective="false" import="true" targetId="68ac-3733-32bb-6fec" type="selectionEntry"/>
+            <entryLink id="a487-edb7-4bc9-8c89" name="Pagafantas" hidden="false" collective="false" import="true" targetId="daa5-910a-41c8-ab27" type="selectionEntry"/>
+            <entryLink id="ad62-e01f-cdba-8d25" name="Irrompible" hidden="false" collective="false" import="true" targetId="e2fc-7cb2-ff00-f915" type="selectionEntry"/>
+            <entryLink id="f394-b415-2340-1d76" name="Loco" hidden="false" collective="false" import="true" targetId="f313-69b6-3ac8-5ff0" type="selectionEntry"/>
+            <entryLink id="8a27-695e-e84c-eadf" name="Molón" hidden="false" collective="false" import="true" targetId="8c39-ae2f-954a-e877" type="selectionEntry"/>
+            <entryLink id="0b77-8b76-61de-f8f4" name="Ojeriza" hidden="false" collective="false" import="true" targetId="5ce7-0ad8-1f68-5006" type="selectionEntry"/>
+            <entryLink id="b030-e08e-f69d-9775" name="Predestinado" hidden="false" collective="false" import="true" targetId="52ed-fedf-86de-41e5" type="selectionEntry"/>
+            <entryLink id="3275-b605-9856-87e4" name="Sádico" hidden="false" collective="false" import="true" targetId="6652-9c59-5563-8401" type="selectionEntry"/>
+            <entryLink id="452a-8c2a-48e6-fb83" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
+            <entryLink id="413a-ee0e-8175-8757" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
+            <entryLink id="cf3c-9fa9-9758-6072" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="193d-3b81-14f3-0b7c" name="PX" hidden="false" collective="false" import="true" targetId="26aa-9c6c-11cf-e0ad" type="selectionEntry">
+          <costs>
+            <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="1.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ab1b-9752-aba9-768e" name="Guardián de la Llama" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0800-c146-7d69-cb2c" name="Guardián de la Llama" hidden="false" typeId="ff0f-86aa-3ee2-afb5" typeName="Miembros de la banda">
+          <characteristics>
+            <characteristic name="Acciones" typeId="f14c-8c62-3924-24b5">2</characteristic>
+            <characteristic name="Combate" typeId="3b03-18c1-aead-aafc">2</characteristic>
+            <characteristic name="Precisión" typeId="b1c3-49d4-4685-2af0">2</characteristic>
+            <characteristic name="Agilidad" typeId="03c7-d7e3-e7a0-5bcd">2</characteristic>
+            <characteristic name="Fuerza" typeId="9a30-2d6d-23f3-09bf">3</characteristic>
+            <characteristic name="Dureza" typeId="8dcb-9d42-33c3-6780">3</characteristic>
+            <characteristic name="Técnica" typeId="2d20-68cf-31bc-f581">6</characteristic>
+            <characteristic name="Reglas especiales" typeId="d7ef-e58d-d8a2-7b55"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e94e-617c-83aa-85f6" name="Bajo la mirada llameante Guardián de la Llama" hidden="false">
+          <description>el  Guardián  es  capaz  de  motivar  a  sus  cultistas  con  su  mera  mirada.  Algunas  opciones  de  tropa  tienen  una  ventaja  cuando  se  encuentran  bajo  la  línea  de  visión  del  Guardián.  Éstas  se  explican en sus respectivas entradas.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="b3e2-114c-e119-0269" name="New CategoryLink" hidden="false" targetId="c992-abb7-5e65-4ae2" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="75ab-bf17-e7b1-957d" name="Habilidades" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="7c62-e507-d504-65b8" name="Fanático" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6794-94c6-4267-78d3" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="e406-6d6e-d2a5-9403" name="Fanático" hidden="false">
+                  <description>Esta miniatura no necesita ser observada para lucirse. Obtiene las ventajas de Bajo la miarada llameante aunque no esté en Línea de visión del Guardian de la Llama. En caso de ser el Guardián de la Llama quien consiga la mejora, todas las miniaturas de la banda podrán beneficiarse de Bajo la mirada llameante sin necesitar Línea de visión mientras este no sea Abatido. </description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry id="60ac-0e73-fa78-0017" name="Gasolinero" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3a73-be11-ee15-7910" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="b3ec-d99d-66a1-e2c7" name="Gasolinero" hidden="false">
+                  <description>Esta unidad contará con 5 cargas de combustible extras.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="f635-bef0-d58e-e558" name="+1 Acción" hidden="false" collective="false" import="true" targetId="ecdb-309e-5768-eb7a" type="selectionEntry"/>
+            <entryLink id="fc46-b6cb-1eea-f939" name="+1 Agilidad" hidden="false" collective="false" import="true" targetId="feff-2839-91dc-2313" type="selectionEntry"/>
+            <entryLink id="04f8-dbcb-4348-804e" name="+1 Combate" hidden="false" collective="false" import="true" targetId="3b55-becb-7c9e-d250" type="selectionEntry"/>
+            <entryLink id="6f40-0809-ad4a-8046" name="+1 Dureza" hidden="false" collective="false" import="true" targetId="8fb6-84e4-c2cd-af13" type="selectionEntry"/>
+            <entryLink id="2ef1-2f54-efa5-705b" name="+1 Fuerza" hidden="false" collective="false" import="true" targetId="2c12-51ab-91c1-e84f" type="selectionEntry"/>
+            <entryLink id="13d2-dd0a-5d43-6a92" name="+1 Precisión" hidden="false" collective="false" import="true" targetId="a30c-a04f-6793-3379" type="selectionEntry"/>
+            <entryLink id="2889-adab-e01c-5bc0" name="+1 Técnica" hidden="false" collective="false" import="true" targetId="7cad-6c84-982b-46c7" type="selectionEntry"/>
+            <entryLink id="7f76-dcfe-0a97-8765" name="Acaparador" hidden="false" collective="false" import="true" targetId="3f80-491d-1bab-2fb5" type="selectionEntry"/>
+            <entryLink id="e140-64c0-7548-b22f" name="Afortunado" hidden="false" collective="false" import="true" targetId="6fcb-4eaf-15df-2793" type="selectionEntry"/>
+            <entryLink id="4797-a561-d5b3-7093" name="Ágil" hidden="false" collective="false" import="true" targetId="0359-f777-38c8-f928" type="selectionEntry"/>
+            <entryLink id="af29-548c-c4b2-ac02" name="Atleta" hidden="false" collective="false" import="true" targetId="9d30-0288-4ef4-971c" type="selectionEntry"/>
+            <entryLink id="29dc-1450-327d-41f4" name="Churruscado" hidden="false" collective="false" import="true" targetId="351d-f1e4-5a45-9271" type="selectionEntry"/>
+            <entryLink id="ce8d-f457-fd4f-514d" name="Gallina" hidden="false" collective="false" import="true" targetId="4915-95e3-c5d8-74cc" type="selectionEntry"/>
+            <entryLink id="09fc-7c2c-dc9b-1658" name="Escurridizo" hidden="false" collective="false" import="true" targetId="68ac-3733-32bb-6fec" type="selectionEntry"/>
+            <entryLink id="4d87-355d-cfb6-2852" name="Pagafantas" hidden="false" collective="false" import="true" targetId="daa5-910a-41c8-ab27" type="selectionEntry"/>
+            <entryLink id="4802-ed93-da5e-26ff" name="Irrompible" hidden="false" collective="false" import="true" targetId="e2fc-7cb2-ff00-f915" type="selectionEntry"/>
+            <entryLink id="e3aa-b68f-158a-dffd" name="Loco" hidden="false" collective="false" import="true" targetId="f313-69b6-3ac8-5ff0" type="selectionEntry"/>
+            <entryLink id="9e4b-9c05-dded-33fb" name="Molón" hidden="false" collective="false" import="true" targetId="8c39-ae2f-954a-e877" type="selectionEntry"/>
+            <entryLink id="6607-e853-3dae-6873" name="Ojeriza" hidden="false" collective="false" import="true" targetId="5ce7-0ad8-1f68-5006" type="selectionEntry"/>
+            <entryLink id="aa99-e0a8-0259-8d19" name="Predestinado" hidden="false" collective="false" import="true" targetId="52ed-fedf-86de-41e5" type="selectionEntry"/>
+            <entryLink id="801c-126f-5522-70e5" name="Sádico" hidden="false" collective="false" import="true" targetId="6652-9c59-5563-8401" type="selectionEntry"/>
+            <entryLink id="81f4-8611-18b0-ac21" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
+            <entryLink id="1a8b-8984-deb5-2f23" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
+            <entryLink id="3359-d702-7743-d288" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="60a2-e4cd-0de4-aaaa" name="PX" hidden="false" collective="false" import="true" targetId="26aa-9c6c-11cf-e0ad" type="selectionEntry">
+          <costs>
+            <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="1.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b146-c465-9f24-2eb3" name="Bomba incendiaria" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c27b-0f69-f97e-0abd" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a439-3eb2-9ff0-fbbb" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd7b-cecd-3972-085d" name="Motosierra" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="70c7-24b0-ec36-7deb" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2125-38aa-32c4-de51" name="Motosierra" hidden="false" typeId="050a-68de-8234-0b50" typeName="Armas cuerpo a cuerpo">
+          <characteristics>
+            <characteristic name="Combate" typeId="9164-d66a-0674-403b">-1</characteristic>
+            <characteristic name="Fuerza" typeId="fc3a-f531-4588-9421">+4</characteristic>
+            <characteristic name="Penetración" typeId="790d-0747-0e5f-2cde">6</characteristic>
+            <characteristic name="Reglas especiales" typeId="b696-3ad4-1d86-c8f5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e7d3-022d-c8c5-114c" name="Combustible (5-1)" hidden="false">
+          <description>las armas con esta regla necesitan de cargas de combustible para funcionar. Un arma comienza con X cargas, pero cada vez que se haga un disparo o ataque, gastará Y cargas.
+Pero llevar ese combustible encima es peligroso, así que si una miniatura con un arma con esta regla es impactada puede llegar a explosionar. Si después de ser impactada, en la tirada enfrentada de Fuerza contra Dureza el atacante saca una tirada de 1, el arma explotará. La miniatura que porte el arma, y cualquier otra miniatura en contacto con ella, sufrirá un impacto de tanta Fuerza como cargas le queden al arma y Penetración 3.</description>
+        </rule>
+        <rule id="8168-39e6-37f0-fe12" name="Motosierra" hidden="false">
+          <description>Se trata de una máquina formada por conjunto de dientes de sierra unidos a una cadena accionada por un motor que la hace girar a alta velocidad.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3627-1177-fe6a-20d0" name="A dos manos" hidden="false" targetId="b875-3594-b66d-0923" type="rule"/>
+        <infoLink id="2dae-de55-848b-639d" name="Armatoste" hidden="false" targetId="c7a1-7da7-3c7f-d7c0" type="rule"/>
+        <infoLink id="5acb-d67a-eae8-d88b" name="Escasa" hidden="false" targetId="eb4c-c95b-cd8c-6493" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9190-0214-762f-b347" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="12.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="4c3f-9d24-b66f-dab7" name="Colinas" hidden="false" collective="false" import="true" targetId="2309-94a0-411f-5831" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="63e9-1fdc-61e3-ce59" name="New CategoryLink" hidden="false" targetId="c8e1-72a6-80c1-b426" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cdc2-855d-9eb0-e501" name="Llanura" hidden="false" collective="false" import="true" targetId="165d-c314-2fb7-f615" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9edd-e4fe-cf59-b3f1" name="New CategoryLink" hidden="false" targetId="c8e1-72a6-80c1-b426" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2385-a5aa-917d-3be4" name="Valle" hidden="false" collective="false" import="true" targetId="90ea-0e5c-c0cf-b381" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="99e4-56ff-227d-e9ee" name="New CategoryLink" hidden="false" targetId="c8e1-72a6-80c1-b426" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e0b1-6cd6-e1cf-90a2" name="Pantano" hidden="false" collective="false" import="true" targetId="1cea-7e37-34ed-5ebb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2235-f4e1-b2cb-c897" name="New CategoryLink" hidden="false" targetId="c8e1-72a6-80c1-b426" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="01f3-3cb6-0fd8-326b" name="Ruinas" hidden="false" collective="false" import="true" targetId="9050-87c9-15da-666b" type="selectionEntry"/>
+    <entryLink id="6e3c-cb0e-5a0c-e052" name="Armeria" hidden="false" collective="false" import="true" targetId="347a-4f90-8d3d-cd03" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ffa8-74d7-7c8a-378a" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9ad8-94c1-e86b-f3f6" name="Campo de entrenamiento" hidden="false" collective="false" import="true" targetId="a10e-3f31-51d9-8b06" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ad37-15fe-6f69-86c3" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f830-9f98-ae94-c5ec" name="Centro táctico" hidden="false" collective="false" import="true" targetId="a787-8031-2c5c-7c75" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0f7c-78ea-c99f-1a56" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="db11-e846-c90c-ef29" name="Defensas" hidden="false" collective="false" import="true" targetId="7a51-95c0-a60d-ef15" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fc4b-b5ed-43d7-cb66" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="940c-fec2-3e50-0062" name="Enfermería " hidden="false" collective="false" import="true" targetId="88be-c9d6-e6de-41a3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c561-a669-9e71-51c1" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="61be-ff66-ef71-1f0a" name="Puesto de venta" hidden="false" collective="false" import="true" targetId="6766-ca07-c144-e1f6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="affb-55e2-d144-2906" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c54f-866b-47d1-3af3" name="Refinería" hidden="false" collective="false" import="true" targetId="87f8-0739-ef0e-582b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b9ca-0df8-e24d-2b20" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a602-affd-6390-8227" name="Armadura metálica" hidden="false" collective="false" import="true" targetId="fc6e-ddda-8911-bd66" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6ee7-7ea0-fe40-1837" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="20.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="860a-e87a-1d69-47a6" name="Bayoneta" hidden="false" collective="false" import="true" targetId="b122-e74e-20f8-404c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="38e1-772f-6c27-a067" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="8.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="76bb-9048-632c-1ced" name="Cuero endurecido" hidden="false" collective="false" import="true" targetId="1fb2-20f3-c4b0-cae4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="b7c2-8bb8-db00-ec86" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="10.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="2b2e-fe18-a1a2-82ec" name="Escopeta" hidden="false" collective="false" import="true" targetId="3dcf-fdea-b5fc-2cd6" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4dc1-24ac-805b-9208" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="12.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="5b30-b149-3358-d681" name="Filo medio " hidden="false" collective="false" import="true" targetId="b311-f0a5-457b-46be" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8d57-cb49-20c9-7585" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="20.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="f930-bf3a-853b-556a" name="FIlo pesado" hidden="false" collective="false" import="true" targetId="b4f3-52ac-5acc-4467" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e2fe-83ab-36f6-c129" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="24.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="eec9-d841-347b-1aca" name="Filo pequeño" hidden="false" collective="false" import="true" targetId="5acd-32cd-c603-103b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="5c54-5d9e-264a-f630" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="4.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="d87b-2e0a-93fd-4cd3" name="Lanzallamas" hidden="false" collective="false" import="true" targetId="a6f6-7a47-b5ec-cf89" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6679-87f4-1c42-9af0" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+        <categoryLink id="d689-cb73-dc94-d8be" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="40.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="0cca-5e41-db3e-f397" name="Maza" hidden="false" collective="false" import="true" targetId="9edf-8e6e-27a2-5e4a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a777-6d68-9209-cceb" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="5.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="06c9-1c45-2c89-cca5" name="Maza ligera " hidden="false" collective="false" import="true" targetId="2f4b-e101-83a4-5518" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3f51-94fb-107f-cb85" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="3.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="8986-e9f9-635b-dd09" name="Maza pesada" hidden="false" collective="false" import="true" targetId="8272-135d-a41a-cbab" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8335-8a52-63df-4155" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="18.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="490c-a669-2c9b-4b2c" name="Motocicleta" hidden="false" collective="false" import="true" targetId="5b4a-de10-de14-ea4f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8cc3-af21-4161-257f" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="45.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="4d77-8f1e-d800-35ac" name="Pistola" hidden="false" collective="false" import="true" targetId="8b74-4dc7-80bb-46fc" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="121b-2097-faa6-f4a5" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="5.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="453a-f26c-b05a-1a39" name="Protección contra la contaminación" hidden="false" collective="false" import="true" targetId="1d0a-fbe8-0f37-e8ea" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4ec0-5de5-d27f-bdf8" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="5.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="0860-c429-5aae-b5fd" name="Ropas resistentes " hidden="false" collective="false" import="true" targetId="e11e-4718-39e0-21d1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a5da-716b-9ff4-e5ac" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="5.0"/>
+      </costs>
+    </entryLink>
+    <entryLink id="5c32-ac7b-0b7b-deec" name="Balas" hidden="false" collective="false" import="true" targetId="2944-a341-9162-db3b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="45e8-d914-f359-d9af" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>
