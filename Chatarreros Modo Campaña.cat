@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="da08-b8d5-9352-b798" name="Chatarreros Modo Campaña" revision="4" battleScribeVersion="2.03" authorName="Sergio Temp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="da08-b8d5-9352-b798" name="Chatarreros Modo Campaña" revision="5" battleScribeVersion="2.03" authorName="Sergio Temp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Para añadir balas a tu lista selecciona la cantidad de balas de cada tipo que quieres llevar y añade su coste en puntos con el cálculo de las reglas de campaña.</readme>
   <selectionEntries>
     <selectionEntry id="229a-6b6c-15a5-7cb2" name="Sonda" hidden="false" collective="false" import="true" type="unit">
@@ -143,6 +143,75 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="06bb-ebda-889d-8957" name="Heridas" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="3ebb-7e9a-2768-e3d4" name="Herida leve" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="b92c-4a4f-43fc-1020" name="Herida leve" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">La miniatura ha resultado herida de levedad. La miniatura tendrá en la siguiente partida una penalizador de -1 a su Agilidad, Fuerza y Dureza.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="eef9-8db9-ffb0-f1a0" name="Herida grave" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="c628-1c4e-a132-9869" name="Herida grave" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">La herida tiene cierta importancia. No podrá jugar la siguiente partida, pero además le quedarán secuelas. Antes de empezar cada partida, deberá tirarse 1d10 por esta miniatura,y si saca un 1-2 no podrá participar en la partida. Si la misma miniatura vuelve a obtener este resultado, se aumentaría en 2 las posibilidades de no jugar una partida (1-4, luego 1-6, etc...). Si llegara a no tener posibilidad de jugar ninguna partida, se consideraría muerta.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="d618-572a-7c12-ea17" name="Herida en la pierna" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="d54a-6d86-19e8-aa0c" name="Herida en la pierna" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">La miniatura sufrirá un penalizador permanente de -1 a la Agilidad.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="9e94-39e9-4f9f-f039" name="Herida en el brazo" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="f9f8-cd8d-e4c8-6c6c" name="Herida en el brazo" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">La miniatura sufrirá un penalizador permanente de -1 a la Fuerza.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="1772-8f44-077d-af4a" name="Herida en el pie" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="a3db-7cf7-e369-0aec" name="Herida en el pie" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">La miniatura considerará a partir de entonces el Terreno Chachi como Terreno Chungo. Si la misma miniatura vuelve a obtener este resultado, consideraría todo el terreno Pila 
+Chungo. Si sale una tercera vez, se consideraría muerta.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="c99e-12dc-e819-3889" name="Herida en el pecho" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="c545-0004-103f-a869" name="Herida en el pecho" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">La miniatura sufrirá un penalizador permanente de -1 a la Dureza.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="f834-c0e6-6b54-6246" name="Herida en la cabeza" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="5779-84f5-42ef-67c1" name="Herida en la cabeza" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">La miniatura ha quedado un tanto tocada y a partir de entonces tendrá la Regla especial Monguer. Si la misma miniatura vuelve a obtener este resultado, se consideraría 
+muerta.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="d998-0ada-b4a5-4fdf" name="PX" hidden="false" collective="false" import="true" targetId="26aa-9c6c-11cf-e0ad" type="selectionEntry">
@@ -233,6 +302,75 @@
             <entryLink id="0312-8f9e-5c06-b235" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="80b8-2f3e-17fc-361d" name="Heridas" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="b109-8341-e77b-f8cc" name="Herida leve" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e092-9148-553a-3933" name="Herida leve" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">La miniatura ha resultado herida de levedad. La miniatura tendrá en la siguiente partida una penalizador de -1 a su Agilidad, Fuerza y Dureza.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="b6b3-984b-930c-ea63" name="Herida grave" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="3d61-e9c6-ced6-fed1" name="Herida grave" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">La herida tiene cierta importancia. No podrá jugar la siguiente partida, pero además le quedarán secuelas. Antes de empezar cada partida, deberá tirarse 1d10 por esta miniatura,y si saca un 1-2 no podrá participar en la partida. Si la misma miniatura vuelve a obtener este resultado, se aumentaría en 2 las posibilidades de no jugar una partida (1-4, luego 1-6, etc...). Si llegara a no tener posibilidad de jugar ninguna partida, se consideraría muerta.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="cb84-ed49-3755-bb41" name="Herida en la pierna" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="adfa-6900-f96e-82c4" name="Herida en la pierna" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">La miniatura sufrirá un penalizador permanente de -1 a la Agilidad.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="8914-6184-13dc-44ec" name="Herida en el brazo" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="2a22-98fb-4810-3e36" name="Herida en el brazo" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">La miniatura sufrirá un penalizador permanente de -1 a la Fuerza.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="b52d-4b1b-6aa6-a4ed" name="Herida en el pie" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="7750-c49e-aec6-c712" name="Herida en el pie" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">La miniatura considerará a partir de entonces el Terreno Chachi como Terreno Chungo. Si la misma miniatura vuelve a obtener este resultado, consideraría todo el terreno Pila 
+Chungo. Si sale una tercera vez, se consideraría muerta.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="9e34-dfef-6c00-39fc" name="Herida en el pecho" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="2111-f9ea-2005-0f10" name="Herida en el pecho" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">La miniatura sufrirá un penalizador permanente de -1 a la Dureza.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="041d-3f6d-c37c-a3fa" name="Herida en la cabeza" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="0be2-22bf-cd18-04fe" name="Herida en la cabeza" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">La miniatura ha quedado un tanto tocada y a partir de entonces tendrá la Regla especial Monguer. Si la misma miniatura vuelve a obtener este resultado, se consideraría 
+muerta.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="6051-1be5-5a2d-883d" name="PX" hidden="false" collective="false" import="true" targetId="26aa-9c6c-11cf-e0ad" type="selectionEntry">
@@ -322,6 +460,75 @@
             <entryLink id="9672-146d-17bb-4550" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
             <entryLink id="d714-ef08-3dcc-204b" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
           </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f7c9-a550-ae48-f6cb" name="Heridas" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="7985-f2cb-13f3-6fe8" name="Herida leve" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="a70c-8498-8976-7975" name="Herida leve" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">La miniatura ha resultado herida de levedad. La miniatura tendrá en la siguiente partida una penalizador de -1 a su Agilidad, Fuerza y Dureza.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="662d-d48d-2f01-592e" name="Herida grave" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="dfc6-294b-54f8-5c13" name="Herida grave" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">La herida tiene cierta importancia. No podrá jugar la siguiente partida, pero además le quedarán secuelas. Antes de empezar cada partida, deberá tirarse 1d10 por esta miniatura,y si saca un 1-2 no podrá participar en la partida. Si la misma miniatura vuelve a obtener este resultado, se aumentaría en 2 las posibilidades de no jugar una partida (1-4, luego 1-6, etc...). Si llegara a no tener posibilidad de jugar ninguna partida, se consideraría muerta.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="fe18-92a2-eddd-3fb2" name="Herida en la pierna" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="30c8-06bd-be3b-c880" name="Herida en la pierna" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">La miniatura sufrirá un penalizador permanente de -1 a la Agilidad.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="8b59-35b6-f813-9b9f" name="Herida en el brazo" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="f36e-077c-e3bf-92cb" name="Herida en el brazo" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">La miniatura sufrirá un penalizador permanente de -1 a la Fuerza.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="a3f1-72cf-5d45-ef86" name="Herida en el pie" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="352e-0b16-291c-97d8" name="Herida en el pie" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">La miniatura considerará a partir de entonces el Terreno Chachi como Terreno Chungo. Si la misma miniatura vuelve a obtener este resultado, consideraría todo el terreno Pila 
+Chungo. Si sale una tercera vez, se consideraría muerta.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="9085-10d9-8065-c0c5" name="Herida en el pecho" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="6c78-3d4e-213f-89bb" name="Herida en el pecho" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">La miniatura sufrirá un penalizador permanente de -1 a la Dureza.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="dc45-df95-bdd1-5671" name="Herida en la cabeza" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="20b3-1989-cad8-82b4" name="Herida en la cabeza" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">La miniatura ha quedado un tanto tocada y a partir de entonces tendrá la Regla especial Monguer. Si la misma miniatura vuelve a obtener este resultado, se consideraría 
+muerta.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>

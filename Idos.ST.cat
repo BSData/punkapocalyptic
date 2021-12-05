@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bd07-6ba7-3edf-4ca0" name="Idos" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bd07-6ba7-3edf-4ca0" name="Idos" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="1650-c7a4-f3cf-6e3b" name="Desgarrador" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -410,7 +410,7 @@
             <profile id="290e-ead8-6123-e2f2" name="Garras y dientes (Mascota)" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Armas cuerpo a cuerpo">
               <characteristics>
                 <characteristic name="Combate" typeId="3bcb-590f-e624-084f">+0</characteristic>
-                <characteristic name="Fuerza" typeId="959a-27b3-5665-eaae">+2</characteristic>
+                <characteristic name="Fuerza" typeId="959a-27b3-5665-eaae">+0</characteristic>
                 <characteristic name="Penetración" typeId="af0e-e291-c826-bf01">1</characteristic>
                 <characteristic name="Reglas especiales" typeId="55ae-0d53-f265-651a"/>
               </characteristics>

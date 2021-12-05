@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="597a-babb-9722-2048" name="Punkapocalyptic Modo Campaña" revision="7" battleScribeVersion="2.03" authorName="SergioTemp" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="597a-babb-9722-2048" name="Punkapocalyptic Modo Campaña" revision="8" battleScribeVersion="2.03" authorName="SergioTemp" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Esta configuración se debe de utilizar junto a las reglas extra y de campaña disponibles en la tienda de BadRollGames: https://www.badrollgames.com/shop/index.php?route=product/product&amp;product_id=189
 
 Montaje patrocinado por Libertalia Juegos</readme>
@@ -977,6 +977,13 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="896e-4ade-a0c6-4693" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="fd91-19bd-0ac2-c73a" name="Acaparador" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+          <characteristics>
+            <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules>
         <rule id="91d4-526b-4aa5-bd6c" name="Acaparador" hidden="false">
           <description>Esta miniatura puede Rapiñar a una miniatura enemiga Abatida superando una tirada enfrentada de Fuerza contra esta. Solo podrá intentarlo una vez por miniatura. Sólo ella podrá quedarse con este equipo y no podrá venderlo. </description>
@@ -986,6 +993,53 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
         <categoryLink id="8ab5-a3b7-f313-a752" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="true"/>
         <categoryLink id="a6ed-9a3e-1718-a5b2" name="New CategoryLink" hidden="false" targetId="c8b3-0f48-43e8-bb9e" primary="false"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3364-9d5d-0a87-15f0" name="Equipo" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="5ea4-da25-8eaf-30d4" name="Arco" hidden="false" collective="false" import="true" targetId="6d9f-ee1a-09d0-2cb9" type="selectionEntry">
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8873-7234-2c9e-168e" name="Armadura metálica" hidden="false" collective="false" import="true" targetId="fc6e-ddda-8911-bd66" type="selectionEntry">
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="20.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="efcf-cb58-13eb-f2db" name="Ballesta" hidden="false" collective="false" import="true" targetId="c1cd-cb87-fbf7-e4e6" type="selectionEntry"/>
+            <entryLink id="f8f9-70e2-e533-e374" name="Bayoneta" hidden="false" collective="false" import="true" targetId="b122-e74e-20f8-404c" type="selectionEntry"/>
+            <entryLink id="5343-d22b-e52a-ae94" name="Bombas" hidden="false" collective="false" import="true" targetId="6a0d-84f8-184d-fd30" type="selectionEntry"/>
+            <entryLink id="bdd4-6604-aedd-f297" name="Bombeadora" hidden="false" collective="false" import="true" targetId="ec22-90fb-a1fb-bb4d" type="selectionEntry"/>
+            <entryLink id="fcb9-308a-28e8-4fd2" name="Botiquín" hidden="false" collective="false" import="true" targetId="a9c8-3843-9597-73e3" type="selectionEntry"/>
+            <entryLink id="b14e-37d5-97c2-b1a4" name="Cacharras de oficio" hidden="false" collective="false" import="true" targetId="74dd-33be-ab64-dfd8" type="selectionEntry"/>
+            <entryLink id="baf9-5a3a-161c-bd30" name="Chaleco antibalas " hidden="false" collective="false" import="true" targetId="9e06-2405-21d9-cd66" type="selectionEntry"/>
+            <entryLink id="d80a-1dac-2dfe-395d" name="Chapa metálica" hidden="false" collective="false" import="true" targetId="33d4-4405-1525-d1a6" type="selectionEntry"/>
+            <entryLink id="1cc0-d008-2e24-48d0" name="Chasqueador y traje voltaico" hidden="false" collective="false" import="true" targetId="36ce-4d7a-f7b9-2dab" type="selectionEntry"/>
+            <entryLink id="197c-aad2-4e70-cff6" name="Cuchillos arrojadizos" hidden="false" collective="false" import="true" targetId="cc6a-3919-94d6-8d2c" type="selectionEntry"/>
+            <entryLink id="f9f5-6d53-b6d9-4237" name="Cuero endurecido" hidden="false" collective="false" import="true" targetId="1fb2-20f3-c4b0-cae4" type="selectionEntry"/>
+            <entryLink id="b2c6-4978-feec-f0b9" name="Escopeta" hidden="false" collective="false" import="true" targetId="3dcf-fdea-b5fc-2cd6" type="selectionEntry"/>
+            <entryLink id="c83a-d5b4-40fa-f368" name="Escudo" hidden="false" collective="false" import="true" targetId="cc48-f662-3654-bc64" type="selectionEntry"/>
+            <entryLink id="c37d-e23a-c166-4505" name="Filo medio " hidden="false" collective="false" import="true" targetId="b311-f0a5-457b-46be" type="selectionEntry"/>
+            <entryLink id="fa6c-aaaa-7673-0a65" name="FIlo pesado" hidden="false" collective="false" import="true" targetId="b4f3-52ac-5acc-4467" type="selectionEntry"/>
+            <entryLink id="9e78-f98d-9aa5-ffba" name="Filo pequeño" hidden="false" collective="false" import="true" targetId="5acd-32cd-c603-103b" type="selectionEntry"/>
+            <entryLink id="ccb9-4c57-140e-4a89" name="Lanzaarpones" hidden="false" collective="false" import="true" targetId="8fb3-b5b4-f669-a133" type="selectionEntry"/>
+            <entryLink id="1209-7b31-3a93-a191" name="Lanzallamas" hidden="false" collective="false" import="true" targetId="a6f6-7a47-b5ec-cf89" type="selectionEntry"/>
+            <entryLink id="8552-9f0f-4a85-e0d3" name="Mastín" hidden="false" collective="false" import="true" targetId="e6e0-2455-de2b-abc3" type="selectionEntry"/>
+            <entryLink id="6f10-20c9-d405-3fdf" name="Maza" hidden="false" collective="false" import="true" targetId="9edf-8e6e-27a2-5e4a" type="selectionEntry"/>
+            <entryLink id="6076-2703-d15d-c6d8" name="Maza ligera " hidden="false" collective="false" import="true" targetId="2f4b-e101-83a4-5518" type="selectionEntry"/>
+            <entryLink id="e93a-0cb7-64bc-a221" name="Maza pesada" hidden="false" collective="false" import="true" targetId="8272-135d-a41a-cbab" type="selectionEntry"/>
+            <entryLink id="c75e-9bd7-36db-cd2e" name="Mira telescópica" hidden="false" collective="false" import="true" targetId="65ae-57dd-67cc-c4ce" type="selectionEntry"/>
+            <entryLink id="283b-45d3-169c-d7f5" name="Pistola" hidden="false" collective="false" import="true" targetId="8b74-4dc7-80bb-46fc" type="selectionEntry"/>
+            <entryLink id="e64a-2648-b8c4-5328" name="Protección contra la contaminación" hidden="false" collective="false" import="true" targetId="1d0a-fbe8-0f37-e8ea" type="selectionEntry"/>
+            <entryLink id="7afd-9dcf-ea16-87a2" name="Puño balístico " hidden="false" collective="false" import="true" targetId="0726-093d-ce50-2992" type="selectionEntry"/>
+            <entryLink id="a9fe-fb7d-667a-4c7a" name="Rifle" hidden="false" collective="false" import="true" targetId="ae4f-bb03-e037-3103" type="selectionEntry"/>
+            <entryLink id="5f8d-e399-7be9-eff0" name="Rifle automático" hidden="false" collective="false" import="true" targetId="b3f1-807d-a5fd-ad4c" type="selectionEntry"/>
+            <entryLink id="7c06-f11b-daa0-c1e4" name="Trabuco" hidden="false" collective="false" import="true" targetId="93b7-c9a6-4c4e-908a" type="selectionEntry"/>
+            <entryLink id="e674-4dea-655f-a00c" name="Vaporeta" hidden="false" collective="false" import="true" targetId="ad93-ac51-a17d-3d0f" type="selectionEntry"/>
+            <entryLink id="6c28-9d42-a185-7fbe" name="Walkie-talkie" hidden="false" collective="false" import="true" targetId="2fb4-b058-f8fc-329f" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
