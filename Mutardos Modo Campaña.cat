@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7383-5848-e504-52dd" name="Mutardos Modo Campaña" revision="4" battleScribeVersion="2.03" authorName="Sergio Temp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7383-5848-e504-52dd" name="Mutardos Modo Campaña" revision="5" battleScribeVersion="2.03" authorName="Sergio Temp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b8c5-29b4-9dc8-3180" name="Cabezón" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -20,33 +20,6 @@
         <categoryLink id="61a0-c867-3ea8-3ca6" name="New CategoryLink" hidden="false" targetId="c992-abb7-5e65-4ae2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5079-cc43-a950-df31" name="Habilidades" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="f2eb-0b6c-a9df-c880" name="+1 Agilidad" hidden="false" collective="false" import="true" targetId="feff-2839-91dc-2313" type="selectionEntry"/>
-            <entryLink id="8c22-fed5-b3ec-b678" name="+1 Combate" hidden="false" collective="false" import="true" targetId="3b55-becb-7c9e-d250" type="selectionEntry"/>
-            <entryLink id="a4ad-fdd4-0fa8-e4d5" name="+1 Dureza" hidden="false" collective="false" import="true" targetId="8fb6-84e4-c2cd-af13" type="selectionEntry"/>
-            <entryLink id="8dc5-9e45-ee04-2a92" name="+1 Fuerza" hidden="false" collective="false" import="true" targetId="2c12-51ab-91c1-e84f" type="selectionEntry"/>
-            <entryLink id="cab9-e2a8-4a9e-ac8b" name="+1 Precisión" hidden="false" collective="false" import="true" targetId="a30c-a04f-6793-3379" type="selectionEntry"/>
-            <entryLink id="73c6-dfc7-e20f-f18e" name="+1 Técnica" hidden="false" collective="false" import="true" targetId="7cad-6c84-982b-46c7" type="selectionEntry"/>
-            <entryLink id="1846-e71b-03fd-0547" name="Acaparador" hidden="false" collective="false" import="true" targetId="3f80-491d-1bab-2fb5" type="selectionEntry"/>
-            <entryLink id="2995-b2ac-6867-70b6" name="Afortunado" hidden="false" collective="false" import="true" targetId="6fcb-4eaf-15df-2793" type="selectionEntry"/>
-            <entryLink id="a834-b9b2-cea5-d4d0" name="Ágil" hidden="false" collective="false" import="true" targetId="0359-f777-38c8-f928" type="selectionEntry"/>
-            <entryLink id="93c9-7d7a-bda4-046f" name="Atleta" hidden="false" collective="false" import="true" targetId="9d30-0288-4ef4-971c" type="selectionEntry"/>
-            <entryLink id="77db-bed6-cd27-39be" name="Churruscado" hidden="false" collective="false" import="true" targetId="351d-f1e4-5a45-9271" type="selectionEntry"/>
-            <entryLink id="c9f6-031b-90ee-19ba" name="Gallina" hidden="false" collective="false" import="true" targetId="4915-95e3-c5d8-74cc" type="selectionEntry"/>
-            <entryLink id="cd57-1f63-854a-91b9" name="Escurridizo" hidden="false" collective="false" import="true" targetId="68ac-3733-32bb-6fec" type="selectionEntry"/>
-            <entryLink id="6b8a-0f24-428e-a7ec" name="Pagafantas" hidden="false" collective="false" import="true" targetId="daa5-910a-41c8-ab27" type="selectionEntry"/>
-            <entryLink id="3438-b2ee-1ef8-4cb5" name="Irrompible" hidden="false" collective="false" import="true" targetId="e2fc-7cb2-ff00-f915" type="selectionEntry"/>
-            <entryLink id="3f30-22e9-3669-4f38" name="Loco" hidden="false" collective="false" import="true" targetId="f313-69b6-3ac8-5ff0" type="selectionEntry"/>
-            <entryLink id="6eb0-9991-51db-48df" name="Molón" hidden="false" collective="false" import="true" targetId="8c39-ae2f-954a-e877" type="selectionEntry"/>
-            <entryLink id="f38d-136e-3734-a0dc" name="Ojeriza" hidden="false" collective="false" import="true" targetId="5ce7-0ad8-1f68-5006" type="selectionEntry"/>
-            <entryLink id="94c1-336f-b20b-772c" name="Predestinado" hidden="false" collective="false" import="true" targetId="52ed-fedf-86de-41e5" type="selectionEntry"/>
-            <entryLink id="2763-c66e-e87b-1dfb" name="Sádico" hidden="false" collective="false" import="true" targetId="6652-9c59-5563-8401" type="selectionEntry"/>
-            <entryLink id="9dfe-063b-e1a5-d4b9" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
-            <entryLink id="d656-02fa-2ed7-4a88" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
-            <entryLink id="bddf-0b84-6a2e-5972" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
         <selectionEntryGroup id="60e2-efb3-71ec-ef25" name="Mutaciones" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="21ab-0635-d031-a88b" name="Cachas" hidden="false" collective="false" import="true" targetId="6067-a371-1224-941b" type="selectionEntry"/>
@@ -133,6 +106,10 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="13e9-130f-c3ba-b2c7" name="Herida grave" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -142,6 +119,10 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="c1b2-ec96-2369-0b88" name="Herida en la pierna" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -151,6 +132,10 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="2b69-c40f-6e95-0996" name="Herida en el brazo" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -160,6 +145,10 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="f6a4-f2b7-c883-6f43" name="Herida en el pie" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -170,6 +159,10 @@ Chungo. Si sale una tercera vez, se consideraría muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="ef66-ba58-4304-2af7" name="Herida en el pecho" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -179,6 +172,10 @@ Chungo. Si sale una tercera vez, se consideraría muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="fbb6-0a37-602c-8e90" name="Herida en la cabeza" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -189,8 +186,101 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="472c-4965-9a85-9c1a" name="Habilidades" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="f0c8-8323-5284-61ea" name="Megamutante" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="0d2c-2386-3edd-1f6f" name="Megamutante" hidden="false">
+                  <description>Esta miniatura debe adquirir 2 mutaciones tirando dos veces en su tabla. Una miniatura puede adquirir más de una vez esta habilidad.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="52b4-62b8-defb-1ffb" name="Guapetón" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="8bf0-080d-0180-5130" name="Guapetón" hidden="false" typeId="050a-68de-8234-0b50" typeName="Armas cuerpo a cuerpo">
+                  <characteristics>
+                    <characteristic name="Combate" typeId="9164-d66a-0674-403b"/>
+                    <characteristic name="Fuerza" typeId="fc3a-f531-4588-9421"/>
+                    <characteristic name="Penetración" typeId="790d-0747-0e5f-2cde"/>
+                    <characteristic name="Reglas especiales" typeId="b696-3ad4-1d86-c8f5"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="39ba-0281-e28c-b872" name="Guapetón" hidden="false">
+                  <description>Esta miniatura no tiene sus mutaciones a la vista y puede hacerse pasar por una persona normal. Puede adquirir equipo de la lista de los Pandilleros, pero sólo él podrá equiparse con este.</description>
+                </rule>
+              </rules>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="900d-c731-e702-d372" name="Equipo de Pandilleros" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="0c55-9ae2-b466-1dbf" name="Arco" hidden="false" collective="false" import="true" targetId="6d9f-ee1a-09d0-2cb9" type="selectionEntry"/>
+                    <entryLink id="d93f-1151-7e9d-0cd4" name="Armadura metálica" hidden="false" collective="false" import="true" targetId="fc6e-ddda-8911-bd66" type="selectionEntry"/>
+                    <entryLink id="5500-ed79-1a3b-ed0d" name="Ballesta" hidden="false" collective="false" import="true" targetId="c1cd-cb87-fbf7-e4e6" type="selectionEntry"/>
+                    <entryLink id="d435-dbeb-84d2-29d3" name="Chaleco antibalas " hidden="false" collective="false" import="true" targetId="9e06-2405-21d9-cd66" type="selectionEntry"/>
+                    <entryLink id="e0a3-e34d-db8e-cb19" name="Bayoneta" hidden="false" collective="false" import="true" targetId="b122-e74e-20f8-404c" type="selectionEntry"/>
+                    <entryLink id="f908-ba57-fd49-bfa1" name="Chapa metálica" hidden="false" collective="false" import="true" targetId="33d4-4405-1525-d1a6" type="selectionEntry"/>
+                    <entryLink id="41bb-c51f-969b-e743" name="Cuchillos arrojadizos" hidden="false" collective="false" import="true" targetId="cc6a-3919-94d6-8d2c" type="selectionEntry"/>
+                    <entryLink id="ad71-50f2-f64e-9014" name="Cuero endurecido" hidden="false" collective="false" import="true" targetId="1fb2-20f3-c4b0-cae4" type="selectionEntry"/>
+                    <entryLink id="365a-b543-8d7a-260c" name="Escopeta" hidden="false" collective="false" import="true" targetId="3dcf-fdea-b5fc-2cd6" type="selectionEntry"/>
+                    <entryLink id="9a20-749b-529a-6bc7" name="Escudo" hidden="false" collective="false" import="true" targetId="cc48-f662-3654-bc64" type="selectionEntry"/>
+                    <entryLink id="438d-f178-b01e-85bb" name="Filo medio " hidden="false" collective="false" import="true" targetId="b311-f0a5-457b-46be" type="selectionEntry"/>
+                    <entryLink id="3aac-1bb6-2838-1490" name="FIlo pesado" hidden="false" collective="false" import="true" targetId="b4f3-52ac-5acc-4467" type="selectionEntry"/>
+                    <entryLink id="f4b6-ea8c-3e4f-48ed" name="Filo pequeño" hidden="false" collective="false" import="true" targetId="5acd-32cd-c603-103b" type="selectionEntry"/>
+                    <entryLink id="1005-011f-7dbc-4fd5" name="Maza" hidden="false" collective="false" import="true" targetId="9edf-8e6e-27a2-5e4a" type="selectionEntry"/>
+                    <entryLink id="91f5-6edd-facd-5436" name="Maza ligera " hidden="false" collective="false" import="true" targetId="2f4b-e101-83a4-5518" type="selectionEntry"/>
+                    <entryLink id="4570-bca8-7117-0d72" name="Maza pesada" hidden="false" collective="false" import="true" targetId="8272-135d-a41a-cbab" type="selectionEntry"/>
+                    <entryLink id="ccad-fbfd-0f2a-f52a" name="Pistola" hidden="false" collective="false" import="true" targetId="8b74-4dc7-80bb-46fc" type="selectionEntry"/>
+                    <entryLink id="c85f-201f-1dc3-a523" name="Protección contra la contaminación" hidden="false" collective="false" import="true" targetId="1d0a-fbe8-0f37-e8ea" type="selectionEntry"/>
+                    <entryLink id="d5af-cb03-6e19-fa63" name="Ropas resistentes " hidden="false" collective="false" import="true" targetId="e11e-4718-39e0-21d1" type="selectionEntry"/>
+                    <entryLink id="cbb6-dafd-ea14-b1c5" name="Rifle" hidden="false" collective="false" import="true" targetId="ae4f-bb03-e037-3103" type="selectionEntry"/>
+                    <entryLink id="8cb4-524c-b82a-9d67" name="Rifle automático" hidden="false" collective="false" import="true" targetId="b3f1-807d-a5fd-ad4c" type="selectionEntry"/>
+                    <entryLink id="6f53-c227-3ddd-fec6" name="Balas" hidden="false" collective="false" import="true" targetId="2944-a341-9162-db3b" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="fd16-c6c7-6551-4081" name="+1 Agilidad" hidden="false" collective="false" import="true" targetId="feff-2839-91dc-2313" type="selectionEntry"/>
+            <entryLink id="cceb-9c6d-06c5-5198" name="+1 Combate" hidden="false" collective="false" import="true" targetId="3b55-becb-7c9e-d250" type="selectionEntry"/>
+            <entryLink id="2801-9e05-3b94-6bea" name="+1 Dureza" hidden="false" collective="false" import="true" targetId="8fb6-84e4-c2cd-af13" type="selectionEntry"/>
+            <entryLink id="fb89-ffaf-d8ee-961b" name="+1 Fuerza" hidden="false" collective="false" import="true" targetId="2c12-51ab-91c1-e84f" type="selectionEntry"/>
+            <entryLink id="308b-31a2-e9c1-c6d9" name="+1 Precisión" hidden="false" collective="false" import="true" targetId="a30c-a04f-6793-3379" type="selectionEntry"/>
+            <entryLink id="b346-9ddb-ecd6-1a2e" name="+1 Técnica" hidden="false" collective="false" import="true" targetId="7cad-6c84-982b-46c7" type="selectionEntry"/>
+            <entryLink id="5a5a-6bc5-f320-025d" name="Acaparador" hidden="false" collective="false" import="true" targetId="3f80-491d-1bab-2fb5" type="selectionEntry"/>
+            <entryLink id="1b06-5c1c-b58b-11ec" name="Afortunado" hidden="false" collective="false" import="true" targetId="6fcb-4eaf-15df-2793" type="selectionEntry"/>
+            <entryLink id="efe3-d3d5-f766-cd0b" name="Ágil" hidden="false" collective="false" import="true" targetId="0359-f777-38c8-f928" type="selectionEntry"/>
+            <entryLink id="f258-b1f9-4c9b-934c" name="Atleta" hidden="false" collective="false" import="true" targetId="9d30-0288-4ef4-971c" type="selectionEntry"/>
+            <entryLink id="115b-6997-c869-efeb" name="Churruscado" hidden="false" collective="false" import="true" targetId="351d-f1e4-5a45-9271" type="selectionEntry"/>
+            <entryLink id="b9bc-193e-7b5e-951d" name="Gallina" hidden="false" collective="false" import="true" targetId="4915-95e3-c5d8-74cc" type="selectionEntry"/>
+            <entryLink id="a1d7-7c4d-ad59-a62f" name="Escurridizo" hidden="false" collective="false" import="true" targetId="68ac-3733-32bb-6fec" type="selectionEntry"/>
+            <entryLink id="b3ea-cade-bb7f-4297" name="Pagafantas" hidden="false" collective="false" import="true" targetId="daa5-910a-41c8-ab27" type="selectionEntry"/>
+            <entryLink id="044f-1298-a982-1aa1" name="Irrompible" hidden="false" collective="false" import="true" targetId="e2fc-7cb2-ff00-f915" type="selectionEntry"/>
+            <entryLink id="9aeb-a040-22e6-21fb" name="Loco" hidden="false" collective="false" import="true" targetId="f313-69b6-3ac8-5ff0" type="selectionEntry"/>
+            <entryLink id="1e72-8732-9ad3-b6c8" name="Molón" hidden="false" collective="false" import="true" targetId="8c39-ae2f-954a-e877" type="selectionEntry"/>
+            <entryLink id="ac14-b38d-d15f-2204" name="Ojeriza" hidden="false" collective="false" import="true" targetId="5ce7-0ad8-1f68-5006" type="selectionEntry"/>
+            <entryLink id="2380-b5bd-8aaf-9937" name="Predestinado" hidden="false" collective="false" import="true" targetId="52ed-fedf-86de-41e5" type="selectionEntry"/>
+            <entryLink id="3e38-4508-20a7-9f11" name="Sádico" hidden="false" collective="false" import="true" targetId="6652-9c59-5563-8401" type="selectionEntry"/>
+            <entryLink id="fd92-7235-99d3-1990" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
+            <entryLink id="6da0-7e74-89c0-d65d" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
+            <entryLink id="c815-0cda-863e-ba1b" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -238,11 +328,49 @@ muerta.</characteristic>
               </costs>
             </selectionEntry>
             <selectionEntry id="4b64-3906-cbe5-89b5" name="Guapetón" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="862a-b73c-1965-a3e4" name="Guapetón" hidden="false" typeId="050a-68de-8234-0b50" typeName="Armas cuerpo a cuerpo">
+                  <characteristics>
+                    <characteristic name="Combate" typeId="9164-d66a-0674-403b"/>
+                    <characteristic name="Fuerza" typeId="fc3a-f531-4588-9421"/>
+                    <characteristic name="Penetración" typeId="790d-0747-0e5f-2cde"/>
+                    <characteristic name="Reglas especiales" typeId="b696-3ad4-1d86-c8f5"/>
+                  </characteristics>
+                </profile>
+              </profiles>
               <rules>
                 <rule id="bad8-ba6d-220c-48ed" name="Guapetón" hidden="false">
                   <description>Esta miniatura no tiene sus mutaciones a la vista y puede hacerse pasar por una persona normal. Puede adquirir equipo de la lista de los Pandilleros, pero sólo él podrá equiparse con este.</description>
                 </rule>
               </rules>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="8f48-35cc-aaa9-4340" name="Equipo de Pandilleros" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="794d-c253-1b01-ff73" name="Arco" hidden="false" collective="false" import="true" targetId="6d9f-ee1a-09d0-2cb9" type="selectionEntry"/>
+                    <entryLink id="22c7-3fd3-6f05-7913" name="Armadura metálica" hidden="false" collective="false" import="true" targetId="fc6e-ddda-8911-bd66" type="selectionEntry"/>
+                    <entryLink id="b7a5-6154-10ce-2a9e" name="Ballesta" hidden="false" collective="false" import="true" targetId="c1cd-cb87-fbf7-e4e6" type="selectionEntry"/>
+                    <entryLink id="e92d-3968-e3f9-58f0" name="Chaleco antibalas " hidden="false" collective="false" import="true" targetId="9e06-2405-21d9-cd66" type="selectionEntry"/>
+                    <entryLink id="86ea-1195-1f47-88b3" name="Bayoneta" hidden="false" collective="false" import="true" targetId="b122-e74e-20f8-404c" type="selectionEntry"/>
+                    <entryLink id="959b-0fab-7bc0-4496" name="Chapa metálica" hidden="false" collective="false" import="true" targetId="33d4-4405-1525-d1a6" type="selectionEntry"/>
+                    <entryLink id="d36c-18e7-b26c-3c32" name="Cuchillos arrojadizos" hidden="false" collective="false" import="true" targetId="cc6a-3919-94d6-8d2c" type="selectionEntry"/>
+                    <entryLink id="47c6-fb0c-9e4c-db4e" name="Cuero endurecido" hidden="false" collective="false" import="true" targetId="1fb2-20f3-c4b0-cae4" type="selectionEntry"/>
+                    <entryLink id="b899-da62-3932-e566" name="Escopeta" hidden="false" collective="false" import="true" targetId="3dcf-fdea-b5fc-2cd6" type="selectionEntry"/>
+                    <entryLink id="c8d1-8955-1285-2654" name="Escudo" hidden="false" collective="false" import="true" targetId="cc48-f662-3654-bc64" type="selectionEntry"/>
+                    <entryLink id="7752-8bd0-2581-1fed" name="Filo medio " hidden="false" collective="false" import="true" targetId="b311-f0a5-457b-46be" type="selectionEntry"/>
+                    <entryLink id="949d-1789-92eb-52d5" name="FIlo pesado" hidden="false" collective="false" import="true" targetId="b4f3-52ac-5acc-4467" type="selectionEntry"/>
+                    <entryLink id="3219-d34b-973f-77b9" name="Filo pequeño" hidden="false" collective="false" import="true" targetId="5acd-32cd-c603-103b" type="selectionEntry"/>
+                    <entryLink id="b283-8cbb-a3d1-aadd" name="Maza" hidden="false" collective="false" import="true" targetId="9edf-8e6e-27a2-5e4a" type="selectionEntry"/>
+                    <entryLink id="ea4a-ad6a-2df4-37cf" name="Maza ligera " hidden="false" collective="false" import="true" targetId="2f4b-e101-83a4-5518" type="selectionEntry"/>
+                    <entryLink id="19c6-30c8-1cb1-bb35" name="Maza pesada" hidden="false" collective="false" import="true" targetId="8272-135d-a41a-cbab" type="selectionEntry"/>
+                    <entryLink id="add6-fb6d-aab5-a66e" name="Pistola" hidden="false" collective="false" import="true" targetId="8b74-4dc7-80bb-46fc" type="selectionEntry"/>
+                    <entryLink id="d662-2d14-a89e-9963" name="Protección contra la contaminación" hidden="false" collective="false" import="true" targetId="1d0a-fbe8-0f37-e8ea" type="selectionEntry"/>
+                    <entryLink id="a129-c04a-c27a-5b6a" name="Ropas resistentes " hidden="false" collective="false" import="true" targetId="e11e-4718-39e0-21d1" type="selectionEntry"/>
+                    <entryLink id="62e8-20c1-5bdc-aa4e" name="Rifle" hidden="false" collective="false" import="true" targetId="ae4f-bb03-e037-3103" type="selectionEntry"/>
+                    <entryLink id="b4a3-34fe-5f09-1f3a" name="Rifle automático" hidden="false" collective="false" import="true" targetId="b3f1-807d-a5fd-ad4c" type="selectionEntry"/>
+                    <entryLink id="25c8-409d-52a2-a7aa" name="Balas" hidden="false" collective="false" import="true" targetId="2944-a341-9162-db3b" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <costs>
                 <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
@@ -312,6 +440,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="0815-07e8-9838-f1ed" name="Herida grave" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -321,6 +453,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="6424-78f3-46f3-8163" name="Herida en la pierna" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -330,6 +466,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="fd7e-10d5-e588-0bad" name="Herida en el brazo" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -339,6 +479,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="39e9-c016-ca6c-33a2" name="Herida en el pie" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -349,6 +493,10 @@ Chungo. Si sale una tercera vez, se consideraría muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b1b4-7a9e-07ad-e8a7" name="Herida en el pecho" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -358,6 +506,10 @@ Chungo. Si sale una tercera vez, se consideraría muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9e93-b14b-f275-04f3" name="Herida en la cabeza" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -368,6 +520,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -406,33 +562,6 @@ muerta.</characteristic>
         <categoryLink id="76db-18e5-5527-e34e" name="New CategoryLink" hidden="false" targetId="c992-abb7-5e65-4ae2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="68d7-7f69-eaf6-525f" name="Habilidades" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="4368-450d-c6b3-b1df" name="+1 Agilidad" hidden="false" collective="false" import="true" targetId="feff-2839-91dc-2313" type="selectionEntry"/>
-            <entryLink id="d514-e2e9-b3a4-330a" name="+1 Combate" hidden="false" collective="false" import="true" targetId="3b55-becb-7c9e-d250" type="selectionEntry"/>
-            <entryLink id="45e5-0d92-4029-625f" name="+1 Dureza" hidden="false" collective="false" import="true" targetId="8fb6-84e4-c2cd-af13" type="selectionEntry"/>
-            <entryLink id="fdfd-466a-2f65-7f39" name="+1 Fuerza" hidden="false" collective="false" import="true" targetId="2c12-51ab-91c1-e84f" type="selectionEntry"/>
-            <entryLink id="73c7-85f6-9c89-1285" name="+1 Precisión" hidden="false" collective="false" import="true" targetId="a30c-a04f-6793-3379" type="selectionEntry"/>
-            <entryLink id="42ed-17dd-0edc-379b" name="+1 Técnica" hidden="false" collective="false" import="true" targetId="7cad-6c84-982b-46c7" type="selectionEntry"/>
-            <entryLink id="656e-08a0-5664-0978" name="Acaparador" hidden="false" collective="false" import="true" targetId="3f80-491d-1bab-2fb5" type="selectionEntry"/>
-            <entryLink id="87c6-0e7f-9957-b2fc" name="Afortunado" hidden="false" collective="false" import="true" targetId="6fcb-4eaf-15df-2793" type="selectionEntry"/>
-            <entryLink id="c89f-0666-a046-39b3" name="Ágil" hidden="false" collective="false" import="true" targetId="0359-f777-38c8-f928" type="selectionEntry"/>
-            <entryLink id="93db-b185-ab50-c90a" name="Atleta" hidden="false" collective="false" import="true" targetId="9d30-0288-4ef4-971c" type="selectionEntry"/>
-            <entryLink id="3249-ba9e-42b7-d2e8" name="Churruscado" hidden="false" collective="false" import="true" targetId="351d-f1e4-5a45-9271" type="selectionEntry"/>
-            <entryLink id="9377-7196-f28a-1bc7" name="Gallina" hidden="false" collective="false" import="true" targetId="4915-95e3-c5d8-74cc" type="selectionEntry"/>
-            <entryLink id="6fc7-8a09-7082-cecd" name="Escurridizo" hidden="false" collective="false" import="true" targetId="68ac-3733-32bb-6fec" type="selectionEntry"/>
-            <entryLink id="4684-4dcd-9e6f-1b45" name="Pagafantas" hidden="false" collective="false" import="true" targetId="daa5-910a-41c8-ab27" type="selectionEntry"/>
-            <entryLink id="c0c7-8f8f-5777-fb99" name="Irrompible" hidden="false" collective="false" import="true" targetId="e2fc-7cb2-ff00-f915" type="selectionEntry"/>
-            <entryLink id="6e21-934c-3474-7f7b" name="Loco" hidden="false" collective="false" import="true" targetId="f313-69b6-3ac8-5ff0" type="selectionEntry"/>
-            <entryLink id="9e34-93da-0123-eb14" name="Molón" hidden="false" collective="false" import="true" targetId="8c39-ae2f-954a-e877" type="selectionEntry"/>
-            <entryLink id="ba38-649e-99b8-dc42" name="Ojeriza" hidden="false" collective="false" import="true" targetId="5ce7-0ad8-1f68-5006" type="selectionEntry"/>
-            <entryLink id="15df-6f3f-4c43-597c" name="Predestinado" hidden="false" collective="false" import="true" targetId="52ed-fedf-86de-41e5" type="selectionEntry"/>
-            <entryLink id="cf4f-5c6c-ac21-a3d9" name="Sádico" hidden="false" collective="false" import="true" targetId="6652-9c59-5563-8401" type="selectionEntry"/>
-            <entryLink id="4dc3-9f93-64db-13a1" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
-            <entryLink id="fc28-cd49-f6a3-6469" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
-            <entryLink id="7513-adcb-2634-1ff2" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
         <selectionEntryGroup id="16ea-ab34-2b8b-6ef4" name="Mutaciones" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="e74a-5f7e-5de0-9890" name="Cachas" hidden="false" collective="false" import="true" targetId="6067-a371-1224-941b" type="selectionEntry"/>
@@ -470,6 +599,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="96cd-92ef-7811-80e9" name="Herida grave" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -479,6 +612,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d24e-f407-091c-99bd" name="Herida en la pierna" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -488,6 +625,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="024c-3bb7-be9b-1d71" name="Herida en el brazo" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -497,6 +638,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="2bf0-ae7f-19a9-5acf" name="Herida en el pie" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -507,6 +652,10 @@ Chungo. Si sale una tercera vez, se consideraría muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="8e66-6362-3b74-4cde" name="Herida en el pecho" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -516,6 +665,10 @@ Chungo. Si sale una tercera vez, se consideraría muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d50e-921d-3998-a64b" name="Herida en la cabeza" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -526,8 +679,101 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8999-e913-ecae-0a9d" name="Habilidades" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="b259-5388-e872-4810" name="Megamutante" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="d7b1-cddb-a9f6-d2df" name="Megamutante" hidden="false">
+                  <description>Esta miniatura debe adquirir 2 mutaciones tirando dos veces en su tabla. Una miniatura puede adquirir más de una vez esta habilidad.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cd6b-d8d9-eb87-34dd" name="Guapetón" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="f0f2-42be-c78d-a990" name="Guapetón" hidden="false" typeId="050a-68de-8234-0b50" typeName="Armas cuerpo a cuerpo">
+                  <characteristics>
+                    <characteristic name="Combate" typeId="9164-d66a-0674-403b"/>
+                    <characteristic name="Fuerza" typeId="fc3a-f531-4588-9421"/>
+                    <characteristic name="Penetración" typeId="790d-0747-0e5f-2cde"/>
+                    <characteristic name="Reglas especiales" typeId="b696-3ad4-1d86-c8f5"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="bcb4-4891-71d0-6418" name="Guapetón" hidden="false">
+                  <description>Esta miniatura no tiene sus mutaciones a la vista y puede hacerse pasar por una persona normal. Puede adquirir equipo de la lista de los Pandilleros, pero sólo él podrá equiparse con este.</description>
+                </rule>
+              </rules>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="75a7-5b4d-2d1d-d6e4" name="Equipo de Pandilleros" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="fcfc-3820-4e15-c2e6" name="Arco" hidden="false" collective="false" import="true" targetId="6d9f-ee1a-09d0-2cb9" type="selectionEntry"/>
+                    <entryLink id="1487-ce02-dda7-3f28" name="Armadura metálica" hidden="false" collective="false" import="true" targetId="fc6e-ddda-8911-bd66" type="selectionEntry"/>
+                    <entryLink id="79dc-314a-77ad-fefc" name="Ballesta" hidden="false" collective="false" import="true" targetId="c1cd-cb87-fbf7-e4e6" type="selectionEntry"/>
+                    <entryLink id="ea4f-62ef-f708-72a4" name="Chaleco antibalas " hidden="false" collective="false" import="true" targetId="9e06-2405-21d9-cd66" type="selectionEntry"/>
+                    <entryLink id="75be-ac33-e5e9-9c8a" name="Bayoneta" hidden="false" collective="false" import="true" targetId="b122-e74e-20f8-404c" type="selectionEntry"/>
+                    <entryLink id="0f26-abae-29eb-9a1c" name="Chapa metálica" hidden="false" collective="false" import="true" targetId="33d4-4405-1525-d1a6" type="selectionEntry"/>
+                    <entryLink id="5cdf-4d61-0da3-7bb2" name="Cuchillos arrojadizos" hidden="false" collective="false" import="true" targetId="cc6a-3919-94d6-8d2c" type="selectionEntry"/>
+                    <entryLink id="bf51-d7cd-4f0c-8010" name="Cuero endurecido" hidden="false" collective="false" import="true" targetId="1fb2-20f3-c4b0-cae4" type="selectionEntry"/>
+                    <entryLink id="f812-0384-d1e8-9767" name="Escopeta" hidden="false" collective="false" import="true" targetId="3dcf-fdea-b5fc-2cd6" type="selectionEntry"/>
+                    <entryLink id="ed1a-f40a-b8f7-045a" name="Escudo" hidden="false" collective="false" import="true" targetId="cc48-f662-3654-bc64" type="selectionEntry"/>
+                    <entryLink id="9828-8ffd-1703-68bd" name="Filo medio " hidden="false" collective="false" import="true" targetId="b311-f0a5-457b-46be" type="selectionEntry"/>
+                    <entryLink id="31e7-861d-e3a7-bcb7" name="FIlo pesado" hidden="false" collective="false" import="true" targetId="b4f3-52ac-5acc-4467" type="selectionEntry"/>
+                    <entryLink id="3f30-9c7c-0d6a-e320" name="Filo pequeño" hidden="false" collective="false" import="true" targetId="5acd-32cd-c603-103b" type="selectionEntry"/>
+                    <entryLink id="04e6-41f1-2d91-625e" name="Maza" hidden="false" collective="false" import="true" targetId="9edf-8e6e-27a2-5e4a" type="selectionEntry"/>
+                    <entryLink id="8112-bf40-b855-6eef" name="Maza ligera " hidden="false" collective="false" import="true" targetId="2f4b-e101-83a4-5518" type="selectionEntry"/>
+                    <entryLink id="d5d4-8872-581c-f1c4" name="Maza pesada" hidden="false" collective="false" import="true" targetId="8272-135d-a41a-cbab" type="selectionEntry"/>
+                    <entryLink id="d118-b6b4-29f1-a167" name="Pistola" hidden="false" collective="false" import="true" targetId="8b74-4dc7-80bb-46fc" type="selectionEntry"/>
+                    <entryLink id="2ab9-7b65-a790-0f16" name="Protección contra la contaminación" hidden="false" collective="false" import="true" targetId="1d0a-fbe8-0f37-e8ea" type="selectionEntry"/>
+                    <entryLink id="367b-b481-6d85-b1fa" name="Ropas resistentes " hidden="false" collective="false" import="true" targetId="e11e-4718-39e0-21d1" type="selectionEntry"/>
+                    <entryLink id="27a2-b4e8-9ce7-5714" name="Rifle" hidden="false" collective="false" import="true" targetId="ae4f-bb03-e037-3103" type="selectionEntry"/>
+                    <entryLink id="ee06-c760-1dfd-d658" name="Rifle automático" hidden="false" collective="false" import="true" targetId="b3f1-807d-a5fd-ad4c" type="selectionEntry"/>
+                    <entryLink id="f7b2-1c8e-6e26-c15f" name="Balas" hidden="false" collective="false" import="true" targetId="2944-a341-9162-db3b" type="selectionEntry"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="535a-522a-35a5-bfde" name="+1 Agilidad" hidden="false" collective="false" import="true" targetId="feff-2839-91dc-2313" type="selectionEntry"/>
+            <entryLink id="671f-e73e-9416-1e57" name="+1 Combate" hidden="false" collective="false" import="true" targetId="3b55-becb-7c9e-d250" type="selectionEntry"/>
+            <entryLink id="8870-05f8-ba0c-6e30" name="+1 Dureza" hidden="false" collective="false" import="true" targetId="8fb6-84e4-c2cd-af13" type="selectionEntry"/>
+            <entryLink id="9ddf-8a36-fe8a-0818" name="+1 Fuerza" hidden="false" collective="false" import="true" targetId="2c12-51ab-91c1-e84f" type="selectionEntry"/>
+            <entryLink id="b65d-045e-855f-6c24" name="+1 Precisión" hidden="false" collective="false" import="true" targetId="a30c-a04f-6793-3379" type="selectionEntry"/>
+            <entryLink id="5327-4cec-c28a-534c" name="+1 Técnica" hidden="false" collective="false" import="true" targetId="7cad-6c84-982b-46c7" type="selectionEntry"/>
+            <entryLink id="6e7f-a609-94b5-5553" name="Acaparador" hidden="false" collective="false" import="true" targetId="3f80-491d-1bab-2fb5" type="selectionEntry"/>
+            <entryLink id="0205-30ad-600c-29c1" name="Afortunado" hidden="false" collective="false" import="true" targetId="6fcb-4eaf-15df-2793" type="selectionEntry"/>
+            <entryLink id="a787-e144-f109-33ec" name="Ágil" hidden="false" collective="false" import="true" targetId="0359-f777-38c8-f928" type="selectionEntry"/>
+            <entryLink id="9fa8-1823-0f1a-7e0f" name="Atleta" hidden="false" collective="false" import="true" targetId="9d30-0288-4ef4-971c" type="selectionEntry"/>
+            <entryLink id="0e13-7340-7ef3-dfa4" name="Churruscado" hidden="false" collective="false" import="true" targetId="351d-f1e4-5a45-9271" type="selectionEntry"/>
+            <entryLink id="142a-7430-de88-74b5" name="Gallina" hidden="false" collective="false" import="true" targetId="4915-95e3-c5d8-74cc" type="selectionEntry"/>
+            <entryLink id="e4d1-be0d-bf55-07d7" name="Escurridizo" hidden="false" collective="false" import="true" targetId="68ac-3733-32bb-6fec" type="selectionEntry"/>
+            <entryLink id="3ef0-3ec9-d09b-b47a" name="Pagafantas" hidden="false" collective="false" import="true" targetId="daa5-910a-41c8-ab27" type="selectionEntry"/>
+            <entryLink id="7c49-c4ac-d186-fc39" name="Irrompible" hidden="false" collective="false" import="true" targetId="e2fc-7cb2-ff00-f915" type="selectionEntry"/>
+            <entryLink id="9fe7-b7b7-8c42-4cf8" name="Loco" hidden="false" collective="false" import="true" targetId="f313-69b6-3ac8-5ff0" type="selectionEntry"/>
+            <entryLink id="5ed8-cdac-d5b2-98b9" name="Molón" hidden="false" collective="false" import="true" targetId="8c39-ae2f-954a-e877" type="selectionEntry"/>
+            <entryLink id="d740-2a69-abc8-079d" name="Ojeriza" hidden="false" collective="false" import="true" targetId="5ce7-0ad8-1f68-5006" type="selectionEntry"/>
+            <entryLink id="a981-fc2c-2484-f259" name="Predestinado" hidden="false" collective="false" import="true" targetId="52ed-fedf-86de-41e5" type="selectionEntry"/>
+            <entryLink id="0d74-ff41-2c1d-8492" name="Sádico" hidden="false" collective="false" import="true" targetId="6652-9c59-5563-8401" type="selectionEntry"/>
+            <entryLink id="ae84-9e41-af46-842e" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
+            <entryLink id="fd9c-7e0e-0214-7a43" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
+            <entryLink id="eaf2-0715-4208-a4d4" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -583,6 +829,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="ca5a-c242-60de-f522" name="Herida grave" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -592,6 +842,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="2247-2d04-9a8b-c8de" name="Herida en la pierna" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -601,6 +855,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="053b-8290-dfed-73c6" name="Herida en el brazo" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -610,6 +868,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="5d83-b44e-2ea7-25cd" name="Herida en el pie" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -620,6 +882,10 @@ Chungo. Si sale una tercera vez, se consideraría muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="4077-35e9-c007-2176" name="Herida en el pecho" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -629,6 +895,10 @@ Chungo. Si sale una tercera vez, se consideraría muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a102-d0eb-5dfc-b4a9" name="Herida en la cabeza" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -639,6 +909,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -678,33 +952,6 @@ muerta.</characteristic>
         <categoryLink id="7c79-75a0-7bbc-b9a8" name="New CategoryLink" hidden="false" targetId="c992-abb7-5e65-4ae2" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="47dd-d405-e703-dfc9" name="Habilidades" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="0f3f-25be-02d0-bc04" name="+1 Agilidad" hidden="false" collective="false" import="true" targetId="feff-2839-91dc-2313" type="selectionEntry"/>
-            <entryLink id="447f-c85e-771e-f3e0" name="+1 Combate" hidden="false" collective="false" import="true" targetId="3b55-becb-7c9e-d250" type="selectionEntry"/>
-            <entryLink id="460e-2fe3-16a5-e7ff" name="+1 Dureza" hidden="false" collective="false" import="true" targetId="8fb6-84e4-c2cd-af13" type="selectionEntry"/>
-            <entryLink id="cf6f-a9be-8314-c04e" name="+1 Fuerza" hidden="false" collective="false" import="true" targetId="2c12-51ab-91c1-e84f" type="selectionEntry"/>
-            <entryLink id="7a7c-59a2-9d6e-59d4" name="+1 Precisión" hidden="false" collective="false" import="true" targetId="a30c-a04f-6793-3379" type="selectionEntry"/>
-            <entryLink id="8993-24ee-6bdf-086b" name="+1 Técnica" hidden="false" collective="false" import="true" targetId="7cad-6c84-982b-46c7" type="selectionEntry"/>
-            <entryLink id="d20a-d2bf-60f0-48e2" name="Acaparador" hidden="false" collective="false" import="true" targetId="3f80-491d-1bab-2fb5" type="selectionEntry"/>
-            <entryLink id="b02a-6f74-564a-4490" name="Afortunado" hidden="false" collective="false" import="true" targetId="6fcb-4eaf-15df-2793" type="selectionEntry"/>
-            <entryLink id="0560-f0ec-52b0-a41e" name="Ágil" hidden="false" collective="false" import="true" targetId="0359-f777-38c8-f928" type="selectionEntry"/>
-            <entryLink id="85e5-62ee-f033-64b8" name="Atleta" hidden="false" collective="false" import="true" targetId="9d30-0288-4ef4-971c" type="selectionEntry"/>
-            <entryLink id="67a8-e3a6-da59-b4ce" name="Churruscado" hidden="false" collective="false" import="true" targetId="351d-f1e4-5a45-9271" type="selectionEntry"/>
-            <entryLink id="a88b-2cf0-e559-d4be" name="Gallina" hidden="false" collective="false" import="true" targetId="4915-95e3-c5d8-74cc" type="selectionEntry"/>
-            <entryLink id="20ad-b293-049e-6007" name="Escurridizo" hidden="false" collective="false" import="true" targetId="68ac-3733-32bb-6fec" type="selectionEntry"/>
-            <entryLink id="e671-c5ed-50ff-8d98" name="Pagafantas" hidden="false" collective="false" import="true" targetId="daa5-910a-41c8-ab27" type="selectionEntry"/>
-            <entryLink id="d7b7-1f07-1bb0-f563" name="Irrompible" hidden="false" collective="false" import="true" targetId="e2fc-7cb2-ff00-f915" type="selectionEntry"/>
-            <entryLink id="8665-6fea-0b13-5712" name="Loco" hidden="false" collective="false" import="true" targetId="f313-69b6-3ac8-5ff0" type="selectionEntry"/>
-            <entryLink id="204d-b38b-976a-159a" name="Molón" hidden="false" collective="false" import="true" targetId="8c39-ae2f-954a-e877" type="selectionEntry"/>
-            <entryLink id="fbbc-1408-28a4-7de5" name="Ojeriza" hidden="false" collective="false" import="true" targetId="5ce7-0ad8-1f68-5006" type="selectionEntry"/>
-            <entryLink id="3537-068f-20b0-1ff8" name="Predestinado" hidden="false" collective="false" import="true" targetId="52ed-fedf-86de-41e5" type="selectionEntry"/>
-            <entryLink id="af9e-7413-68c3-2a39" name="Sádico" hidden="false" collective="false" import="true" targetId="6652-9c59-5563-8401" type="selectionEntry"/>
-            <entryLink id="f185-f7a4-98cf-c1e4" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
-            <entryLink id="dfd2-cbac-902e-32e4" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
-            <entryLink id="8267-78e0-b2bc-b7d8" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
         <selectionEntryGroup id="a655-a019-d356-e08c" name="Mutaciones" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="c2ee-2638-81b9-4094" name="Cachas" hidden="false" collective="false" import="true" targetId="6067-a371-1224-941b" type="selectionEntry"/>
@@ -742,6 +989,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="1e1c-86ed-7e21-6c32" name="Herida grave" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -751,6 +1002,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="5218-6bdf-e9e6-c8bc" name="Herida en la pierna" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -760,6 +1015,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="ecc2-aab1-1c6f-4832" name="Herida en el brazo" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -769,6 +1028,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="5194-9a5b-c182-4272" name="Herida en el pie" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -779,6 +1042,10 @@ Chungo. Si sale una tercera vez, se consideraría muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="552c-9da4-12c7-359a" name="Herida en el pecho" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -788,6 +1055,10 @@ Chungo. Si sale una tercera vez, se consideraría muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="da0c-2c5e-1787-0b76" name="Herida en la cabeza" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -798,6 +1069,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -877,6 +1152,9 @@ muerta.</characteristic>
       </categoryLinks>
     </entryLink>
     <entryLink id="005c-ca15-f2f4-4bf7" name="Cuchillos arrojadizos" hidden="false" collective="false" import="true" targetId="cc6a-3919-94d6-8d2c" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="61db-453f-6127-445c" name="Herrumbre" hidden="false" targetId="7725-6849-25a0-2dad" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="00e5-95bc-1b21-7ad2" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
       </categoryLinks>
@@ -885,6 +1163,9 @@ muerta.</characteristic>
       </costs>
     </entryLink>
     <entryLink id="82df-9a65-dcc0-cf34" name="Filo medio " hidden="false" collective="false" import="true" targetId="b311-f0a5-457b-46be" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="8cb5-8a3c-4f8f-fdf4" name="Herrumbre" hidden="false" targetId="7725-6849-25a0-2dad" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="9af7-72f5-289f-f7f7" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
       </categoryLinks>
@@ -893,6 +1174,9 @@ muerta.</characteristic>
       </costs>
     </entryLink>
     <entryLink id="773d-3ab1-41f7-23ff" name="Filo pequeño" hidden="false" collective="false" import="true" targetId="5acd-32cd-c603-103b" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="0ee8-571e-f25c-ed96" name="Herrumbre" hidden="false" targetId="7725-6849-25a0-2dad" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="b0df-6bac-39b2-fe1c" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
       </categoryLinks>
@@ -901,6 +1185,9 @@ muerta.</characteristic>
       </costs>
     </entryLink>
     <entryLink id="64af-08f4-f968-30e5" name="FIlo pesado" hidden="false" collective="false" import="true" targetId="b4f3-52ac-5acc-4467" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="42b3-9513-6504-98b1" name="Herrumbre" hidden="false" targetId="7725-6849-25a0-2dad" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="e328-c68f-7e58-8e0b" name="New CategoryLink" hidden="false" targetId="8ac4-b37f-1111-0bc6" primary="true"/>
       </categoryLinks>
