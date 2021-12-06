@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="597a-babb-9722-2048" name="Punkapocalyptic Modo Campaña" revision="8" battleScribeVersion="2.03" authorName="SergioTemp" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="597a-babb-9722-2048" name="Punkapocalyptic Modo Campaña" revision="9" battleScribeVersion="2.03" authorName="SergioTemp" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Esta configuración se debe de utilizar junto a las reglas extra y de campaña disponibles en la tienda de BadRollGames: https://www.badrollgames.com/shop/index.php?route=product/product&amp;product_id=189
 
 Montaje patrocinado por Libertalia Juegos</readme>
@@ -2057,6 +2057,550 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
       <categoryLinks>
         <categoryLink id="aecf-7606-c622-7a8c" name="New CategoryLink" hidden="false" targetId="c8e1-72a6-80c1-b426" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d1e6-6e83-31a3-5329" name="Construcciones" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="ae38-42ff-f904-8815" name="Armeria" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="64a6-1ca0-2684-8da4" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="9011-deee-c7aa-39dd" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="035e-12e6-5349-13e5" name="Armeria nivel 1" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bd61-26c1-9193-96b2" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="04f6-f198-dab2-2e23" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="9026-92c0-1b28-8353" name="Armeria nivel 1" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
+                      <characteristics>
+                        <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Se ha mejorado la capacidad para afilar las armas de filo. Todas las armas de este tipo obtendrán un bonificador de +1 a la Penetración.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="9792-570d-e7e3-45f6" name="Construcciones" hidden="false" targetId="0b69-4920-b080-8126" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="24.0"/>
+                    <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="1522-72a5-1685-7224" name="Armeria nivel 2" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d9d7-e614-6fea-dc60" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ffcf-0508-eb08-7fe1" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="743d-0502-dfff-3691" name="Armeria nivel 2" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
+                      <characteristics>
+                        <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Se ha mejorado la contundencia de las armas golpeadoras. Todas las mazas obtendrán un bonificador de +1 a la Fuerza </characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="aeb4-3629-3600-9ddd" name="Construcciones" hidden="false" targetId="0b69-4920-b080-8126" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="32.0"/>
+                    <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="00e1-1125-4d7b-9118" name="Armeria nivel 3" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6897-de28-627c-d023" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="37ec-2ba5-1c2f-c1f2" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="d04a-a2ce-ad7b-4beb" name="Armeria nivel 3" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
+                      <characteristics>
+                        <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Se ha mejorado el equilibrio de las armas a distancia. Todas las armas de este tipo obtendrán un bonificador de +1 a la Precisión</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="bfea-952d-3afb-1bf9" name="Construcciones" hidden="false" targetId="0b69-4920-b080-8126" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="40.0"/>
+                    <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ca13-3559-8b1e-912f" name="Campo de entrenamiento" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="52a4-25f0-69e0-58bb" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="b2da-8103-a88f-7061" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="a068-cfce-77eb-47be" name="Campo de entrenamiento nivel 1" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d6a6-8335-b5b6-4b79" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fcc7-40b8-0a9e-04a0" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="8914-f290-b8fe-c7ee" name="Campo de entrenamiento nivel 1" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
+                      <characteristics>
+                        <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Miembros de la banda pueden entrenar en lugar de ir a combatir. Si decides utilizar esta mejora, puedes dejar una miniatura fuera de la batalla entrenando. Esta conseguirá de manera automática 4PX</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="692a-aba4-4bd7-7fb4" name="Construcciones" hidden="false" targetId="0b69-4920-b080-8126" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="24.0"/>
+                    <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="1fd3-8e4b-eeba-9550" name="Campo de entrenamiento nivel 2" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="02dc-769c-ce45-36fb" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5453-eb8b-1cee-e289" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="335e-0cbe-13e5-179c" name="Campo de entrenamiento nivel 2" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
+                      <characteristics>
+                        <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Puedes elegir que un miembro de la banda se quede entrenando intensamente en lugar de combatir. Al final de la partida debes tirar 1d10. Con un resultado de 1-9 este conseguirá de manerra gratuita una tirada den la Tabla de Mejora de Experiencia. Si saca un 10, habrá sufrido algún accidente y deberá tirar en la Tabla de Heridas. Ninguna miniatura puede conseguir más de una mejora de esta manera. </characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="3f23-dab0-d389-9a08" name="Construcciones" hidden="false" targetId="0b69-4920-b080-8126" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="40.0"/>
+                    <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="431e-5b44-652f-a241" name="Caravana comercial (Solo Chatarreros)" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="34bb-0aca-4859-8351" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="17f4-90dc-12d5-96f3" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="48a6-6599-5d49-f6c2" name="Caravana comercial" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91">Los Chatarreros pueden vender el equipo usado a su precio total básico.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="f9eb-8ee6-cf4b-9f60" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="24.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2154-bae0-e6aa-e681" name="Centro táctico" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3250-1c73-8878-a8a3" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="13fb-b5f0-768f-9ddb" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="39fb-5305-0d37-dffd" name="Centro táctico nivel 1" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="354d-c499-c999-be97" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f550-ed74-d5a2-9011" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="28fc-8afd-70a5-b1fd" name="Centro táctico nivel 1" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
+                      <characteristics>
+                        <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">A la hora de jugar una partida, puedes elegir el escenario posterior o anterior al quie haya salido. Si ambos bandos tienen esta mejora se actuará como si ninguno la tuviera.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="2d75-197c-783e-6e96" name="Construcciones" hidden="false" targetId="0b69-4920-b080-8126" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="24.0"/>
+                    <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="ff43-bbf9-7a33-f993" name="Centro táctico nivel 2" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0fa8-2cd3-b181-4491" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5cf0-b202-ad94-89d6" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="fcd0-26ca-6653-3d89" name="Centro táctico nivel 2" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
+                      <characteristics>
+                        <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Entre partidas, puedes gastar 15 chapas en subir 5PX de una miatura. Se puede usar más de una vez, pero no puedes repetir sobre la misma miniatura hasta que vuelvas a jugar otra partida. </characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="7fa7-f0c6-6118-9f65" name="Construcciones" hidden="false" targetId="0b69-4920-b080-8126" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="32.0"/>
+                    <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="5c8f-37da-b576-9444" name="Centro táctico nivel 3" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6d59-cbe6-13db-4d72" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="788f-a0a3-ff01-c602" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="c330-cb90-baec-5a70" name="Centro táctico nivel 3" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
+                      <characteristics>
+                        <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Tras una partida, UNA miniatura que tenga que tirar en la tabla de habilidades podrá repetir el resultado obtenido.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="9dc2-1a38-c459-ef4f" name="Construcciones" hidden="false" targetId="0b69-4920-b080-8126" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="32.0"/>
+                    <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2555-0be0-20dc-de3a" name="Charcas radiactivas (solo mutardos)" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e2cd-a1c5-664a-77c7" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="4669-c03d-ce02-7b44" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="fbdf-f1dc-1236-bc80" name="Charcas radiactivas nivel 1" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="da8e-3826-aefb-fa91" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="759e-2c0e-a27c-faeb" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="8f4c-3f1c-1630-886b" name="Charcas radiactivas nivel 1" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
+                      <characteristics>
+                        <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Tras una partida, UNA miniatura que tenga que tirar en la tabla de Mutaciones podrá repetir el resultado obtenido</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="8a07-3589-d17e-5854" name="Construcciones" hidden="false" targetId="0b69-4920-b080-8126" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="32.0"/>
+                    <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="4ec6-75a2-c472-ce23" name="Charcas radiactivas nivel 2" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8343-11de-e1fc-8468" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a9f6-4d7b-5be4-ab63" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="49e8-173c-caa5-1f5c" name="Charcas radiactivas nivel 2" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
+                      <characteristics>
+                        <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Tras una partida, UNA miniatura que tenga que tirar en la tabla de Mutaciones podrá repetir el resultado obtenido</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="42f2-a7a7-ffdb-5fc6" name="Construcciones" hidden="false" targetId="0b69-4920-b080-8126" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="32.0"/>
+                    <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="4d32-2fb1-0603-be97" name="Charcas radiactivas nivel 3" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="756a-aebe-eb5f-8bbd" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6d07-7b47-633e-250c" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="48e6-6caf-776c-8e0e" name="Charcas radiactivas nivel 3" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
+                      <characteristics>
+                        <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Tras una partida, UNA miniatura que tenga que tirar en la tabla de Mutaciones podrá repetir el resultado obtenido</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="eef5-8f07-974c-0691" name="Construcciones" hidden="false" targetId="0b69-4920-b080-8126" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="32.0"/>
+                    <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ed6d-c700-6133-6959" name="Defensas" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d06a-3d3e-d985-77ed" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="a09f-0119-1fe7-8b7d" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="f9d9-4b8e-89bf-ff6f" name="Defensas nivel 1" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="de72-a033-c0e6-86cb" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ef93-bb9f-b95f-1433" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="2e14-90ef-103d-0b59" name="Defensas nivel 1" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
+                      <characteristics>
+                        <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Después de colocar la escenografía de manera habitual, una banda con esta Construcción puede colocar dos barricadas de un máximo de 20 cm de ancho y 5 cm de alto cada una en cualquier lugar de la mesa. Si las dos bandas tienen esta Construcción se tirará un dado para ver quién coloca primero, y luego se irán alternando. </characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="9e75-538a-7407-bc77" name="Construcciones" hidden="false" targetId="0b69-4920-b080-8126" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="32.0"/>
+                    <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="b09f-bac4-cad7-34e6" name="Defensas nivel 2" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cbce-e33f-cfcb-e5b0" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d4a9-c1ab-36e8-9026" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="8101-5c8b-201d-0321" name="Defensas nivel 2" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
+                      <characteristics>
+                        <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Después de colocar la escenografía de manera habitual, una banda con esta Construcción puede colocar un puesto elevado (Una torre de vigilancia, un pequeño edificio, roca) en su zona de despliegue. Este tendrá un tamaño máximo de 15 cm tanto de altura como de anchura en cualquiera de sus lados. Además debe tener obligatoriamente una escalerilla por el que se alcance la parte superior. Si las fos bandas tienen esta construcción, se tirará un dado para ver quién coloca primero.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="36df-92c9-c64b-1063" name="Construcciones" hidden="false" targetId="0b69-4920-b080-8126" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="40.0"/>
+                    <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="84d6-3380-21cc-7a3a" name="Enfermería " hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c529-7d02-55f6-8cc5" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="9583-a55e-99cf-6609" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="af0e-02a7-34b6-42b7" name="Enfermería nivel 1" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9fc9-7444-abc2-4566" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8b5c-45b5-5acd-4935" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="a0ce-5e45-2032-39c1" name="Enfermería nivel 1" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
+                      <characteristics>
+                        <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Tras una partida, UNA miniatura Abatida de la banda podrá repetir el resultado obtenido en la Tabla de Heridas. </characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="6037-ec4e-2335-d701" name="Construcciones" hidden="false" targetId="0b69-4920-b080-8126" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="32.0"/>
+                    <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="3973-16aa-ee3b-96ac" name="Enfermería nivel 2" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e82e-9f68-6698-bbfa" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3b5d-d077-9f09-a489" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="83e5-d1e3-0f3c-7426" name="Enfermería nivel 2" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
+                      <characteristics>
+                        <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Tras una partida, UNA miniatura Abatida de la banda podrá repetir el resultado obtenido en la Tabla de Heridas.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="a0f0-798b-8d37-a2f7" name="Construcciones" hidden="false" targetId="0b69-4920-b080-8126" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="32.0"/>
+                    <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="c56f-5271-1c77-c925" name="Enfermería nivel 3" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="72f3-9dde-9528-49eb" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6787-4704-9377-0d0d" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="179a-8abf-86db-428b" name="Enfermería nivel 3" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
+                      <characteristics>
+                        <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Tras una partida, UNA miniatura Abatida de la banda podrá repetir el resultado obtenido en la Tabla de Heridas.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="d01b-94bc-0a58-9805" name="Construcciones" hidden="false" targetId="0b69-4920-b080-8126" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="32.0"/>
+                    <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6822-b21b-8cc1-5337" name="Museo militar (Solo V Reich)" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f2ef-637e-51e5-57fe" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b355-7e20-c6a3-4459" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8646-60a6-4185-f077" name="Museo militar" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
+                  <characteristics>
+                    <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Las armas con la regla especial Arma de fuego cuestan la mitad de chapas (redondeando hacia arriba)</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="8490-bdd0-8aaa-d5e8" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="32.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="00da-a092-d01b-1e24" name="Puesto de venta" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a024-9357-19fb-77b4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c58d-82e3-73ec-d0dd" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="2727-552f-1997-d8eb" name="Puesto de venta" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
+                  <characteristics>
+                    <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Miembros de la banda pueden dedicarse a vender en lugar de ir a combatir. Si decides utilizar esta mejora, puedes dejar UNA miniatura fuera de la batalla vendiendo. Esta conseguirá de manera automática 10 chapas.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="3696-c9bc-3aca-b43b" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="32.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3e1e-236c-cb57-cd6b" name="Refinería (Solo Sangre Negra)" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2727-2862-2b17-adb9" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="e307-0ac4-d648-79cb" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="47b7-e9f7-456a-2d54" name="Refinería nivel 1" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d8ad-6f14-68b7-3142" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b681-f53d-edd6-0be7" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="ae55-1f8f-a1a9-f2bd" name="Refinería nivel 1" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
+                      <characteristics>
+                        <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Las armas con la Regla especial Combustible dispondrán de 2 cargas extras.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="d2dc-5e92-9b27-18cc" name="Construcciones" hidden="false" targetId="0b69-4920-b080-8126" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="32.0"/>
+                    <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f425-e6cb-7aa3-fcda" name="Refinería nivel 2" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cf75-eda4-69a0-6684" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9ddb-a15b-dde8-8297" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="4496-787b-95f7-dc5e" name="Refinería nivel 2" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
+                      <characteristics>
+                        <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Las motocicletas podrán usar Darle caña una vez más por partida.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="6eb0-e5ae-309d-24ee" name="Construcciones" hidden="false" targetId="0b69-4920-b080-8126" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="24.0"/>
+                    <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="310f-b9d7-f4aa-9171" name="Refinería nivel 3" hidden="false" collective="false" import="true" type="unit">
+                  <constraints>
+                    <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0a7e-105b-5b7d-77a4" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6d52-5517-30e9-fb58" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="f18b-181a-4801-8205" name="Refinería nivel 3" hidden="false" typeId="475f-8209-cfd0-4761" typeName="Construcciones">
+                      <characteristics>
+                        <characteristic name="Descripción" typeId="3ea2-7643-4338-ef56">Las armas con la Regla especial Combustible dispondrán de 2 cargas extras. </characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <categoryLinks>
+                    <categoryLink id="91eb-0e14-fdab-097f" name="Construcciones" hidden="false" targetId="0b69-4920-b080-8126" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="32.0"/>
+                    <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
