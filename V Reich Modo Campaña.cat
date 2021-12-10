@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3cdc-accb-b22e-cfd6" name="V Reich Modo Campaña" revision="3" battleScribeVersion="2.03" authorName="Sergio Temp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3cdc-accb-b22e-cfd6" name="V Reich Modo Campaña" revision="4" battleScribeVersion="2.03" authorName="Sergio Temp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="0057-f04a-7bae-140f" name="Soldat" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -88,6 +88,10 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="f552-4d7d-8b48-8bac" name="Herida grave" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -97,6 +101,10 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="f6e2-d48c-b7c1-d8fb" name="Herida en la pierna" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -106,6 +114,10 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="94de-7974-244c-4ef8" name="Herida en el brazo" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -115,6 +127,10 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="f639-fcde-368e-5538" name="Herida en el pie" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -125,6 +141,10 @@ Chungo. Si sale una tercera vez, se consideraría muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="ca39-cdc4-3e13-f6f6" name="Herida en el pecho" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -134,6 +154,10 @@ Chungo. Si sale una tercera vez, se consideraría muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="7400-b099-9ef1-ecc2" name="Herida en la cabeza" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -144,6 +168,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -247,6 +275,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="4ada-554a-fe1e-1aff" name="Herida grave" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -256,6 +288,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="e289-7720-763c-ce80" name="Herida en la pierna" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -265,6 +301,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="2e62-5c91-9b79-f9e3" name="Herida en el brazo" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -274,6 +314,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a1b3-72d3-5a24-5780" name="Herida en el pie" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -284,6 +328,10 @@ Chungo. Si sale una tercera vez, se consideraría muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="c67f-1b3e-57af-5150" name="Herida en el pecho" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -293,6 +341,10 @@ Chungo. Si sale una tercera vez, se consideraría muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="1e9e-7984-280e-dd60" name="Herida en la cabeza" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -303,6 +355,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -361,6 +417,20 @@ muerta.</characteristic>
             <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
             <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry id="eea3-6faa-128f-2963" name="Ropas resistentes" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aa13-cd60-c1d9-594b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="58b6-aeea-342e-5c74" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="a5d1-f399-829c-2053" name="Ropas resistentes" hidden="false" typeId="b0e1-0bc7-cdd4-11b9" typeName="Blindaje">
+              <characteristics>
+                <characteristic name="Blindaje" typeId="a003-4712-8eb9-8fed">1</characteristic>
+                <characteristic name="Reglas especiales" typeId="7ecb-507e-e6d2-cc30"/>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -432,6 +502,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="ffa5-32ea-85c6-a695" name="Herida grave" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -441,6 +515,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9d1c-f0a3-cafb-2aea" name="Herida en la pierna" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -450,6 +528,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="2b00-9c11-399c-bd89" name="Herida en el brazo" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -459,6 +541,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="89aa-386f-80fe-5dc8" name="Herida en el pie" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -469,6 +555,10 @@ Chungo. Si sale una tercera vez, se consideraría muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="1330-9855-f843-d9a0" name="Herida en el pecho" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -478,6 +568,10 @@ Chungo. Si sale una tercera vez, se consideraría muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="3916-278e-9909-bf68" name="Herida en la cabeza" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -488,6 +582,10 @@ muerta.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+                <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -497,12 +595,6 @@ muerta.</characteristic>
           <costs>
             <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="1.0"/>
           </costs>
-        </entryLink>
-        <entryLink id="9593-0b45-5eb7-db84" name="Ropas resistentes " hidden="false" collective="false" import="true" targetId="e11e-4718-39e0-21d1" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="823b-24aa-5372-e61e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5d05-c3b4-bc33-fba3" type="min"/>
-          </constraints>
         </entryLink>
       </entryLinks>
       <costs>
