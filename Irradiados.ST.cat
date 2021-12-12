@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="64e8-f331-6b0f-d5bf" name="Irradiados" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="64e8-f331-6b0f-d5bf" name="Irradiados" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="0161-3e99-ac82-1ffe" name="Cardenal nuclear" hidden="false" collective="false" import="true" type="unit">
       <profiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3cdc-accb-b22e-cfd6" name="V Reich Modo Campaña" revision="4" battleScribeVersion="2.03" authorName="Sergio Temp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3cdc-accb-b22e-cfd6" name="V Reich Modo Campaña" revision="5" battleScribeVersion="2.03" authorName="Sergio Temp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="0057-f04a-7bae-140f" name="Soldat" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -431,6 +431,10 @@ muerta.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+            <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
