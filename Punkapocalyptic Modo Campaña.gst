@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="597a-babb-9722-2048" name="Punkapocalyptic Modo Campaña" revision="8" battleScribeVersion="2.03" authorName="SergioTemp" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="597a-babb-9722-2048" name="Punkapocalyptic Modo Campaña" revision="10" battleScribeVersion="2.03" authorName="SergioTemp" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Esta configuración se debe de utilizar junto a las reglas extra y de campaña disponibles en la tienda de BadRollGames: https://www.badrollgames.com/shop/index.php?route=product/product&amp;product_id=189
 
 Montaje patrocinado por Libertalia Juegos</readme>
@@ -2063,7 +2063,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
           <selectionEntries>
             <selectionEntry id="563d-fac6-4615-9c53" name="11 Balas" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="975.0"/>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="990.0"/>
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -2075,73 +2075,73 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
             </selectionEntry>
             <selectionEntry id="4fb4-9d9f-45ef-a6ec" name="3 Balas" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="75.0"/>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="90.0"/>
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d9c1-df7a-d022-bdda" name="12 Balas" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="1155.0"/>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="1170.0"/>
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9eef-604f-f7a4-1561" name="13 Balas" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="1350.0"/>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="1365.0"/>
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="30aa-d9a8-db16-b407" name="10 Balas" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="810.0"/>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="825.0"/>
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a181-10b7-bcad-383a" name="6 Balas" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="300.0"/>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="315.0"/>
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9150-dec4-890c-1575" name="5 Balas" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="210.0"/>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="225.0"/>
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="621d-eafa-d3cc-aa4c" name="14 Balas" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="1560.0"/>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="1575.0"/>
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2f3f-03e4-fee2-567c" name="7 Balas" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="405.0"/>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="420.0"/>
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8f3f-ce58-d395-cc86" name="4 Balas" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="135.0"/>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="150.0"/>
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8392-916e-4edf-bfc0" name="9 Balas" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="660.0"/>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="675.0"/>
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4fed-40e1-8889-8e29" name="8 Balas" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="525.0"/>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="540.0"/>
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="07c7-2c39-01b7-a8cf" name="2 Balas" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="30.0"/>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="45.0"/>
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
