@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3cdc-accb-b22e-cfd6" name="V Reich Modo Campaña" revision="5" battleScribeVersion="2.03" authorName="Sergio Temp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3cdc-accb-b22e-cfd6" name="V Reich Modo Campaña" revision="5" battleScribeVersion="2.03" authorName="Sergio Temp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="0057-f04a-7bae-140f" name="Soldat" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -50,6 +50,16 @@
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="ee55-0130-e86f-474e" name="+1 bala" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="40b1-060d-9b9b-bec6" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="e715-cc76-90e1-c9da" name="+1 bala" hidden="false">
+                  <description>Bala extra para esta unidad al quinto nivel.</description>
+                </rule>
+              </rules>
+            </selectionEntry>
           </selectionEntries>
           <entryLinks>
             <entryLink id="3c0c-2883-93dc-5f4e" name="+1 Acción" hidden="false" collective="false" import="true" targetId="ecdb-309e-5768-eb7a" type="selectionEntry"/>
@@ -76,6 +86,7 @@
             <entryLink id="7e00-3f47-0ecd-bc68" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
             <entryLink id="8cda-3937-22dd-5d24" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
             <entryLink id="8f96-c9df-4b11-4755" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
+            <entryLink id="9a3a-2af2-035b-2157" name="Broncas" hidden="false" collective="false" import="true" targetId="87ca-c99d-a12d-a634" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="766c-066c-25a9-60d9" name="Heridas" hidden="false" collective="false" import="true">
@@ -263,6 +274,7 @@ muerta.</characteristic>
             <entryLink id="b381-a6ce-8953-77db" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
             <entryLink id="c8ca-bd02-a148-0efa" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
             <entryLink id="46e5-fa59-8834-3100" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
+            <entryLink id="85db-7fe8-60c8-2b9f" name="Broncas" hidden="false" collective="false" import="true" targetId="87ca-c99d-a12d-a634" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="52bc-d7f9-b1e0-ae99" name="Heridas" hidden="false" collective="false" import="true">
@@ -418,13 +430,73 @@ muerta.</characteristic>
             <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="eea3-6faa-128f-2963" name="Ropas resistentes" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="eea3-6faa-128f-2963" name="Cuero endurecido" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="aa13-cd60-c1d9-594b" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="58b6-aeea-342e-5c74" type="min"/>
           </constraints>
           <profiles>
-            <profile id="a5d1-f399-829c-2053" name="Ropas resistentes" hidden="false" typeId="b0e1-0bc7-cdd4-11b9" typeName="Blindaje">
+            <profile id="a5d1-f399-829c-2053" name="Cuero endurecido" hidden="false" typeId="b0e1-0bc7-cdd4-11b9" typeName="Blindaje">
+              <characteristics>
+                <characteristic name="Blindaje" typeId="a003-4712-8eb9-8fed">3</characteristic>
+                <characteristic name="Reglas especiales" typeId="7ecb-507e-e6d2-cc30"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+            <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="786d-768d-f214-51c1" name="Armadura metálica" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7e30-3e22-aee4-5e22" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6b75-69f3-dcfe-ee77" name="Armadura metálica" hidden="false" typeId="b0e1-0bc7-cdd4-11b9" typeName="Blindaje">
+              <characteristics>
+                <characteristic name="Blindaje" typeId="a003-4712-8eb9-8fed">4</characteristic>
+                <characteristic name="Reglas especiales" typeId="7ecb-507e-e6d2-cc30"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+            <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="45f0-d0e0-aa75-f620" name="Chapa metálica" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="30b2-e97d-a3a3-61cc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="210f-284f-3a60-7081" name="Chapa metálica" hidden="false" typeId="b0e1-0bc7-cdd4-11b9" typeName="Blindaje">
+              <characteristics>
+                <characteristic name="Blindaje" typeId="a003-4712-8eb9-8fed">5</characteristic>
+                <characteristic name="Reglas especiales" typeId="7ecb-507e-e6d2-cc30">Armatoste</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+            <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="aca9-8715-c93d-7387" name="Bérserker" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6977-8f37-69ac-33bd" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+            <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2eb8-2d79-38bb-a9e9" name="Ropas resistentes" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="35b8-16f9-11ac-f16c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="414e-2908-2a6b-275d" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="c629-8253-678b-ed57" name="Ropas resistentes" hidden="false" typeId="b0e1-0bc7-cdd4-11b9" typeName="Blindaje">
               <characteristics>
                 <characteristic name="Blindaje" typeId="a003-4712-8eb9-8fed">1</characteristic>
                 <characteristic name="Reglas especiales" typeId="7ecb-507e-e6d2-cc30"/>
@@ -494,6 +566,7 @@ muerta.</characteristic>
             <entryLink id="d288-cf50-bf19-4a4f" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
             <entryLink id="7f36-1e8f-f91d-161d" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
             <entryLink id="2da8-bb30-56ad-705e" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
+            <entryLink id="6a69-30f3-f34b-14c9" name="Broncas" hidden="false" collective="false" import="true" targetId="87ca-c99d-a12d-a634" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="0f93-f0af-193d-7a9c" name="Heridas" hidden="false" collective="false" import="true">

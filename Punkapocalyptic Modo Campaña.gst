@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="597a-babb-9722-2048" name="Punkapocalyptic Modo Campaña" revision="11" battleScribeVersion="2.03" authorName="SergioTemp" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="597a-babb-9722-2048" name="Punkapocalyptic Modo Campaña" revision="12" battleScribeVersion="2.03" authorName="SergioTemp" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Esta configuración se debe de utilizar junto a las reglas extra y de campaña disponibles en la tienda de BadRollGames: https://www.badrollgames.com/shop/index.php?route=product/product&amp;product_id=189
 
 Montaje patrocinado por Libertalia Juegos</readme>

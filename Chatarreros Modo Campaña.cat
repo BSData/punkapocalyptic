@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="da08-b8d5-9352-b798" name="Chatarreros Modo Campaña" revision="6" battleScribeVersion="2.03" authorName="Sergio Temp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="da08-b8d5-9352-b798" name="Chatarreros Modo Campaña" revision="7" battleScribeVersion="2.03" authorName="Sergio Temp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Para añadir balas a tu lista selecciona la cantidad de balas de cada tipo que quieres llevar y añade su coste en puntos con el cálculo de las reglas de campaña.</readme>
   <selectionEntries>
     <selectionEntry id="229a-6b6c-15a5-7cb2" name="Sonda" hidden="false" collective="false" import="true" type="unit">
@@ -77,6 +77,7 @@
             <entryLink id="210b-0af5-9212-7c2c" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
             <entryLink id="6313-ba5e-adbf-21b0" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
             <entryLink id="01e5-605a-c3ac-fa84" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
+            <entryLink id="d4d1-53cc-54bf-7728" name="Broncas" hidden="false" collective="false" import="true" targetId="87ca-c99d-a12d-a634" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="b060-2d51-d7fb-9f96" name="Habilidades de la clase" hidden="false" collective="false" import="true">
@@ -328,6 +329,7 @@ muerta.</characteristic>
             <entryLink id="ffb3-0e27-ffde-9104" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
             <entryLink id="914c-f8c8-efa0-8b30" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
             <entryLink id="0312-8f9e-5c06-b235" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
+            <entryLink id="ec7e-67ad-3e23-63c6" name="Broncas" hidden="false" collective="false" import="true" targetId="87ca-c99d-a12d-a634" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="80b8-2f3e-17fc-361d" name="Heridas" hidden="false" collective="false" import="true">
@@ -515,6 +517,7 @@ muerta.</characteristic>
             <entryLink id="d266-bb15-2736-22bb" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
             <entryLink id="9672-146d-17bb-4550" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
             <entryLink id="d714-ef08-3dcc-204b" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
+            <entryLink id="15c9-8c19-a7cc-7dcb" name="Broncas" hidden="false" collective="false" import="true" targetId="87ca-c99d-a12d-a634" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="f7c9-a550-ae48-f6cb" name="Heridas" hidden="false" collective="false" import="true">

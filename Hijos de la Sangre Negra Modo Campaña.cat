@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c6ae-aede-d9ca-db82" name="Hijos de la Sangre Negra Modo Campaña" revision="4" battleScribeVersion="2.03" authorName="Sergio Temp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c6ae-aede-d9ca-db82" name="Hijos de la Sangre Negra Modo Campaña" revision="5" battleScribeVersion="2.03" authorName="Sergio Temp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="5ab5-0a69-5286-3df5" name="Quemado" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -131,6 +131,7 @@
             <entryLink id="452a-8c2a-48e6-fb83" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
             <entryLink id="413a-ee0e-8175-8757" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
             <entryLink id="cf3c-9fa9-9758-6072" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
+            <entryLink id="dd07-e1a8-412c-6224" name="Broncas" hidden="false" collective="false" import="true" targetId="87ca-c99d-a12d-a634" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -226,6 +227,7 @@
             <entryLink id="81f4-8611-18b0-ac21" name="Siete vidas" hidden="false" collective="false" import="true" targetId="01af-2dfe-0096-3361" type="selectionEntry"/>
             <entryLink id="1a8b-8984-deb5-2f23" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
             <entryLink id="3359-d702-7743-d288" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
+            <entryLink id="2f0a-c22d-064a-19ba" name="Broncas" hidden="false" collective="false" import="true" targetId="87ca-c99d-a12d-a634" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
