@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7383-5848-e504-52dd" name="Mutardos Modo Campaña" revision="8" battleScribeVersion="2.03" authorName="Sergio Temp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7383-5848-e504-52dd" name="Mutardos Modo Campaña" revision="9" battleScribeVersion="2.03" authorName="Sergio Temp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b8c5-29b4-9dc8-3180" name="Cabezón" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -403,6 +403,7 @@ muerta.</characteristic>
             <entryLink id="63bb-83d0-8fc2-34f9" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
             <entryLink id="4d35-8d0f-5889-e762" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
             <entryLink id="dd29-a098-5a0c-5593" name="Broncas" hidden="false" collective="false" import="true" targetId="87ca-c99d-a12d-a634" type="selectionEntry"/>
+            <entryLink id="c240-98a3-4c57-3a93" name="+1 Acción" hidden="false" collective="false" import="true" targetId="ecdb-309e-5768-eb7a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="8bfb-78a3-c64b-51c4" name="Mutaciones" hidden="false" collective="false" import="true">
@@ -571,6 +572,10 @@ muerta.</characteristic>
           <rules>
             <rule id="5ef5-69b3-282c-e552" name="Bersérker" hidden="false"/>
           </rules>
+          <costs>
+            <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+            <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -786,6 +791,7 @@ muerta.</characteristic>
             <entryLink id="fd9c-7e0e-0214-7a43" name="Sprinter" hidden="false" collective="false" import="true" targetId="8914-2d4b-ac2f-ac4c" type="selectionEntry"/>
             <entryLink id="eaf2-0715-4208-a4d4" name="Táctico" hidden="false" collective="false" import="true" targetId="7d0d-9bb0-7222-642f" type="selectionEntry"/>
             <entryLink id="0fb4-a345-d03b-aaea" name="Broncas" hidden="false" collective="false" import="true" targetId="87ca-c99d-a12d-a634" type="selectionEntry"/>
+            <entryLink id="117f-d381-8080-af65" name="+1 Acción" hidden="false" collective="false" import="true" targetId="ecdb-309e-5768-eb7a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -972,6 +978,10 @@ muerta.</characteristic>
           <rules>
             <rule id="c4ee-8200-b8fd-8614" name="Raudo" hidden="false"/>
           </rules>
+          <costs>
+            <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="0.0"/>
+            <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -1111,6 +1121,22 @@ muerta.</characteristic>
         <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="12.0"/>
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="4aa1-5c04-9c4d-1882" name="Reserva de Chapas" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="8423-9534-62d6-f13d" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a47d-9864-4bd5-0eaf" name="Chapas" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="dae9-bd02-24c2-7711" name="Chapas" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+              <characteristics>
+                <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="70b1-036f-1d43-5d5f" name="Pandilleros Modo Campaña" revision="5" battleScribeVersion="2.03" authorName="SergioTemp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="70b1-036f-1d43-5d5f" name="Pandilleros Modo Campaña" revision="6" battleScribeVersion="2.03" authorName="SergioTemp" library="false" gameSystemId="597a-babb-9722-2048" gameSystemRevision="12" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="cc0b-e116-5ea9-a518" name="Pandillero" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -192,6 +192,22 @@ muerta.</characteristic>
         <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="30.0"/>
         <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="dab6-be20-a4b9-ef41" name="Reserva de Chapas" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="2495-c3cb-ea0d-2a26" name="New CategoryLink" hidden="false" targetId="0b69-4920-b080-8126" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="aa48-5938-4585-44af" name="Chapas" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="6001-4c3e-8045-9cd7" name="Chapas" hidden="false" typeId="d4e1-91c3-e685-50da" typeName="Equipo especial">
+              <characteristics>
+                <characteristic name="Reglas" typeId="e973-ed7e-2604-1f91"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
