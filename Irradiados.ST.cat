@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="64e8-f331-6b0f-d5bf" name="Irradiados" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="64e8-f331-6b0f-d5bf" name="Irradiados" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="0161-3e99-ac82-1ffe" name="Cardenal nuclear" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -234,7 +234,7 @@
       </profiles>
       <rules>
         <rule id="fad4-c6c6-99ed-4cc9" name="Inspirador" hidden="false">
-          <description>si un paladín abate a un enemigo en Combate, todo Irradiado que se encuentre 20 cm o menos, con línea de visión hacia el Paladín y que no esté trabado en Combate, puede realizar inmediatamente una Acción gratuita.</description>
+          <description> si un paladín abate a un enemigo en Combate, todo Irradiado que se encuentre 20 cm o menos, con línea de visión hacia el Paladín y que no esté trabado en Combate, puede realizar inmediatamente una Acción gratuita.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -313,7 +313,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="45.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b205-41b6-d50d-712b" name="Penitente" hidden="false" collective="false" import="true" type="unit">
@@ -715,6 +715,10 @@ Acciones: Efecto
         <categoryLink id="8b34-0f3e-8bee-840c" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="42b8-7935-67aa-0fef" name="Mongodrilo Dundee" hidden="false" collective="false" import="true" targetId="b364-8b90-b999-0049" type="selectionEntry"/>
+    <entryLink id="42b8-7935-67aa-0fef" name="Mongodrilo Dundee" hidden="false" collective="false" import="true" targetId="b364-8b90-b999-0049" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="962e-e480-9765-7868" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="c703-ae2f-fd22-36ec" name="Chatarreros" revision="23" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="c703-ae2f-fd22-36ec" name="Chatarreros" revision="24" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="4b39-0f8a-b45f-abae" name="Sonda" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -742,6 +742,10 @@
         <categoryLink id="cb1b-da02-73c0-129e" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ccef-deaa-fc07-b1b0" name="Mongodrilo Dundee" hidden="false" collective="false" import="true" targetId="b364-8b90-b999-0049" type="selectionEntry"/>
+    <entryLink id="ccef-deaa-fc07-b1b0" name="Mongodrilo Dundee" hidden="false" collective="false" import="true" targetId="b364-8b90-b999-0049" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6b55-fdd2-6194-bfa6" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

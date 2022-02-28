@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1830-0e8f-8c44-e0b3" name="V Reich" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="25" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1830-0e8f-8c44-e0b3" name="V Reich" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e549-1dc4-7320-8282" name="Soldat" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -523,7 +523,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2dd6-b0db-f841-5dc7" type="max"/>
               </constraints>
               <costs>
-                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -686,6 +686,19 @@ por +15 puntos, obteniendo un bonificador de +1 al Combate y la Agilidad.</descr
       <categoryLinks>
         <categoryLink id="90fb-fe84-f58d-5e61" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4c80-c8f6-f1a6-0f45" name="Agentes de Kraken " hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="f476-ac27-2f0b-f168" name="Agentes de Kraken" hidden="false">
+              <description>Casco Rojo suele estar acompañado en la batalla por los agentes de su organización dentro del V Reich. Cualquier miniatura de Soldat o Ubersoldat puede convertirse en Agente de Kraken 
+por +15 puntos, obteniendo un bonificador de +1 al Combate y la Agilidad.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="0075-f991-6529-775a" name="Pistola" hidden="false" collective="false" import="true" targetId="eb59-93d0-ab75-4c88" type="selectionEntry">
           <constraints>
@@ -723,7 +736,7 @@ por +15 puntos, obteniendo un bonificador de +1 al Combate y la Agilidad.</descr
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="90.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="95.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6d89-a50f-c615-85c5" name="Gato Amargado" hidden="false" collective="false" import="true" type="upgrade">
@@ -742,6 +755,91 @@ por +15 puntos, obteniendo un bonificador de +1 al Combate y la Agilidad.</descr
       </categoryLinks>
       <costs>
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4622-ee0f-5dcd-d795" name="Edward Berhart &quot;El Mariscal Oscuro&quot;" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="08e7-163e-4352-ffea" name="Edward Berhart &quot;El Mariscal Oscuro&quot;" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+          <characteristics>
+            <characteristic name="Acciones" typeId="35d2-a478-8824-fda4">3</characteristic>
+            <characteristic name="Combate" typeId="a021-1c6d-e7d6-39ea">3 (6)</characteristic>
+            <characteristic name="Precisión" typeId="9d88-57a7-635e-3622">6</characteristic>
+            <characteristic name="Agilidad" typeId="e0a4-9656-26d9-6a44">5 (4)</characteristic>
+            <characteristic name="Fuerza" typeId="26a4-4364-5085-5f30">4 (6)</characteristic>
+            <characteristic name="Dureza" typeId="ee78-dafb-2dc2-a52a">4</characteristic>
+            <characteristic name="Técnica" typeId="8422-cbe6-6791-4a35">4</characteristic>
+            <characteristic name="Reglas especiales" typeId="16f0-630c-2894-4e0b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d3cb-a221-5f8e-c420" name="Cadena de mando" hidden="false">
+          <description>Edward Berhart se considera Mariscal en su banda del V Reich, por lo que podrá usar la regla especial Cadena de mando.</description>
+        </rule>
+        <rule id="0029-7703-37d5-b98f" name="Personalidad del V Reich" hidden="false"/>
+        <rule id="209b-f8b6-693a-04d7" name="Táctico" hidden="false">
+          <description>Edward Berhart tiene una gran memoria sobre los combates de la Segunda Guerra Mundial que tanto estudió en su anterior vida. Por ello tiene unos conocimientos de táctica militar por encima de la media, que emplea con sus hombres en el campo de batalla. Para representar eso, una vez terminados los despliegues de los dos jugadores, puede recolocar hasta dos miniaturas de su banda, siempre dentro de su zona de despliegue.</description>
+        </rule>
+        <rule id="3137-d041-c40d-754f" name="Bombona de butano" hidden="false">
+          <description>Edward lleva a su espalda una bombona de butano para poder respirar, debido a sus lesiones del sistema respiratorio. Si Berhart resulta abatido, la bombona estallará. Pon una plantilla de radio 5 cms. Centrada en la posición de la miniatura abatida. Todas las miniaturas tocadas aunque sea parcialmente por la plantilla, sufren un impacto de penetración 3 fuerza 3 inmediato sin bonificaciones por cobertura. Dejar la plantilla en el lugar para el resto de la partida, tratando la zona con la regla Gas.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="2be7-ddbe-4dc0-bc3c" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="25e7-e9fc-0075-21d3" name="Podadora eléctrica" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ecff-0570-850f-3f2f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="25e1-3807-b6f8-5e2f" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="6f39-6a34-c3b3-67cb" name="Podadora eléctrica" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Armas cuerpo a cuerpo">
+              <characteristics>
+                <characteristic name="Combate" typeId="3bcb-590f-e624-084f">+1</characteristic>
+                <characteristic name="Fuerza" typeId="959a-27b3-5665-eaae">+2</characteristic>
+                <characteristic name="Penetración" typeId="af0e-e291-c826-bf01">3</characteristic>
+                <characteristic name="Reglas especiales" typeId="55ae-0d53-f265-651a"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="fee8-5e13-1fac-c7e0" name="Podadora eléctrica" hidden="false">
+              <description>En un momento de locura, Ragnar pegó a Edward un tirón tan fuerte que le arrancó su brazo izquierdo. Para suplir esto, se instaló un brazo mecánico de fabricación propia al que colocó en su extremo una podadora eléctrica, que funciona a todos los efectos como un filo medio. Si se emplea al menos dos veces en el mismo Turno de juego, la batería que lo alimenta se descargará momentáneamente, con lo que pasará reducir su bonificador de Fuerza a +1 durante el Turno de juego posterior mientras se recarga.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry id="9930-9bfd-3977-f316" name="Ragnar" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="ab5a-50a1-2e1c-f3c6" name="Ragnar" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+              <characteristics>
+                <characteristic name="Reglas" typeId="f042-739d-9839-c439"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="9c15-f63f-bd24-58ba" name="Ragnar" hidden="false">
+              <description>El gran danés completamente loco que lo acompaña permanentemente actúa como un mastín normal, salvo que el bonificador al Combate pasa a ser de +2. En caso de que Edward participara en un combate múltiple con presencia de alguna miniatura del V Reich en él, antes de resolver el combate, tira un D10. Con 1-2 Ragnar atacará a la miniatura de su propio bando, con lo que los ataques se realizarán contra ella. Si hay más de una, será a elección del jugador propio contra qué miniatura serán los ataques.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="f1bc-4bbe-ff5b-b0a9" name="Rifle automático" hidden="false" collective="false" import="true" targetId="3c54-08e0-8c70-71e5" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="81b6-c3c2-1868-b96c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6fbe-e94d-1603-1e05" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5e51-75d5-c258-ddb2" name="Walkie-talkie" hidden="false" collective="false" import="true" targetId="21ca-d9ed-da29-d138" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6782-31f5-e1d1-7675" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f78d-32cc-0c09-a539" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="100.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

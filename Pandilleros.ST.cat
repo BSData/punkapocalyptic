@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="141c-25bc-8b87-452e" name="Pandilleros" revision="22" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="141c-25bc-8b87-452e" name="Pandilleros" revision="23" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="b2f6-77ef-6334-3f5c" name="Piltrafa" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -796,6 +796,10 @@
         <categoryLink id="41c1-0579-3f4e-2f69" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0b9a-030d-c63f-97cc" name="Mongodrilo Dundee" hidden="false" collective="false" import="true" targetId="b364-8b90-b999-0049" type="selectionEntry"/>
+    <entryLink id="0b9a-030d-c63f-97cc" name="Mongodrilo Dundee" hidden="false" collective="false" import="true" targetId="b364-8b90-b999-0049" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6fd7-04a1-b156-8756" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>
