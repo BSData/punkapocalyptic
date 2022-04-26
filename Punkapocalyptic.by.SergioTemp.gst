@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fab7-8d9f-25c5-73bc" name="Punkapocalyptic (by SergioTemp)" revision="32" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fab7-8d9f-25c5-73bc" name="Punkapocalyptic (by SergioTemp)" revision="33" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="6ba6-290e-2003-241d" name="Puntos" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -2007,6 +2007,10 @@ Pero llevar ese combustible encima es peligroso, así que si una miniatura con u
       </costs>
     </selectionEntry>
     <selectionEntry id="39a1-b08d-cb37-a254" name="Granada santa" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b9b-605e-3c11-d82b" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d914-0d61-69e7-3f76" type="max"/>
+      </constraints>
       <profiles>
         <profile id="9480-81b5-bed1-3dc3" name="Granada santa" hidden="false" typeId="7089-c608-3647-16e3" typeName="Armas a distancia">
           <characteristics>
@@ -2029,6 +2033,32 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
         <infoLink id="64fa-db20-c422-bbb7" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="b2e5-219d-eb96-ff6e" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
       </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="2e4d-1b28-f27c-42b4" name="1 Granada Santa" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a9f-446b-2045-f325" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="84ac-a1b9-f5dd-95d4" name="2 Granadas Santas" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fed6-26ac-5491-fd8f" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4714-f5d5-0e52-5ecd" name="3 Granadas Santas" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d2e-6e5d-ea81-5a29" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <costs>
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
       </costs>

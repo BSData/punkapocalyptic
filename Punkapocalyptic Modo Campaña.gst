@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="597a-babb-9722-2048" name="Punkapocalyptic Modo Campaña" revision="12" battleScribeVersion="2.03" authorName="SergioTemp" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="597a-babb-9722-2048" name="Punkapocalyptic Modo Campaña" revision="13" battleScribeVersion="2.03" authorName="SergioTemp" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Esta configuración se debe de utilizar junto a las reglas extra y de campaña disponibles en la tienda de BadRollGames: https://www.badrollgames.com/shop/index.php?route=product/product&amp;product_id=189
 
 Montaje patrocinado por Libertalia Juegos</readme>
@@ -1762,7 +1762,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
             <categoryLink id="bff9-4499-9c7b-3f2b" name="Construcciones" hidden="false" targetId="0b69-4920-b080-8126" primary="false"/>
           </categoryLinks>
           <costs>
-            <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="40.0"/>
+            <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="30.0"/>
             <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2435,7 +2435,7 @@ Darle caña: además, dos veces por partida, podrá gastar una Acción en utiliz
                 <categoryLink id="ad39-de3e-d7cd-99ba" name="Construcciones" hidden="false" targetId="0b69-4920-b080-8126" primary="false"/>
               </categoryLinks>
               <costs>
-                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="32.0"/>
+                <cost name="Chapas" typeId="7e33-d5f0-9bbd-3e88" value="24.0"/>
                 <cost name="PX" typeId="c595-ec0e-a7c5-7b38" value="0.0"/>
               </costs>
             </selectionEntry>
