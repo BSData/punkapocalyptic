@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bd07-6ba7-3edf-4ca0" name="Idos" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bd07-6ba7-3edf-4ca0" name="Idos" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="1650-c7a4-f3cf-6e3b" name="Desgarrador" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -68,6 +68,11 @@
             <entryLink id="52f9-38b5-e09b-a90d" name="Cuero humano" hidden="false" collective="false" import="true" targetId="8748-3312-3e13-6d1a" type="selectionEntry">
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2e98-8d34-f345-9774" name="Protección contra contaminación" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -158,6 +163,11 @@
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
             </entryLink>
+            <entryLink id="f62f-1033-93e3-65db" name="Protección contra contaminación" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -232,6 +242,11 @@
             <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
           </costs>
         </entryLink>
+        <entryLink id="b2ba-7d7c-ac35-34df" name="Protección contra contaminación" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="45.0"/>
@@ -278,6 +293,15 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="190b-7803-0fe5-aed1" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b42f-1225-be40-0627" type="min"/>
               </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="53c8-4356-7941-6021" name="Equipo" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="7256-7a02-c6c8-f3ab" name="Protección contra contaminación" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
@@ -347,6 +371,11 @@
             <entryLink id="5492-15f0-a25b-3bc4" name="Cuero humano" hidden="false" collective="false" import="true" targetId="8748-3312-3e13-6d1a" type="selectionEntry">
               <costs>
                 <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="b4e9-3e8c-cebb-5ab0" name="Protección contra contaminación" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -421,6 +450,13 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="4152-284f-c293-54ee" name="Protección contra contaminación" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="100.0"/>
       </costs>
@@ -475,6 +511,13 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="25c4-5abb-56d2-95cf" name="Protección contra contaminación" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="70.0"/>
       </costs>
