@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="59be-e00a-1077-12e6" name="Isra Crew (Beta)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="34" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="59be-e00a-1077-12e6" name="Isra Crew (Beta)" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8328-13fb-e741-5b73" name="Dan (novato)" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -169,7 +169,7 @@ Compañeros Abatidos      Bonificador
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="80.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="62.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="13e5-5649-685c-4c2a" name="Markus" hidden="false" collective="false" import="true" type="unit">
@@ -268,7 +268,7 @@ Compañeros Abatidos      Bonificador
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="50.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b94c-488a-63e5-1125" name="Paul" hidden="false" collective="false" import="true" type="unit">
@@ -334,7 +334,7 @@ Compañeros Abatidos      Bonificador
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="40.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="21.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="52c3-8ad8-33da-09c7" name="Vale" hidden="false" collective="false" import="true" type="unit">
@@ -398,7 +398,7 @@ Compañeros Abatidos      Bonificador
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="50.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="27.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
