@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="32ac-8d69-85a1-3308" name="Unami (Beta)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="32ac-8d69-85a1-3308" name="Unami (Beta)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="34" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="05fc-d953-c193-d968" name="Chamán" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -16,6 +16,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <categoryLinks>
+        <categoryLink id="9995-64da-3969-af01" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="57c4-bcb7-14c4-9a73" name="Armas" hidden="false" collective="false" import="true">
           <constraints>
@@ -68,6 +71,9 @@
 Distancia: 30 cm</description>
                 </rule>
               </rules>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a35b-f644-c4fb-aedd" name="Espíritu del bufamello (1 PdM)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -81,6 +87,9 @@ Distancia: 30 cm</description>
 Distancia: 45 cm</description>
                 </rule>
               </rules>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="58ef-93a2-8d81-1cda" name="Espíritu de la nardipolla (1PdM)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -94,6 +103,9 @@ Distancia: 45 cm</description>
 Distancia: 45 cm</description>
                 </rule>
               </rules>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="1993-f3c5-0c1d-691a" name="Espíritu del mordedor (3PdM)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -107,6 +119,9 @@ Distancia: 45 cm</description>
 Distancia: 30 cm</description>
                 </rule>
               </rules>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a707-d3ce-39f8-4900" name="Espíritu del mongolongo (2 PdM)" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -120,6 +135,9 @@ Distancia: 30 cm</description>
 Distancia: 30 cm</description>
                 </rule>
               </rules>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -148,6 +166,9 @@ Distancia: 30 cm</description>
           <description>Puede hacer que una energía rodee su cuerpo, dándole una resistencia extra. Le concederá un bonificador de +2 al Blindaje hasta que finalice ese Turno de Juego.</description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="9ac3-f5c0-6ea9-0c8e" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="5aa7-1ba6-1479-f156" name="Armas" hidden="false" collective="false" import="true">
           <constraints>
@@ -267,6 +288,9 @@ Distancia: 30 cm</description>
         <infoLink id="0f89-8224-8c61-15cb" name="Todoterreno" hidden="false" targetId="a662-52ec-031c-0620" type="rule"/>
         <infoLink id="8d1d-4cd5-deaf-4766" name="Trepador" hidden="false" targetId="27b8-89f5-8007-e446" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="33e7-7540-efee-482f" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="893d-db86-9fb7-dab9" name="Armas" hidden="false" collective="false" import="true">
           <constraints>
@@ -359,6 +383,9 @@ Distancia: 30 cm</description>
         <infoLink id="f07f-4607-ce9d-6251" name="Montada" hidden="false" targetId="2b7b-1ce2-7d18-7832" type="rule"/>
         <infoLink id="d48b-48e4-100e-15d3" name="Raudo" hidden="false" targetId="f4a1-7d89-1648-d18a" type="rule"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="19ec-2600-b551-3340" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="4c83-72ed-582b-3d36" name="Armas" hidden="false" collective="false" import="true">
           <constraints>
@@ -426,6 +453,9 @@ Distancia: 30 cm</description>
 El Pisoteador es un animal peligroso a la carga, por lo que su jinete obtiene un bonificador a la Penetración y Fuerza al Asaltar además de la habitual al Combate (siguiendo sus mismas reglas).</description>
                 </rule>
               </rules>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -463,6 +493,9 @@ El Pisoteador es un animal peligroso a la carga, por lo que su jinete obtiene un
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8e8c-4096-0a1f-360c" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fdec-0728-a653-6625" type="min"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="b664-bfa0-17f2-049c" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1860-34f3-a284-922b" name="Puntos de Mojo (PdM)" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
@@ -476,11 +509,21 @@ Los PdM van gastándose durante cada Turno de Juego según los vaya utilizando e
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="f53b-de66-8b09-0b92" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="f53b-de66-8b09-0b92" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fab7-8d9f-25c5-73bc" name="Punkapocalyptic (by SergioTemp)" revision="34" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fab7-8d9f-25c5-73bc" name="Punkapocalyptic (by SergioTemp)" revision="35" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="6ba6-290e-2003-241d" name="Puntos" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -109,6 +109,18 @@
       <categoryLinks>
         <categoryLink id="4034-13ce-b02e-8ad0" name="Mercenarios y Personalidades" hidden="false" targetId="817f-584d-2021-2668" primary="false"/>
         <categoryLink id="6559-e053-90a8-4843" name="Miembros de la banda" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="bdab-e855-0b2d-8eae" name="Unami" hidden="false">
+      <categoryLinks>
+        <categoryLink id="c966-1aa6-9096-05fb" name="Mercenarios y Personalidades" hidden="false" targetId="817f-584d-2021-2668" primary="false"/>
+        <categoryLink id="da03-24bb-431d-9fe3" name="Miembros de la banda" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="f414-67dc-1565-80fb" name="Isra Crew" hidden="false">
+      <categoryLinks>
+        <categoryLink id="b1b7-1f91-87f9-9976" name="Miembros de la banda" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="false"/>
+        <categoryLink id="38ae-0635-d4e0-a4c8" name="Mercenarios y Personalidades" hidden="false" targetId="817f-584d-2021-2668" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -2765,7 +2777,11 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="75.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="05f8-01fe-6c3c-c869" name="Walkie-talkie" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="05f8-01fe-6c3c-c869" name="Walkie-talkie" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="8ce0-65c9-8d5c-1020" name="A dos manos" hidden="false">

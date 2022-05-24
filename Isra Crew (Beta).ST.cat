@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="59be-e00a-1077-12e6" name="Isra Crew (Beta)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="59be-e00a-1077-12e6" name="Isra Crew (Beta)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="34" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="8328-13fb-e741-5b73" name="Dan (novato)" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -33,6 +33,9 @@ Compañeros Abatidos      Bonificador
 </description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="dad3-9144-28b9-fe67" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="4241-09f6-a762-7a16" name="Escopeta" hidden="false" collective="false" import="true" targetId="e428-2fd2-6b4d-1344" type="selectionEntry">
           <constraints>
@@ -90,6 +93,9 @@ Compañeros Abatidos      Bonificador
 </description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="1f5c-ff4b-9c6e-c9dc" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="972f-80eb-047d-42d4" name="Pistola" hidden="false" collective="false" import="true" targetId="eb59-93d0-ab75-4c88" type="selectionEntry">
           <constraints>
@@ -139,6 +145,9 @@ Compañeros Abatidos      Bonificador
 </description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="4040-9dd8-9b7a-1f44" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="3dac-f9fd-e618-67f1" name="Filo medio" hidden="false" collective="false" import="true" targetId="0424-8c3f-6ad0-8237" type="selectionEntry">
           <constraints>
@@ -188,6 +197,9 @@ Compañeros Abatidos      Bonificador
 </description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="e3b4-5af7-432c-afcd" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="1dde-1bb7-4287-de56" name="Escopeta" hidden="false" collective="false" import="true" targetId="e428-2fd2-6b4d-1344" type="selectionEntry">
           <constraints>
@@ -238,6 +250,9 @@ Compañeros Abatidos      Bonificador
 </description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="a4ef-3ee7-d5be-79e2" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="7c8d-118a-e650-ce74" name="Maza" hidden="false" collective="false" import="true" targetId="4c50-148e-9eaa-0e70" type="selectionEntry">
           <constraints>
@@ -277,6 +292,9 @@ Compañeros Abatidos      Bonificador
 </description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="e92b-6450-ee07-a041" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2b95-edd0-39c3-666b" name="Chorrazo de tinta" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -290,6 +308,9 @@ Compañeros Abatidos      Bonificador
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -340,6 +361,9 @@ Compañeros Abatidos      Bonificador
 </description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="6b45-5742-d8ae-0dd1" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="048b-b904-3451-6f9b" name="Rifle" hidden="false" collective="false" import="true" targetId="9726-34fd-1e5a-f35f" type="selectionEntry">
           <constraints>
@@ -379,6 +403,10 @@ Compañeros Abatidos      Bonificador
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="ca64-fb19-5533-4f6c" name="Caronte" hidden="false" collective="false" import="true" targetId="80b4-60a4-2e4d-e814" type="selectionEntry"/>
+    <entryLink id="ca64-fb19-5533-4f6c" name="Caronte" hidden="false" collective="false" import="true" targetId="80b4-60a4-2e4d-e814" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="59b7-e9a7-21a8-8d47" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>
