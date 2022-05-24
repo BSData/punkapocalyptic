@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="597a-babb-9722-2048" name="Punkapocalyptic Modo Campaña" revision="13" battleScribeVersion="2.03" authorName="SergioTemp" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="597a-babb-9722-2048" name="Punkapocalyptic Modo Campaña" revision="14" battleScribeVersion="2.03" authorName="SergioTemp" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Esta configuración se debe de utilizar junto a las reglas extra y de campaña disponibles en la tienda de BadRollGames: https://www.badrollgames.com/shop/index.php?route=product/product&amp;product_id=189
 
 Montaje patrocinado por Libertalia Juegos</readme>
@@ -148,9 +148,6 @@ Montaje patrocinado por Libertalia Juegos</readme>
       </costs>
     </selectionEntry>
     <selectionEntry id="fc6e-ddda-8911-bd66" name="Armadura metálica" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="660b-21de-eb34-1d0c" type="max"/>
-      </constraints>
       <profiles>
         <profile id="8d0a-4b47-c459-a6a7" name="Armadura metálica" hidden="false" typeId="b0e1-0bc7-cdd4-11b9" typeName="Blindaje">
           <characteristics>

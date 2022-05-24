@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="32ac-8d69-85a1-3308" name="Unami (Beta)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="05fc-d953-c193-d968" name="Chamán" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="560d-b0a9-01a0-54c5" name="Chamán" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+          <characteristics>
+            <characteristic name="Acciones" typeId="35d2-a478-8824-fda4">-</characteristic>
+            <characteristic name="Combate" typeId="a021-1c6d-e7d6-39ea">2</characteristic>
+            <characteristic name="Precisión" typeId="9d88-57a7-635e-3622">3</characteristic>
+            <characteristic name="Agilidad" typeId="e0a4-9656-26d9-6a44">3</characteristic>
+            <characteristic name="Fuerza" typeId="26a4-4364-5085-5f30">2</characteristic>
+            <characteristic name="Dureza" typeId="ee78-dafb-2dc2-a52a">2</characteristic>
+            <characteristic name="Técnica" typeId="8422-cbe6-6791-4a35">4</characteristic>
+            <characteristic name="Reglas especiales" typeId="16f0-630c-2894-4e0b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="57c4-bcb7-14c4-9a73" name="Armas" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48ed-1319-e89e-047d" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c5ff-87ca-0b90-66cc" name="Maza ligera" hidden="false" collective="false" import="true" targetId="fb16-c7ed-2bf7-20d4" type="selectionEntry">
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8893-b9a8-3ebc-ee75" name="Filo pequeño" hidden="false" collective="false" import="true" targetId="d661-b37c-29d0-a025" type="selectionEntry">
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="38ce-1b13-4c0b-c386" name="Equipo adicional" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="e54d-9f61-08af-f8e7" name="Protección contra contaminación" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a680-9dfd-066d-345a" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="a057-07cc-f6de-af51" name="Ropa resistente" hidden="false" collective="false" import="true" targetId="86ad-a9ee-d23d-f726" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5374-31aa-6cd5-a84b" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2dea-48a0-698f-8b86" name="Espíritus" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="61ba-78e4-fbf9-2f6a" name="Espíritu de la raptura (3PdM)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ea2f-7795-00d1-97e4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="30a5-6375-8128-7dc3" type="min"/>
+              </constraints>
+              <rules>
+                <rule id="70ec-cc1c-6547-383f" name="Espíritu de la raptura (3PdM)" hidden="false">
+                  <description>Una temible raptura espiritual atrapa entre sus garras a una miniatura aliada a pie (incluído el propio Chamán), permitiendo que se desplace 30 cm siguiendo la Regla especial Salto. Tanto el lugar donde empiece el desplazamiento como donde lo finalice deben estar el la Línea de visión del Chamán. La miniatura desplazada no puede finalizar en contacto conuna miniatura enemiga. Este espíritu no puede lanzarse más de una vez en cada Turno de juego.
+
+Distancia: 30 cm</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry id="a35b-f644-c4fb-aedd" name="Espíritu del bufamello (1 PdM)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3986-d218-24d4-357b" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bf5f-93a9-94ee-554c" type="min"/>
+              </constraints>
+              <rules>
+                <rule id="9346-b4a4-5845-8ac4" name="Espíritu del bufamello (1 PdM)" hidden="false">
+                  <description>Un poderoso bufamello espiritual empuja a una miniatura en Línea de visión (amiga o enemiga) que no esté en Combate, que será desplazada 10 cm (siempre que no se lo impida ningún obstáculo) en la dirección opuesta al Chamán.
+
+Distancia: 45 cm</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry id="58ef-93a2-8d81-1cda" name="Espíritu de la nardipolla (1PdM)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="dfb9-25d4-40ea-035b" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="abf8-61b7-aa56-5ef8" type="min"/>
+              </constraints>
+              <rules>
+                <rule id="92f3-5423-1bd1-11e2" name="Espíritu de la nardipolla (1PdM)" hidden="false">
+                  <description>Una majestuosa nardipolla espiritual se lanza hacia una miniatura enemiga molestándola. Durante el siguiente Turno de Acción de esa miniatura, sufrirá un penalizador de -3 a la Precisión en sus disparos. En caso de ser asaltada el espíritu desaparecería.
+
+Distancia: 45 cm</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry id="1993-f3c5-0c1d-691a" name="Espíritu del mordedor (3PdM)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="659a-497e-a290-99dd" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e453-299c-9b3f-c0e9" type="min"/>
+              </constraints>
+              <rules>
+                <rule id="5a32-798c-b31c-e0dc" name="Espíritu del mordedor (3PdM)" hidden="false">
+                  <description>Un feroz mordedor espiritual ataca a una miniatura enemiga en Línea de visión, que recibe un impacto de Fue 4 y Pen 5.
+
+Distancia: 30 cm</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+            <selectionEntry id="a707-d3ce-39f8-4900" name="Espíritu del mongolongo (2 PdM)" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="306d-35b6-529a-536a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f1ff-31eb-bccd-5299" type="min"/>
+              </constraints>
+              <rules>
+                <rule id="e1f5-c58b-8569-7c24" name="Espíritu del mongolongo (2 PdM)" hidden="false">
+                  <description>Un lascivo mongolongo espiritual acosa a una miniatura enemiga en Línea de Visión que no esté en Combate, impidiendo que se mueva. Durante el siguiente Turno de Acción de esa miniatura deberá realizar una tirada de Dureza o no podrá realizar ninguna Acción. En caso de ser asaltada el espíritu desaparecería.
+
+Distancia: 30 cm</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2958-539e-fe58-041e" name="Trueno" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e0ff-2ac8-67bb-dcc8" name="Trueno" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+          <characteristics>
+            <characteristic name="Acciones" typeId="35d2-a478-8824-fda4">-</characteristic>
+            <characteristic name="Combate" typeId="a021-1c6d-e7d6-39ea">4</characteristic>
+            <characteristic name="Precisión" typeId="9d88-57a7-635e-3622">4</characteristic>
+            <characteristic name="Agilidad" typeId="e0a4-9656-26d9-6a44">4</characteristic>
+            <characteristic name="Fuerza" typeId="26a4-4364-5085-5f30">4</characteristic>
+            <characteristic name="Dureza" typeId="ee78-dafb-2dc2-a52a">3</characteristic>
+            <characteristic name="Técnica" typeId="8422-cbe6-6791-4a35">2</characteristic>
+            <characteristic name="Reglas especiales" typeId="16f0-630c-2894-4e0b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="68f0-04ce-dcd0-a2aa" name="Don de Majauchsuwi (2PdM)" hidden="false">
+          <description>Puede hacer que una energía rodee su cuerpo, dándole una resistencia extra. Le concederá un bonificador de +2 al Blindaje hasta que finalice ese Turno de Juego.</description>
+        </rule>
+      </rules>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5aa7-1ba6-1479-f156" name="Armas" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="533f-4e27-7f35-2af3" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="714b-01db-4dcd-4867" name="Tomahawk" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="346f-e07f-f224-7e4f" name="Tomahawk (Combate)" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Armas cuerpo a cuerpo">
+                  <characteristics>
+                    <characteristic name="Combate" typeId="3bcb-590f-e624-084f">0</characteristic>
+                    <characteristic name="Fuerza" typeId="959a-27b3-5665-eaae">+1</characteristic>
+                    <characteristic name="Penetración" typeId="af0e-e291-c826-bf01">3</characteristic>
+                    <characteristic name="Reglas especiales" typeId="55ae-0d53-f265-651a">El tomahawk puede utilizarse en Combate o Disparo (con las estadísticas correspondientes a cada opción). Sin embargo, una vez lanzado, si el impacto del tomahawk falla el arma se habrá perdido. En caso de impactar, el arma quedará en el suelo en el lugar donde estuviera la miniatura impactada (resulte o no Abatida). Una vez en el suelo podrá ser recogida por cualquier miniatura en contactogastando una Acción.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="3728-cb13-97d3-48be" name="Tomahawk (Disparo)" hidden="false" typeId="7089-c608-3647-16e3" typeName="Armas a distancia">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="8a87-25fd-fe02-13e7">El tomahawk puede utilizarse en Combate o Disparo (con las estadísticas correspondientes a cada opción). Sin embargo, una vez lanzado, si el impacto del tomahawk falla el arma se habrá perdido. En caso de impactar, el arma quedará en el suelo en el lugar donde estuviera la miniatura impactada (resulte o no Abatida). Una vez en el suelo podrá ser recogida por cualquier miniatura en contactogastando una Acción.</characteristic>
+                    <characteristic name="Distancia" typeId="e3cc-c79f-36e8-ca84">5/15/20</characteristic>
+                    <characteristic name="Fuerza" typeId="c02a-4690-9a12-55e4">Fue lanzador +1 /Fue Lanzador /Fue lanzador -1</characteristic>
+                    <characteristic name="Penetración" typeId="9563-bb3e-ec5c-02a1">3/2/1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="fa1c-251a-ff63-6b26" name="Maza ligera" hidden="false" collective="false" import="true" targetId="fb16-c7ed-2bf7-20d4" type="selectionEntry">
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="666a-f760-f3f5-0972" name="Filo pequeño" hidden="false" collective="false" import="true" targetId="d661-b37c-29d0-a025" type="selectionEntry">
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="6c4d-69c8-8fde-17f1" name="Cuchillos arrojadizos" hidden="false" collective="false" import="true" targetId="fbb9-71e9-2b8c-6c33" type="selectionEntry">
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="5348-caac-31f6-d9d9" name="Maza" hidden="false" collective="false" import="true" targetId="4c50-148e-9eaa-0e70" type="selectionEntry">
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f01a-47db-c666-5ac4" name="Arco" hidden="false" collective="false" import="true" targetId="d3c7-7d0b-e884-7fcf" type="selectionEntry">
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f608-8dec-1296-bcb7" name="Filo medio" hidden="false" collective="false" import="true" targetId="0424-8c3f-6ad0-8237" type="selectionEntry">
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a81c-c754-9e69-24c4" name="Equipo adicional" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="1a5a-27ca-fed2-942d" name="Protección contra contaminación" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61e6-953b-8d86-1cfa" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="b73d-1191-5d83-c52e" name="Ropa resistente" hidden="false" collective="false" import="true" targetId="86ad-a9ee-d23d-f726" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c1d-85b0-fbd7-b02c" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6194-e781-47e8-84ab" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="6e69-2f4e-7604-7c79" name="Cuero endurecido" hidden="false" collective="false" import="true" targetId="eeea-45d8-03cc-15ca" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a4e6-f400-e4e6-bd37" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="028a-ba18-18a1-6b5c" name="Sombra" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4ef5-529a-47c1-4b4d" name="Sombra" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+          <characteristics>
+            <characteristic name="Acciones" typeId="35d2-a478-8824-fda4">-</characteristic>
+            <characteristic name="Combate" typeId="a021-1c6d-e7d6-39ea">3</characteristic>
+            <characteristic name="Precisión" typeId="9d88-57a7-635e-3622">4</characteristic>
+            <characteristic name="Agilidad" typeId="e0a4-9656-26d9-6a44">5</characteristic>
+            <characteristic name="Fuerza" typeId="26a4-4364-5085-5f30">4</characteristic>
+            <characteristic name="Dureza" typeId="ee78-dafb-2dc2-a52a">4</characteristic>
+            <characteristic name="Técnica" typeId="8422-cbe6-6791-4a35">2</characteristic>
+            <characteristic name="Reglas especiales" typeId="16f0-630c-2894-4e0b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="bfbe-133d-5032-a422" name="Don de Majauchsuwi (2PdM)" hidden="false">
+          <description>Puede crear un doble de la miniatura que confundirá al enemigo. Se colocará una nueva miniatura que indique su doble a una distancia máxima de 10 cm. A partir de ese momento no se sabrá cuál es la real. En su Turno de Acción deberá Mover las dos miniaturas, no pudiendo separarse más de la distancia máxima. Si un enemigo se acerca a 10 cm o menos, o impacta con un arma de distancia o algún tipo de efecto (como el poder de un Cabezón), a una de las dos miniaturas, deberá tirarse 1d10. Con 6+ esa miniatura es el doble y deberá retirarse de la mesa, en caso contrario esa es la auténtica miniatura (que deberá sufrir cualquier efecto adverso de manera habitual) y será la otra miniatura la que se retire. El doble permanecerá en juego hasta que esto suceda, o el jugador use una Acción en cualquier cosa que no sea Mover, en cuyo caso será el jugador el que elija qué miniatura retirar.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8603-55cc-32f4-b0db" name="Camuflaje" hidden="false" targetId="90ac-2e29-a275-3472" type="rule"/>
+        <infoLink id="0f89-8224-8c61-15cb" name="Todoterreno" hidden="false" targetId="a662-52ec-031c-0620" type="rule"/>
+        <infoLink id="8d1d-4cd5-deaf-4766" name="Trepador" hidden="false" targetId="27b8-89f5-8007-e446" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="893d-db86-9fb7-dab9" name="Armas" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="176e-62bb-b533-a64e" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3c77-3b38-83d0-f3fe" name="Tomahawk" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="7bde-9bad-aeeb-4b6a" name="Tomahawk (Combate)" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Armas cuerpo a cuerpo">
+                  <characteristics>
+                    <characteristic name="Combate" typeId="3bcb-590f-e624-084f">0</characteristic>
+                    <characteristic name="Fuerza" typeId="959a-27b3-5665-eaae">+1</characteristic>
+                    <characteristic name="Penetración" typeId="af0e-e291-c826-bf01">3</characteristic>
+                    <characteristic name="Reglas especiales" typeId="55ae-0d53-f265-651a">El tomahawk puede utilizarse en Combate o Disparo (con las estadísticas correspondientes a cada opción). Sin embargo, una vez lanzado, si el impacto del tomahawk falla el arma se habrá perdido. En caso de impactar, el arma quedará en el suelo en el lugar donde estuviera la miniatura impactada (resulte o no Abatida). Una vez en el suelo podrá ser recogida por cualquier miniatura en contactogastando una Acción.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="a26b-d3bf-78e2-ae49" name="Tomahawk (Disparo)" hidden="false" typeId="7089-c608-3647-16e3" typeName="Armas a distancia">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="8a87-25fd-fe02-13e7">El tomahawk puede utilizarse en Combate o Disparo (con las estadísticas correspondientes a cada opción). Sin embargo, una vez lanzado, si el impacto del tomahawk falla el arma se habrá perdido. En caso de impactar, el arma quedará en el suelo en el lugar donde estuviera la miniatura impactada (resulte o no Abatida). Una vez en el suelo podrá ser recogida por cualquier miniatura en contactogastando una Acción.</characteristic>
+                    <characteristic name="Distancia" typeId="e3cc-c79f-36e8-ca84">5/15/20</characteristic>
+                    <characteristic name="Fuerza" typeId="c02a-4690-9a12-55e4">Fue lanzador +1 /Fue Lanzador /Fue lanzador -1</characteristic>
+                    <characteristic name="Penetración" typeId="9563-bb3e-ec5c-02a1">3/2/1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="a805-cea0-296a-b62c" name="Maza ligera" hidden="false" collective="false" import="true" targetId="fb16-c7ed-2bf7-20d4" type="selectionEntry">
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="24be-7da2-fa18-beca" name="Filo pequeño" hidden="false" collective="false" import="true" targetId="d661-b37c-29d0-a025" type="selectionEntry">
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8479-a99f-6435-6a0b" name="Equipo adicional" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="5d11-329f-5493-fcf7" name="Protección contra contaminación" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7b0-ff88-f20e-ef18" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9cfe-f224-08bd-a97b" name="Ropa resistente" hidden="false" collective="false" import="true" targetId="86ad-a9ee-d23d-f726" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da7e-cc7a-191e-7d4a" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="241e-2a52-6e4e-53ff" name="Viento" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="42a8-3cc0-ee0b-d6db" name="Viento" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+          <characteristics>
+            <characteristic name="Acciones" typeId="35d2-a478-8824-fda4">-</characteristic>
+            <characteristic name="Combate" typeId="a021-1c6d-e7d6-39ea">4</characteristic>
+            <characteristic name="Precisión" typeId="9d88-57a7-635e-3622">4</characteristic>
+            <characteristic name="Agilidad" typeId="e0a4-9656-26d9-6a44">6</characteristic>
+            <characteristic name="Fuerza" typeId="26a4-4364-5085-5f30">4</characteristic>
+            <characteristic name="Dureza" typeId="ee78-dafb-2dc2-a52a">3</characteristic>
+            <characteristic name="Técnica" typeId="8422-cbe6-6791-4a35">3</characteristic>
+            <characteristic name="Reglas especiales" typeId="16f0-630c-2894-4e0b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="eaa2-8678-5724-2ab9" name="Don de Majauchsuwi (2 PdM)" hidden="false">
+          <description>Don de Majauchsuwi (2 PdM): puede hacer que un fulgor cegador rodee a la miniatura causando que sea más complicado impactarle. Todos los ataques a distancia contra la miniatura sufrirán de un penalizador de -2 a la Precisión hasta que finalice ese Turno de Juego.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="f07f-4607-ce9d-6251" name="Montada" hidden="false" targetId="2b7b-1ce2-7d18-7832" type="rule"/>
+        <infoLink id="d48b-48e4-100e-15d3" name="Raudo" hidden="false" targetId="f4a1-7d89-1648-d18a" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4c83-72ed-582b-3d36" name="Armas" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59fb-2183-e41f-8cfd" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="cbfd-048f-176e-791d" name="Tomahawk" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="335f-fb6e-b577-d994" name="Tomahawk (Combate)" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Armas cuerpo a cuerpo">
+                  <characteristics>
+                    <characteristic name="Combate" typeId="3bcb-590f-e624-084f">0</characteristic>
+                    <characteristic name="Fuerza" typeId="959a-27b3-5665-eaae">+1</characteristic>
+                    <characteristic name="Penetración" typeId="af0e-e291-c826-bf01">3</characteristic>
+                    <characteristic name="Reglas especiales" typeId="55ae-0d53-f265-651a">El tomahawk puede utilizarse en Combate o Disparo (con las estadísticas correspondientes a cada opción). Sin embargo, una vez lanzado, si el impacto del tomahawk falla el arma se habrá perdido. En caso de impactar, el arma quedará en el suelo en el lugar donde estuviera la miniatura impactada (resulte o no Abatida). Una vez en el suelo podrá ser recogida por cualquier miniatura en contactogastando una Acción.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="6330-107c-b57f-b97b" name="Tomahawk (Disparo)" hidden="false" typeId="7089-c608-3647-16e3" typeName="Armas a distancia">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="8a87-25fd-fe02-13e7">El tomahawk puede utilizarse en Combate o Disparo (con las estadísticas correspondientes a cada opción). Sin embargo, una vez lanzado, si el impacto del tomahawk falla el arma se habrá perdido. En caso de impactar, el arma quedará en el suelo en el lugar donde estuviera la miniatura impactada (resulte o no Abatida). Una vez en el suelo podrá ser recogida por cualquier miniatura en contactogastando una Acción.</characteristic>
+                    <characteristic name="Distancia" typeId="e3cc-c79f-36e8-ca84">5/15/20</characteristic>
+                    <characteristic name="Fuerza" typeId="c02a-4690-9a12-55e4">Fue lanzador +1 /Fue Lanzador /Fue lanzador -1</characteristic>
+                    <characteristic name="Penetración" typeId="9563-bb3e-ec5c-02a1">3/2/1</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="385e-9f73-955c-7a89" name="Maza ligera" hidden="false" collective="false" import="true" targetId="fb16-c7ed-2bf7-20d4" type="selectionEntry">
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="3df4-325a-adc5-80c4" name="Filo pequeño" hidden="false" collective="false" import="true" targetId="d661-b37c-29d0-a025" type="selectionEntry">
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="5404-28a3-fc3a-e680" name="Maza" hidden="false" collective="false" import="true" targetId="4c50-148e-9eaa-0e70" type="selectionEntry">
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="60aa-fb49-a1c8-c114" name="Arco" hidden="false" collective="false" import="true" targetId="d3c7-7d0b-e884-7fcf" type="selectionEntry">
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="52df-a0d2-bf3d-8253" name="Equipo adicional" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="34f4-9f42-0519-3d61" name="Pisoteador" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f7e-0c8f-2254-699e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="252d-9b8c-915f-8ef3" type="min"/>
+              </constraints>
+              <rules>
+                <rule id="8ab2-ca0e-d474-4962" name="Pisoteador" hidden="false">
+                  <description>Un Viento va montado en un Pisoteador, que le confiere las Reglas especiales Montada y Raudo.
+
+El Pisoteador es un animal peligroso a la carga, por lo que su jinete obtiene un bonificador a la Penetración y Fuerza al Asaltar además de la habitual al Combate (siguiendo sus mismas reglas).</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="6d17-6eca-14d7-5f39" name="Protección contra contaminación" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c82-f111-17e9-319c" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="d865-528c-fd78-2cf4" name="Ropa resistente" hidden="false" collective="false" import="true" targetId="86ad-a9ee-d23d-f726" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64d5-43bb-5a16-6ea8" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a68c-7507-b47b-1a86" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="f73f-23b9-f184-a796" name="Cuero endurecido" hidden="false" collective="false" import="true" targetId="eeea-45d8-03cc-15ca" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b685-50fd-f3ec-1cd8" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="60.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1881-de7a-0a1c-18f2" name="Una Mente" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8e8c-4096-0a1f-360c" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fdec-0728-a653-6625" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="1860-34f3-a284-922b" name="Puntos de Mojo (PdM)" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="025d-df6e-3876-4c12" name="Puntos de Mojo (PdM)" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+              <characteristics>
+                <characteristic name="Reglas" typeId="f042-739d-9839-c439">Aunque individuales, cada uno de los integrantes de una banda de Unami está conectada a la criatura psíquica en una compleja red sináptica. Cada miniatura aporta 2 Puntos de Mojo (PdM) a una reserva común. Al contrario del resto de facciones, cada miniatura no tiene un número de Acciones predeterminado en sus Atributos. Cuando llega su Turno de Acción, una miniatura podrá utilizar PdM de la reserva y convertirlos en Acciones. Una miniatura no tiene por qué decidir cuántas Acciones utilizará en cuanto comience su Turno de Juego, puede ir convirtiendo los PdM de la reserva en Acciones según le convenga. Eso sí, ninguna miniatura podrá utilizar más de 3 Acciones por Turno de Acción y deben utilizarse todas de maneracontinuada.
+
+Los PdM también pueden ser utilizados por cualquier Chamán para canalizar Espíritus  y por el resto de miniaturas para utilizar un Don de Majauchsuwi. Cuando se haga esto, los PdM indicados ya incluyen el de la propia Acción. Eso significa, que por ejemplo, un Chamán que utilice una Acción en canalizar el Espíritu del Mongolongo, que cuesta 2 PdM, no gastará 1 de la Acción más los 2 del Espíritu, sino sólo los 2 del Espíritu, ya incluyen el gasto de la Acción. Si canalizará el Espíritu del Bufamello que cuesta 1PdM, sólo gastaría el PdM de la Acción, sin que el espíritu requiera de ninguno más.
+
+Los PdM van gastándose durante cada Turno de Juego según los vaya utilizando el jugador y cuando se acaben, aunque queden miniaturas sin actuar, no podrán hacerlo. Al acabar el Turno de Juego, los PdM gastados volverán a la reserva para ser utilizados el Turno siguiente. Cuando una miniatura es Abatida, el jugador contará con 2 PdM menos en la reserva a partir del siguiente Turno de juego.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="f53b-de66-8b09-0b92" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade"/>
+  </sharedSelectionEntries>
+</catalogue>
