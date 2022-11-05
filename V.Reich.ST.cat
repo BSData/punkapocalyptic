@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1830-0e8f-8c44-e0b3" name="V Reich" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="32" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1830-0e8f-8c44-e0b3" name="V Reich" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e549-1dc4-7320-8282" name="Soldat" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -808,6 +808,9 @@ por +15 puntos, obteniendo un bonificador de +1 al Combate y la Agilidad.</descr
               <description>En un momento de locura, Ragnar pegó a Edward un tirón tan fuerte que le arrancó su brazo izquierdo. Para suplir esto, se instaló un brazo mecánico de fabricación propia al que colocó en su extremo una podadora eléctrica, que funciona a todos los efectos como un filo medio. Si se emplea al menos dos veces en el mismo Turno de juego, la batería que lo alimenta se descargará momentáneamente, con lo que pasará reducir su bonificador de Fuerza a +1 durante el Turno de juego posterior mientras se recarga.</description>
             </rule>
           </rules>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9930-9bfd-3977-f316" name="Ragnar" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
@@ -822,6 +825,9 @@ por +15 puntos, obteniendo un bonificador de +1 al Combate y la Agilidad.</descr
               <description>El gran danés completamente loco que lo acompaña permanentemente actúa como un mastín normal, salvo que el bonificador al Combate pasa a ser de +2. En caso de que Edward participara en un combate múltiple con presencia de alguna miniatura del V Reich en él, antes de resolver el combate, tira un D10. Con 1-2 Ragnar atacará a la miniatura de su propio bando, con lo que los ataques se realizarán contra ella. Si hay más de una, será a elección del jugador propio contra qué miniatura serán los ataques.</description>
             </rule>
           </rules>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>

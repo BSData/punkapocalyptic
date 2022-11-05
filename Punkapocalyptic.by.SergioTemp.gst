@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fab7-8d9f-25c5-73bc" name="Punkapocalyptic (by SergioTemp)" revision="35" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fab7-8d9f-25c5-73bc" name="Punkapocalyptic (by SergioTemp)" revision="39" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="6ba6-290e-2003-241d" name="Puntos" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -121,6 +121,24 @@
       <categoryLinks>
         <categoryLink id="b1b7-1f91-87f9-9976" name="Miembros de la banda" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="false"/>
         <categoryLink id="38ae-0635-d4e0-a4c8" name="Mercenarios y Personalidades" hidden="false" targetId="817f-584d-2021-2668" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="e9ce-f8ba-3149-2e98" name="Fuerte Thule" hidden="false">
+      <categoryLinks>
+        <categoryLink id="6562-c033-a435-c00d" name="Mercenarios y Personalidades" hidden="false" targetId="817f-584d-2021-2668" primary="false"/>
+        <categoryLink id="b922-07d1-a7f5-e073" name="Miembros de la banda" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="7985-849e-1d1e-484f" name="División Científica" hidden="false">
+      <categoryLinks>
+        <categoryLink id="1513-dcc8-a416-1e6a" name="Mercenarios y Personalidades" hidden="false" targetId="817f-584d-2021-2668" primary="false"/>
+        <categoryLink id="39c5-88d4-2dff-0103" name="Miembros de la banda" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="c3a6-f5d8-9905-32a3" name="Organización Kraken" hidden="false">
+      <categoryLinks>
+        <categoryLink id="87dd-8668-7b36-f58c" name="Mercenarios y Personalidades" hidden="false" targetId="817f-584d-2021-2668" primary="false"/>
+        <categoryLink id="4109-3db0-fcac-cd28" name="Miembros de la banda" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -707,7 +725,7 @@ o tirar una bomba) o gaste 1 Acción en vaciar la presión del arma. Además, si
     <selectionEntry id="f639-8432-b582-df6c" name="Puño balístico" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5e10-be76-8f0c-12db" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7e64-606c-3c01-5537" type="max"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7e64-606c-3c01-5537" type="max"/>
       </constraints>
       <infoLinks>
         <infoLink id="d8d7-aac4-6062-07e3" name="Puño balístico" hidden="false" targetId="de00-8f5a-2f4e-3743" type="profile"/>
@@ -2780,6 +2798,94 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
     <selectionEntry id="05f8-01fe-6c3c-c869" name="Walkie-talkie" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d54d-d8a6-2021-d061" name="Mastín" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9ff5-4355-8d9c-4778" name="Mastín" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+          <characteristics>
+            <characteristic name="Reglas" typeId="f042-739d-9839-c439">El mastín otorga un bonificador +1 al Combate. Además, si la miniatura resulta abatida, el mastín la vigilará evitando así que se pueda saquear su cuerpo.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="9.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d791-bf9f-07f8-2ac7" name="Ilse, la Loba del V Reich" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a0bc-4e5a-b383-5d17" name="Ilse, la Loba del V Reich" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+          <characteristics>
+            <characteristic name="Acciones" typeId="35d2-a478-8824-fda4">2</characteristic>
+            <characteristic name="Combate" typeId="a021-1c6d-e7d6-39ea">3</characteristic>
+            <characteristic name="Precisión" typeId="9d88-57a7-635e-3622">4</characteristic>
+            <characteristic name="Agilidad" typeId="e0a4-9656-26d9-6a44">5</characteristic>
+            <characteristic name="Fuerza" typeId="26a4-4364-5085-5f30">3(4)</characteristic>
+            <characteristic name="Dureza" typeId="ee78-dafb-2dc2-a52a">4</characteristic>
+            <characteristic name="Técnica" typeId="8422-cbe6-6791-4a35">3</characteristic>
+            <characteristic name="Reglas especiales" typeId="16f0-630c-2894-4e0b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6a68-1eb9-91cb-131b" name="Cazadora de mutardos" hidden="false">
+          <description>La loba del V Reich tiene predilección por enfrentarse a los desechos mutados del Páramo, y lo dará todo por acabar con ellos. Cuando se utilice en una partida contra Mutardos, contará con las reglas especiales Bersérker y Sed de sangre.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="671a-0f48-28d1-1762" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="001c-bb75-b582-a91c" name="Fusta" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4211-b540-d362-f43e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b196-1372-cdcf-4c7b" type="min"/>
+          </constraints>
+          <rules>
+            <rule id="e6f1-3d42-1c3e-c571" name="Fusta" hidden="false">
+              <description>Ilse siempre lleva consigo una fusta de montar, que utiliza en combate para humillar y sacar de sus casillas a los rivales más que para eliminarlos. Tiene las estadísticas de un Filo pequeño, pero por cada vez que impacte y no hiera al rival éste perderá 1 punto a Combate de forma acumulativa, ya que la ira y la vergüenza de ser fustigado en público lo harán perder los estribos.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="2f86-bf79-6cc6-509a" name="Filo pequeño" hidden="false" targetId="aaef-84b9-f340-8987" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="be31-69f0-35d0-1d0e" name="Pistola" hidden="false" collective="false" import="true" targetId="eb59-93d0-ab75-4c88" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6c5-eac4-8f7c-3bb6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed37-8f22-42df-d70e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3c94-fc64-b79e-d5db" name="Ropa resistente" hidden="false" collective="false" import="true" targetId="86ad-a9ee-d23d-f726" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd07-577a-0b32-de8a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2927-f0b3-f726-23e0" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="71f8-af21-c083-8cf6" name="Protección contra contaminación" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0c39-ed0f-b163-f0e8" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="51ce-8f00-419f-ac03" name="Bayoneta" hidden="false" collective="false" import="true" targetId="c066-ad19-7bd7-1491" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="54ac-ec49-33eb-9739" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="40.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
