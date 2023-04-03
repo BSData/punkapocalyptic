@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="bea8-575c-5b79-7a61" name="La Troupe (Beta)" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="e7c8-a486-fea1-07da" name="Jefe de pista" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5893-2677-950d-2e2d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d235-8a00-2fb8-0a7d" name="Jefe de pista" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+          <characteristics>
+            <characteristic name="Acciones" typeId="35d2-a478-8824-fda4">2</characteristic>
+            <characteristic name="Combate" typeId="a021-1c6d-e7d6-39ea">3</characteristic>
+            <characteristic name="Precisión" typeId="9d88-57a7-635e-3622">4</characteristic>
+            <characteristic name="Agilidad" typeId="e0a4-9656-26d9-6a44">4</characteristic>
+            <characteristic name="Fuerza" typeId="26a4-4364-5085-5f30">3</characteristic>
+            <characteristic name="Dureza" typeId="ee78-dafb-2dc2-a52a">3</characteristic>
+            <characteristic name="Técnica" typeId="8422-cbe6-6791-4a35">6</characteristic>
+            <characteristic name="Reglas especiales" typeId="16f0-630c-2894-4e0b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="811f-63f8-0a29-6bc2" name="El mayor espectáculo del mundo" hidden="false">
+          <description>El Jefe de pista es un maestro de ceremonias experto capaz de encandilar a niños y mayores por igual, dejándolos boquiabiertos mientras su trouppe hace de las suyas. El Jefe de pista puede coger su altavoz y gastar 1 Acción para lograr uno de los siguientes efectos, no pudiendo repetir el mismo dos veces durante la partida.
+
+• Reclamar la atención: todas las miniaturas enemigas que no están trabadas en Combate deberán girarse inmediatamente para mirar de frente al Jefe de pista.
+• Presentar a los Pachachos: durante este Turno de juego, la Regla especial Risa difícil de los Pachachos restará o sumará 4 en lugar de 2.
+• Presentar a los Acróbatas: la próxima vez que utilices la Regla especial Catapulta infernal de un Acróbata, podrá sumar 10 cm a un súper salto (por lo que podría ser de hasta 40 cm).
+• Presentar a los Forzudos: la próxima vez que utilices la Regla especial Lucimiento de un Forzudo, el Bonificador de +2 se aplicará también al Combate.
+• Presentar a los Domadores: en el siguiente Turno de juego las bestias podrán alejarse hasta 30 cm de los Domadores en lugar de los 15 cm habituales.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="719e-822a-f904-71ec" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="277b-4e68-39f4-017f" name="Armas" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e853-eccb-744d-1295" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2230-5508-2535-f644" name="Filo pequeño" hidden="false" collective="false" import="true" targetId="d661-b37c-29d0-a025" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="296a-efc7-638e-97aa" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="ccf8-fda5-dc3f-004b" name="Filo medio" hidden="false" collective="false" import="true" targetId="0424-8c3f-6ad0-8237" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f47a-efdb-e3a3-f1bf" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="9099-04df-84bb-f108" name="Pistola" hidden="false" collective="false" import="true" targetId="eb59-93d0-ab75-4c88" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f0a-1308-30fe-98cf" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9d9c-4d7a-a942-1529" name="Ropa resistente" hidden="false" collective="false" import="true" targetId="86ad-a9ee-d23d-f726" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a93-e6ea-2196-4422" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6911-db29-5802-cf7f" name="Forzudo" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="fdeb-5325-bd3c-b0d4" name="Forzudo" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+          <characteristics>
+            <characteristic name="Acciones" typeId="35d2-a478-8824-fda4">2</characteristic>
+            <characteristic name="Combate" typeId="a021-1c6d-e7d6-39ea">4</characteristic>
+            <characteristic name="Precisión" typeId="9d88-57a7-635e-3622">3</characteristic>
+            <characteristic name="Agilidad" typeId="e0a4-9656-26d9-6a44">2</characteristic>
+            <characteristic name="Fuerza" typeId="26a4-4364-5085-5f30">6</characteristic>
+            <characteristic name="Dureza" typeId="ee78-dafb-2dc2-a52a">5</characteristic>
+            <characteristic name="Técnica" typeId="8422-cbe6-6791-4a35">2</characteristic>
+            <characteristic name="Reglas especiales" typeId="16f0-630c-2894-4e0b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8d80-333d-0ad0-0dbb" name="Bestia parda" hidden="false">
+          <description>El forzudo trabaja levantando pesos, así que ignora el penalizador de -1 a la Agilidad de la Regla especial Armatoste y la imposibilidad de llevar más armas de la Regla especial Mamotreto.</description>
+        </rule>
+        <rule id="8838-3e00-04ce-9a7a" name="Lucimiento" hidden="false">
+          <description>El forzudo puede llevar a cabo grandes hazañas de fuerza. Una vez por partida, al comienzo de un Turno de juego, podrá hacer que su atributo de Fuerza tenga un bonificador de +2 que durará hasta el final de ese Turno de juego.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="6749-f393-d754-e14d" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7eb8-a673-60b9-4f91" name="Armas" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e804-5481-9979-ec2c" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b31f-b9eb-3c63-89e0" name="Maza" hidden="false" collective="false" import="true" targetId="4c50-148e-9eaa-0e70" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba22-c2ae-7896-7054" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="c5f8-03d6-b85b-30b3" name="Filo pesado" hidden="false" collective="false" import="true" targetId="e5e6-095e-5017-1921" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="868a-6ab5-2a6f-c1d6" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="d365-f18a-543f-0f9f" name="Maza pesada" hidden="false" collective="false" import="true" targetId="c1b8-e68a-3435-6b67" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5321-679c-697c-fd12" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d613-cb23-d121-8f61" name="Artículos de coña" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="09da-7efa-5908-2396" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="178a-ef3b-80cc-b704" name="Bocina" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8bab-994b-5f61-40d2" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="75c1-fe7c-2ccf-a894" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="51a6-ac66-7cfb-0eef" name="Bocina" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">si la miniatura es Asaltada podrá pegarle un bocinazo al rival que hará que pierda todos los modificadores del Asalto por el susto.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1291-ac93-05dd-ee23" name="Bomba fétida" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1b06-cc50-c8bc-097c" type="max"/>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="040a-31b3-8f7e-8328" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="161e-88e8-bc78-52ea" name="Bomba fétida" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">puedes lanzar la bomba fétida a tus pies dejando un marcador permanente de 5 cm de radio. Cualquier miniatura en contacto que haga una Tirada de Técnica tendrá un penalizador de -4.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f12c-8afb-663e-dc91" name="Cojín de pedos" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="978e-926c-ae14-c470" type="max"/>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1404-a13a-5fd0-ac25" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="81f3-7d48-66e5-ff0c" name="Cojín de pedos" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">un Pachacho equipado con el cojín será capaz de sobrevivir al disparo del cañón lanzador con un resultado en la Tirada de Precisión de 1-2 en lugar de 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9a0c-c84c-39cc-e644" name="Flor escupe agua" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1b40-bdc0-3dfa-3301" type="max"/>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="75b0-ad05-3e22-5d1d" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="49c5-98a2-e225-3737" name="Flor escupe agua" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">si la miniatura ya está trabada en Combate puede usar la flor para causar un penalizador de -2 al Combate a su rival a la hora de Combatir (ya sea su Turno de Acción o el del rival).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8940-20ef-2b19-5961" name="Globo que flota" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="eda3-16fa-753e-d1a5" type="max"/>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2488-8525-dec4-7256" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="c37e-c46f-da1c-4aff" name="Globo que flota" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">si la miniatura equipada resulta abatida el globo producirá una deflagración impactando a todas las miniaturas a 5 cm con fuerza 2 penetración 3.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9125-2d03-6fa4-aa68" name="Guante cond escarga" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="65bf-3bf7-ec6d-d499" type="max"/>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2394-1050-25a2-b8f8" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="ba3f-671c-40ac-dfec" name="Guante cond escarga" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">si la miniatura es impactada en Combate puede decidir tener la Regla especial Electrificación.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0908-43d4-2c3c-1093" name="Pañuelos infinitos" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="23a9-725f-8c66-59ee" type="max"/>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a837-7cde-23be-16b6" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="269a-80b1-fd06-1b6b" name="Pañuelos infinitos" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">si la miniatura va a ser el objetivo de un disparo puede usar los pañuelos para despistar y que el atacante sufra un penalizador de -2 a la Precisión.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2542-3e08-b8e9-e716" name="Ropa resistente" hidden="false" collective="false" import="true" targetId="86ad-a9ee-d23d-f726" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63f9-fe35-06fd-4b3d" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0a84-726c-9a0d-b163" name="Acróbata" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8406-347a-2646-091e" name="Acróbata" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+          <characteristics>
+            <characteristic name="Acciones" typeId="35d2-a478-8824-fda4">2</characteristic>
+            <characteristic name="Combate" typeId="a021-1c6d-e7d6-39ea">4</characteristic>
+            <characteristic name="Precisión" typeId="9d88-57a7-635e-3622">4</characteristic>
+            <characteristic name="Agilidad" typeId="e0a4-9656-26d9-6a44">6</characteristic>
+            <characteristic name="Fuerza" typeId="26a4-4364-5085-5f30">3</characteristic>
+            <characteristic name="Dureza" typeId="ee78-dafb-2dc2-a52a">3</characteristic>
+            <characteristic name="Técnica" typeId="8422-cbe6-6791-4a35">4</characteristic>
+            <characteristic name="Reglas especiales" typeId="16f0-630c-2894-4e0b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8a2e-416a-9f86-bcfa" name="Catapulta infernal" hidden="false">
+          <description>Los Acróbatas entrenan en pareja una técnica especial para saltar contra el enemigo. Al empezar la partida puedes hacer parejas de Acróbatas. Mientras un Acróbata esté en contacto con su pareja (y solo con ella), pasará a tener la Regla especial Salto. Usar un salto para Asaltar un enemigo en siempre peligroso, y si lo hacen deber  ́superar una Tirada de Agilidad. Si la superan se considerará que la miniatura asaltada está de espaldas (vale, técnicamente estará debajo), pero si la fallan, perderán todos los bonificadores del Asalto.</description>
+        </rule>
+        <rule id="3a9f-3aa5-9aa2-bf23" name="Escapista" hidden="false">
+          <description>Los Acróbatas son escapistas consumados y pueden Separarse de un Combate sin necesidad de hacer una tirada enfrentada.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="a739-e846-541c-6f3e" name="Todoterreno" hidden="false" targetId="a662-52ec-031c-0620" type="rule"/>
+        <infoLink id="3df4-a0dc-b804-373c" name="Trepador" hidden="false" targetId="27b8-89f5-8007-e446" type="rule"/>
+        <infoLink id="fc4b-b269-2b72-7ac2" name="Raudo" hidden="false" targetId="f4a1-7d89-1648-d18a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5a23-aaad-d30b-9414" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0300-0784-f94c-aa47" name="Armas" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="24e2-919d-dce8-054a" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8bdd-688a-f6af-bad4" name="Cuchillos arrojadizos" hidden="false" collective="false" import="true" targetId="fbb9-71e9-2b8c-6c33" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcf8-df18-b0cd-28ee" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="b5e4-c406-6a68-1c83" name="Filo pequeño" hidden="false" collective="false" import="true" targetId="d661-b37c-29d0-a025" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6995-21e7-20db-6963" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="99bd-2350-c7a2-6f99" name="Maza ligera" hidden="false" collective="false" import="true" targetId="fb16-c7ed-2bf7-20d4" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c34-09b0-75e7-ea11" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7829-8195-0129-e227" name="Filo medio" hidden="false" collective="false" import="true" targetId="0424-8c3f-6ad0-8237" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34f4-de02-a28e-9063" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="4492-6e88-8177-e3ce" name="Artículos de coña" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="009b-f9e4-b59e-0a6e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5669-7bff-631c-6436" name="Bocina" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fb57-0ef5-2393-0cb2" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c9ba-9cf1-7423-b12f" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="7d3b-059a-fdc9-2b1a" name="Bocina" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">si la miniatura es Asaltada podrá pegarle un bocinazo al rival que hará que pierda todos los modificadores del Asalto por el susto.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b350-d63a-c130-4ec6" name="Bomba fétida" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7d18-80fe-8544-efc2" type="max"/>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fa7e-6cd2-572c-8030" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="1312-936f-515d-dfce" name="Bomba fétida" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">puedes lanzar la bomba fétida a tus pies dejando un marcador permanente de 5 cm de radio. Cualquier miniatura en contacto que haga una Tirada de Técnica tendrá un penalizador de -4.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="389f-df14-49e5-33b3" name="Cojín de pedos" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4f77-08c4-f4d2-a788" type="max"/>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="11e6-5390-aa22-165c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="0ca0-6523-7e1e-0289" name="Cojín de pedos" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">un Pachacho equipado con el cojín será capaz de sobrevivir al disparo del cañón lanzador con un resultado en la Tirada de Precisión de 1-2 en lugar de 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4255-6823-12a4-5380" name="Flor escupe agua" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8a68-1e15-4723-c41c" type="max"/>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5b01-1475-36ac-2693" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="36ef-a028-3f73-ea7e" name="Flor escupe agua" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">si la miniatura ya está trabada en Combate puede usar la flor para causar un penalizador de -2 al Combate a su rival a la hora de Combatir (ya sea su Turno de Acción o el del rival).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d4ef-e336-c7fe-0fd3" name="Globo que flota" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="059a-077c-3baf-b59e" type="max"/>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b02e-1d8e-1d84-2ec2" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="1a9a-0dff-dbec-506e" name="Globo que flota" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">si la miniatura equipada resulta abatida el globo producirá una deflagración impactando a todas las miniaturas a 5 cm con fuerza 2 penetración 3.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4eff-a4bc-3f00-ff82" name="Guante cond escarga" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5e66-9642-49f9-ba09" type="max"/>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9e36-1dd0-5d6b-7a81" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="c1e7-6614-67f9-4226" name="Guante cond escarga" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">si la miniatura es impactada en Combate puede decidir tener la Regla especial Electrificación.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e510-c3e8-4b02-6005" name="Pañuelos infinitos" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9954-1868-06c1-1aa2" type="max"/>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c840-ad81-390e-4b97" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="78f2-0a1d-62d0-3624" name="Pañuelos infinitos" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">si la miniatura va a ser el objetivo de un disparo puede usar los pañuelos para despistar y que el atacante sufra un penalizador de -2 a la Precisión.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7dc7-4c9f-de07-b418" name="Pachacho" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8f94-2446-c48a-2940" name="Pachacho" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+          <characteristics>
+            <characteristic name="Acciones" typeId="35d2-a478-8824-fda4">2</characteristic>
+            <characteristic name="Combate" typeId="a021-1c6d-e7d6-39ea">3</characteristic>
+            <characteristic name="Precisión" typeId="9d88-57a7-635e-3622">3</characteristic>
+            <characteristic name="Agilidad" typeId="e0a4-9656-26d9-6a44">3</characteristic>
+            <characteristic name="Fuerza" typeId="26a4-4364-5085-5f30">3</characteristic>
+            <characteristic name="Dureza" typeId="ee78-dafb-2dc2-a52a">3</characteristic>
+            <characteristic name="Técnica" typeId="8422-cbe6-6791-4a35">3</characteristic>
+            <characteristic name="Reglas especiales" typeId="16f0-630c-2894-4e0b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4a05-c6c4-ce47-a662" name="Zapatones" hidden="false">
+          <description>Si un Pachacho desea Asaltar a una miniatura enemiga y no llega por una distancia de 2,5 cm o menos, gracias a los zapatones podrá adelantarse esa distancia de manera automática y por tanto podrá Asaltar. Pero cuidado, eso mismo sucederá si le Asaltan a él.</description>
+        </rule>
+        <rule id="84a6-7476-019c-6ea3" name="Risa difícil" hidden="false">
+          <description>Al igual que los típicos payasos de toda la vida, los Pachachos de la Hermandad de la Risa Floja suelen causar emociones polarizadas, o te hacen mucha gracia o los odias a muerte. Luchar contra Pachachos es como tirar una moneda. Cuando una miniatura Dispare o Combata contra un Pachacho tendrá que ver si su tirada de Precisión o Combate (lo que tenga que utilizar) es par o impar. Si fuera par se sumará 2 a la tirada (hasta un resultado máximo de 10) pero con un resultado impar se restará 2 (hasta un mínimo de 1).</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1238-e534-05d6-9826" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="057c-8d6a-0f35-b9da" name="Armas" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="9077-1f74-45ad-94ee" name="Cañón de confetí" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22b5-a7d0-62d2-973f" type="max"/>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9db3-1315-ce73-cc0e" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="5606-bd16-3010-bed4" name="Cañón de confetí" hidden="false" typeId="7089-c608-3647-16e3" typeName="Armas a distancia">
+                  <characteristics>
+                    <characteristic name="Reglas especiales" typeId="8a87-25fd-fe02-13e7">Los cañones de confeti hacen gracia a cuatro gatos, entre ellos a los integrantes de la Hermandad de la Risa Floja. Construidos por ellos mismos a imagen y semejanza de los del Mundo de Antaño, estos cañones meten más ruido, cargan mucha más pólvora y hacen menos puta gracia todavía que los que vendían en los chinos.
+
+Los papelitos brillantes son numerosos y dan por culo que flipas, así que cualquier miniatura impactada que no haya sido Abatida sufrirá un penalizador de -1 a la Agilidad hasta que gaste una Acción en limpiarse. En cualquier caso, seguirá encontrando confeti de mierda en su ropa durante un mes.
+Primero deberá gastar la Acción en disparar y luego se calculará la distancia (no tiene modificadores por distancia). Si no llega, pues mala suerte, Acción perdida.</characteristic>
+                    <characteristic name="Distancia" typeId="e3cc-c79f-36e8-ca84">1d10 x 5 cm</characteristic>
+                    <characteristic name="Fuerza" typeId="c02a-4690-9a12-55e4">3</characteristic>
+                    <characteristic name="Penetración" typeId="9563-bb3e-ec5c-02a1">5</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="0ab4-daa3-4ff5-8ff7" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+                <infoLink id="5e71-609e-aa22-a28a" name="Lentorra" hidden="false" targetId="93e2-9b71-26df-289d" type="rule"/>
+                <infoLink id="096f-db69-cc19-1285" name="Postas" hidden="false" targetId="3024-745a-5aa2-9b8b" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3a7f-caea-0a89-cbcb" name="Guante de boxeo extensible" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11ff-4f50-88e6-487f" type="max"/>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c616-1bd1-8f7c-f0b2" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="91e4-00ed-b593-3fb1" name="Guante de boxeo extensible" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Armas cuerpo a cuerpo">
+                  <characteristics>
+                    <characteristic name="Combate" typeId="3bcb-590f-e624-084f">+2</characteristic>
+                    <characteristic name="Fuerza" typeId="959a-27b3-5665-eaae">+2</characteristic>
+                    <characteristic name="Penetración" typeId="af0e-e291-c826-bf01">1</characteristic>
+                    <characteristic name="Reglas especiales" typeId="55ae-0d53-f265-651a">Mediante un mecanismo chungo la gente de la Hermandad puede hacer que un guante de boxeo salga disparado contra sus enemigos. Tópico pero efectivo.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="59ff-071c-0862-f945" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
+                <infoLink id="fcc7-f592-bfc2-ae34" name="Lentorra" hidden="false" targetId="93e2-9b71-26df-289d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="2800-f48e-f2c1-cff1" name="Maza ligera" hidden="false" collective="false" import="true" targetId="fb16-c7ed-2bf7-20d4" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cce-d5e3-4aee-3d0f" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="fb52-ebbd-3a52-b92d" name="Pistola" hidden="false" collective="false" import="true" targetId="eb59-93d0-ab75-4c88" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3a8-e661-1925-95af" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="8352-87f5-96db-a791" name="Filo pequeño" hidden="false" collective="false" import="true" targetId="d661-b37c-29d0-a025" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1768-373b-0ded-8030" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="0774-1ea9-66a1-0d47" name="Escopeta" hidden="false" collective="false" import="true" targetId="e428-2fd2-6b4d-1344" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60ce-9fea-5fa8-58a2" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="89d9-e9b4-6abc-4654" name="Maza" hidden="false" collective="false" import="true" targetId="4c50-148e-9eaa-0e70" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da5a-fee1-7788-85a7" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5f5f-f17a-ed8a-0d01" name="Artículos de coña" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9f01-dc20-bec7-b9e8" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="17a5-ee0d-968a-ccf5" name="Bocina" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0877-1d74-d7e3-6a0e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="84fa-0e34-ef17-794b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="1733-7fd5-f4ac-be51" name="Bocina" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">si la miniatura es Asaltada podrá pegarle un bocinazo al rival que hará que pierda todos los modificadores del Asalto por el susto.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7d6c-83a4-573e-cbb9" name="Bomba fétida" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fe88-dc0d-b407-786d" type="max"/>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d2b5-1871-8a11-d1ad" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="878e-d7b5-d2d3-afe8" name="Bomba fétida" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">puedes lanzar la bomba fétida a tus pies dejando un marcador permanente de 5 cm de radio. Cualquier miniatura en contacto que haga una Tirada de Técnica tendrá un penalizador de -4.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6be0-e44d-3bee-5cec" name="Cojín de pedos" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="598a-e62e-6b7f-8952" type="max"/>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6079-46fa-831c-f412" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="35d2-b21c-cf90-138e" name="Cojín de pedos" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">un Pachacho equipado con el cojín será capaz de sobrevivir al disparo del cañón lanzador con un resultado en la Tirada de Precisión de 1-2 en lugar de 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="037a-b2a9-04a3-19cf" name="Flor escupe agua" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7eff-333e-8764-5045" type="max"/>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9972-b52e-8e50-e03f" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="c496-9cb4-67f3-2ede" name="Flor escupe agua" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">si la miniatura ya está trabada en Combate puede usar la flor para causar un penalizador de -2 al Combate a su rival a la hora de Combatir (ya sea su Turno de Acción o el del rival).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="aa9a-db40-1e48-63d1" name="Globo que flota" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="556d-fff5-396f-0ba3" type="max"/>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7edb-7d3e-57a3-f784" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="0c7c-f924-1ceb-16f6" name="Globo que flota" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">si la miniatura equipada resulta abatida el globo producirá una deflagración impactando a todas las miniaturas a 5 cm con fuerza 2 penetración 3.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="56f7-411a-0ad8-8276" name="Guante cond escarga" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a4df-f97e-ba77-e2b0" type="max"/>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6353-2172-c814-cd13" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="e335-ccfa-445f-361a" name="Guante cond escarga" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">si la miniatura es impactada en Combate puede decidir tener la Regla especial Electrificación.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4e1d-15ee-68b6-425a" name="Pañuelos infinitos" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cbad-c870-8766-3310" type="max"/>
+                <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6bc5-0d73-1c80-f7fd" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="ed59-a5d9-933f-c940" name="Pañuelos infinitos" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+                  <characteristics>
+                    <characteristic name="Reglas" typeId="f042-739d-9839-c439">si la miniatura va a ser el objetivo de un disparo puede usar los pañuelos para despistar y que el atacante sufra un penalizador de -2 a la Precisión.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="dd6f-d588-3aa5-74a2" name="Ropa resistente" hidden="false" collective="false" import="true" targetId="86ad-a9ee-d23d-f726" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e09f-20ac-28b6-a1cc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="09b7-f3e0-318a-65ca" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="06f7-77c9-79c5-0d66" name="Cuero endurecido" hidden="false" collective="false" import="true" targetId="eeea-45d8-03cc-15ca" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6db5-6b2a-f35a-05ac" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="62ef-3892-a32e-97c9" name="Domador" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2ec0-a627-eeb1-7c09" name="Domador" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+          <characteristics>
+            <characteristic name="Acciones" typeId="35d2-a478-8824-fda4">2</characteristic>
+            <characteristic name="Combate" typeId="a021-1c6d-e7d6-39ea">3</characteristic>
+            <characteristic name="Precisión" typeId="9d88-57a7-635e-3622">3</characteristic>
+            <characteristic name="Agilidad" typeId="e0a4-9656-26d9-6a44">4</characteristic>
+            <characteristic name="Fuerza" typeId="26a4-4364-5085-5f30">3</characteristic>
+            <characteristic name="Dureza" typeId="ee78-dafb-2dc2-a52a">3</characteristic>
+            <characteristic name="Técnica" typeId="8422-cbe6-6791-4a35">3</characteristic>
+            <characteristic name="Reglas especiales" typeId="16f0-630c-2894-4e0b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f6e5-69f3-819b-1eef" name="Señor de las bestias" hidden="false">
+          <description>Un domador puede adquirir hasta 2 bestias por +12 puntos cada una. Estas bestias, de diferentes formas y tamaños están armadas con Garras y dientes y, como no podía ser de otra manera, tienen la regla especial Bestia. Ten en cuenta que aunque las adquieras con el Domador, cuentan para el máximo de miniaturas de la banda.
+Las bestias siempre deben tratar de estar como máximo a 15 cm de su domador, no pudiendo alejarse más voluntariamente. Si no lo estuvieran, cuando sea el momento de actuar de las bestias deben usar todas las Acciones necesarias en Mover para cumplir esto. Si su Domador resulta abatido, cuando sea el Turno de Acción de las bestias debes tirar 1d10 por cada una en la siguiente tabla para ver cómo actúan. 
+
+1 La bestia intentará asaltar a la miniatura de su propia banda a la que llegue más fácilmente. Si no llegara a Asaltar, se acercará lo máximo posible.
+2-3 La bestia tratará de huir, avanzando lo máximo posible hacia el borde del tablero más cercano.
+4-6 La bestia se quedará en el sitio atontada.
+7+ La bestia intentará asaltar a la miniatura de la banda rival a la que llegue más fácilmente. Si no llegara a Asaltar, se acercará lo máximo posible.</description>
+        </rule>
+        <rule id="cd61-ad5e-adfa-290c" name="Avivar" hidden="false">
+          <description>Un domador puede usar su látigo para avivar a una bestia. Si está en contacto con una de sus bestias puede usar una Acción y la bestia obtendrá un bonificador de +1 a la Fuerza y Dureza durante lo que queda de ese Turno de Juego.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="d814-2af2-8582-1682" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="bb81-59cf-37cf-6ac9" name="Látigo" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="97a8-34b9-091b-5d6b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="be32-bcd4-bcdc-e3d5" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="ac6f-321b-3510-7cbf" name="Látigo" hidden="false" typeId="d423-695b-6fc2-31d9" typeName="Armas cuerpo a cuerpo">
+              <characteristics>
+                <characteristic name="Combate" typeId="3bcb-590f-e624-084f">+0</characteristic>
+                <characteristic name="Fuerza" typeId="959a-27b3-5665-eaae">+1</characteristic>
+                <characteristic name="Penetración" typeId="af0e-e291-c826-bf01">3</characteristic>
+                <characteristic name="Reglas especiales" typeId="55ae-0d53-f265-651a">Consiste en una vara de la que sale una correa, cordel o soga de cuero con la que se aviva a las bestias.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="f8e1-7d77-7502-fdf1" name="Bestia" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="392d-48c0-d80f-d822" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0aef-bbcd-1a10-32df" name="Bestia" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+              <characteristics>
+                <characteristic name="Acciones" typeId="35d2-a478-8824-fda4">2</characteristic>
+                <characteristic name="Combate" typeId="a021-1c6d-e7d6-39ea">4</characteristic>
+                <characteristic name="Precisión" typeId="9d88-57a7-635e-3622">-</characteristic>
+                <characteristic name="Agilidad" typeId="e0a4-9656-26d9-6a44">4</characteristic>
+                <characteristic name="Fuerza" typeId="26a4-4364-5085-5f30">3</characteristic>
+                <characteristic name="Dureza" typeId="ee78-dafb-2dc2-a52a">5</characteristic>
+                <characteristic name="Técnica" typeId="8422-cbe6-6791-4a35">-</characteristic>
+                <characteristic name="Reglas especiales" typeId="16f0-630c-2894-4e0b"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <categoryLinks>
+            <categoryLink id="8a97-70ab-f484-b4dd" name="Miembros de la banda" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="12.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="acaa-a982-dc59-4207" name="Ropa resistente" hidden="false" collective="false" import="true" targetId="86ad-a9ee-d23d-f726" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6470-20a8-bfb9-24c5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="87bf-83e5-10e7-c234" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c94b-94c7-7569-9fb3" name="François el mimo" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2911-9a74-97f0-4aa0" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="1bee-aa0a-d344-346c" name="François el mimo" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+          <characteristics>
+            <characteristic name="Acciones" typeId="35d2-a478-8824-fda4">2</characteristic>
+            <characteristic name="Combate" typeId="a021-1c6d-e7d6-39ea">3</characteristic>
+            <characteristic name="Precisión" typeId="9d88-57a7-635e-3622">3</characteristic>
+            <characteristic name="Agilidad" typeId="e0a4-9656-26d9-6a44">3</characteristic>
+            <characteristic name="Fuerza" typeId="26a4-4364-5085-5f30">3</characteristic>
+            <characteristic name="Dureza" typeId="ee78-dafb-2dc2-a52a">3</characteristic>
+            <characteristic name="Técnica" typeId="8422-cbe6-6791-4a35">3</characteristic>
+            <characteristic name="Reglas especiales" typeId="16f0-630c-2894-4e0b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a1a1-6f14-0f3f-69fd" name="¡Matad a eso!" hidden="false">
+          <description>Es imposible concentrarse en liquidar a nadie más si François está cerca. Si un enemigo quiere Asaltar o Disparar a un enemigo y François pudiera ser también blanco de esos ataques, está obligado a hacerlo contra François.</description>
+        </rule>
+        <rule id="9a2d-1437-0a1f-eba5" name="Mimo" hidden="false">
+          <description>François se puede poner en plan pesado imitando a alguien hasta el mínimo detalle. Si François está a 30 cm o menos de una miniatura enemiga no Abatida de tamaño y forma humana en Línea de visión, puede gastar una Acción y pasará a tener todos los Atributos y equipo de esa miniatura. Será como un clon, vamos. Podrá mantenerse así mientras siga manteniendo todas las condiciones anteriores.</description>
+        </rule>
+        <rule id="cd20-66ce-e75a-9486" name="Muro imaginario" hidden="false">
+          <description>A François le mola mucho hacer gestitos con las manos como si tuviera un muro delante hasta el punto de que realmente funciona. François puede gastar una Acción en crear un muro que le proporciona a él y solo él un bonificador de Cobertura de +6 por el frente (en su Línea de visión). Sin embargo, en cuanto se mueva de ese lugar el muro perderá su efecto.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="83fe-2b4b-c225-9529" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fd7b-8925-6f9c-d0f2" name="Cañon lanzador" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e31-871e-d5c4-16d3" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e8fc-302a-c3d0-4707" name="Cañon lanzador" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+          <characteristics>
+            <characteristic name="Reglas" typeId="f042-739d-9839-c439">Debes desplegar el cañón en tu zona de despliegue antes de comenzar a desplegar las miniaturas. Cualquier Pachacho o Acróbata en contacto con el cañón lanzador puede gastar una Acción en auto-dispararse hacia un enemigo en Línea de visión a una distancia máxima de 90 cm y con una precisión de 5 (no tiene modificadores por distancias ni se puede Apuntar). En caso de impactar lo hará con Fuerza 7 y Penetración 10. Si no impacta, la miniatura lanzada saldrá despedida fuera de la mesa y se considerará Abatida (aunque no podrá ser Rapiñada). Si la miniatura impacta quedará en contacto con la miniatura objetivo, pero resultará Abatida al instante salvo que saque un 1 en la Tirada de Precisión. Si la miniatura objetivo no ha quedado Abatida, pasarán a estar trabadas en cuerpo a cuerpo, pero sin que se haya producido ningún asalto.
+Este equipo está limitado a 1 por banda.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dc3e-d93e-657a-baf1" name="Chismeciclo" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="740d-0226-6131-438e" name="Chismeciclo" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+          <characteristics>
+            <characteristic name="Reglas" typeId="f042-739d-9839-c439">Puedes decidir que un Pachacho vaya montado en un chismeciclo. Una vez por Turno de Acción y siempre que vaya por Terreno chachi pasará a tener la Regla especial Raudo durante una Acción de Movimiento si supera una Tirada de Fuerza. Un Pachacho en chismeciclo perderá su Regla especial Zapatones.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6da7-292f-1317-5dd5" name="Coche  de pachachos" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aae1-ab4c-88c8-1306" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2344-edca-3d2a-8f8b" name="Coche  de pachachos" hidden="false" typeId="d233-c9f9-0a53-3040" typeName="Equipo especial">
+          <characteristics>
+            <characteristic name="Reglas" typeId="f042-739d-9839-c439">Antes de comenzar la partida y de que ninguna miniatura sea desplegada puedes colocar el coche de pachachos en cualquier lugar de la mesa fuera de las zonas de despliegue. Cuando sea el turno de desplegar de tus tropas de Pachachos puedes decidir que lo hagan desde el coche. Antes de desplegar una miniatura deberás ver a qué distancia de tu zona de despliegue está el coche y hacer una tirada. Si consigues el resultado indicado podrás desplegar un Pachacho pegado al coche. Podrás seguir
+intentando desplegar Pachachos hasta que falles una tirada, momento en el que deberán desplegar de la manera habitual.
+0 a 10 cm  	2+
++10 cm a 20 cm 	4+
++20 cm a 30 cm 	6+
++30 cm a 40 cm 	7+
++40 cm a 50 cm 	8+
++50 cm a 60 cm 	9+
+
+Ejemplo. Colocas el coche de pachachos a 27 cm de tu Zona de despliegue. Decides desplegar un Pachacho en el coche y sacas un 7, por lo que puedes desplegarlo en contacto con este. Vuelves a intentar desplegar un Pachacho en el coche y sacas un 9, así que también puedes delegarlo allí. Lo intentas con otro Pachacho y sacas un 3, que al ser menor a los 6+ necesarios no te permite desplegarlo en el coche. Este Pachacho y cualquiera que quieras desplegar después deberá desplegar de la manera habitual.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="25.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="4204-758b-080e-4194" name="Imperatrix Rabiosa" hidden="false" collective="false" import="true" targetId="5489-a5be-4e7b-0a5a" type="selectionEntry"/>
+    <entryLink id="eeab-2d2d-112b-34c3" name="Irina (beta)" hidden="false" collective="false" import="true" targetId="d9fd-c7e0-6beb-0596" type="selectionEntry"/>
+    <entryLink id="c22a-f4f6-068f-a8c4" name="Capitán Hammerica" hidden="false" collective="false" import="true" targetId="bd3e-2900-c778-8569" type="selectionEntry"/>
+    <entryLink id="947d-369b-04c0-125f" name="Crazy Mel" hidden="false" collective="false" import="true" targetId="0a14-7ef7-d9b3-4f7e" type="selectionEntry"/>
+    <entryLink id="0d22-3a07-6347-ed68" name="Viejo Sajarratas" hidden="false" collective="false" import="true" targetId="dc04-86d5-a9a1-2115" type="selectionEntry"/>
+    <entryLink id="e5f6-6f2d-8bac-bfc9" name="Lizzy Deville" hidden="false" collective="false" import="true" targetId="bb1b-9915-08d9-463c" type="selectionEntry"/>
+    <entryLink id="4b88-69f3-1817-4aaa" name="Magnus" hidden="false" collective="false" import="true" targetId="f7d2-1bd6-01c0-adf8" type="selectionEntry"/>
+    <entryLink id="9773-2aca-8a44-dda4" name="Ochodedos" hidden="false" collective="false" import="true" targetId="f5f7-4a7b-a541-cf36" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>

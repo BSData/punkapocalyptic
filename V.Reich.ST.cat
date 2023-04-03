@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1830-0e8f-8c44-e0b3" name="V Reich" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1830-0e8f-8c44-e0b3" name="V Reich" revision="16" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e549-1dc4-7320-8282" name="Soldat" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -846,6 +846,70 @@ por +15 puntos, obteniendo un bonificador de +1 al Combate y la Agilidad.</descr
       </entryLinks>
       <costs>
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="100.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b977-2a45-1313-dd1b" name="Aaron Schwartzmann" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3d7f-05d3-58db-ff0e" name="Aaron Schwartzmann" hidden="false" typeId="6b1d-6cde-5b9e-f5e2" typeName="Perfil">
+          <characteristics>
+            <characteristic name="Acciones" typeId="35d2-a478-8824-fda4">3</characteristic>
+            <characteristic name="Combate" typeId="a021-1c6d-e7d6-39ea">4(5)</characteristic>
+            <characteristic name="Precisión" typeId="9d88-57a7-635e-3622">5(4)</characteristic>
+            <characteristic name="Agilidad" typeId="e0a4-9656-26d9-6a44">6</characteristic>
+            <characteristic name="Fuerza" typeId="26a4-4364-5085-5f30">5(7)</characteristic>
+            <characteristic name="Dureza" typeId="ee78-dafb-2dc2-a52a">5</characteristic>
+            <characteristic name="Técnica" typeId="8422-cbe6-6791-4a35">4</characteristic>
+            <characteristic name="Reglas especiales" typeId="16f0-630c-2894-4e0b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="e0ef-9399-0be8-b699" name="Personalidad del V Reich" hidden="false"/>
+        <rule id="480b-6ac7-171f-6f3b" name="Cadena de mando" hidden="false">
+          <description>Aaron Schwartzmann se considera Mariscal en su banda del V Reich, por lo que podrá usar la regla especial Cadena de mando.</description>
+        </rule>
+        <rule id="131d-ca39-25b8-0aff" name="Maestro estratega" hidden="false">
+          <description>Aaron no sólo se ocnsidera Marisacal en su banda del V Reich, por lo que podrá usar la regla especial cadena de mando, si no que además, una vez por Turno de juego, una de sus órdenes a través del Walkie-talkie servirá para que la miniatura receptora pueda utilizar dos acciones en lugar de una.</description>
+        </rule>
+        <rule id="4d7f-5191-569c-f675" name="Amado lider" hidden="false">
+          <description>Aaron es el lider del V reich y defraudarlo es algo impensable. Si Aaron es abatido y un sanitario intenta utilizar botiquin sobre él, no deberá de realizar la Tirada de Técnica, considerándose superada automáticamente. En caso de utilizar las reglas opcionales de la página 25 del libro de Reglas extra y de camaña, la tirada en la rabla tendrá un bonificador de +3</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4719-b9ed-4891-9e67" name="Montada" hidden="false" targetId="2b7b-1ce2-7d18-7832" type="rule"/>
+        <infoLink id="0516-2b3d-fac2-d9be" name="Raudo" hidden="false" targetId="f4a1-7d89-1648-d18a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7044-01dc-2610-0765" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="7cf5-21f7-f5e4-dce9" name="Filo medio" hidden="false" collective="false" import="true" targetId="0424-8c3f-6ad0-8237" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e33e-d8f5-97b1-74b8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fa3-655e-fa30-c939" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="bc09-72b9-691e-45ad" name="Pistola" hidden="false" collective="false" import="true" targetId="eb59-93d0-ab75-4c88" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cde3-4e76-4c10-f931" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33f9-9b41-c7ba-eaea" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7026-2096-346c-fea4" name="Cuero endurecido" hidden="false" collective="false" import="true" targetId="eeea-45d8-03cc-15ca" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98f5-edd5-9b5c-bf63" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e960-66a7-f395-d89a" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1794-14c2-3b76-78af" name="Walkie-talkie" hidden="false" collective="false" import="true" targetId="05f8-01fe-6c3c-c869" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c54-db85-c6b4-59b9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e14-58a9-fc31-868a" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="80.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
