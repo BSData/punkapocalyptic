@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7c31-2130-85f1-3913" name="Organicación Kraken " revision="4" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7c31-2130-85f1-3913" name="Organicación Kraken " revision="5" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="f082-e493-c19d-39b5" name="Gólem" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -59,6 +59,22 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cadc-a3f4-362d-4f20" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2af6-22ca-b932-1070" type="min"/>
           </constraints>
+        </entryLink>
+        <entryLink id="8c03-9d15-0bf9-9937" name="Walkie-talkie" hidden="false" collective="false" import="true" targetId="05f8-01fe-6c3c-c869" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f6f2-cf55-a246-5e05" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="9.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="9cfa-a893-45c1-e1cd" name="Protección contra contaminación" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="68cb-592a-2c87-de4c" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+          </costs>
         </entryLink>
       </entryLinks>
       <costs>
@@ -624,6 +640,24 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d69f-7adc-b691-2920" name="Protección contra contaminación" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="181a-6ca2-2503-2529" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="210a-22d4-339c-ff3d" name="Walkie-talkie" hidden="false" collective="false" import="true" targetId="05f8-01fe-6c3c-c869" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9426-acfe-998c-456f" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="9.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="16.0"/>
       </costs>
@@ -638,6 +672,9 @@ En cualquiera de los casos, independientemente del resultado de la Tirada de Té
           </characteristics>
         </profile>
       </profiles>
+      <categoryLinks>
+        <categoryLink id="49d8-bf22-88f4-5272" name="New CategoryLink" hidden="false" targetId="c87a-d4ad-78b4-37a2" primary="true"/>
+      </categoryLinks>
       <costs>
         <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="30.0"/>
       </costs>
@@ -674,6 +711,9 @@ En cualquiera de los casos, independientemente del resultado de la Tirada de Té
 </description>
         </rule>
       </rules>
+      <categoryLinks>
+        <categoryLink id="d6f8-713b-3514-bab8" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
+      </categoryLinks>
       <entryLinks>
         <entryLink id="6235-0a37-ab9c-ed57" name="Filo medio" hidden="false" collective="false" import="true" targetId="0424-8c3f-6ad0-8237" type="selectionEntry">
           <constraints>

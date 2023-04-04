@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d47b-f504-8922-dafb" name="División Científica" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d47b-f504-8922-dafb" name="División Científica" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="4e44-5861-0b5c-83e4" name="Gato Amargado" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -481,7 +481,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="0.0"/>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -492,6 +492,22 @@
           </constraints>
           <costs>
             <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="d424-6a60-f1f5-5a0b" name="Protección contra contaminación" hidden="false" collective="false" import="true" targetId="1c4e-6bf8-7327-3b03" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="74e3-b0d0-3577-4544" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="ccf9-7d08-e25c-e01c" name="Walkie-talkie" hidden="false" collective="false" import="true" targetId="05f8-01fe-6c3c-c869" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="21e6-c4f8-4491-09dc" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
           </costs>
         </entryLink>
       </entryLinks>
@@ -810,6 +826,11 @@
       <categoryLinks>
         <categoryLink id="e964-4174-f0f6-2a20" name="New CategoryLink" hidden="false" targetId="817f-584d-2021-2668" primary="true"/>
       </categoryLinks>
+    </entryLink>
+    <entryLink id="e09d-bf39-4390-ed81" name="Gato amargado" hidden="false" collective="false" import="true" targetId="340c-7125-559a-85ae" type="selectionEntry">
+      <costs>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
+      </costs>
     </entryLink>
   </entryLinks>
 </catalogue>
