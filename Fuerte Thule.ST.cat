@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b0a3-ff82-467e-0341" name="Fuerte Thule.ST" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b0a3-ff82-467e-0341" name="Fuerte Thule.ST" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="9c37-a018-cc9c-932e" name="Recluta" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -895,7 +895,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="40.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e9f8-8ed4-f2bb-77fc" name="Eva y Uno" hidden="false" collective="false" import="true" type="unit">

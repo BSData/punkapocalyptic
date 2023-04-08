@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7c31-2130-85f1-3913" name="Organicación Kraken.ST" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7c31-2130-85f1-3913" name="Organicación Kraken.ST" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="fab7-8d9f-25c5-73bc" gameSystemRevision="39" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="f082-e493-c19d-39b5" name="Gólem" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -926,7 +926,7 @@ En cualquiera de los casos, independientemente del resultado de la Tirada de Té
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="40.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="45.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="855f-d5e4-04d1-1416" name="Aaron Schwartzmann" hidden="false" collective="false" import="true" type="unit">

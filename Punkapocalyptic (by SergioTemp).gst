@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fab7-8d9f-25c5-73bc" name="Punkapocalyptic (by SergioTemp)" revision="40" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fab7-8d9f-25c5-73bc" name="Punkapocalyptic (by SergioTemp)" revision="41" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="6ba6-290e-2003-241d" name="Puntos" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -150,9 +150,6 @@
       <infoLinks>
         <infoLink id="e3c0-c795-6ee5-b76c" name="Filo Medio" hidden="false" targetId="07bd-a7c1-5f5e-be6a" type="profile"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="d661-b37c-29d0-a025" name="Filo pequeño" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -161,9 +158,6 @@
       <infoLinks>
         <infoLink id="2bd7-2862-f017-bbc7" name="Filo pequeño" hidden="false" targetId="aaef-84b9-f340-8987" type="profile"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="e5e6-095e-5017-1921" name="Filo pesado" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -174,9 +168,6 @@
         <infoLink id="de9a-7aee-3721-b280" name="A dos manos" hidden="false" targetId="8ce0-65c9-8d5c-1020" type="rule"/>
         <infoLink id="cc33-4285-f320-f58d" name="Armatoste" hidden="false" targetId="f7de-13c0-671c-f4c9" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="c1b8-e68a-3435-6b67" name="Maza pesada" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -186,9 +177,6 @@
         <infoLink id="627f-8394-70e1-4c74" name="Maza pesada" hidden="false" targetId="546b-ae5e-a9ff-9ff1" type="profile"/>
         <infoLink id="8304-d89c-d8dc-a817" name="A dos manos" hidden="false" targetId="8ce0-65c9-8d5c-1020" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="fb16-c7ed-2bf7-20d4" name="Maza ligera" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -197,9 +185,6 @@
       <infoLinks>
         <infoLink id="85c4-9a81-ea3e-00de" name="Maza ligera" hidden="false" targetId="5c0d-e6d7-6ab6-8b47" type="profile"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="3.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="4c50-148e-9eaa-0e70" name="Maza" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -208,9 +193,6 @@
       <infoLinks>
         <infoLink id="bac3-a269-7917-2a85" name="Maza" hidden="false" targetId="a9c4-5156-8a6f-20d7" type="profile"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="60c8-413b-fbde-6088" name="Garras y dientes" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -227,9 +209,6 @@
       <infoLinks>
         <infoLink id="7096-3535-05d1-e405" name="Arco" hidden="false" targetId="dfd8-4126-25e2-9555" type="profile"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="adde-dfd0-58c6-1115" name="Ballesta" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -238,9 +217,6 @@
       <infoLinks>
         <infoLink id="a984-eb4f-8825-d963" name="Ballesta" hidden="false" targetId="e412-a99c-a01d-6bd5" type="profile"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="fbb9-71e9-2b8c-6c33" name="Cuchillos arrojadizos" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -249,9 +225,6 @@
       <infoLinks>
         <infoLink id="32fe-93c5-0482-b792" name="Cuchillos arrojadizos" hidden="false" targetId="6e19-b4d1-ff95-2ad3" type="profile"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="3.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="e428-2fd2-6b4d-1344" name="Escopeta" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -299,9 +272,6 @@
           </costs>
         </entryLink>
       </entryLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="9726-34fd-1e5a-f35f" name="Rifle" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -324,9 +294,6 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="3c54-08e0-8c70-71e5" name="Rifle automático" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -350,9 +317,6 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="86ad-a9ee-d23d-f726" name="Ropa resistente" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -414,9 +378,6 @@
       <infoLinks>
         <infoLink id="f2d5-9298-53f8-ccd6" name="Bayoneta" hidden="false" targetId="2338-8d88-a8f3-71bc" type="profile"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="4.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="97f2-983f-e545-b948" name="Escudo" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -425,9 +386,6 @@
       <infoLinks>
         <infoLink id="becf-fab1-f0a6-3f31" name="Escudo" hidden="false" targetId="34a8-4394-10fb-e54e" type="profile"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="1c4e-6bf8-7327-3b03" name="Protección contra contaminación" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -436,9 +394,6 @@
       <infoLinks>
         <infoLink id="ec53-9c54-18d3-f89b" name="Protección contra contaminación" hidden="false" targetId="87c4-e0dc-4cc4-6f75" type="profile"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="340c-7125-559a-85ae" name="Gato amargado" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -649,9 +604,6 @@ o tirar una bomba) o gaste 1 Acción en vaciar la presión del arma. Además, si
         <infoLink id="5d33-925e-a6e2-92c7" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
         <infoLink id="5ae2-b286-6a16-7038" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="493d-3b1b-2007-72b3" name="Bomba de Gas" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -670,9 +622,6 @@ o tirar una bomba) o gaste 1 Acción en vaciar la presión del arma. Además, si
         <infoLink id="1761-6cbe-762d-6c5f" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
         <infoLink id="005e-43b7-3303-01cc" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="8e42-104d-0cfa-c71b" name="Bomba de Humo" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -691,9 +640,6 @@ o tirar una bomba) o gaste 1 Acción en vaciar la presión del arma. Además, si
         <infoLink id="e636-2f04-fe4c-c47e" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="725a-accd-90d2-3a19" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="0078-a6e6-cd5a-0041" name="Chasqueador" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -718,9 +664,6 @@ o tirar una bomba) o gaste 1 Acción en vaciar la presión del arma. Además, si
         <infoLink id="fd26-d53d-eb81-ff80" name="Electrificación" hidden="false" targetId="87de-baf3-231c-a9cb" type="rule"/>
         <infoLink id="80eb-ce1a-e7d5-c01b" name="Ignífugo" hidden="false" targetId="553e-d8db-0834-40db" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="25.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="f639-8432-b582-df6c" name="Puño balístico" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -732,9 +675,6 @@ o tirar una bomba) o gaste 1 Acción en vaciar la presión del arma. Además, si
         <infoLink id="c203-6a96-db55-bf51" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="d8eb-27f0-f16e-41ce" name="Muy lentorra" hidden="false" targetId="184c-9445-2e07-d89d" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="9c05-de0b-b675-3c6a" name="Bombeadora" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -747,9 +687,6 @@ o tirar una bomba) o gaste 1 Acción en vaciar la presión del arma. Además, si
         <infoLink id="caa2-9d38-628a-ad87" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="f843-5df0-865d-05af" name="Bombeo" hidden="false" targetId="abe6-8560-35f8-6bc9" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="667b-00a7-3cc5-6fab" name="Lanzaarpones" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -780,9 +717,6 @@ o tirar una bomba) o gaste 1 Acción en vaciar la presión del arma. Además, si
         <infoLink id="b99d-5e3f-b68f-0fde" name="Lentorra" hidden="false" targetId="93e2-9b71-26df-289d" type="rule"/>
         <infoLink id="f0dd-131f-dd7d-8e7e" name="Postas" hidden="false" targetId="3024-745a-5aa2-9b8b" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="7cd0-20cd-48f7-a156" name="Vaporeta" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -796,17 +730,11 @@ o tirar una bomba) o gaste 1 Acción en vaciar la presión del arma. Además, si
         <infoLink id="4f12-6cb8-b5ec-6087" name="A dos manos" hidden="false" targetId="8ce0-65c9-8d5c-1020" type="rule"/>
         <infoLink id="d35f-0ca7-f46c-5159" name="Armatoste" hidden="false" targetId="f7de-13c0-671c-f4c9" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="988f-437c-ad47-7b57" name="Cacharras de oficio" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="7b7d-ed46-c20d-ec6a" name="Cacharras de oficio" hidden="false" targetId="6fd1-9ca5-0a55-5db9" type="profile"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="3.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="2ed0-104f-98ae-e4bf" name="Mira telescópica" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -815,9 +743,6 @@ o tirar una bomba) o gaste 1 Acción en vaciar la presión del arma. Además, si
       <infoLinks>
         <infoLink id="24a3-5001-3c19-1fd8" name="Mira telescópica" hidden="false" targetId="02bf-58f1-ba83-43fc" type="profile"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="b364-8b90-b999-0049" name="Mongodrilo Dundee" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -923,7 +848,7 @@ CaC: 5</characteristic>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="50.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="df79-b048-3226-d7ac" name="Cachas" hidden="false" collective="false" import="true" type="upgrade">
@@ -970,9 +895,6 @@ CaC: 5</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="04a0-eec8-9443-1aa2" name="Cola afilada" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -988,9 +910,6 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="d680-a51a-28dc-d6c0" name="Corredor" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1007,9 +926,6 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
       <infoLinks>
         <infoLink id="ab3b-061f-cd09-fa29" name="Raudo" hidden="false" targetId="f4a1-7d89-1648-d18a" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="5986-d919-269c-d2ea" name="Espinas" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1023,9 +939,6 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="c121-ac08-6de9-0597" name="Esputo ácido" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1039,9 +952,6 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="20fc-ba5d-a4c0-2ca4" name="Extremidad prensil" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1055,9 +965,6 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="6563-3942-cb55-70d7" name="Garras" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1071,9 +978,6 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="2.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="8908-4f28-22d6-0cd4" name="Garras envenenadas" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1087,9 +991,6 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="74a6-5144-df0a-8b8d" name="Miembros extra" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1103,9 +1004,6 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="7406-c307-4b04-8f33" name="Mimetismo" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1122,9 +1020,6 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
       <infoLinks>
         <infoLink id="6157-a10d-4a8e-9699" name="Camuflaje" hidden="false" targetId="90ac-2e29-a275-3472" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="f997-bc0e-ed94-76d2" name="Pegajoso" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1138,9 +1033,6 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="67ab-d59f-3ac8-b789" name="Piel dura (1)" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1154,9 +1046,6 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="885b-322a-1b2c-e05f" name="Piernas seguras" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1173,9 +1062,6 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
       <infoLinks>
         <infoLink id="7c35-0a67-4ecb-e7cb" name="Todoterreno" hidden="false" targetId="a662-52ec-031c-0620" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="6.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="9ce5-e812-1758-0e99" name="Proyectil orgánico" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1192,9 +1078,6 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
       <infoLinks>
         <infoLink id="d5c3-ba81-02bc-b4db" name="¡¡¡CATAPUM!!!" hidden="false" targetId="cdd8-9848-16bd-ac76" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="6029-0fa4-cab3-ce89" name="Rana" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1211,9 +1094,6 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
       <infoLinks>
         <infoLink id="d23d-afd5-c5d9-dbd7" name="Salto" hidden="false" targetId="0a2b-c4f1-882a-d932" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="14.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="211d-4efe-5d77-0495" name="Resistente" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1227,9 +1107,6 @@ Al suponerse que este ataque se realiza simultáneamente al normal del mutardo, 
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="599b-4498-5195-9161" name="Resonancia psíquica" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1245,9 +1122,6 @@ De esta manera, un cabezón podrá usar potenciación sobre un mutardo con Reson
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="20.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="9ca0-b7df-4f25-6c5b" name="Sentidos aguzados" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1261,9 +1135,6 @@ De esta manera, un cabezón podrá usar potenciación sobre un mutardo con Reson
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="8.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="c34e-aefe-289c-ad00" name="Sónar" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1277,9 +1148,6 @@ De esta manera, un cabezón podrá usar potenciación sobre un mutardo con Reson
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="8f96-02d5-6d76-eba6" name="Lord Homoeroticus" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -1507,7 +1375,7 @@ Titiritero, pero además tiene estos dos nuevos poderes psíquicos:</description
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="99.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="125.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bd3e-2900-c778-8569" name="Capitán Hammerica" hidden="false" collective="false" import="true" type="unit">
@@ -1579,7 +1447,7 @@ Titiritero, pero además tiene estos dos nuevos poderes psíquicos:</description
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="64.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0a14-7ef7-d9b3-4f7e" name="Crazy Mel" hidden="false" collective="false" import="true" type="unit">
@@ -1641,7 +1509,7 @@ Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo qu
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="65.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5489-a5be-4e7b-0a5a" name="Imperatrix Rabiosa" hidden="false" collective="false" import="true" type="unit">
@@ -1705,7 +1573,7 @@ Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo qu
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="38.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bb1b-9915-08d9-463c" name="Lizzy Deville" hidden="false" collective="false" import="true" type="unit">
@@ -1764,7 +1632,7 @@ Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo qu
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="65.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f7d2-1bd6-01c0-adf8" name="Magnus" hidden="false" collective="false" import="true" type="unit">
@@ -1887,16 +1755,13 @@ Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo qu
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="68.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="88.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a3d-e4bc-059d-d9df" name="Arma incrustada" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="2874-a122-97b1-6d1b" name="Arma incrustada" hidden="false" targetId="c6a5-9587-36b7-7fd4" type="profile"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="8748-3312-3e13-6d1a" name="Cuero humano" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -1925,9 +1790,6 @@ Además, Albóndiga es capaz de despistar a los enemigo que lo atacan, por lo qu
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="5654-b4ca-b0f4-09a8" name="Motosierra" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1951,9 +1813,6 @@ Pero llevar ese combustible encima es peligroso, así que si una miniatura con u
         <infoLink id="c7c3-ff7e-e571-9e9b" name="A dos manos" hidden="false" targetId="8ce0-65c9-8d5c-1020" type="rule"/>
         <infoLink id="f315-5a55-dcdd-46e3" name="Armatoste" hidden="false" targetId="f7de-13c0-671c-f4c9" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="12.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="a0c2-5530-e994-f264" name="Lanzallamas" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2198,9 +2057,6 @@ Asaltar: 5</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="3fe8-f4ee-76c1-3dbd" name="Piel dura (5)" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2214,9 +2070,6 @@ Asaltar: 5</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="20.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="ca1b-298a-6282-8471" name="Munición contaminada" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2275,9 +2128,6 @@ Asaltar: 5</characteristic>
         <infoLink id="813d-68f5-bb04-60c9" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
         <infoLink id="9bcc-09c9-7219-6643" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="d976-2a85-8378-4738" name="3 Bombas de Gas" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2296,9 +2146,6 @@ Asaltar: 5</characteristic>
         <infoLink id="3e88-cb21-2199-f64c" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
         <infoLink id="7be6-e1ae-3fe5-3bd5" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="7dcf-44c8-35a7-bfbe" name="2 Bombas de Gas" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2317,9 +2164,6 @@ Asaltar: 5</characteristic>
         <infoLink id="5e20-9eb9-7b00-17af" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
         <infoLink id="0139-9495-7f4c-440d" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="473b-0be3-a82c-54ba" name="4 Bombas de Gas" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2338,9 +2182,6 @@ Asaltar: 5</characteristic>
         <infoLink id="6dea-bfd2-9c14-2233" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
         <infoLink id="86c0-67f7-fb71-34ca" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="20.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="a3bb-f8cd-4354-7a16" name="5 Bombas de Gas" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2359,9 +2200,6 @@ Asaltar: 5</characteristic>
         <infoLink id="9249-76b4-7b17-da59" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
         <infoLink id="8233-6b1b-7bd8-00bf" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="25.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="4344-ebd6-62e9-db8b" name="1 Bomba de Humo" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2380,9 +2218,6 @@ Asaltar: 5</characteristic>
         <infoLink id="8e7e-b0ce-0d90-4057" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="13f9-f5d8-ed9d-6f86" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="526a-ffc4-9c38-39b1" name="2 Bombas de Humo" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2401,9 +2236,6 @@ Asaltar: 5</characteristic>
         <infoLink id="687b-451c-132d-3034" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="c95b-521f-d587-70c4" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="10.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="e97c-a0e6-f73e-551e" name="3 Bombas de Humo" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2422,9 +2254,6 @@ Asaltar: 5</characteristic>
         <infoLink id="3416-3067-0f31-0293" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="debb-858a-a6c2-fedf" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="cda0-6f80-f852-ea9a" name="5 Bombas de Humo" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2443,9 +2272,6 @@ Asaltar: 5</characteristic>
         <infoLink id="f16b-8c9b-d149-f25a" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="d6fe-ab0f-c250-d121" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="25.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="4d06-10e2-d81f-314e" name="4 Bombas de Humo" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2464,9 +2290,6 @@ Asaltar: 5</characteristic>
         <infoLink id="dbda-af64-b6a0-4f46" name="Escasa" hidden="false" targetId="5262-ab17-7ea7-f682" type="rule"/>
         <infoLink id="70e5-d528-f098-a283" name="Bombas" hidden="false" targetId="a6ae-1330-5d6b-6e9b" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="20.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="80c3-f88e-2610-f0cf" name="1 Bomba Incendiaria" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2485,9 +2308,6 @@ Asaltar: 5</characteristic>
         <infoLink id="a258-9ab0-5d87-c2cc" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
         <infoLink id="f067-2a06-91f7-dbe3" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="5.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="fd41-02cc-00e7-c1db" name="2 Bombas Incendiarias" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2527,9 +2347,6 @@ Asaltar: 5</characteristic>
         <infoLink id="a511-0e6f-84b9-c7e7" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
         <infoLink id="0e13-68c7-7141-4a42" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="15.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="057e-a985-796f-1404" name="4 Bombas Incendiarias" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2548,9 +2365,6 @@ Asaltar: 5</characteristic>
         <infoLink id="a711-12b0-c38d-9fcf" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
         <infoLink id="c8a8-19ff-5832-b791" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="20.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="8064-ba19-b9b1-2da0" name="5 Bombas Incendiarias" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2569,9 +2383,6 @@ Asaltar: 5</characteristic>
         <infoLink id="93a1-4e98-7e92-4d06" name="Tiro parabólico" hidden="false" targetId="ab2e-6119-c6f9-28fe" type="rule"/>
         <infoLink id="7537-2f9f-c27c-c8be" name="Usar y tirar" hidden="false" targetId="de60-3cb9-6ad5-8427" type="rule"/>
       </infoLinks>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="25.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="0fc4-dc7d-90c7-7719" name="1 Granada santa" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -2792,7 +2603,7 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="75.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="05f8-01fe-6c3c-c869" name="Walkie-talkie" hidden="false" collective="false" import="true" type="upgrade">
@@ -2808,9 +2619,6 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="9.0"/>
-      </costs>
     </selectionEntry>
     <selectionEntry id="d791-bf9f-07f8-2ac7" name="Ilse, la Loba del V Reich" hidden="false" collective="false" import="true" type="unit">
       <profiles>
@@ -2885,7 +2693,7 @@ Por otra parte, si una miniatura tiene alguna granada santa y resulta abatida, U
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="40.0"/>
+        <cost name="Puntos" typeId="6ba6-290e-2003-241d" value="45.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
